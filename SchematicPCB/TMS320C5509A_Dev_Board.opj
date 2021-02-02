@@ -23,6 +23,28 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (PORTLEFT-R
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-L
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-L
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (Crystal_0
+      (FullPartName "Crystal_0.Normal")
+      (LibraryName
+         "C:\USERS\XIADO\DOCUMENTS\PCBPROJECT\CIRCUITS-PCB\ARMBOARD\SIGPROCESSINGBOARD.DSN")
+      (DeviceIndex "0"))
+    (AT25256B
+      (FullPartName "AT25256B.Normal")
+      (LibraryName
+         "D:\XIADO\PROJECT\ALLTHEPROJECTS\LIBRARYS\CAPTURELIB\DSP.OLB")
+      (DeviceIndex "0"))
     ("HEADER 5X2"
       (FullPartName "HEADER 5X2.Normal")
       (LibraryName
@@ -68,10 +90,6 @@
          "C:\CADENCE\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
       (DeviceIndex "0"))
     (PORTBOTH-R
-      (LibraryName
-         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (PORTBOTH-L
       (LibraryName
          "C:\CADENCE\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -135,9 +153,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1224 52 418")
-        (Scroll "440 162")
-        (Zoom "176")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1224 52 418")
+        (Scroll "406 399")
+        (Zoom "108")
         (Occurrence "/"))
       (Path
          "D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
@@ -146,9 +164,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1250 78 444")
-        (Scroll "2043 2699")
-        (Zoom "248")
+        (Placement "44 2 3 -1 -1 -8 -31 78 1250 78 444")
+        (Scroll "-272 -7")
+        (Zoom "31")
         (Occurrence "/"))
       (Path
          "D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
@@ -158,13 +176,24 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 104 1276 104 470")
-        (Scroll "321 50")
-        (Zoom "100")
+        (Scroll "187 297")
+        (Zoom "88")
         (Occurrence "/"))
       (Path
          "D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "POWER")))
+      (Page "POWER"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 156 1264 156 522")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "1455 387")
+        (Zoom "372"))
+      (Path "D:\XIADO\PROJECT\ALLTHEPROJECTS\LIBRARYS\CAPTURELIB\DSP.OLB")
+      (Package "AT25256B")))
   (MPSSessionName "xiado")
   (LastUsedLibraryBrowseDirectory
      "C:\cadence\Cadence\Cadence_SPB_16.6-2015\tools\capture\library")
