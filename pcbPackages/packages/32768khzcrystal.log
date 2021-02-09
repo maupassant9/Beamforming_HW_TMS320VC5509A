@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : 32768KHzCrystal.dra                           )
+(    Software Version : 16.6-2015S066                                 )
+(    Date/Time        : Sat Oct 19 17:50:59 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/MYSYM
+    Name      = 32768khzcrystal.psm
+    User      = xiado
+    Machine   = DESKTOP-PTA6I89
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

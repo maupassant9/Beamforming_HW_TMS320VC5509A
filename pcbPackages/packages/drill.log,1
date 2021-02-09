@@ -1,0 +1,25 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : drill.dra                                     )
+(    Software Version : 16.6-2015S066                                 )
+(    Date/Time        : Thu Oct 24 19:14:55 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Users/xiado/Documents/PCBProject/Circuits-PCB/ArmBoard/packages
+    Name      = drill.psm
+    User      = xiado
+    Machine   = DESKTOP-PTA6I89
+
+
+Create symbol started.
+ 
+ ERROR(SPMHCS-1): Symbol is missing a refdes. 
+ ERROR(SPMHCS-1): Symbol is missing a refdes. 
+
+ERROR(SPMHA1-291): Create symbol has been aborted.
+

@@ -1,0 +1,24 @@
+\t (00:00:01) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
+\t (00:00:01)     Journal start - Mon Dec 23 22:19:26 2019
+\t (00:00:01)         Host=DESKTOP-PTA6I89 User=xiado Pid=2112 CPUs=2
+\t (00:00:01) CmdLine= C:\cadence\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
+\t (00:00:01) 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Design opened: C:/Users/xiado/Documents/PCBProject/Circuits-PCB/ArmBoard/packages/usb_a.dra
+\i (00:00:05) trapsize 1380
+\i (00:00:05) trapsize 1343
+\i (00:00:05) trapsize 1386
+\i (00:00:06) trapsize 1426
+\i (00:00:06) trapsize 1426
+\i (00:00:07) generaledit 
+\i (00:00:14) open 
+\i (00:00:26) fillin "C:\Users\xiado\Documents\PCBProject\stm8sEncryption\allegro\STM8SENCRYPTION.brd"
+\i (00:00:26) cd "C:\Users\xiado\Documents\PCBProject\stm8sEncryption\allegro"
+\t (00:00:26) Opening existing design...
+\i (00:00:27) trapsize 16160
+\i (00:00:27) trapsize 15152
+\i (00:00:27) trapsize 15657
+\i (00:00:28) trapsize 12685
+\t (00:00:28) Grids are drawn 400.00, 400.00 apart for enhanced viewability.
+\i (00:00:28) trapsize 17312
+\t (00:00:28)     Journal end - Mon Dec 23 22:19:53 2019

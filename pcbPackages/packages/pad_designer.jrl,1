@@ -1,0 +1,188 @@
+\t (00:00:00) pad_designer 16.6-2015 S062 (v16-6-112EZ) Windows 32
+\t (00:00:00)     Journal start - Sun Dec 22 11:38:06 2019
+\t (00:00:00)         Host=DESKTOP-PTA6I89 User=xiado Pid=9252 CPUs=2
+\t (00:00:00) CmdLine= C:\cadence\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\pad_designer.exe
+\t (00:00:00) 
+\i (00:00:40) setwindow form.padedit
+\i (00:00:40) FORM padedit units Millimeter 
+\i (00:00:42) fillin yes 
+\w (00:00:42) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:45) pse_new 
+\i (00:00:46) fillin yes 
+\i (00:02:04) fillin "th15_9pad.pad"
+\i (00:02:06) FORM padedit units Millimeter 
+\i (00:02:07) fillin yes 
+\w (00:02:07) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:02:19) FORM padedit hole_size_x 0.92 
+\i (00:02:32) FORM padedit drill_fig Circle 
+\i (00:02:42) pse_open C:/Users/xiado/Documents/PCBProject/Circuits-PCB/ArmBoard/packages/smd7_3.pad 
+\i (00:02:45) fillin no 
+\i (00:02:48) pse_open C:/Users/xiado/Documents/PCBProject/Circuits-PCB/ArmBoard/packages/th_round_20.pad 
+\i (00:02:50) fillin yes 
+\i (00:02:59) pse_new 
+\i (00:03:01) fillin "menu_cancel"
+\i (00:03:03) pse_open 
+\i (00:03:09) fillin "menu_cancel"
+\i (00:03:11) pse_new 
+\i (00:03:29) fillin "th_round_15_9.pad"
+\i (00:03:31) FORM padedit units Millimeter 
+\i (00:03:32) fillin yes 
+\w (00:03:32) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:03:38) FORM padedit hole_size_x 0.92 
+\i (00:03:40) FORM padedit drill_fig Circle 
+\i (00:03:43) FORM padedit characters D 
+\i (00:03:47) FORM padedit drill_width 1 
+\i (00:03:48) FORM padedit drill_height 1 
+\i (00:03:50) FORM padedit layers  
+\i (00:04:05) FORM padedit grid row begin_layer 
+\i (00:04:10) FORM padedit grid row end_layer 
+\i (00:04:15) FORM padedit geometry Circle 
+\i (00:04:28) FORM padedit width 1.5 
+\i (00:04:45) FORM padedit width_th 1.5 
+\i (00:04:48) FORM padedit geometry_th Circle 
+\i (00:04:52) FORM padedit width_th 1.5 
+\i (00:04:53) FORM padedit geometry_ant Circle 
+\i (00:04:57) FORM padedit width_ant 1.5 
+\i (00:05:04) FORM padedit grid row default_internal 
+\i (00:05:05) FORM padedit grid row begin_layer 
+\i (00:05:06) FORM padedit grid row end_layer 
+\i (00:05:08) FORM padedit grid rpopup end_layer Copy 
+\i (00:05:08) FORM padedit grid row default_internal 
+\i (00:05:10) FORM padedit grid rpopup default_internal Paste 
+\i (00:05:12) FORM padedit grid rpopup begin_layer Paste 
+\i (00:05:15) FORM padedit grid row soldermask_top 
+\i (00:05:29) pse_save 
+\i (00:05:31) setwindow text
+\i (00:05:31) close 
+\i (00:05:32) fillin yes 
+\i (00:05:36) setwindow form.padedit
+\i (00:05:36) FORM padedit grid row soldermask_bottom 
+\i (00:05:36) FORM padedit grid row soldermask_top 
+\i (00:05:39) FORM padedit geometry Circle 
+\i (00:06:20) FORM padedit width 1.6 
+\i (00:06:22) FORM padedit grid row soldermask_bottom 
+\i (00:06:25) FORM padedit geometry Circle 
+\i (00:06:29) FORM padedit width 1.6 
+\i (00:06:30) FORM padedit grid row pastemask_top 
+\i (00:06:36) FORM padedit geometry Circle 
+\i (00:06:38) FORM padedit width 1.5 
+\i (00:06:40) FORM padedit grid row pastemask_bottom 
+\i (00:06:42) FORM padedit geometry Circle 
+\i (00:06:46) FORM padedit width 1.5 
+\i (00:06:52) pse_save 
+\i (00:07:01) setwindow text
+\i (00:07:01) close 
+\i (00:07:07) fillin yes 
+\i (00:07:14) fillin yes 
+\i (00:07:24) setwindow form.padedit
+\i (00:07:24) pse_open C:/Users/xiado/Documents/PCBProject/Circuits-PCB/ArmBoard/packages/th_round_33.pad 
+\i (00:07:30) pse_open 
+\i (00:07:38) fillin "th_round_11.pad"
+\i (00:07:38) FORM padedit grid row default_internal 
+\i (00:07:46) pse_open C:/Users/xiado/Documents/PCBProject/Circuits-PCB/ArmBoard/packages/th_round_15_9.pad 
+\i (00:07:48) FORM padedit grid row begin_layer 
+\i (00:07:51) FORM padedit geometry_th Null 
+\i (00:07:54) FORM padedit geometry_ant Null 
+\i (00:07:55) FORM padedit grid row default_internal 
+\i (00:07:56) FORM padedit geometry_th Null 
+\i (00:07:58) FORM padedit geometry_ant Null 
+\i (00:07:58) FORM padedit grid row end_layer 
+\i (00:07:59) FORM padedit geometry_th Null 
+\i (00:08:01) FORM padedit geometry_ant Null 
+\i (00:08:04) pse_save 
+\i (00:08:06) fillin yes 
+\i (00:08:15) pse_new 
+\i (00:08:41) fillin "menu_cancel"
+\i (00:08:46) pse_open C:/Users/xiado/Documents/PCBProject/Circuits-PCB/ArmBoard/packages/th_round_11.pad 
+\i (00:08:56) pse_open C:/Users/xiado/Documents/PCBProject/Circuits-PCB/ArmBoard/packages/th_round_15_9.pad 
+\i (00:08:58) FORM padedit grid row soldermask_top 
+\i (00:09:07) FORM padedit width 1.6500 
+\i (00:09:09) FORM padedit grid row soldermask_bottom 
+\i (00:09:12) FORM padedit width 1.6500 
+\i (00:09:16) pse_save 
+\i (00:09:17) fillin yes 
+\i (00:09:22) pse_new 
+\i (00:10:05) fillin "th_round_21_15.pad"
+\i (00:10:08) FORM padedit parameters  
+\i (00:10:10) FORM padedit units Millimeter 
+\i (00:10:11) fillin yes 
+\w (00:10:11) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:10:17) FORM padedit hole_size_x 1.5 
+\i (00:10:19) FORM padedit drill_fig Circle 
+\i (00:10:21) FORM padedit characters D 
+\i (00:10:23) FORM padedit drill_width 1 
+\i (00:10:25) FORM padedit drill_height 1 
+\i (00:10:25) FORM padedit layers  
+\i (00:10:26) FORM padedit grid row begin_layer 
+\i (00:10:28) FORM padedit geometry Circle 
+\i (00:10:37) FORM padedit width 2.1 
+\i (00:10:44) FORM padedit grid rpopup begin_layer Copy 
+\i (00:10:46) FORM padedit grid rpopup default_internal Paste 
+\i (00:10:47) FORM padedit grid rpopup end_layer Paste 
+\i (00:10:49) FORM padedit grid row soldermask_top 
+\i (00:10:52) FORM padedit geometry Circle 
+\i (00:11:00) FORM padedit width 2.25 
+\i (00:11:04) FORM padedit grid rpopup soldermask_top Copy 
+\i (00:11:06) FORM padedit grid rpopup soldermask_bottom Paste 
+\i (00:11:07) FORM padedit grid row pastemask_top 
+\i (00:11:09) FORM padedit geometry Circle 
+\i (00:11:15) FORM padedit grid rpopup begin_layer Copy 
+\i (00:11:19) FORM padedit grid rpopup pastemask_top Paste 
+\i (00:11:21) FORM padedit grid rpopup pastemask_bottom Paste 
+\i (00:11:27) FORM padedit parameters  
+\i (00:11:31) pse_save 
+\i (00:11:33) pse_new 
+\i (00:12:11) fillin "th_round_39_23.pad"
+\i (00:12:13) FORM padedit units Millimeter 
+\i (00:12:14) fillin yes 
+\w (00:12:14) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:12:20) FORM padedit hole_size_x 2.3 
+\i (00:12:21) FORM padedit drill_fig Circle 
+\i (00:12:23) FORM padedit characters D 
+\i (00:12:24) FORM padedit drill_width 1 
+\i (00:12:25) FORM padedit drill_height 1 
+\i (00:12:26) FORM padedit layers  
+\i (00:12:28) FORM padedit grid row begin_layer 
+\i (00:12:30) FORM padedit geometry Circle 
+\i (00:12:36) FORM padedit width 2.3 
+\i (00:14:19) FORM padedit grid rpopup begin_layer Copy 
+\i (00:14:20) FORM padedit grid rpopup begin_layer 'Copy to all' 
+\i (00:14:23) setwindow form.padcopy
+\i (00:14:23) FORM padcopy pse_copy_soldermask YES 
+\i (00:14:23) FORM padcopy pse_copy_pastemask YES 
+\i (00:14:24) FORM padcopy pse_copy_filmmask YES 
+\i (00:14:24) FORM padcopy pse_copy_filmmask NO 
+\i (00:14:29) FORM padcopy pse_copy_anti_pad NO 
+\i (00:14:29) FORM padcopy pse_copy_therm_pad NO 
+\i (00:14:30) FORM padcopy pse_copy_done  
+\i (00:14:35) setwindow form.padedit
+\i (00:14:35) FORM padedit grid row soldermask_top 
+\i (00:14:40) FORM padedit width 2.45000 
+\i (00:14:41) FORM padedit grid row soldermask_bottom 
+\i (00:14:43) FORM padedit width 2.45000 
+\i (00:14:48) pse_save 
+\i (00:14:52) setwindow text
+\i (00:14:52) close 
+\i (00:14:54) fillin no 
+\i (00:15:02) setwindow form.padedit
+\i (00:15:02) FORM padedit grid row begin_layer 
+\i (00:15:05) FORM padedit width 2.9000 
+\i (00:15:08) FORM padedit grid rpopup begin_layer 'Copy to all' 
+\i (00:15:09) setwindow form.padcopy
+\i (00:15:09) FORM padcopy pse_copy_anti_pad NO 
+\i (00:15:10) FORM padcopy pse_copy_therm_pad NO 
+\i (00:15:10) FORM padcopy pse_copy_soldermask YES 
+\i (00:15:11) FORM padcopy pse_copy_pastemask YES 
+\i (00:15:11) FORM padcopy pse_copy_done  
+\i (00:15:13) setwindow form.padedit
+\i (00:15:13) FORM padedit grid row soldermask_top 
+\i (00:16:12) FORM padedit grid row end_layer 
+\i (00:16:13) FORM padedit grid row soldermask_top 
+\i (00:16:22) FORM padedit width 3.05 
+\i (00:16:23) FORM padedit grid row soldermask_bottom 
+\i (00:16:27) FORM padedit width 3.05 
+\i (00:16:32) FORM padedit parameters  
+\i (00:16:33) FORM padedit layers  
+\i (00:16:35) pse_save 
+\i (00:17:17) pse_exit 
+\t (00:17:17)     Journal end - Sun Dec 22 11:55:23 2019

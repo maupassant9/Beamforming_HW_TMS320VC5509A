@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : spst_button.dra                               )
+(    Software Version : 16.6-2015S066                                 )
+(    Date/Time        : Sat Oct 19 18:40:37 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/MYSYM
+    Name      = spst_button.psm
+    User      = xiado
+    Machine   = DESKTOP-PTA6I89
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

@@ -1,0 +1,291 @@
+\t (09:20:00) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
+\t (09:20:00)     Journal start - Mon Dec 23 22:11:26 2019
+\t (09:20:00)         Host=DESKTOP-PTA6I89 User=xiado Pid=8468 CPUs=2
+\t (09:20:00) CmdLine= C:\cadence\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe -mpssession xiado C:\USERS\XIADO\DOCUMENTS\PCBPROJECT\STM8SENCRYPTION\allegro\STM8SENCRYPTION.brd
+\t (09:20:00) 
+\d (09:20:00) Design opened: C:/Users/xiado/Documents/PCBProject/Circuits-PCB/ArmBoard/packages/usb_a.dra
+\i (09:20:01) generaledit 
+\i (09:20:18) zoom out 1 
+\i (09:20:18) setwindow pcb
+\i (09:20:18) zoom out 14.1955 -6.7210
+\i (09:20:18) trapsize 1426
+\i (09:20:18) zoom out 1 
+\i (09:20:18) setwindow pcb
+\i (09:20:18) zoom out 14.1955 -6.7210
+\i (09:20:18) trapsize 1426
+\i (09:20:18) zoom out 1 
+\i (09:20:18) setwindow pcb
+\i (09:20:18) zoom out 14.1955 -6.7210
+\i (09:20:18) trapsize 1426
+\i (09:22:46) prepopup 2.4766 1.8900
+\i (09:22:49) pick grid 2.5051 2.2607
+\t (09:22:49) last pick:  2.5400 2.2860
+\i (09:22:49) pick grid dbl 2.5051 2.2607
+\t (09:22:49) last pick:  2.5400 2.2860
+\i (09:22:49) prepopup 2.4766 2.2607
+\i (09:22:58) setwindow form.find
+\i (09:22:58) FORM find all_off  
+\i (09:23:00) FORM find pins YES 
+\i (09:23:01) setwindow pcb
+\i (09:23:01) prepopup 2.2485 1.9756
+\t (09:23:04) last pick:  17.1609 -1.9022
+\w (09:23:04) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (09:23:05) pick grid 3.6456 2.6599
+\t (09:23:05) last pick:  3.5560 2.5400
+\i (09:23:06) prepopup 2.6191 2.1466
+\i (09:23:15) pop dyn_option_select '@:@Show element' 
+\i (09:23:15) show element 
+\i (09:23:15) generaledit 
+\i (09:23:17) setwindow text
+\i (09:23:17) close 
+\i (09:23:18) setwindow pcb
+\i (09:23:18) prepopup 2.5621 2.1752
+\i (09:23:23) pop dyn_option_select 'Application Mode@:@General Edit' 
+\i (09:23:23) generaledit 
+\i (09:23:24) prepopup 2.6191 2.1181
+\t (09:23:28) last pick:  18.8432 -2.8432
+\w (09:23:28) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\t (09:23:28) last pick:  18.8432 -2.8432
+\w (09:23:28) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\t (09:23:29) last pick:  18.8432 -2.8432
+\w (09:23:29) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (09:23:29) pick grid 11.7149 -0.1059
+\t (09:23:29) last pick:  11.6840 0.0000
+\i (09:23:30) prepopup 11.8004 -0.1059
+\t (09:23:33) last pick:  23.4908 -1.5031
+\w (09:23:33) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (09:23:43) setwindow form.find
+\i (09:23:43) FORM find text YES 
+\i (09:23:45) setwindow pcb
+\i (09:23:45) prepopup 2.5336 2.2322
+\i (09:23:47) pick grid 2.0204 2.8595
+\t (09:23:47) last pick:  2.0320 2.7940
+\i (09:23:47) pick grid 2.3340 2.4603
+\t (09:23:47) last pick:  2.2860 2.5400
+\i (09:23:48) prepopup 2.3910 2.3177
+\i (09:24:04) pop dyn_option_select '@:@Add connect' 
+\i (09:24:04) add connect 
+\w (09:24:04) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (09:24:05) Pick first element.
+\t (09:24:05) last pick:  2.5000 2.0000
+\i (09:24:06) Esc 
+\i (09:24:07) Esc 
+\i (09:24:07) Esc 
+\i (09:24:07) Esc 
+\i (09:24:08) Esc 
+\i (09:24:08) prepopup 6.0407 -2.1018
+\i (09:24:09) cancel 
+\i (09:24:09) generaledit 
+\i (09:24:10) prepopup 2.3625 2.1752
+\t (09:24:19) last pick:  19.8411 -2.0448
+\w (09:24:19) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\t (09:24:19) last pick:  19.8411 -2.0448
+\w (09:24:19) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\t (09:24:19) last pick:  19.8411 -2.0163
+\w (09:24:19) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\t (09:24:19) last pick:  19.8411 -2.0163
+\w (09:24:19) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (09:24:20) pick grid 12.4277 -3.7841
+\t (09:24:20) last pick:  12.7000 -3.8100
+\i (09:24:21) pick grid dbl 12.4277 -3.7841
+\t (09:24:21) last pick:  12.7000 -3.8100
+\i (09:24:21) pick grid 12.4277 -3.7841
+\t (09:24:21) last pick:  12.7000 -3.8100
+\i (09:24:22) pick grid 12.4277 -3.7271
+\t (09:24:22) last pick:  12.7000 -3.8100
+\i (09:24:22) pick grid dbl 12.4277 -3.7271
+\t (09:24:22) last pick:  12.7000 -3.8100
+\i (09:24:22) pick grid 12.4562 -3.7271
+\t (09:24:22) last pick:  12.7000 -3.8100
+\i (09:24:22) pick grid dbl 12.4562 -3.7271
+\t (09:24:22) last pick:  12.7000 -3.8100
+\i (09:24:23) pick grid 3.1324 2.0041
+\t (09:24:23) last pick:  3.1750 1.9050
+\i (09:24:24) prepopup 3.1324 2.0041
+\i (09:24:31) pick grid 0.3381 -0.7047
+\t (09:24:31) last pick:  0.6350 -0.6350
+\i (09:24:32) prepopup 0.2525 -0.3340
+\i (09:24:36) pick grid 0.2240 0.9491
+\t (09:24:36) last pick:  0.0000 0.6350
+\i (09:24:37) pick grid 2.6762 -4.0692
+\t (09:24:37) last pick:  2.5400 -3.8100
+\i (09:24:38) pick grid 0.8513 -0.5336
+\t (09:24:38) last pick:  0.6350 -0.6350
+\i (09:24:38) pick grid dbl 0.8513 -0.5336
+\t (09:24:38) last pick:  0.6350 -0.6350
+\i (09:24:38) pick grid 0.8513 -0.5336
+\t (09:24:38) last pick:  0.6350 -0.6350
+\i (09:24:39) prepopup 0.8513 -0.5051
+\i (09:24:41) pick grid 7.2098 -1.3320
+\t (09:24:41) last pick:  6.9850 -1.2700
+\i (09:24:48) pick grid 9.1202 1.7475
+\t (09:24:48) last pick:  8.8900 1.9050
+\i (09:24:48) pick grid 9.1202 1.8330
+\t (09:24:48) last pick:  8.8900 1.9050
+\i (09:24:49) pick grid dbl 9.1202 1.8330
+\t (09:24:49) last pick:  8.8900 1.9050
+\i (09:24:49) pick grid 9.1202 1.8330
+\t (09:24:49) last pick:  8.8900 1.9050
+\i (09:24:49) prepopup 9.1202 1.9185
+\i (09:25:02) setwindow form.find
+\i (09:25:02) FORM find all_on  
+\i (09:25:03) setwindow pcb
+\i (09:25:03) prepopup 11.0876 0.0081
+\i (09:25:04) pick grid 11.1446 0.5214
+\t (09:25:04) last pick:  11.4300 0.6350
+\i (09:25:05) prepopup 11.1446 0.5214
+\i (09:25:07) prepopup 17.1324 1.8615
+\i (09:25:08) prepopup 10.7739 0.0367
+\i (09:25:12) pop dyn_option_select '@:@3D View' 
+\i (09:25:13) 3d_viewer 
+\i (09:25:13) setwindow pcb3D
+\i (09:25:13) trapsize 1426
+\i (09:25:13) setwindow pcb
+\i (09:25:13) generaledit 
+\i (09:25:19) add pin 
+\t (09:25:19) Using 'TH_ROUND_15_9.pad'.
+\i (09:25:22) pick grid 12.4277 -5.4094
+\t (09:25:22) last pick:  12.7000 -5.7150
+\t (09:25:22) Using 'TH_ROUND_15_9.pad'.
+\e (09:25:22) ERROR(SPMHAP-22): Pin will extend outside of extents.
+\i (09:25:23) pick grid 6.6395 -5.5519
+\t (09:25:23) last pick:  6.3500 -5.7150
+\t (09:25:23) Using 'TH_ROUND_15_9.pad'.
+\i (09:25:25) prepopup 8.3218 -7.8615
+\i (09:25:26) done 
+\t (09:25:26) Exiting from Add Pin.
+\i (09:25:26) generaledit 
+\i (09:25:27) prepopup 6.2974 -5.9511
+\i (09:25:28) pick grid 6.1548 -5.8371
+\t (09:25:28) last pick:  6.3500 -5.7150
+\i (09:25:28) pick grid dbl 6.1548 -5.8371
+\t (09:25:28) last pick:  6.3500 -5.7150
+\i (09:25:28) prepopup 6.1548 -5.7800
+\i (09:25:31) pick grid 6.2118 -3.0428
+\t (09:25:31) last pick:  6.3500 -3.1750
+\i (09:25:31) drag_start grid 4.9002 -3.7271
+\i (09:25:32) drag_stop 9.6619 -7.6904
+\i (09:25:32) prepopup 9.2342 -6.6354
+\i (09:25:34) pop dyn_option_select @:@Delete 
+\i (09:25:34) delete 
+\i (09:25:34) generaledit 
+\i (09:25:39) auto_pin_renumber 
+\i (09:25:39) generaledit 
+\i (09:25:40) pick grid 2.3625 1.6904
+\t (09:25:40) last pick:  2.5400 1.9050
+\i (09:25:47) setwindow form.pinRenumber
+\i (09:25:47) FORM pinRenumber leading_zeroes YES 
+\i (09:25:48) FORM pinRenumber leading_zeroes NO 
+\i (09:25:50) FORM pinRenumber cancel  
+\i (09:25:53) setwindow pcb
+\i (09:25:53) auto_pin_renumber 
+\i (09:25:53) generaledit 
+\i (09:25:55) setwindow form.pinRenumber
+\i (09:25:55) FORM pinRenumber cancel  
+\i (09:26:15) setwindow pcb
+\i (09:26:15) prepopup -0.5743 -0.5621
+\i (09:26:16) pick grid -0.4603 0.1792
+\t (09:26:16) last pick:  -0.6350 0.0000
+\i (09:26:16) pick grid dbl -0.4603 0.1792
+\t (09:26:16) last pick:  -0.6350 0.0000
+\i (09:26:17) pick grid -0.4603 0.1792
+\t (09:26:17) last pick:  -0.6350 0.0000
+\i (09:26:17) pick grid dbl -0.4603 0.1792
+\t (09:26:17) last pick:  -0.6350 0.0000
+\i (09:26:18) prepopup -0.4603 0.2363
+\i (09:26:23) pop dyn_option_select 'Application Mode@:@Shape Edit' 
+\i (09:26:24) shapeedit 
+\i (09:26:25) pick grid 0.1385 -0.4196
+\t (09:26:25) last pick:  0.0000 -0.6350
+\i (09:26:25) prepopup 0.1385 -0.3625
+\i (09:26:26) prepopup -0.0041 0.2363
+\i (09:26:28) Esc 
+\i (09:26:29) Esc 
+\i (09:26:29) pick grid 3.6171 -2.2729
+\t (09:26:29) last pick:  3.8100 -2.5400
+\i (09:26:30) prepopup 0.5662 0.2077
+\i (09:26:31) prepopup 12.7128 0.6069
+\i (09:26:36) pop dyn_option_select 'Application Mode@:@General Edit' 
+\i (09:26:36) generaledit 
+\i (09:26:37) pick grid -0.1752 0.0367
+\t (09:26:37) last pick:  0.0000 0.0000
+\i (09:26:38) prepopup -0.1752 0.0652
+\i (09:26:44) pick grid 0.1385 0.2648
+\t (09:26:44) last pick:  0.0000 0.0000
+\i (09:26:48) setwindow form.find
+\i (09:26:48) FORM find all_off  
+\i (09:26:49) FORM find text YES 
+\i (09:26:51) setwindow pcb
+\i (09:26:51) pick grid -0.0041 0.0367
+\t (09:26:51) last pick:  0.0000 0.0000
+\i (09:26:51) prepopup -0.0041 0.0367
+\i (09:26:53) pop dyn_option_select '@:@Text edit' 
+\i (09:26:53) text edit 
+\i (09:26:57) setwindow form.textedit
+\i (09:26:57) FORM textedit str 5 
+\i (09:26:57) FORM textedit done  
+\i (09:26:57) setwindow pcb
+\i (09:26:57) pick 0.0000 0.0000
+\t (09:26:57) Pick text to edit.
+\i (09:26:58) setwindow pcb
+\i (09:26:58) generaledit 
+\i (09:26:59) prepopup 2.4766 2.3177
+\i (09:27:01) pop dyn_option_select '@:@Text edit' 
+\i (09:27:01) text edit 
+\i (09:27:04) setwindow form.textedit
+\i (09:27:04) FORM textedit str 1 
+\i (09:27:04) FORM textedit done  
+\i (09:27:04) setwindow pcb
+\i (09:27:04) pick 0.0000 0.0000
+\t (09:27:04) Pick text to edit.
+\i (09:27:04) setwindow pcb
+\i (09:27:04) generaledit 
+\i (09:27:05) prepopup 5.0143 2.1466
+\i (09:27:08) pop dyn_option_select '@:@Text edit' 
+\i (09:27:08) text edit 
+\i (09:27:10) setwindow form.textedit
+\i (09:27:10) FORM textedit str 2 
+\i (09:27:10) FORM textedit done  
+\i (09:27:10) setwindow pcb
+\i (09:27:10) pick 0.0000 0.0000
+\t (09:27:10) Pick text to edit.
+\i (09:27:10) setwindow pcb
+\i (09:27:10) generaledit 
+\i (09:27:11) prepopup 7.5519 2.1466
+\i (09:27:13) pop dyn_option_select '@:@Text edit' 
+\i (09:27:13) text edit 
+\i (09:27:16) setwindow form.textedit
+\i (09:27:16) FORM textedit str 3 
+\i (09:27:16) FORM textedit done  
+\i (09:27:16) setwindow pcb
+\i (09:27:16) pick 0.0000 0.0000
+\t (09:27:16) Pick text to edit.
+\i (09:27:16) setwindow pcb
+\i (09:27:16) generaledit 
+\i (09:27:17) prepopup 9.2342 2.3747
+\i (09:27:18) pop dyn_option_select '@:@Text edit' 
+\i (09:27:18) text edit 
+\i (09:27:21) setwindow form.textedit
+\i (09:27:21) FORM textedit str 4 
+\i (09:27:21) FORM textedit done  
+\i (09:27:21) setwindow pcb
+\i (09:27:21) pick 0.0000 0.0000
+\t (09:27:21) Pick text to edit.
+\i (09:27:21) setwindow pcb
+\i (09:27:21) generaledit 
+\i (09:27:22) prepopup 12.0285 0.5784
+\i (09:27:24) pop dyn_option_select '@:@Text edit' 
+\i (09:27:24) text edit 
+\i (09:27:26) setwindow form.textedit
+\i (09:27:26) FORM textedit str 6 
+\i (09:27:26) FORM textedit done  
+\i (09:27:26) setwindow pcb
+\i (09:27:26) pick 0.0000 0.0000
+\t (09:27:26) Pick text to edit.
+\i (09:27:27) setwindow pcb
+\i (09:27:27) generaledit 
+\i (09:27:39) save 
+\i (09:27:41) fillin yes 
+\t (09:27:44) Symbol 'usb_a.psm' created.
+\i (09:27:44) exit 
+\t (09:27:45)     Journal end - Mon Dec 23 22:19:11 2019
