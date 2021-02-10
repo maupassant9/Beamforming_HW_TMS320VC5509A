@@ -1,0 +1,178 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : Beamforming_PCB_Ver1_0_0.brd                  )
+(    Software Version : 16.6-2015S066                                 )
+(    Date/Time        : Tue Feb 09 21:09:13 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\allegro'
+Design Directory:            'D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/SchematicPCB/PCB'
+Old design name:             'D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/SchematicPCB/PCB/Beamforming_PCB_Ver1_0_0.brd'
+New design name:             'D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/SchematicPCB/PCB/Beamforming_PCB_Ver1_0_0.brd'
+
+CmdLine: netrev.exe -y 1 -i D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\allegro D:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\PCB\Beamforming_PCB_Ver1_0_0.brd D:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\PCB\Beamforming_PCB_Ver1_0_0.brd
+
+------ Preparing to read pst files ------
+
+Starting to read D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstchip.dat 
+   Finished reading D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstchip.dat (00:00:00.07)
+Starting to read D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstxprt.dat 
+   Finished reading D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstxprt.dat (00:00:00.01)
+Starting to read D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstxnet.dat 
+   Finished reading D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstxnet.dat (00:00:00.01)
+
+------ Oversights/Warnings/Errors ------
+
+
+#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'HDR254M-2X6' used by RefDes J1 for device 'HEADER 7X2_HDR254M-2X6_HEADER 7' not found in PSMPATH or must be "dbdoctor"ed.
+
+     Symbol extents are greater than the drawing extents ... increase the drawing extents.
+
+#2   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'HDR254M-2X20' used by RefDes J10 for device 'HEADER 20X2_HDR254M-2X20_HEADER' not found in PSMPATH or must be "dbdoctor"ed.
+
+     Symbol extents are greater than the drawing extents ... increase the drawing extents.
+
+#3   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'HDR254M-2X15' used by RefDes J11 for device 'HEADER 15X2_HDR254M-2X15_HEADER' not found in PSMPATH or must be "dbdoctor"ed.
+
+     Symbol extents are greater than the drawing extents ... increase the drawing extents.
+
+#4   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'HDR254M-2X5' used by RefDes J13 for device 'HEADER 5X2_HDR254M-2X5_HEADER 5' not found in PSMPATH or must be "dbdoctor"ed.
+
+     Symbol extents are greater than the drawing extents ... increase the drawing extents.
+
+#5   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'MICROQTJ' used by RefDes J9 for device 'USB_MINI_AB_RECEPTACLE_MICROQTJ' not found in PSMPATH or must be "dbdoctor"ed.
+
+     Symbol extents are greater than the drawing extents ... increase the drawing extents.
+
+#6   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'CKCS5040-3_3UH' used by RefDes L4 for device 'INDUCTOR_CKCS5040-3_3UH_3.3UH' not found in PSMPATH or must be "dbdoctor"ed.
+
+     Symbol extents are greater than the drawing extents ... increase the drawing extents.
+
+#7   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'SD-106M' used by RefDes P2 for device 'SDSOCKET_SD-106M_SDSOCKET' not found in PSMPATH or must be "dbdoctor"ed.
+
+     Symbol extents are greater than the drawing extents ... increase the drawing extents.
+
+#8   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'SPST_BUTTON' used by RefDes SW3 for device 'SW_TC_SPST_SPST_BUTTON_SW_TC_SP' not found in PSMPATH or must be "dbdoctor"ed.
+
+     Symbol extents are greater than the drawing extents ... increase the drawing extents.
+
+#9   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'QFP40P900X900X120-65N' used by RefDes U1 for device '5M40ZE64C5N_2_QFP40P900X900X120' not found in PSMPATH or must be "dbdoctor"ed.
+
+#10  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'SOT223' used by RefDes U18 for device 'AMS1117_SOT223_AMS1117' not found in PSMPATH or must be "dbdoctor"ed.
+
+     Symbol extents are greater than the drawing extents ... increase the drawing extents.
+
+#11  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'LQFP-144' used by RefDes U2 for device 'TMS340VC5509APGE_LQFP-144_TMS32' not found in PSMPATH or must be "dbdoctor"ed.
+
+#12  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'SRV05-4-N' used by RefDes U21 for device 'SESOT12CLC_SRV05-4-N_SRV05-4-N' not found in PSMPATH or must be "dbdoctor"ed.
+
+     Symbol extents are greater than the drawing extents ... increase the drawing extents.
+
+#13  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'SOP80P1176X120-54N' used by RefDes U22 for device 'MT48LC8M8A2_SOP80P1176X120-54N_' not found in PSMPATH or must be "dbdoctor"ed.
+
+     Symbol extents are greater than the drawing extents ... increase the drawing extents.
+
+#14  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'SOIC127P600X175-8' used by RefDes U26 for device 'AT25256B_SOIC127P600X175-8_AT25' not found in PSMPATH or must be "dbdoctor"ed.
+
+     Symbol extents are greater than the drawing extents ... increase the drawing extents.
+
+#15  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'OSCCC250X320X100' used by RefDes Y3 for device 'CRYSTAL_0_OSCCC250X320X100_OSCI' not found in PSMPATH or must be "dbdoctor"ed.
+
+     Symbol extents are greater than the drawing extents ... increase the drawing extents.
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/Cadence/Cadence_SPB_16.6-2015/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/Cadence/Cadence_SPB_16.6-2015/share/local/pcb/symbols 
+           C:/Cadence/Cadence/Cadence_SPB_16.6-2015/share/pcb/pcb_lib/symbols 
+           C:/Cadence/Cadence/Cadence_SPB_16.6-2015/share/pcb/allegrolib/symbols 
+           D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/pcbPackages/packages/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/Cadence/Cadence_SPB_16.6-2015/share/local/pcb/padstacks 
+           C:/Cadence/Cadence/Cadence_SPB_16.6-2015/share/pcb/pcb_lib/symbols 
+           C:/Cadence/Cadence/Cadence_SPB_16.6-2015/share/pcb/allegrolib/symbols 
+           D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/pcbPackages/pads/ 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Feb 9 21:09:13 2021
+   DESIGN NAME : 'TMS320C5509A_DEV_BOARD'
+   PACKAGING ON Feb 15 2016 19:53:59
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ 15 warnings detected
+
+cpu time      0:02:05
+elapsed time  0:00:01
+

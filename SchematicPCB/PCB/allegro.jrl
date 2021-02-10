@@ -1,0 +1,439 @@
+\t (00:00:00) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
+\t (00:00:00)     Journal start - Tue Feb 09 21:09:20 2021
+\t (00:00:00)         Host=DESKTOP-MRJ3IVS User=xiado Pid=11676 CPUs=2
+\t (00:00:00) CmdLine= C:\Cadence\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe -mpssession xiado D:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\PCB\Beamforming_PCB_Ver1_0_0.brd
+\t (00:00:00) 
+\t (00:00:04) Opening existing design...
+\d (00:00:04) Design opened: D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/SchematicPCB/PCB/Beamforming_PCB_Ver1_0_0.brd
+\i (00:00:04) trapsize 66
+\i (00:00:04) trapsize 64
+\i (00:00:04) trapsize 66
+\i (00:00:05) trapsize 55
+\i (00:00:05) trapsize 55
+\i (00:00:06) generaledit 
+\i (00:00:07) done 
+\i (00:00:07) place manual 
+\i (00:00:07) FORM plc_manual placement_list 
+\i (00:00:07) FORM plc_manual categories Components by refdes 
+\i (00:00:08) trapsize 55
+\i (00:00:09) setwindow form.plc_manual
+\i (00:00:09) FORM plc_manual tree 'MULTISEL YES' C1 'Components by refdes' 
+\t (00:00:09) Placing C1 / CAP NP_CAP0603_0.1UF / CAP0603 on Top.
+\i (00:00:09) FORM plc_manual tree  C1 'Components by refdes' 
+\i (00:00:10) FORM plc_manual tree 'MULTISEL NO' C1 'Components by refdes' 
+\i (00:00:14) FORM plc_manual tree 'MULTISEL YES' J1 'Components by refdes' 
+\e (00:00:14) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:00:14) Cannot load symbol 'HDR254M-2X6'
+\i (00:00:14) FORM plc_manual tree  J1 'Components by refdes' 
+\i (00:00:27) FORM plc_manual tree 'MULTISEL NO' J1 'Components by refdes' 
+\i (00:00:28) FORM plc_manual tree 'MULTISEL YES' J2 'Components by refdes' 
+\t (00:00:28) Placing J2 / CONN PCB 2_HDR1X2_HEADER 1X2 / HDR1X2 on Top.
+\i (00:00:28) FORM plc_manual tree  J2 'Components by refdes' 
+\i (00:00:30) FORM plc_manual tree 'MULTISEL NO' J2 'Components by refdes' 
+\i (00:00:31) FORM plc_manual tree 'MULTISEL YES' J1 'Components by refdes' 
+\e (00:00:31) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:00:31) Cannot load symbol 'HDR254M-2X6'
+\i (00:00:31) FORM plc_manual tree  J1 'Components by refdes' 
+\i (00:00:33) FORM plc_manual tree 'MULTISEL YES' J10 'Components by refdes' 
+\i (00:00:33) FORM plc_manual tree  J10 'Components by refdes' 
+\i (00:00:35) FORM plc_manual tree 'MULTISEL NO' J10 'Components by refdes' 
+\i (00:00:36) FORM plc_manual tree 'MULTISEL NO' J1 'Components by refdes' 
+\i (00:00:36) FORM plc_manual tree  J1 'Components by refdes' 
+\i (00:00:36) FORM plc_manual tree 'MULTISEL YES' J10 'Components by refdes' 
+\e (00:00:36) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:00:36) Cannot load symbol 'HDR254M-2X20'
+\i (00:00:37) FORM plc_manual tree  J10 'Components by refdes' 
+\i (00:00:39) FORM plc_manual tree 'MULTISEL NO' J10 'Components by refdes' 
+\i (00:00:40) FORM plc_manual tree 'MULTISEL YES' J11 'Components by refdes' 
+\e (00:00:40) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:00:40) Cannot load symbol 'HDR254M-2X15'
+\i (00:00:40) FORM plc_manual tree  J11 'Components by refdes' 
+\i (00:00:42) FORM plc_manual tree 'MULTISEL NO' J11 'Components by refdes' 
+\i (00:01:29) FORM plc_manual tree 'MULTISEL YES' L6 'Components by refdes' 
+\t (00:01:29) Placing L6 / BEAD FERRITE_RES0603_BEAD FERRI / RES0603 on Top.
+\i (00:01:29) FORM plc_manual tree  L6 'Components by refdes' 
+\i (00:01:29) FORM plc_manual tree 'MULTISEL NO' L6 'Components by refdes' 
+\i (00:01:30) FORM plc_manual tree 'MULTISEL YES' R4 'Components by refdes' 
+\t (00:01:30) Placing R4 / RESISTOR_RES0603_1K / RES0603 on Top.
+\i (00:01:30) FORM plc_manual tree  R4 'Components by refdes' 
+\i (00:01:32) FORM plc_manual tree 'MULTISEL NO' R4 'Components by refdes' 
+\i (00:01:35) FORM plc_manual tree 'MULTISEL YES' Y2 'Components by refdes' 
+\w (00:01:35) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:01:35) Placing Y2 / CRYSTAL_1_32768KHZCRYSTAL_32768 / 32768KHZCRYSTAL on Top.
+\i (00:01:35) FORM plc_manual tree  Y2 'Components by refdes' 
+\i (00:01:37) FORM plc_manual tree 'MULTISEL NO' Y2 'Components by refdes' 
+\i (00:01:37) FORM plc_manual tree 'MULTISEL YES' Y3 'Components by refdes' 
+\e (00:01:37) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:01:37) Cannot load symbol 'OSCCC250X320X100'
+\i (00:01:37) FORM plc_manual tree  Y3 'Components by refdes' 
+\i (00:01:41) FORM plc_manual tree 'MULTISEL NO' Y3 'Components by refdes' 
+\i (00:01:41) FORM plc_manual tree 'MULTISEL YES' Y3 'Components by refdes' 
+\e (00:01:41) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:01:41) Cannot load symbol 'OSCCC250X320X100'
+\i (00:01:43) FORM plc_manual tree 'MULTISEL NO' Y3 'Components by refdes' 
+\i (00:01:43) FORM plc_manual tree 'MULTISEL YES' U21 'Components by refdes' 
+\e (00:01:43) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:01:43) Cannot load symbol 'SRV05-4-N'
+\i (00:01:43) FORM plc_manual tree  U21 'Components by refdes' 
+\i (00:01:45) FORM plc_manual tree 'MULTISEL NO' U21 'Components by refdes' 
+\i (00:01:46) FORM plc_manual tree 'MULTISEL YES' U22 'Components by refdes' 
+\w (00:01:46) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:46) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:01:46) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:01:46) Cannot load symbol 'SOP80P1176X120-54N'
+\i (00:01:46) FORM plc_manual tree  U22 'Components by refdes' 
+\i (00:01:47) FORM plc_manual tree 'MULTISEL NO' U22 'Components by refdes' 
+\i (00:01:47) FORM plc_manual tree 'MULTISEL YES' U24 'Components by refdes' 
+\t (00:01:47) Placing U24 / TPS562201_TPS562201_TPS562201 / TPS562201 on Top.
+\i (00:01:47) FORM plc_manual tree  U24 'Components by refdes' 
+\i (00:01:49) FORM plc_manual tree 'MULTISEL NO' U24 'Components by refdes' 
+\i (00:01:49) FORM plc_manual tree 'MULTISEL YES' U23 'Components by refdes' 
+\w (00:01:49) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:49) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:01:49) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:01:49) Cannot load symbol 'SOP80P1176X120-54N'
+\i (00:01:49) FORM plc_manual tree  U23 'Components by refdes' 
+\i (00:01:51) FORM plc_manual tree 'MULTISEL NO' U23 'Components by refdes' 
+\i (00:01:52) FORM plc_manual tree 'MULTISEL YES' U25 'Components by refdes' 
+\e (00:01:52) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:01:52) Cannot load symbol 'SOT223'
+\i (00:01:52) FORM plc_manual tree  U25 'Components by refdes' 
+\i (00:01:53) FORM plc_manual tree 'MULTISEL NO' U25 'Components by refdes' 
+\i (00:01:55) FORM plc_manual tree 'MULTISEL YES' U24 'Components by refdes' 
+\t (00:01:55) Placing U24 / TPS562201_TPS562201_TPS562201 / TPS562201 on Top.
+\i (00:01:55) FORM plc_manual tree  U24 'Components by refdes' 
+\i (00:01:57) FORM plc_manual tree 'MULTISEL NO' U24 'Components by refdes' 
+\i (00:01:58) FORM plc_manual tree 'MULTISEL YES' U2 'Components by refdes' 
+\e (00:01:58) Cannot load symbol 'LQFP-144'
+\i (00:01:58) FORM plc_manual tree  U2 'Components by refdes' 
+\i (00:02:00) FORM plc_manual tree 'MULTISEL NO' U2 'Components by refdes' 
+\i (00:02:00) FORM plc_manual tree 'MULTISEL YES' U1 'Components by refdes' 
+\e (00:02:01) Cannot load symbol 'QFP40P900X900X120-65N'
+\i (00:02:01) FORM plc_manual tree  U1 'Components by refdes' 
+\i (00:02:01) FORM plc_manual tree 'MULTISEL NO' U1 'Components by refdes' 
+\i (00:02:04) FORM plc_manual tree 'MULTISEL YES' SW3 'Components by refdes' 
+\w (00:02:04) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:02:04) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:02:04) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:02:04) Cannot load symbol 'SPST_BUTTON'
+\i (00:02:04) FORM plc_manual tree  SW3 'Components by refdes' 
+\i (00:02:05) FORM plc_manual tree 'MULTISEL NO' SW3 'Components by refdes' 
+\i (00:02:05) FORM plc_manual tree 'MULTISEL YES' R204 'Components by refdes' 
+\t (00:02:05) Placing R204 / RESISTOR_RES0603_2.2K / RES0603 on Top.
+\i (00:02:05) FORM plc_manual tree  R204 'Components by refdes' 
+\i (00:02:06) FORM plc_manual tree 'MULTISEL NO' R204 'Components by refdes' 
+\i (00:02:08) FORM plc_manual tree 'MULTISEL YES' U23 'Components by refdes' 
+\w (00:02:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:02:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:02:08) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:02:08) Cannot load symbol 'SOP80P1176X120-54N'
+\i (00:02:08) FORM plc_manual tree  U23 'Components by refdes' 
+\i (00:02:08) FORM plc_manual tree 'MULTISEL NO' U23 'Components by refdes' 
+\i (00:02:09) FORM plc_manual tree 'MULTISEL YES' U22 'Components by refdes' 
+\w (00:02:09) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:02:09) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:02:09) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:02:09) Cannot load symbol 'SOP80P1176X120-54N'
+\i (00:02:09) FORM plc_manual tree  U22 'Components by refdes' 
+\i (00:02:09) FORM plc_manual tree 'MULTISEL NO' U22 'Components by refdes' 
+\i (00:02:10) FORM plc_manual tree 'MULTISEL YES' U21 'Components by refdes' 
+\e (00:02:10) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:02:10) Cannot load symbol 'SRV05-4-N'
+\i (00:02:10) FORM plc_manual tree  U21 'Components by refdes' 
+\i (00:02:11) FORM plc_manual tree 'MULTISEL NO' U21 'Components by refdes' 
+\i (00:02:12) FORM plc_manual tree 'MULTISEL YES' Y3 'Components by refdes' 
+\e (00:02:12) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:02:12) Cannot load symbol 'OSCCC250X320X100'
+\i (00:02:12) FORM plc_manual tree  Y3 'Components by refdes' 
+\i (00:02:14) FORM plc_manual tree 'MULTISEL YES' R148 'Components by refdes' 
+\t (00:02:14) Placing R148 / RESISTOR_RES0603_30OHM / RES0603 on Top.
+\i (00:02:14) FORM plc_manual tree  R148 'Components by refdes' 
+\i (00:02:15) FORM plc_manual tree 'MULTISEL NO' R148 'Components by refdes' 
+\e (00:02:15) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:02:15) Cannot load symbol 'OSCCC250X320X100'
+\i (00:02:16) FORM plc_manual tree 'MULTISEL YES' R152 'Components by refdes' 
+\t (00:02:16) Placing R152 / RESISTOR_RES0603_30OHM / RES0603 on Top.
+\i (00:02:16) FORM plc_manual tree  R152 'Components by refdes' 
+\i (00:02:17) FORM plc_manual tree 'MULTISEL NO' R152 'Components by refdes' 
+\e (00:02:17) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:02:17) Cannot load symbol 'OSCCC250X320X100'
+\i (00:02:23) FORM plc_manual tree  J1 'Components by refdes' 
+\i (00:02:24) FORM plc_manual tree 'MULTISEL YES' J1 'Components by refdes' 
+\e (00:02:24) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:02:24) Cannot load symbol 'HDR254M-2X6'
+\i (00:02:25) FORM plc_manual tree 'MULTISEL YES' J2 'Components by refdes' 
+\i (00:02:25) FORM plc_manual tree  J2 'Components by refdes' 
+\i (00:02:26) FORM plc_manual tree 'MULTISEL NO' J2 'Components by refdes' 
+\i (00:02:26) FORM plc_manual tree 'MULTISEL NO' J1 'Components by refdes' 
+\e (00:02:26) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:02:26) Cannot load symbol 'OSCCC250X320X100'
+\i (00:02:26) FORM plc_manual tree  J1 'Components by refdes' 
+\i (00:02:27) FORM plc_manual tree 'MULTISEL YES' J2 'Components by refdes' 
+\t (00:02:27) Placing J2 / CONN PCB 2_HDR1X2_HEADER 1X2 / HDR1X2 on Top.
+\i (00:02:27) FORM plc_manual tree  J2 'Components by refdes' 
+\i (00:02:36) FORM plc_manual tree 'MULTISEL NO' J2 'Components by refdes' 
+\e (00:02:36) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:02:36) Cannot load symbol 'OSCCC250X320X100'
+\i (00:02:36) FORM plc_manual tree 'MULTISEL YES' J9 'Components by refdes' 
+\e (00:02:36) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:02:36) Cannot load symbol 'MICROQTJ'
+\i (00:02:36) FORM plc_manual tree  J9 'Components by refdes' 
+\i (00:02:39) FORM plc_manual tree 'MULTISEL NO' J9 'Components by refdes' 
+\e (00:02:39) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:02:39) Cannot load symbol 'OSCCC250X320X100'
+\i (00:02:41) FORM plc_manual tree 'MULTISEL YES' J9 'Components by refdes' 
+\e (00:02:41) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:02:41) Cannot load symbol 'MICROQTJ'
+\i (00:02:42) FORM plc_manual tree 'MULTISEL NO' J9 'Components by refdes' 
+\e (00:02:42) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:02:42) Cannot load symbol 'OSCCC250X320X100'
+\i (00:02:43) FORM plc_manual tree 'MULTISEL YES' J9 'Components by refdes' 
+\e (00:02:43) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:02:43) Cannot load symbol 'MICROQTJ'
+\i (00:02:46) FORM plc_manual tree 'MULTISEL NO' J9 'Components by refdes' 
+\e (00:02:46) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:02:46) Cannot load symbol 'OSCCC250X320X100'
+\i (00:02:53) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\t (00:02:53) Placing C1 / CAP NP_CAP0603_0.1UF / CAP0603 on Top.
+\i (00:02:53) FORM plc_manual tree  'Components by refdes' 
+\i (00:02:54) FORM plc_manual tree 'MULTISEL NO' 'Components by refdes' 
+\i (00:03:00) FORM plc_manual tree 'MULTISEL YES' J1 'Components by refdes' 
+\e (00:03:00) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:03:00) Cannot load symbol 'HDR254M-2X6'
+\i (00:03:00) FORM plc_manual tree  J1 'Components by refdes' 
+\i (00:03:02) FORM plc_manual tree 'MULTISEL NO' J1 'Components by refdes' 
+\i (00:03:03) FORM plc_manual tree 'MULTISEL YES' J1 'Components by refdes' 
+\e (00:03:03) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:03:03) Cannot load symbol 'HDR254M-2X6'
+\i (00:03:03) FORM plc_manual tree 'MULTISEL NO' J1 'Components by refdes' 
+\i (00:03:06) FORM plc_manual tree 'MULTISEL YES' J13 'Components by refdes' 
+\e (00:03:06) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:03:06) Cannot load symbol 'HDR254M-2X5'
+\i (00:03:06) FORM plc_manual tree  J13 'Components by refdes' 
+\i (00:03:06) FORM plc_manual tree 'MULTISEL NO' J13 'Components by refdes' 
+\i (00:03:07) FORM plc_manual tree 'MULTISEL YES' J11 'Components by refdes' 
+\e (00:03:07) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:03:07) Cannot load symbol 'HDR254M-2X15'
+\i (00:03:07) FORM plc_manual tree  J11 'Components by refdes' 
+\i (00:03:08) FORM plc_manual tree 'MULTISEL NO' J11 'Components by refdes' 
+\i (00:03:11) FORM plc_manual tree  U1 'Components by refdes' 
+\i (00:03:12) FORM plc_manual tree 'MULTISEL YES' U1 'Components by refdes' 
+\e (00:03:12) Cannot load symbol 'QFP40P900X900X120-65N'
+\i (00:03:13) FORM plc_manual tree 'MULTISEL NO' U1 'Components by refdes' 
+\i (00:03:14) FORM plc_manual tree 'MULTISEL YES' SW3 'Components by refdes' 
+\w (00:03:14) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:03:14) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:03:14) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:03:14) Cannot load symbol 'SPST_BUTTON'
+\i (00:03:14) FORM plc_manual tree  SW3 'Components by refdes' 
+\i (00:03:15) FORM plc_manual tree 'MULTISEL NO' SW3 'Components by refdes' 
+\i (00:04:30) FORM plc_manual tree 'MULTISEL YES' L2 'Components by refdes' 
+\t (00:04:30) Placing L2 / BEAD FERRITE_RES0603_BEAD FERRI / RES0603 on Top.
+\i (00:04:30) FORM plc_manual tree  L2 'Components by refdes' 
+\i (00:04:30) FORM plc_manual tree 'MULTISEL NO' L2 'Components by refdes' 
+\i (00:04:31) FORM plc_manual tree 'MULTISEL YES' J13 'Components by refdes' 
+\e (00:04:31) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:04:31) Cannot load symbol 'HDR254M-2X5'
+\i (00:04:31) FORM plc_manual tree  J13 'Components by refdes' 
+\i (00:04:36) FORM plc_manual tree 'MULTISEL NO' J13 'Components by refdes' 
+\i (00:04:37) FORM plc_manual cancel  
+\i (00:04:37) setwindow pcb
+\i (00:04:37) generaledit 
+\i (00:04:41) board outline 
+   (00:04:41) Loading floor.cxt 
+   (00:04:41) Loading fputil.cxt 
+   (00:04:41) Loading axlcore.cxt 
+\i (00:04:42) setwindow form.fpbdoutline
+\i (00:04:42) FORM fpbdoutline cancel  
+\i (00:04:42) setwindow pcb
+\i (00:04:42) generaledit 
+\i (00:04:48) prmed 
+\i (00:05:13) setwindow form.prmedit
+\i (00:05:13) FORM prmedit design  
+\i (00:05:22) FORM prmedit size A4 
+\i (00:05:28) FORM prmedit apply  
+\i (00:05:28) setwindow pcb
+\i (00:05:28) trapsize 55
+\i (00:05:36) setwindow form.prmedit
+\i (00:05:36) FORM prmedit display  
+\i (00:05:39) FORM prmedit text  
+\i (00:05:40) FORM prmedit design  
+\i (00:05:41) FORM prmedit done  
+\i (00:05:41) setwindow pcb
+\i (00:05:41) generaledit 
+\i (00:05:44) done 
+\i (00:05:44) place manual 
+\i (00:05:44) FORM plc_manual placement_list 
+\i (00:05:44) FORM plc_manual categories Components by refdes 
+\i (00:05:44) trapsize 55
+\i (00:05:49) setwindow form.plc_manual
+\i (00:05:49) FORM plc_manual tree 'MULTISEL YES' J1 'Components by refdes' 
+\t (00:05:49) Placing J1 / HEADER 7X2_HDR254M-2X6_HEADER 7 / HDR254M-2X6 on Top.
+\i (00:05:49) FORM plc_manual tree  J1 'Components by refdes' 
+\i (00:05:56) FORM plc_manual tree 'MULTISEL NO' J1 'Components by refdes' 
+\i (00:05:56) FORM plc_manual tree 'MULTISEL YES' J1 'Components by refdes' 
+\t (00:05:56) Placing J1 / HEADER 7X2_HDR254M-2X6_HEADER 7 / HDR254M-2X6 on Top.
+\i (00:05:58) setwindow pcb
+\i (00:05:58) pick grid -1.581 -0.856
+\t (00:05:58) last pick:  -2.540 0.000
+\e (00:05:58) ERROR(SPMHGE-82): Pin numbers do not match between symbol and component. Run dev_check on device file for more information.
+\t (00:05:58) Placing J1 / HEADER 7X2_HDR254M-2X6_HEADER 7 / HDR254M-2X6 on Top.
+\i (00:06:06) setwindow form.plc_manual
+\i (00:06:06) FORM plc_manual tree 'MULTISEL YES' J1 'Components by refdes' 
+\t (00:06:06) Placing J1 / HEADER 7X2_HDR254M-2X6_HEADER 7 / HDR254M-2X6 on Top.
+\i (00:06:07) FORM plc_manual tree 'MULTISEL NO' J1 'Components by refdes' 
+\i (00:06:07) FORM plc_manual tree 'MULTISEL YES' J2 'Components by refdes' 
+\t (00:06:07) Placing J2 / CONN PCB 2_HDR1X2_HEADER 1X2 / HDR1X2 on Top.
+\i (00:06:07) FORM plc_manual tree  J2 'Components by refdes' 
+\i (00:06:10) FORM plc_manual tree 'MULTISEL NO' J2 'Components by refdes' 
+\i (00:06:11) FORM plc_manual tree 'MULTISEL YES' J9 'Components by refdes' 
+\w (00:06:11) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:06:11) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:06:11) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:06:11) Placing J9 / USB_MINI_AB_RECEPTACLE_MICROQTJ / MICROQTJ on Top.
+\i (00:06:11) FORM plc_manual tree  J9 'Components by refdes' 
+\i (00:06:14) FORM plc_manual tree 'MULTISEL NO' J9 'Components by refdes' 
+\i (00:06:15) setwindow pcb
+\i (00:06:15) zoom out 1 
+\i (00:06:15) setwindow pcb
+\i (00:06:15) zoom out 1.883 -1.383
+\i (00:06:15) trapsize 110
+\i (00:06:15) zoom out 1 
+\i (00:06:15) setwindow pcb
+\i (00:06:15) zoom out 7.228 0.673
+\i (00:06:15) trapsize 220
+\i (00:06:15) zoom out 1 
+\i (00:06:15) setwindow pcb
+\i (00:06:15) zoom out 17.984 4.787
+\i (00:06:15) trapsize 440
+\i (00:06:15) zoom out 1 
+\i (00:06:15) setwindow pcb
+\i (00:06:15) zoom out 39.496 13.013
+\i (00:06:16) trapsize 880
+\i (00:06:16) zoom out 1 
+\i (00:06:16) setwindow pcb
+\i (00:06:16) zoom out 82.433 29.466
+\i (00:06:16) trapsize 1760
+\i (00:06:16) zoom out 1 
+\i (00:06:16) setwindow pcb
+\i (00:06:16) zoom out 168.306 62.373
+\i (00:06:16) trapsize 2138
+\i (00:06:16) zoom in 1 
+\i (00:06:16) setwindow pcb
+\i (00:06:16) zoom in 103.485 61.142
+\i (00:06:16) trapsize 1069
+\i (00:06:16) zoom in 1 
+\i (00:06:16) setwindow pcb
+\i (00:06:16) zoom in 69.873 61.142
+\i (00:06:16) trapsize 535
+\i (00:06:17) zoom out 1 
+\i (00:06:17) setwindow pcb
+\i (00:06:17) zoom out 74.043 61.143
+\i (00:06:17) trapsize 1069
+\i (00:06:19) setwindow form.plc_manual
+\i (00:06:19) FORM plc_manual tree 'MULTISEL YES' J9 'Components by refdes' 
+\t (00:06:19) Placing J9 / USB_MINI_AB_RECEPTACLE_MICROQTJ / MICROQTJ on Top.
+\i (00:06:21) FORM plc_manual tree 'MULTISEL NO' J9 'Components by refdes' 
+\i (00:06:22) FORM plc_manual tree 'MULTISEL YES' J10 'Components by refdes' 
+\t (00:06:22) Placing J10 / HEADER 20X2_HDR254M-2X20_HEADER / HDR254M-2X20 on Top.
+\i (00:06:22) FORM plc_manual tree  J10 'Components by refdes' 
+\i (00:06:24) FORM plc_manual tree 'MULTISEL NO' J10 'Components by refdes' 
+\i (00:06:25) FORM plc_manual tree 'MULTISEL YES' J11 'Components by refdes' 
+\t (00:06:25) Placing J11 / HEADER 15X2_HDR254M-2X15_HEADER / HDR254M-2X15 on Top.
+\i (00:06:25) FORM plc_manual tree  J11 'Components by refdes' 
+\i (00:06:27) FORM plc_manual tree 'MULTISEL NO' J11 'Components by refdes' 
+\i (00:06:27) FORM plc_manual tree 'MULTISEL YES' J13 'Components by refdes' 
+\t (00:06:27) Placing J13 / HEADER 5X2_HDR254M-2X5_HEADER 5 / HDR254M-2X5 on Top.
+\i (00:06:27) FORM plc_manual tree  J13 'Components by refdes' 
+\i (00:06:29) FORM plc_manual tree 'MULTISEL NO' J13 'Components by refdes' 
+\i (00:06:30) FORM plc_manual tree 'MULTISEL YES' J1 'Components by refdes' 
+\t (00:06:30) Placing J1 / HEADER 7X2_HDR254M-2X6_HEADER 7 / HDR254M-2X6 on Top.
+\i (00:06:30) FORM plc_manual tree  J1 'Components by refdes' 
+\i (00:06:32) FORM plc_manual tree 'MULTISEL NO' J1 'Components by refdes' 
+\i (00:06:34) FORM plc_manual tree 'MULTISEL YES' L2 'Components by refdes' 
+\t (00:06:34) Placing L2 / BEAD FERRITE_RES0603_BEAD FERRI / RES0603 on Top.
+\i (00:06:34) FORM plc_manual tree  L2 'Components by refdes' 
+\i (00:06:36) FORM plc_manual tree 'MULTISEL NO' L2 'Components by refdes' 
+\i (00:06:39) FORM plc_manual tree 'MULTISEL YES' U1 'Components by refdes' 
+\e (00:06:39) Cannot load symbol 'QFP40P900X900X120-65N'
+\i (00:06:39) FORM plc_manual tree  U1 'Components by refdes' 
+\i (00:06:41) FORM plc_manual tree 'MULTISEL NO' U1 'Components by refdes' 
+\i (00:06:42) FORM plc_manual tree 'MULTISEL YES' U2 'Components by refdes' 
+\e (00:06:42) Cannot load symbol 'LQFP-144'
+\i (00:06:42) FORM plc_manual tree  U2 'Components by refdes' 
+\i (00:06:42) FORM plc_manual tree 'MULTISEL NO' U2 'Components by refdes' 
+\i (00:06:43) FORM plc_manual tree 'MULTISEL YES' U15 'Components by refdes' 
+\t (00:06:43) Placing U15 / TPS562201_TPS562201_TPS562201 / TPS562201 on Top.
+\i (00:06:43) FORM plc_manual tree  U15 'Components by refdes' 
+\i (00:06:46) FORM plc_manual tree 'MULTISEL NO' U15 'Components by refdes' 
+\i (00:06:46) FORM plc_manual tree 'MULTISEL YES' U18 'Components by refdes' 
+\t (00:06:47) Placing U18 / AMS1117_SOT223_AMS1117 / SOT223 on Top.
+\i (00:06:47) FORM plc_manual tree  U18 'Components by refdes' 
+\i (00:06:48) FORM plc_manual tree 'MULTISEL NO' U18 'Components by refdes' 
+\i (00:06:49) FORM plc_manual tree 'MULTISEL YES' U20 'Components by refdes' 
+\t (00:06:49) Placing U20 / STWD100NYWY3F_STWD100_STWD100NY / STWD100 on Top.
+\i (00:06:49) FORM plc_manual tree  U20 'Components by refdes' 
+\i (00:06:51) FORM plc_manual tree 'MULTISEL NO' U20 'Components by refdes' 
+\i (00:06:51) FORM plc_manual tree 'MULTISEL YES' U21 'Components by refdes' 
+\t (00:06:51) Placing U21 / SESOT12CLC_SRV05-4-N_SRV05-4-N / SRV05-4-N on Top.
+\i (00:06:51) FORM plc_manual tree  U21 'Components by refdes' 
+\i (00:06:53) FORM plc_manual tree 'MULTISEL NO' U21 'Components by refdes' 
+\i (00:06:54) FORM plc_manual tree 'MULTISEL YES' U22 'Components by refdes' 
+\w (00:06:54) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:06:54) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:06:54) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:06:54) Placing U22 / MT48LC8M8A2_SOP80P1176X120-54N_ / SOP80P1176X120-54N on Top.
+\i (00:06:54) FORM plc_manual tree  U22 'Components by refdes' 
+\i (00:06:56) FORM plc_manual tree 'MULTISEL NO' U22 'Components by refdes' 
+\i (00:06:56) FORM plc_manual tree 'MULTISEL YES' U23 'Components by refdes' 
+\t (00:06:56) Placing U23 / MT48LC8M8A2_SOP80P1176X120-54N_ / SOP80P1176X120-54N on Top.
+\i (00:06:56) FORM plc_manual tree  U23 'Components by refdes' 
+\i (00:06:58) FORM plc_manual tree 'MULTISEL NO' U23 'Components by refdes' 
+\i (00:06:59) FORM plc_manual tree 'MULTISEL YES' U24 'Components by refdes' 
+\t (00:06:59) Placing U24 / TPS562201_TPS562201_TPS562201 / TPS562201 on Top.
+\i (00:06:59) FORM plc_manual tree  U24 'Components by refdes' 
+\i (00:07:01) FORM plc_manual tree 'MULTISEL NO' U24 'Components by refdes' 
+\i (00:07:01) FORM plc_manual tree 'MULTISEL YES' U25 'Components by refdes' 
+\t (00:07:01) Placing U25 / AMS1117_SOT223_AMS1117 / SOT223 on Top.
+\i (00:07:01) FORM plc_manual tree  U25 'Components by refdes' 
+\i (00:07:03) FORM plc_manual tree 'MULTISEL NO' U25 'Components by refdes' 
+\i (00:07:03) FORM plc_manual tree 'MULTISEL YES' U26 'Components by refdes' 
+\t (00:07:03) Placing U26 / AT25256B_SOIC127P600X175-8_AT25 / SOIC127P600X175-8 on Top.
+\i (00:07:03) FORM plc_manual tree  U26 'Components by refdes' 
+\i (00:07:05) FORM plc_manual tree 'MULTISEL NO' U26 'Components by refdes' 
+\i (00:07:06) FORM plc_manual tree 'MULTISEL YES' Y2 'Components by refdes' 
+\w (00:07:06) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:07:06) Placing Y2 / CRYSTAL_1_32768KHZCRYSTAL_32768 / 32768KHZCRYSTAL on Top.
+\i (00:07:06) FORM plc_manual tree  Y2 'Components by refdes' 
+\i (00:07:09) FORM plc_manual tree 'MULTISEL NO' Y2 'Components by refdes' 
+\i (00:07:09) FORM plc_manual tree 'MULTISEL YES' Y3 'Components by refdes' 
+\t (00:07:09) Placing Y3 / CRYSTAL_0_OSCCC250X320X100_OSCI / OSCCC250X320X100 on Top.
+\i (00:07:09) FORM plc_manual tree  Y3 'Components by refdes' 
+\i (00:07:12) FORM plc_manual tree 'MULTISEL NO' Y3 'Components by refdes' 
+\i (00:07:21) FORM plc_manual tree 'MULTISEL YES' D3 'Components by refdes' 
+\t (00:07:21) Placing D3 / LED_LED0603_LED / LED0603 on Top.
+\i (00:07:21) FORM plc_manual tree  D3 'Components by refdes' 
+\i (00:07:23) FORM plc_manual tree 'MULTISEL NO' D3 'Components by refdes' 
+\i (00:07:24) FORM plc_manual tree 'MULTISEL YES' D4 'Components by refdes' 
+\t (00:07:24) Placing D4 / LED_LED0603_LED / LED0603 on Top.
+\i (00:07:24) FORM plc_manual tree  D4 'Components by refdes' 
+\i (00:07:26) FORM plc_manual tree 'MULTISEL NO' D4 'Components by refdes' 
+\i (00:07:26) FORM plc_manual tree 'MULTISEL YES' D5 'Components by refdes' 
+\t (00:07:26) Placing D5 / DIODE_1_SOD-323_B5817WS / SOD-323 on Top.
+\i (00:07:26) FORM plc_manual tree  D5 'Components by refdes' 
+\i (00:07:28) FORM plc_manual tree 'MULTISEL NO' D5 'Components by refdes' 
+\i (00:07:28) FORM plc_manual tree 'MULTISEL YES' D6 'Components by refdes' 
+\t (00:07:28) Placing D6 / DIODE_1_SOD-323_B5817WS / SOD-323 on Top.
+\i (00:07:28) FORM plc_manual tree  D6 'Components by refdes' 
+\i (00:07:29) FORM plc_manual tree 'MULTISEL NO' D6 'Components by refdes' 
+\i (00:07:30) FORM plc_manual tree 'MULTISEL YES' D7 'Components by refdes' 
+\t (00:07:30) Placing D7 / LED_LED0603_LED / LED0603 on Top.
+\i (00:07:30) FORM plc_manual tree  D7 'Components by refdes' 
+\i (00:07:31) FORM plc_manual tree 'MULTISEL NO' D7 'Components by refdes' 
+\i (00:07:36) FORM plc_manual done  
+\i (00:07:36) setwindow pcb
+\i (00:07:36) generaledit 
+\i (00:07:39) exit 
+\e (00:07:39) Do you want to save the changes you made to Beamforming_PCB_Ver1_0_0.brd?
+\i (00:07:40) fillin yes 
+\t (00:07:41)     Journal end - Tue Feb 09 21:17:00 2021
