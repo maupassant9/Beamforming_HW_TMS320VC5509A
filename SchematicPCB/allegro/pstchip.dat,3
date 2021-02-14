@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Feb-13-2021 at 19:28:59}
+{ Using PSTWRITER 16.6.0 d001Feb-13-2021 at 19:46:41}
 primitive 'CAP NP_CAP0603_0.1UF';
   pin
     '1':
@@ -919,7 +919,7 @@ primitive 'SW_TC_SPST_SPST_BUTTON_SW_TC_SP';
     VALUE='SW_TC_SPST';
   end_body;
 end_primitive;
-primitive '5M40ZE64C5N_2_QFN50P500X500X80-';
+primitive '5M40ZE64C5N_2_QFP40P900X900X120';
   pin
     'IO_0':
       PIN_NUMBER='(1)';
@@ -1227,7 +1227,7 @@ primitive '5M40ZE64C5N_2_QFN50P500X500X80-';
   end_pin;
   body
     PART_NAME='5M40ZE64C5N_2';
-    JEDEC_TYPE='qfn50p500x500x80-33a';
+    JEDEC_TYPE='QFP40P900X900X120-65N';
     VALUE='5M40ZE64C5N';
   end_body;
 end_primitive;
@@ -1279,7 +1279,7 @@ primitive 'AMS1117_SOT223_AMS1117';
     VALUE='AMS1117';
   end_body;
 end_primitive;
-primitive 'TMS340VC5509APGE_LQFP-144_TMS32';
+primitive 'TMS340VC5509APGE_QFP50P2200X220';
   pin
     'VSS1':
       PIN_NUMBER='(1,0,0,0)';
@@ -1716,7 +1716,7 @@ primitive 'TMS340VC5509APGE_LQFP-144_TMS32';
   end_pin;
   body
     PART_NAME='TMS340VC5509APGE';
-    JEDEC_TYPE='LQFP-144';
+    JEDEC_TYPE='qfp50p2200x2200x160-144n';
     VALUE='TMS320VC5509APGE';
   end_body;
 end_primitive;

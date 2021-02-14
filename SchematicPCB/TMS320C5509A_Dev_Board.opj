@@ -17,7 +17,7 @@
     (EXPORT_Scope "0")
     (EXPORT_Contents "0")
     (EXPORT_File_Name
-       "D:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\TMS320C5509A_DEV_BOARD.EXP")
+       "D:\otherProjects\Beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\TMS320C5509A_DEV_BOARD.EXP")
     (BOM_Scope "0")
     (BOM_Mode "0")
     (BOM_Report_File
@@ -37,8 +37,9 @@
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "TRUE")
     ("Allegro Netlist Input Board File"
-       "D:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\PCB\Beamforming_PCB_Ver1_0_0.brd")
-    ("Allegro Netlist Output Board File" "allegro\Beamforming_PCB_Ver1_0_0.brd")
+       "D:\otherProjects\Beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\PCB\Beamforming_PCB_Ver1_0_0.brd")
+    ("Allegro Netlist Output Board File"
+       "D:\otherProjects\Beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\PCB\Beamforming_PCB_Ver1_0_0.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
@@ -176,17 +177,11 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "d:\xiado\project\someproject\beamforming\beamforming_hw_tms320vc5509a\schematicpcb\tms320c5509a_dev_board.dsn")
-      (Path "Design Resources"
-         "d:\xiado\project\someproject\beamforming\beamforming_hw_tms320vc5509a\schematicpcb\tms320c5509a_dev_board.dsn"
-         "SCHEMATIC1")
+      (Path "Design Resources" ".\tms320c5509a_dev_board.dsn")
+      (Path "Design Resources" ".\tms320c5509a_dev_board.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "d:\xiado\project\alltheprojects\librarys\capturelib\dsp.olb")
       (Path "Outputs")
-      (Select "Design Resources"
-         "d:\xiado\project\someproject\beamforming\beamforming_hw_tms320vc5509a\schematicpcb\tms320c5509a_dev_board.dsn"))
+      (Select "Design Resources" ".\tms320c5509a_dev_board.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -196,48 +191,26 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1224 52 418")
-        (Scroll "0 0")
-        (Zoom "88")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1160 52 418")
+        (Scroll "0 643")
+        (Zoom "100")
         (Occurrence "/"))
       (Path
-         "D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
+         "D:\OTHERPROJECTS\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
       (Schematic "SCHEMATIC1")
       (Page "CPLD"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1250 78 444")
-        (Scroll "0 85")
-        (Zoom "62")
+        (Placement "44 0 1 -1 -1 -8 -31 130 1238 130 496")
+        (Scroll "581 356")
+        (Zoom "100")
         (Occurrence "/"))
       (Path
-         "D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
+         "D:\OTHERPROJECTS\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "DSP"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1276 104 470")
-        (Scroll "-203 0")
-        (Zoom "44")
-        (Occurrence "/"))
-      (Path
-         "D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "POWER"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 156 1264 156 522")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "1455 387")
-        (Zoom "372"))
-      (Path "D:\XIADO\PROJECT\ALLTHEPROJECTS\LIBRARYS\CAPTURELIB\DSP.OLB")
-      (Package "AT25256B")))
-  (MPSSessionName "xiado")
+      (Page "DSP")))
+  (MPSSessionName "DongXiaDesktop")
   (LastUsedLibraryBrowseDirectory
      "C:\cadence\Cadence\Cadence_SPB_16.6-2015\tools\capture\library")
   (ISPCBBASICLICENSE "false"))
