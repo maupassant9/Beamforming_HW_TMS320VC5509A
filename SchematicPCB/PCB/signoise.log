@@ -1,0 +1,25 @@
+INFO: Loaded existing interconnect file 'D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\PCB\interconn.iml'
+INFO: Loaded existing interconnect file 'C:\Cadence\Cadence\Cadence_SPB_16.6-2015\share\pcb\signal\cds_interconn.iml'
+INFO: Finished loading SigNoise interconnect libraries
+INFO: Field Solver bem2d for STL_0S_1R_1
+INFO: Executing command: bem2d 0 "C:/Users/xiado/AppData/Local/Temp/#Taaaaac03764.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_2
+INFO: Executing command: bem2d 0 "C:/Users/xiado/AppData/Local/Temp/#Taaaaad03764.in" 0.00127
+INFO: Field Solver bem2d for MTL_0S_6R_3
+INFO: Executing command: bem2d 0 "C:/Users/xiado/AppData/Local/Temp/#Taaaaae03764.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_4
+INFO: Executing command: bem2d 0 "C:/Users/xiado/AppData/Local/Temp/#Taaaaaf03764.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_5
+INFO: Executing command: bem2d 0 "C:/Users/xiado/AppData/Local/Temp/#Taaaaag03764.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_6
+INFO: Executing command: bem2d 0 "C:/Users/xiado/AppData/Local/Temp/#Taaaaah03764.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_7
+INFO: Executing command: bem2d 0 "C:/Users/xiado/AppData/Local/Temp/#Taaaaai03764.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_8
+INFO: Executing command: bem2d 0 "C:/Users/xiado/AppData/Local/Temp/#Taaaaaj03764.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_9
+INFO: Executing command: bem2d 0 "C:/Users/xiado/AppData/Local/Temp/#Taaaaak03764.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_10
+INFO: Executing command: bem2d 0 "C:/Users/xiado/AppData/Local/Temp/#Taaaaal03764.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_11
+INFO: Executing command: bem2d 0 "C:/Users/xiado/AppData/Local/Temp/#Taaaaam03764.in" 0.00127

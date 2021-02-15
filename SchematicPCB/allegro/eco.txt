@@ -2,53 +2,111 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  D:.../SchematicPCB/PCB/Beamforming_PCB_Ver1_0_0.brd                         |
-|                                                    Sat Feb 13 19:48:09 2021  |
+|  D:.../SCHEMATICPCB/PCB/Beamforming_PCB_Ver1_0_0.brd                         |
+|                                                    Sun Feb 14 11:57:15 2021  |
 |------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to design                                         |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- HEADER 7X2_HDR254M-2X7_HEADER 7
- TMS340VC5509APGE_QFP50P2200X220
+  N297642      net RENAMED (to net name listed on right)           DSP_D13      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297644      net RENAMED (to net name listed on right)           DSP_D12      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297646      net RENAMED (to net name listed on right)           DSP_D15      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297648      net RENAMED (to net name listed on right)           DSP_D11      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297650      net RENAMED (to net name listed on right)           DSP_D0       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297652      net RENAMED (to net name listed on right)           DSP_D14      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297654      net RENAMED (to net name listed on right)           DSP_D10      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297656      net RENAMED (to net name listed on right)           DSP_D9       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297658      net RENAMED (to net name listed on right)           DSP_D8       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297660      net RENAMED (to net name listed on right)           DSP_D6       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297662      net RENAMED (to net name listed on right)           DSP_D7       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297664      net RENAMED (to net name listed on right)           DSP_D5       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297666      net RENAMED (to net name listed on right)           DSP_D4       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297668      net RENAMED (to net name listed on right)           DSP_D3       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297670      net RENAMED (to net name listed on right)           DSP_D2       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297672      net RENAMED (to net name listed on right)           DSP_D1       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297746      net RENAMED (to net name listed on right)           DSP_CLK      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297748      net RENAMED (to net name listed on right)           DSP_A2       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297750      net RENAMED (to net name listed on right)           DSP_WE       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297752      net RENAMED (to net name listed on right)           DSP_RAS      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297754      net RENAMED (to net name listed on right)           DSP_A8       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297756      net RENAMED (to net name listed on right)           DSP_A7       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297758      net RENAMED (to net name listed on right)           DSP_A6       
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  D:.../SchematicPCB/PCB/Beamforming_PCB_Ver1_0_0.brd                         |
-|                                                    Sat Feb 13 19:48:09 2021  |
+|  D:.../SCHEMATICPCB/PCB/Beamforming_PCB_Ver1_0_0.brd                         |
+|                                                    Sun Feb 14 11:57:15 2021  |
 |------------------------------------------------------------------------------|
-| COMPONENTS CHANGED from one device type to another in design                 |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J1                  HEADER 7X2_HDR254M-2X7_HEADER 7                 HEADER 7X2_HDR254M-2X6_HEADER 7
- U2                  TMS340VC5509APGE_QFP50P2200X220                 TMS340VC5509APGE_LQFP-144_TMS32
+  N297760      net RENAMED (to net name listed on right)           DSP_SDA10    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297762      net RENAMED (to net name listed on right)           DSP_A13      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297764      net RENAMED (to net name listed on right)           DSP_A1       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297766      net RENAMED (to net name listed on right)           DSP_A12      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297768      net RENAMED (to net name listed on right)           DSP_A0       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297770      net RENAMED (to net name listed on right)           DSP_CKE      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297772      net RENAMED (to net name listed on right)           DSP_A5       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297774      net RENAMED (to net name listed on right)           DSP_CAS      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297776      net RENAMED (to net name listed on right)           DSP_A4       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297778      net RENAMED (to net name listed on right)           DSP_A3       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297782      net RENAMED (to net name listed on right)           DSP_A10      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297784      net RENAMED (to net name listed on right)           DSP_A9       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297832      net RENAMED (to net name listed on right)           DSP_DM1      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N297834      net RENAMED (to net name listed on right)           DSP_DM0      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N313110      net RENAMED (to net name listed on right)           DSP_CS_SDR   
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  D:.../SchematicPCB/PCB/Beamforming_PCB_Ver1_0_0.brd                         |
-|                                                    Sat Feb 13 19:48:09 2021  |
+|  D:.../SCHEMATICPCB/PCB/Beamforming_PCB_Ver1_0_0.brd                         |
+|                                                    Sun Feb 14 11:57:15 2021  |
 |------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J1.9                           PRIM_FILE      .\pstchip.dat
- J1.9                           ROOM           DSP_JTAG
- U2.13                          PRIM_FILE      .\pstchip.dat
- U2.13                          ROOM           DSP
- U2.64                          PRIM_FILE      .\pstchip.dat
- U2.64                          ROOM           DSP
- U2.86                          PRIM_FILE      .\pstchip.dat
- U2.86                          ROOM           DSP
- U2.101                         PRIM_FILE      .\pstchip.dat
- U2.101                         ROOM           DSP
 |------------------------------------------------------------------------------|
-|       Comp definitions added:       2                                        |
-|       Components changed    :       2                                        |
-|       Slot property added   :      10                                        |
+|       Nets changed          :      38                                        |
 |                                                                              |
-|   Total ECO changes reported:      14                                        |
+|   Total ECO changes reported:      38                                        |
 |------------------------------------------------------------------------------|

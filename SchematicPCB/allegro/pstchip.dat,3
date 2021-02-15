@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Feb-13-2021 at 19:46:41}
+{ Using PSTWRITER 16.6.0 d001Feb-14-2021 at 10:47:07}
 primitive 'CAP NP_CAP0603_0.1UF';
   pin
     '1':
@@ -270,7 +270,7 @@ primitive 'DIODE_1_SOD-323_B5817WS';
     VALUE='B5817WS';
   end_body;
 end_primitive;
-primitive 'HEADER 7X2_HDR254M-2X6_HEADER 7';
+primitive 'HEADER 7X2_HDR254M-2X7_HEADER 7';
   pin
     '2':
       PIN_NUMBER='(2)';
@@ -317,7 +317,7 @@ primitive 'HEADER 7X2_HDR254M-2X6_HEADER 7';
   end_pin;
   body
     PART_NAME='HEADER 7X2';
-    JEDEC_TYPE='hdr254m-2x6';
+    JEDEC_TYPE='hdr254m-2x7';
     VALUE='HEADER 7X2';
   end_body;
 end_primitive;

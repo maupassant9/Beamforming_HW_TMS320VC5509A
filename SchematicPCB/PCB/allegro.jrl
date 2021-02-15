@@ -1,35 +1,149 @@
-\t (00:00:00) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
-\t (00:00:00)     Journal start - Sat Feb 13 19:48:11 2021
-\t (00:00:00)         Host=DESKTOPAMDDONGX User=DongXiaDesktop Pid=11912 CPUs=4
-\t (00:00:00) CmdLine= C:\cadence\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe -mpssession DongXiaDesktop D:\otherProjects\Beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\PCB\Beamforming_PCB_Ver1_0_0.brd
-\t (00:00:00) 
-   (00:00:00) Loading axlcore.cxt 
-\t (00:00:03) Opening existing design...
-\d (00:00:03) Design opened: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/SchematicPCB/PCB/Beamforming_PCB_Ver1_0_0.brd
-\i (00:00:04) trapsize 1277
-\i (00:00:04) trapsize 1243
-\i (00:00:04) trapsize 1283
-\i (00:00:05) trapsize 1320
-\i (00:00:05) trapsize 1320
-\i (00:00:06) generaledit 
-\i (00:00:11) done 
-\i (00:00:11) place manual 
-\i (00:00:11) FORM plc_manual placement_list 
-\i (00:00:11) FORM plc_manual categories Components by refdes 
-\i (00:00:11) trapsize 1320
-\i (00:00:16) setwindow form.plc_manual
-\i (00:00:16) FORM plc_manual tree 'MULTISEL YES' U2 'Components by refdes' 
-\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\t (00:00:16) Placing U2 / TMS340VC5509APGE_QFP50P2200X220 / QFP50P2200X2200X160-144N on Top.
-\i (00:00:16) FORM plc_manual tree  U2 'Components by refdes' 
-\i (00:00:19) setwindow pcb
-\i (00:00:19) pick grid 120.725 94.417
-\t (00:00:19) last pick:  121.920 93.980
-\i (00:00:20) setwindow form.plc_manual
-\i (00:00:20) FORM plc_manual cancel  
-\i (00:00:21) setwindow pcb
-\i (00:00:21) generaledit 
-\i (00:00:22) exit 
-\e (00:00:22) Do you want to save the changes you made to Beamforming_PCB_Ver1_0_0.brd?
-\i (00:00:24) fillin yes 
-\t (00:00:25)     Journal end - Sat Feb 13 19:48:35 2021
+\t (00:01:16) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
+\t (00:01:16)     Journal start - Sun Feb 14 12:55:01 2021
+\t (00:01:16)         Host=DESKTOP-MRJ3IVS User=xiado Pid=6364 CPUs=2
+\t (00:01:16) CmdLine= C:\Cadence\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
+\t (00:01:16) 
+\d (00:01:16) Design opened: D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/SchematicPCB/PCB/Beamforming_PCB_Ver1_0_0.brd
+\i (00:01:16) generaledit 
+\i (00:01:17) zoom out 1 
+\i (00:01:17) setwindow pcb
+\i (00:01:17) zoom out 1026.45 1668.18
+\t (00:01:17) Grids are drawn 40.00, 40.00 apart for enhanced viewability.
+\i (00:01:17) trapsize 4210
+\i (00:01:18) zoom in 1 
+\i (00:01:18) setwindow pcb
+\i (00:01:18) zoom in 689.67 916.99
+\t (00:01:18) Grids are drawn 20.00, 20.00 apart for enhanced viewability.
+\i (00:01:18) trapsize 2105
+\i (00:01:18) zoom in 1 
+\i (00:01:18) setwindow pcb
+\i (00:01:18) zoom in 689.67 908.57
+\i (00:01:18) trapsize 1052
+\i (00:01:20) zoom in 1 
+\i (00:01:20) setwindow pcb
+\i (00:01:20) zoom in 1121.17 837.01
+\i (00:01:20) trapsize 526
+\i (00:01:20) zoom in 1 
+\i (00:01:20) setwindow pcb
+\i (00:01:20) zoom in 1121.17 837.02
+\i (00:01:20) trapsize 263
+\i (00:01:20) zoom in 1 
+\i (00:01:20) setwindow pcb
+\i (00:01:20) zoom in 1121.17 837.02
+\i (00:01:20) trapsize 132
+\i (00:03:17) add connect 
+\t (00:03:18) Pick first element.
+\i (00:03:22) pick grid 1169.85 905.43
+\t (00:03:22) last pick:  1170.00 910.00
+\t (00:03:22) last pick:  1170.00 910.00
+\i (00:03:22) mouse_pos 1175.63 894.65
+\i (00:03:23) mouse_pos 1169.32 884.91
+\i (00:03:31) prepopup 1166.42 835.97
+\i (00:03:32) cancel 
+\i (00:03:32) generaledit 
+\i (00:17:36) zoom out 1 
+\i (00:17:36) setwindow pcb
+\i (00:17:36) zoom out 1205.89 871.23
+\i (00:17:36) trapsize 263
+\i (00:17:36) zoom out 1 
+\i (00:17:36) setwindow pcb
+\i (00:17:36) zoom out 1204.84 868.07
+\i (00:17:36) trapsize 526
+\i (00:17:36) zoom out 1 
+\i (00:17:36) setwindow pcb
+\i (00:17:36) zoom out 1203.78 868.08
+\i (00:17:36) trapsize 1052
+\i (00:17:37) zoom out 1 
+\i (00:17:37) setwindow pcb
+\i (00:17:37) zoom out 1216.42 855.44
+\i (00:17:37) trapsize 2105
+\i (00:17:37) zoom out 1 
+\i (00:17:37) setwindow pcb
+\i (00:17:37) zoom out 2508.26 842.82
+\t (00:17:37) Grids are drawn 40.00, 40.00 apart for enhanced viewability.
+\i (00:17:37) trapsize 4210
+\i (00:17:37) zoom out 1 
+\i (00:17:37) setwindow pcb
+\i (00:17:37) zoom out 5151.95 1582.13
+\t (00:17:37) Grids are drawn 80.00, 80.00 apart for enhanced viewability.
+\i (00:17:37) trapsize 8419
+\i (00:17:37) zoom out 1 
+\i (00:17:37) setwindow pcb
+\i (00:17:37) zoom out 10439.16 3299.63
+\i (00:17:37) trapsize 8419
+\i (00:17:38) zoom in 1 
+\i (00:17:38) setwindow pcb
+\i (00:17:38) zoom in 1481.07 1194.81
+\t (00:17:38) Grids are drawn 40.00, 40.00 apart for enhanced viewability.
+\i (00:17:38) trapsize 4210
+\i (00:17:38) zoom in 1 
+\i (00:17:38) setwindow pcb
+\i (00:17:38) zoom in 1481.06 1194.81
+\t (00:17:38) Grids are drawn 20.00, 20.00 apart for enhanced viewability.
+\i (00:17:38) trapsize 2105
+\i (00:17:39) zoom out 1 
+\i (00:17:39) setwindow pcb
+\i (00:17:39) zoom out 2062.00 1590.52
+\t (00:17:39) Grids are drawn 40.00, 40.00 apart for enhanced viewability.
+\i (00:17:39) trapsize 4210
+\i (00:17:40) roam start
+\i (00:17:40) roam x -16
+\i (00:17:40) roam y 32
+\i (00:17:40) roam y -16
+\i (00:17:41) roam y -32
+\i (00:17:41) roam end
+\i (00:17:52) pick grid 5353.94 1245.34
+\t (00:17:52) last pick:  5350.00 1250.00
+\i (00:17:53) zoom in 1 
+\i (00:17:53) setwindow pcb
+\i (00:17:53) zoom in 1405.29 799.11
+\t (00:17:53) Grids are drawn 20.00, 20.00 apart for enhanced viewability.
+\i (00:17:53) trapsize 2105
+\i (00:17:55) zoom out 1 
+\i (00:17:55) setwindow pcb
+\i (00:17:55) zoom out 2163.03 904.36
+\t (00:17:55) Grids are drawn 40.00, 40.00 apart for enhanced viewability.
+\i (00:17:55) trapsize 4210
+\i (00:17:56) roam start
+\i (00:17:56) roam y 32
+\i (00:17:57) roam end
+\i (00:18:08) prepopup 1085.37 2221.97
+\i (00:18:09) pop dyn_option_select @:@Move 
+\i (00:18:09) move 
+\t (00:18:09) last pick:  1090.00 2220.00
+\t (00:18:09) last pick:  1050.00 2210.00
+\t (00:18:09) Moving U2 / TMS340VC5509APGE_QFP50P2200X220 / QFP50P2200X2200X160-144N.
+\t (00:18:09) Pick new location for the element(s).
+\i (00:18:13) pick grid 1093.78 2348.26
+\t (00:18:13) last pick:  1090.00 2350.00
+\i (00:18:13) generaledit 
+\i (00:18:13) pick grid 1354.78 1102.21
+\t (00:18:13) last pick:  1350.00 1100.00
+\i (00:18:14) prepopup 1354.78 1102.21
+\i (00:18:15) pop dyn_option_select @:@Copy 
+\i (00:18:15) copy 
+\t (00:18:15) Mirror Geometry is not available for symbols or stand alone pins.
+\i (00:18:18) pick grid 1447.39 1236.91
+\t (00:18:18) last pick:  1450.00 1240.00
+\i (00:18:20) prepopup 1876.78 1203.24
+\i (00:18:21) oops 
+\i (00:18:22) prepopup 1380.04 1245.33
+\i (00:18:23) cancel 
+\i (00:18:23) generaledit 
+\i (00:18:24) prepopup 1447.39 1152.72
+\i (00:18:25) pop dyn_option_select @:@Move 
+\i (00:18:25) move 
+\t (00:18:25) last pick:  1450.00 1150.00
+\t (00:18:25) last pick:  1470.00 1090.00
+\t (00:18:25) Moving U22 / MT48LC8M8A2_SOP80P1176X120-54N_ / SOP80P1176X120-54N.
+\t (00:18:25) Pick new location for the element(s).
+\i (00:18:27) pick grid 1481.07 1337.94
+\t (00:18:27) last pick:  1480.00 1340.00
+\i (00:18:27) generaledit 
+\i (00:19:05) pick grid 5800.16 1699.97
+\t (00:19:05) last pick:  5800.00 1700.00
+\i (00:19:06) save 
+\i (00:19:07) fillin yes 
+\i (00:19:08) generaledit 
+\i (00:33:26) exit 
+\t (00:33:27)     Journal end - Sun Feb 14 13:27:12 2021
