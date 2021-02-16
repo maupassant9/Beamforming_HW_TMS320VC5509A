@@ -3,110 +3,45 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  D:.../SCHEMATICPCB/PCB/Beamforming_PCB_Ver1_0_0.brd                         |
-|                                                    Sun Feb 14 11:57:15 2021  |
+|                                                    Mon Feb 15 11:52:27 2021  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
+| COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  N297642      net RENAMED (to net name listed on right)           DSP_D13      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297644      net RENAMED (to net name listed on right)           DSP_D12      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297646      net RENAMED (to net name listed on right)           DSP_D15      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297648      net RENAMED (to net name listed on right)           DSP_D11      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297650      net RENAMED (to net name listed on right)           DSP_D0       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297652      net RENAMED (to net name listed on right)           DSP_D14      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297654      net RENAMED (to net name listed on right)           DSP_D10      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297656      net RENAMED (to net name listed on right)           DSP_D9       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297658      net RENAMED (to net name listed on right)           DSP_D8       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297660      net RENAMED (to net name listed on right)           DSP_D6       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297662      net RENAMED (to net name listed on right)           DSP_D7       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297664      net RENAMED (to net name listed on right)           DSP_D5       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297666      net RENAMED (to net name listed on right)           DSP_D4       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297668      net RENAMED (to net name listed on right)           DSP_D3       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297670      net RENAMED (to net name listed on right)           DSP_D2       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297672      net RENAMED (to net name listed on right)           DSP_D1       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297746      net RENAMED (to net name listed on right)           DSP_CLK      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297748      net RENAMED (to net name listed on right)           DSP_A2       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297750      net RENAMED (to net name listed on right)           DSP_WE       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297752      net RENAMED (to net name listed on right)           DSP_RAS      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297754      net RENAMED (to net name listed on right)           DSP_A8       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297756      net RENAMED (to net name listed on right)           DSP_A7       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297758      net RENAMED (to net name listed on right)           DSP_A6       
+ MT48LC8M8A2_TSOP80P1175X120-54_
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  D:.../SCHEMATICPCB/PCB/Beamforming_PCB_Ver1_0_0.brd                         |
-|                                                    Sun Feb 14 11:57:15 2021  |
+|                                                    Mon Feb 15 11:52:27 2021  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
+| COMPONENTS CHANGED from one device type to another in design                 |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  N297760      net RENAMED (to net name listed on right)           DSP_SDA10    
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297762      net RENAMED (to net name listed on right)           DSP_A13      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297764      net RENAMED (to net name listed on right)           DSP_A1       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297766      net RENAMED (to net name listed on right)           DSP_A12      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297768      net RENAMED (to net name listed on right)           DSP_A0       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297770      net RENAMED (to net name listed on right)           DSP_CKE      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297772      net RENAMED (to net name listed on right)           DSP_A5       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297774      net RENAMED (to net name listed on right)           DSP_CAS      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297776      net RENAMED (to net name listed on right)           DSP_A4       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297778      net RENAMED (to net name listed on right)           DSP_A3       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297782      net RENAMED (to net name listed on right)           DSP_A10      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297784      net RENAMED (to net name listed on right)           DSP_A9       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297832      net RENAMED (to net name listed on right)           DSP_DM1      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297834      net RENAMED (to net name listed on right)           DSP_DM0      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N313110      net RENAMED (to net name listed on right)           DSP_CS_SDR   
+ U22                 MT48LC8M8A2_TSOP80P1175X120-54_ 1480.00 1340.00 MT48LC8M8A2_SOP80P1176X120-54N_
+ U23                 MT48LC8M8A2_TSOP80P1175X120-54_ 1490.00  360.00 MT48LC8M8A2_SOP80P1176X120-54N_
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
 |  D:.../SCHEMATICPCB/PCB/Beamforming_PCB_Ver1_0_0.brd                         |
-|                                                    Sun Feb 14 11:57:15 2021  |
+|                                                    Mon Feb 15 11:52:27 2021  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
+| SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U22.16         1480.00 1340.00 PRIM_FILE      .\pstchip.dat
+ U22.16         1480.00 1340.00 ROOM           SDRAM
+ U23.16         1490.00  360.00 PRIM_FILE      .\pstchip.dat
+ U23.16         1490.00  360.00 ROOM           SDRAM
 |------------------------------------------------------------------------------|
-|       Nets changed          :      38                                        |
+|       Comp definitions added:       1                                        |
+|       Components changed    :       2                                        |
+|       Slot property added   :       4                                        |
 |                                                                              |
-|   Total ECO changes reported:      38                                        |
+|   Total ECO changes reported:       7                                        |
 |------------------------------------------------------------------------------|
