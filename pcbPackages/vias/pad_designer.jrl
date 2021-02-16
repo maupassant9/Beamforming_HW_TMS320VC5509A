@@ -1,0 +1,10 @@
+\t (00:00:00) pad_designer 16.6-2015 S062 (v16-6-112EZ) Windows 32
+\t (00:00:00)     Journal start - Sun Oct 27 17:22:22 2019
+\t (00:00:00)         Host=DESKTOP-PTA6I89 User=xiado Pid=21300 CPUs=2
+\t (00:00:00) CmdLine= C:\cadence\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\pad_designer.exe
+\t (00:00:00) 
+\i (00:00:02) setwindow form.padedit
+\i (00:00:02) pse_open 
+\i (00:00:16) fillin "C:\MYSYM\via65-30-85.pad"
+\i (00:00:16) cd "C:\MYSYM"
+\t (00:00:17)     Journal end - Sun Oct 27 17:22:39 2019
