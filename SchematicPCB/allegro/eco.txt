@@ -3,45 +3,56 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  D:.../SCHEMATICPCB/PCB/Beamforming_PCB_Ver1_0_0.brd                         |
-|                                                    Mon Feb 15 11:52:27 2021  |
+|                                                    Thu Feb 18 20:11:53 2021  |
 |------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to design                                         |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- MT48LC8M8A2_TSOP80P1175X120-54_
+  CPLD_IO3     pins MOVED FROM this net (to net name listed on right)
+                                 U1.52           2614.65 2078.87
+                                                                       CPLD_IO5
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CPLD_IO5     pins MOVED FROM this net (to net name listed on right)
+                                 U1.50           2614.65 2110.36
+                                                                       CPLD_IO3
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CPLD_IO22    pins MOVED FROM this net (to net name listed on right)
+                                 U1.46           2693.39 2173.35
+                                                                      CPLD_IO29
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CPLD_IO23    pins MOVED FROM this net (to net name listed on right)
+                                 U1.45           2709.13 2173.35
+                                                                      CPLD_IO26
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CPLD_IO24    pins MOVED FROM this net (to net name listed on right)
+                                 U1.44           2724.88 2173.35
+                                                                      CPLD_IO25
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CPLD_IO25    pins MOVED FROM this net (to net name listed on right)
+                                 U1.43           2740.63 2173.35
+                                                                      CPLD_IO24
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CPLD_IO26    pins MOVED FROM this net (to net name listed on right)
+                                 U1.42           2756.38 2173.35
+                                                                      CPLD_IO23
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CPLD_IO29    pins MOVED FROM this net (to net name listed on right)
+                                 U1.40           2787.87 2173.35
+                                                                      CPLD_IO22
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  D:.../SCHEMATICPCB/PCB/Beamforming_PCB_Ver1_0_0.brd                         |
-|                                                    Mon Feb 15 11:52:27 2021  |
+|                                                    Thu Feb 18 20:11:53 2021  |
 |------------------------------------------------------------------------------|
-| COMPONENTS CHANGED from one device type to another in design                 |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- U22                 MT48LC8M8A2_TSOP80P1175X120-54_ 1480.00 1340.00 MT48LC8M8A2_SOP80P1176X120-54N_
- U23                 MT48LC8M8A2_TSOP80P1175X120-54_ 1490.00  360.00 MT48LC8M8A2_SOP80P1176X120-54N_
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  D:.../SCHEMATICPCB/PCB/Beamforming_PCB_Ver1_0_0.brd                         |
-|                                                    Mon Feb 15 11:52:27 2021  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- U22.16         1480.00 1340.00 PRIM_FILE      .\pstchip.dat
- U22.16         1480.00 1340.00 ROOM           SDRAM
- U23.16         1490.00  360.00 PRIM_FILE      .\pstchip.dat
- U23.16         1490.00  360.00 ROOM           SDRAM
-|------------------------------------------------------------------------------|
-|       Comp definitions added:       1                                        |
-|       Components changed    :       2                                        |
-|       Slot property added   :       4                                        |
+|       Nets changed          :       8                                        |
 |                                                                              |
-|   Total ECO changes reported:       7                                        |
+|   Total ECO changes reported:       8                                        |
 |------------------------------------------------------------------------------|

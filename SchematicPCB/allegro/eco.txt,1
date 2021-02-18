@@ -3,110 +3,21 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  D:.../SCHEMATICPCB/PCB/Beamforming_PCB_Ver1_0_0.brd                         |
-|                                                    Sun Feb 14 11:57:15 2021  |
+|                                                    Thu Feb 18 20:00:23 2021  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  N297642      net RENAMED (to net name listed on right)           DSP_D13      
+  CPLD_IO3     pins MOVED FROM this net (to net name listed on right)
+                                 U1.51           2614.65 2094.61
+                                                                       CPLD_IO4
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297644      net RENAMED (to net name listed on right)           DSP_D12      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297646      net RENAMED (to net name listed on right)           DSP_D15      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297648      net RENAMED (to net name listed on right)           DSP_D11      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297650      net RENAMED (to net name listed on right)           DSP_D0       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297652      net RENAMED (to net name listed on right)           DSP_D14      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297654      net RENAMED (to net name listed on right)           DSP_D10      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297656      net RENAMED (to net name listed on right)           DSP_D9       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297658      net RENAMED (to net name listed on right)           DSP_D8       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297660      net RENAMED (to net name listed on right)           DSP_D6       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297662      net RENAMED (to net name listed on right)           DSP_D7       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297664      net RENAMED (to net name listed on right)           DSP_D5       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297666      net RENAMED (to net name listed on right)           DSP_D4       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297668      net RENAMED (to net name listed on right)           DSP_D3       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297670      net RENAMED (to net name listed on right)           DSP_D2       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297672      net RENAMED (to net name listed on right)           DSP_D1       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297746      net RENAMED (to net name listed on right)           DSP_CLK      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297748      net RENAMED (to net name listed on right)           DSP_A2       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297750      net RENAMED (to net name listed on right)           DSP_WE       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297752      net RENAMED (to net name listed on right)           DSP_RAS      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297754      net RENAMED (to net name listed on right)           DSP_A8       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297756      net RENAMED (to net name listed on right)           DSP_A7       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297758      net RENAMED (to net name listed on right)           DSP_A6       
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
+  CPLD_IO4     pins MOVED FROM this net (to net name listed on right)
+                                 U1.52           2614.65 2078.87
+                                                                       CPLD_IO3
 |------------------------------------------------------------------------------|
-|  D:.../SCHEMATICPCB/PCB/Beamforming_PCB_Ver1_0_0.brd                         |
-|                                                    Sun Feb 14 11:57:15 2021  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  N297760      net RENAMED (to net name listed on right)           DSP_SDA10    
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297762      net RENAMED (to net name listed on right)           DSP_A13      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297764      net RENAMED (to net name listed on right)           DSP_A1       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297766      net RENAMED (to net name listed on right)           DSP_A12      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297768      net RENAMED (to net name listed on right)           DSP_A0       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297770      net RENAMED (to net name listed on right)           DSP_CKE      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297772      net RENAMED (to net name listed on right)           DSP_A5       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297774      net RENAMED (to net name listed on right)           DSP_CAS      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297776      net RENAMED (to net name listed on right)           DSP_A4       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297778      net RENAMED (to net name listed on right)           DSP_A3       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297782      net RENAMED (to net name listed on right)           DSP_A10      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297784      net RENAMED (to net name listed on right)           DSP_A9       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297832      net RENAMED (to net name listed on right)           DSP_DM1      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N297834      net RENAMED (to net name listed on right)           DSP_DM0      
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N313110      net RENAMED (to net name listed on right)           DSP_CS_SDR   
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  D:.../SCHEMATICPCB/PCB/Beamforming_PCB_Ver1_0_0.brd                         |
-|                                                    Sun Feb 14 11:57:15 2021  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|------------------------------------------------------------------------------|
-|       Nets changed          :      38                                        |
+|       Nets changed          :       2                                        |
 |                                                                              |
-|   Total ECO changes reported:      38                                        |
+|   Total ECO changes reported:       2                                        |
 |------------------------------------------------------------------------------|

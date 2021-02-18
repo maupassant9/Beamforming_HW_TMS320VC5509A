@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Feb-14-2021 at 11:57:13}
+{ Using PSTWRITER 16.6.0 d001Feb-18-2021 at 20:00:21}
 primitive 'CAP NP_CAP0603_0.1UF';
   pin
     '1':
@@ -1771,7 +1771,7 @@ primitive 'SESOT12CLC_SRV05-4-N_SRV05-4-N';
     VALUE='SRV05-4-N';
   end_body;
 end_primitive;
-primitive 'MT48LC8M8A2_SOP80P1176X120-54N_';
+primitive 'MT48LC8M8A2_TSOP80P1175X120-54_';
   pin
     'VDD1':
       PIN_NUMBER='(1)';
@@ -1970,7 +1970,7 @@ primitive 'MT48LC8M8A2_SOP80P1176X120-54N_';
   end_pin;
   body
     PART_NAME='MT48LC8M8A2';
-    JEDEC_TYPE='SOP80P1176X120-54N';
+    JEDEC_TYPE='TSOP80P1175X120-54';
     CLASS='IC';
     VALUE='MT48LC8M8A2';
   end_body;
