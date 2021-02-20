@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001Feb-18-2021 at 19:51:30 }
+{ Using PSTWRITER 16.6.0 d001Feb-19-2021 at 19:57:23 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='TMS320C5509A_DEV_BOARD';
@@ -1452,9 +1452,9 @@ PART_NAME
  ROOM='DSP_LED';
 
 SECTION_NUMBER 1
- '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS356055@DISCRETE.LED.NORMAL(CHIPS)':
- C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins356055@discrete.\led.normal\(chips)',
- P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins356055@discrete.\led.normal\(chips)',
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS429535@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins429535@discrete.\led.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins429535@discrete.\led.normal\(chips)',
  ROOM='DSP_LED',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
@@ -2412,9 +2412,9 @@ PART_NAME
  ROOM='DSP_LED';
 
 SECTION_NUMBER 1
- '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS356075@DISCRETE.RESISTOR.NORMAL(CHIPS)':
- C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins356075@discrete.\resistor.normal\(chips)',
- P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins356075@discrete.\resistor.normal\(chips)',
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS429968@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins429968@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins429968@discrete.\resistor.normal\(chips)',
  ROOM='DSP_LED',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';

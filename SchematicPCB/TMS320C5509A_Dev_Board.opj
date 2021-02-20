@@ -188,13 +188,13 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 327"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 327"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1160 52 418")
-        (Scroll "0 205")
+        (Placement "44 2 3 -1 -1 -8 -31 52 1160 52 418")
+        (Scroll "803 225")
         (Zoom "176")
         (Occurrence "/"))
       (Path
@@ -205,8 +205,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 78 1186 78 444")
-        (Scroll "813 4")
-        (Zoom "152")
+        (Scroll "181 188")
+        (Zoom "62")
         (Occurrence "/"))
       (Path
          "D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
@@ -216,8 +216,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 104 1212 104 470")
-        (Scroll "0 253")
-        (Zoom "176")
+        (Scroll "-171 0")
+        (Zoom "44")
         (Occurrence "/"))
       (Path
          "D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
