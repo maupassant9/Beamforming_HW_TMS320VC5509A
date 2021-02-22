@@ -3,115 +3,21 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  D:.../SCHEMATICPCB/PCB/Beamforming_PCB_Ver1_0_0.brd                         |
-|                                                    Sat Feb 20 10:27:03 2021  |
+|                                                    Sun Feb 21 11:03:04 2021  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  CPLD_CONN_IO0 pins MOVED FROM this net (to net name listed on right)
-                                 U1.21           2945.35 1952.88
-                                                                  CPLD_RASP_IO2
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CPLD_CONN_IO1 pins MOVED FROM this net (to net name listed on right)
-                                 U1.18           2945.35 1905.64
-                                                                  CPLD_CONN_IO7
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CPLD_CONN_IO2 pins MOVED FROM this net (to net name listed on right)
-                                 U1.3            2693.39 1842.65
-                                                                 CPLD_CONN_IO13
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CPLD_CONN_IO4 pins MOVED FROM this net (to net name listed on right)
-                                 U1.27           2945.35 2047.37
-                                                                 CPLD_CONN_IO17
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CPLD_CONN_IO5 pins MOVED FROM this net (to net name listed on right)
-                                 U1.25           2945.35 2015.87
-                                                                  CPLD_RASP_IO1
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CPLD_CONN_IO6 pins MOVED FROM this net (to net name listed on right)
-                                 U1.24           2945.35 2000.13
-                                                                 CPLD_CONN_IO18
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CPLD_CONN_IO7 pins MOVED FROM this net (to net name listed on right)
-                                 U1.22           2945.35 1968.63
-                                                                  CPLD_CONN_IO5
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CPLD_CONN_IO8 pins MOVED FROM this net (to net name listed on right)
-                                 U1.20           2945.35 1937.13
+  CPLD_RASP_IO2 pins MOVED FROM this net (to net name listed on right)
+                                 J10.23          3705.00 1601.00
                                                                   CPLD_RASP_IO3
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CPLD_CONN_IO9 pins MOVED FROM this net (to net name listed on right)
-                                 U1.13           2850.87 1842.65
-                                                                  CPLD_CONN_IO0
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CPLD_CONN_IO10 pins MOVED FROM this net (to net name listed on right)
-                                 U1.12           2835.12 1842.65
-                                                                  CPLD_CONN_IO8
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CPLD_CONN_IO11 pins MOVED FROM this net (to net name listed on right)
-                                 U1.1            2661.89 1842.65
-                                                                 CPLD_CONN_IO14
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CPLD_CONN_IO12 pins MOVED FROM this net (to net name listed on right)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
-|------------------------------------------------------------------------------|
-|  D:.../SCHEMATICPCB/PCB/Beamforming_PCB_Ver1_0_0.brd                         |
-|                                                    Sat Feb 20 10:27:03 2021  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-                                 U1.11           2819.37 1842.65
-                                                                  CPLD_CONN_IO1
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CPLD_CONN_IO13 pins MOVED FROM this net (to net name listed on right)
-                                 U1.10           2803.62 1842.65
-                                                                  CPLD_CONN_IO9
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CPLD_CONN_IO14 pins MOVED FROM this net (to net name listed on right)
-                                 U1.9            2787.87 1842.65
-                                                                 CPLD_CONN_IO10
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CPLD_CONN_IO17 pins MOVED FROM this net (to net name listed on right)
-                                 U1.28           2945.35 2063.12
-                                                                  CPLD_RASP_IO0
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CPLD_CONN_IO18 pins MOVED FROM this net (to net name listed on right)
-                                 U1.26           2945.35 2031.62
-                                                                  CPLD_CONN_IO4
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CPLD_RASP_IO0 pins MOVED FROM this net (to net name listed on right)
-                                 U1.19           2945.35 1921.39
-                                                                  CPLD_CONN_IO6
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CPLD_RASP_IO1 pins MOVED FROM this net (to net name listed on right)
-                                 U1.4            2709.13 1842.65
-                                                                 CPLD_CONN_IO12
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CPLD_RASP_IO2 pins MOVED FROM this net (to net name listed on right)
-                                 U1.5            2724.88 1842.65
-                                                                 CPLD_CONN_IO11
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   CPLD_RASP_IO3 pins MOVED FROM this net (to net name listed on right)
-                                 U1.2            2677.64 1842.65
-                                                                  CPLD_CONN_IO2
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
+                                 J10.24          3805.00 1601.00
+                                                                  CPLD_RASP_IO2
 |------------------------------------------------------------------------------|
-|  D:.../SCHEMATICPCB/PCB/Beamforming_PCB_Ver1_0_0.brd                         |
-|                                                    Sat Feb 20 10:27:03 2021  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|------------------------------------------------------------------------------|
-|       Nets changed          :      20                                        |
+|       Nets changed          :       2                                        |
 |                                                                              |
-|   Total ECO changes reported:      20                                        |
+|   Total ECO changes reported:       2                                        |
 |------------------------------------------------------------------------------|
