@@ -3,137 +3,16 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  D:.../SCHEMATICPCB/PCB/Beamforming_PCB_Ver1_0_0.brd                         |
-|                                                    Sun Feb 21 10:48:35 2021  |
+|                                                    Mon Feb 22 22:38:09 2021  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  3V3DSP       pins DELETED FROM this net (pin now not on any net)
-                                 J1.6            2040.00 2471.00
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 J1.5            1940.00 2471.00
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  5VRASP       pins DELETED FROM this net (pin now not on any net)
-                                 J10.1           3705.00 2701.00
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins MOVED FROM this net (to net name listed on right)
-                                 J10.3           3705.00 2601.00
-                                                                      CPLD_IO21
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 J10.2           3805.00 2701.00
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CPLD_IO20    pins MOVED FROM this net (to net name listed on right)
-                                 J10.6           3805.00 2501.00
-                                                                           DGND
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CPLD_IO21    pins MOVED FROM this net (to net name listed on right)
-                                 J10.4           3805.00 2601.00
-                                                                         5VRASP
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CPLD_RASP_IO0 pins MOVED FROM this net (to net name listed on right)
-                                 J10.20          3805.00 1801.00
-                                                                           DGND
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CPLD_RASP_IO1 pins DELETED FROM this net (pin now not on any net)
-                                 J10.22          3805.00 1701.00
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 J10.21          3705.00 1701.00
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CPLD_RASP_IO2 pins MOVED FROM this net (to net name listed on right)
-                                 J10.24          3805.00 1601.00
-                                                                  CPLD_RASP_IO3
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CPLD_RASP_IO3 pins MOVED FROM this net (to net name listed on right)
-                                 J10.23          3705.00 1601.00
-                                                                  CPLD_RASP_IO2
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DGND         pins DELETED FROM this net (pin now not on any net)
-                                 J10.10          3805.00 2301.00
-                                 J10.13          3705.00 2101.00
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
+  3V3DSP       pins ADDED TO this existing net (pins not previously on any net)
+                                 P2.11           2224.69 1398.48
 |------------------------------------------------------------------------------|
-|  D:.../SCHEMATICPCB/PCB/Beamforming_PCB_Ver1_0_0.brd                         |
-|                                                    Sun Feb 21 10:48:35 2021  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-                                 J10.26          3805.00 1501.00
-                                 J10.29          3705.00 1301.00
-                                 J10.33          3705.00 1101.00
-                                 J10.40          3805.00  801.00
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins MOVED FROM this net (to net name listed on right)
-                                 J1.3            1940.00 2571.00
-                                                                       JTAG_TDI
-                                 J1.7            1940.00 2371.00
-                                                                       JTAG_TDO
-                                 J1.9            1940.00 2271.00
-                                                                       JTAG_TCK
-                                 J1.11           1940.00 2171.00
-                                                                       JTAG_TCK
-                                 J10.5           3705.00 2501.00
-                                                                      CPLD_IO20
-                                 J10.19          3705.00 1801.00
-                                                                  CPLD_RASP_IO0
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 J10.9           3705.00 2301.00
-                                 J10.14          3805.00 2101.00
-                                 J10.25          3705.00 1501.00
-                                 J10.30          3805.00 1301.00
-                                 J10.34          3805.00 1101.00
-                                 J10.39          3705.00  801.00
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  JTAG_EMU0    pins MOVED FROM this net (to net name listed on right)
-                                 J1.14           2040.00 2071.00
-                                                                      JTAG_EMU1
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  JTAG_EMU1    pins MOVED FROM this net (to net name listed on right)
-                                 J1.13           1940.00 2071.00
-                                                                      JTAG_EMU0
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  JTAG_TCK     pins MOVED FROM this net (to net name listed on right)
-                                 J1.10           2040.00 2271.00
-                                                                           DGND
-                                 J1.12           2040.00 2171.00
-                                                                           DGND
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  JTAG_TDI     pins MOVED FROM this net (to net name listed on right)
-                                 J1.4            2040.00 2571.00
-                                                                           DGND
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  D:.../SCHEMATICPCB/PCB/Beamforming_PCB_Ver1_0_0.brd                         |
-|                                                    Sun Feb 21 10:48:35 2021  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  JTAG_TDO     pins MOVED FROM this net (to net name listed on right)
-                                 J1.8            2040.00 2371.00
-                                                                           DGND
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  JTAG_TMS     pins MOVED FROM this net (to net name listed on right)
-                                 J1.2            2040.00 2671.00
-                                                                      JTAG_TRST
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  JTAG_TRST    pins MOVED FROM this net (to net name listed on right)
-                                 J1.1            1940.00 2671.00
-                                                                       JTAG_TMS
-|------------------------------------------------------------------------------|
-|       Nets changed          :      38                                        |
+|       Nets changed          :       1                                        |
 |                                                                              |
-|   Total ECO changes reported:      38                                        |
+|   Total ECO changes reported:       1                                        |
 |------------------------------------------------------------------------------|

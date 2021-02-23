@@ -3,21 +3,23 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  D:.../SCHEMATICPCB/PCB/Beamforming_PCB_Ver1_0_0.brd                         |
-|                                                    Sun Feb 21 11:03:04 2021  |
+|                                                    Mon Feb 22 23:20:50 2021  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  CPLD_RASP_IO2 pins MOVED FROM this net (to net name listed on right)
-                                 J10.23          3705.00 1601.00
-                                                                  CPLD_RASP_IO3
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CPLD_RASP_IO3 pins MOVED FROM this net (to net name listed on right)
-                                 J10.24          3805.00 1601.00
-                                                                  CPLD_RASP_IO2
+  3V3DSP       pins MOVED FROM this net (to net name listed on right)
+                                 C110.1          3010.50 2901.00
+                                                                        3V3CPLD
+                                 R58.2           3255.94 2921.00
+                                                                        3V3CPLD
+                                 R60.1           3013.00 2859.06
+                                                                        3V3CPLD
+                                 U20.5           3128.00 2885.49
+                                                                        3V3CPLD
 |------------------------------------------------------------------------------|
-|       Nets changed          :       2                                        |
+|       Nets changed          :       4                                        |
 |                                                                              |
-|   Total ECO changes reported:       2                                        |
+|   Total ECO changes reported:       4                                        |
 |------------------------------------------------------------------------------|
