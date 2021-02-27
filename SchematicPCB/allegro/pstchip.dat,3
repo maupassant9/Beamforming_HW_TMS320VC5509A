@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Feb-22-2021 at 22:38:07}
+{ Using PSTWRITER 16.6.0 d001Feb-23-2021 at 14:52:55}
 primitive 'CAP NP_CAP0603_0.1UF';
   pin
     '1':
@@ -586,21 +586,6 @@ primitive 'HEADER 5X2_HDR254M-2X5_HEADER 5';
     PART_NAME='HEADER 5X2';
     JEDEC_TYPE='hdr254m-2x5';
     VALUE='HEADER 5X2';
-  end_body;
-end_primitive;
-primitive 'CONN PCB 2_HDR1X2_HEADER 1X2';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CONN PCB 2';
-    JEDEC_TYPE='HDR1X2';
-    VALUE='HEADER 1x2';
   end_body;
 end_primitive;
 primitive 'USB_MINI_AB_RECEPTACLE_MICROQTJ';

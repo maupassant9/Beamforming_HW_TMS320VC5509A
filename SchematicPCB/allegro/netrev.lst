@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : Beamforming_PCB_Ver1_0_0.brd                  )
 (    Software Version : 16.6-2015S066                                 )
-(    Date/Time        : Mon Feb 22 23:20:50 2021                      )
+(    Date/Time        : Thu Feb 25 20:27:10 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -27,7 +27,7 @@ CmdLine: netrev.exe -y 1 -i D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING
 ------ Preparing to read pst files ------
 
 Starting to read D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstchip.dat 
-   Finished reading D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstchip.dat (00:00:00.07)
+   Finished reading D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstchip.dat (00:00:00.11)
 Starting to read D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstxprt.dat 
    Finished reading D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstxprt.dat (00:00:00.01)
 Starting to read D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstxnet.dat 
@@ -63,7 +63,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Feb 22 23:20:50 2021
+netrev run on Feb 25 20:27:10 2021
    DESIGN NAME : 'TMS320C5509A_DEV_BOARD'
    PACKAGING ON Feb 15 2016 19:53:59
 
@@ -88,6 +88,6 @@ netrev run on Feb 22 23:20:50 2021
  No oversight detected
  No warning detected
 
-cpu time      0:01:52
-elapsed time  0:00:00
+cpu time      0:05:58
+elapsed time  0:00:03
 

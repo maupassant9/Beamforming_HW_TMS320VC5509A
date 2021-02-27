@@ -1,39 +1,10 @@
-\t (00:01:56) pad_designer 16.6-2015 S062 (v16-6-112EZ) Windows 32
-\t (00:01:56)     Journal start - Sun Oct 27 17:16:12 2019
-\t (00:01:56)         Host=DESKTOP-PTA6I89 User=xiado Pid=21448 CPUs=2
-\t (00:01:56) CmdLine= C:\cadence\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\pad_designer.exe
-\t (00:01:56) 
-\i (00:02:02) FORM padedit hole_size_x 0.3 
-\i (00:02:05) FORM padedit drill_fig Circle 
-\i (00:02:06) FORM padedit characters D 
-\i (00:02:09) FORM padedit drill_width 1.0 
-\i (00:02:11) FORM padedit drill_height 1.0 
-\i (00:02:12) FORM padedit units Millimeter 
-\i (00:02:13) fillin yes 
-\w (00:02:13) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:02:17) FORM padedit hole_size_x 0.3 
-\i (00:02:18) FORM padedit drill_width 1 
-\i (00:02:19) FORM padedit drill_height 1 
-\i (00:02:20) FORM padedit layers  
-\i (00:02:21) FORM padedit single YES 
-\i (00:02:22) FORM padedit single NO 
-\i (00:02:25) FORM padedit grid row begin_layer 
-\i (00:02:26) FORM padedit geometry Circle 
-\i (00:02:32) FORM padedit width 0.6 
-\i (00:02:36) FORM padedit height 0.6 
-\i (00:02:37) FORM padedit crossbox YES 
-\i (00:02:42) FORM padedit grid rpopup begin_layer Copy 
-\i (00:02:45) FORM padedit grid rpopup default_internal Paste 
-\i (00:02:48) FORM padedit grid rpopup end_layer Paste 
-\i (00:02:58) FORM padedit grid rpopup soldermask_top Paste 
-\i (00:03:04) FORM padedit width 0.7500 
-\i (00:03:09) FORM padedit grid rpopup pastemask_top Paste 
-\i (00:03:18) FORM padedit grid rpopup soldermask_bottom Paste 
-\i (00:03:56) FORM padedit grid rpopup pastemask_top Paste 
-\i (00:03:59) FORM padedit grid rpopup end_layer Copy 
-\i (00:04:01) FORM padedit grid rpopup pastemask_top Paste 
-\i (00:04:03) FORM padedit grid rpopup pastemask_bottom Paste 
-\i (00:05:56) pse_open 
-\i (00:06:55) fillin "menu_cancel"
-\i (00:06:56) pse_exit
-\t (00:06:56)     Journal end - Sun Oct 27 17:21:13 2019
+\t (00:00:00) pad_designer 16.6-2015 S062 (v16-6-112EZ) Windows 32
+\t (00:00:00)     Journal start - Sun Oct 27 17:22:22 2019
+\t (00:00:00)         Host=DESKTOP-PTA6I89 User=xiado Pid=21300 CPUs=2
+\t (00:00:00) CmdLine= C:\cadence\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\pad_designer.exe
+\t (00:00:00) 
+\i (00:00:02) setwindow form.padedit
+\i (00:00:02) pse_open 
+\i (00:00:16) fillin "C:\MYSYM\via65-30-85.pad"
+\i (00:00:16) cd "C:\MYSYM"
+\t (00:00:17)     Journal end - Sun Oct 27 17:22:39 2019

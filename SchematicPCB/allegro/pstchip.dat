@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Feb-22-2021 at 23:20:48}
+{ Using PSTWRITER 16.6.0 d001Feb-25-2021 at 20:27:08}
 primitive 'CAP NP_CAP0603_0.1UF';
   pin
     '1':
@@ -253,21 +253,6 @@ primitive 'LED_LED0603_LED';
     PART_NAME='LED';
     JEDEC_TYPE='LED0603';
     VALUE='LED';
-  end_body;
-end_primitive;
-primitive 'DIODE_1_SOD-323_B5817WS';
-  pin
-    'A':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'K':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='DIODE_1';
-    JEDEC_TYPE='SOD-323';
-    VALUE='B5817WS';
   end_body;
 end_primitive;
 primitive 'HEADER 7X2_HDR254M-2X7_HEADER 7';
@@ -586,21 +571,6 @@ primitive 'HEADER 5X2_HDR254M-2X5_HEADER 5';
     PART_NAME='HEADER 5X2';
     JEDEC_TYPE='hdr254m-2x5';
     VALUE='HEADER 5X2';
-  end_body;
-end_primitive;
-primitive 'CONN PCB 2_HDR1X2_HEADER 1X2';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CONN PCB 2';
-    JEDEC_TYPE='HDR1X2';
-    VALUE='HEADER 1x2';
   end_body;
 end_primitive;
 primitive 'USB_MINI_AB_RECEPTACLE_MICROQTJ';
