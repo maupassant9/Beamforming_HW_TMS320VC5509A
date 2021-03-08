@@ -196,8 +196,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 52 1160 52 418")
-        (Scroll "980 756")
-        (Zoom "136")
+        (Scroll "-171 0")
+        (Zoom "44")
         (Occurrence "/"))
       (Path
          "D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
@@ -206,8 +206,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1186 78 444")
-        (Scroll "0 786")
+        (Placement "44 2 3 -1 -1 -8 -31 78 1186 78 444")
+        (Scroll "104 171")
         (Zoom "124")
         (Occurrence "/"))
       (Path
@@ -217,8 +217,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 104 1212 104 470")
-        (Scroll "-270 0")
+        (Placement "44 0 1 -1 -1 -8 -31 104 1212 104 470")
+        (Scroll "-171 0")
         (Zoom "44")
         (Occurrence "/"))
       (Path
