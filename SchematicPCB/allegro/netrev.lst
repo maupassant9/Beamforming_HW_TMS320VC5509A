@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : Beamforming_PCB_Ver1_0_0.brd                  )
+(    Drawing          : Beamforming_PCB_Ver1_0_1.brd                  )
 (    Software Version : 16.6-2015S066                                 )
-(    Date/Time        : Thu Feb 25 20:27:10 2021                      )
+(    Date/Time        : Sun Mar 07 16:03:19 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -18,20 +18,20 @@ Ripup symbols:               Always
 Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         'D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\allegro'
-Design Directory:            'D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/PCB'
-Old design name:             'D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/PCB/Beamforming_PCB_Ver1_0_0.brd'
-New design name:             'D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/PCB/Beamforming_PCB_Ver1_0_0.brd'
+Design Directory:            'D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/SchematicPCB/PCB'
+Old design name:             'D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/SchematicPCB/PCB/Beamforming_PCB_Ver1_0_1.brd'
+New design name:             'D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/SchematicPCB/PCB/Beamforming_PCB_Ver1_0_1.brd'
 
-CmdLine: netrev.exe -y 1 -i D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\allegro D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\PCB\Beamforming_PCB_Ver1_0_0.brd D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\PCB\Beamforming_PCB_Ver1_0_0.brd
+CmdLine: netrev.exe -y 1 -i D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\allegro D:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\PCB\Beamforming_PCB_Ver1_0_1.brd D:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\PCB\Beamforming_PCB_Ver1_0_1.brd
 
 ------ Preparing to read pst files ------
 
 Starting to read D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstchip.dat 
-   Finished reading D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstchip.dat (00:00:00.11)
+   Finished reading D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstchip.dat (00:00:00.08)
 Starting to read D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstxprt.dat 
    Finished reading D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstxprt.dat (00:00:00.01)
 Starting to read D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstxnet.dat 
-   Finished reading D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstxnet.dat (00:00:00.01)
+   Finished reading D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstxnet.dat (00:00:00.02)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -48,6 +48,7 @@ PSMPATH =  .
            C:/Cadence/Cadence/Cadence_SPB_16.6-2015/share/pcb/pcb_lib/symbols 
            C:/Cadence/Cadence/Cadence_SPB_16.6-2015/share/pcb/allegrolib/symbols 
            ../../pcbPackages/packages/ 
+           ../../pcbPackages/machanics/ 
 
 PADPATH =  . 
            symbols 
@@ -63,7 +64,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Feb 25 20:27:10 2021
+netrev run on Mar 7 16:03:19 2021
    DESIGN NAME : 'TMS320C5509A_DEV_BOARD'
    PACKAGING ON Feb 15 2016 19:53:59
 
@@ -88,6 +89,6 @@ netrev run on Feb 25 20:27:10 2021
  No oversight detected
  No warning detected
 
-cpu time      0:05:58
-elapsed time  0:00:03
+cpu time      0:02:46
+elapsed time  0:00:01
 

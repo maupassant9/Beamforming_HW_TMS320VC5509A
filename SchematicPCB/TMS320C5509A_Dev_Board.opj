@@ -36,8 +36,10 @@
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "TRUE")
-    ("Allegro Netlist Input Board File" "PCB\Beamforming_PCB_Ver1_0_0.brd")
-    ("Allegro Netlist Output Board File" "PCB\Beamforming_PCB_Ver1_0_0.brd")
+    ("Allegro Netlist Input Board File"
+       "D:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\PCB\Beamforming_PCB_Ver1_0_1.brd")
+    ("Allegro Netlist Output Board File"
+       "D:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\PCB\Beamforming_PCB_Ver1_0_1.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
@@ -188,14 +190,14 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 327"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 327"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 52 1160 52 418")
-        (Scroll "0 396")
-        (Zoom "176")
+        (Scroll "980 756")
+        (Zoom "136")
         (Occurrence "/"))
       (Path
          "D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
@@ -205,7 +207,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 78 1186 78 444")
-        (Scroll "1375 0")
+        (Scroll "0 786")
         (Zoom "124")
         (Occurrence "/"))
       (Path
@@ -215,9 +217,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1212 104 470")
-        (Scroll "183 755")
-        (Zoom "176")
+        (Placement "44 2 3 -1 -1 -8 -31 104 1212 104 470")
+        (Scroll "-270 0")
+        (Zoom "44")
         (Occurrence "/"))
       (Path
          "D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")

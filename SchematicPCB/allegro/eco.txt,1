@@ -2,31 +2,64 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  D:.../SCHEMATICPCB/PCB/Beamforming_PCB_Ver1_0_0.brd                         |
-|                                                    Tue Feb 23 14:52:57 2021  |
+|  D:.../SchematicPCB/PCB/Beamforming_PCB_Ver1_0_1.brd                         |
+|                                                    Sun Mar 07 11:23:32 2021  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  N357456      pins MOVED FROM this net (to net name listed on right)
-                                 R58.1           3324.06 2921.00
-                                                                        N357436
+  N357213      pins ADDED TO this new net
+                                 R205.2                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  WD_IN        pins MOVED FROM this net (to net name listed on right)
+                                 U2.6             728.00 2679.00
+                                                                        N357213
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 R205.1                         
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  D:.../SCHEMATICPCB/PCB/Beamforming_PCB_Ver1_0_0.brd                         |
-|                                                    Tue Feb 23 14:52:57 2021  |
+|  D:.../SchematicPCB/PCB/Beamforming_PCB_Ver1_0_1.brd                         |
+|                                                    Sun Mar 07 11:23:32 2021  |
 |------------------------------------------------------------------------------|
-| COMPONENTS DELETED from design                                               |
+| COMPONENTS ADDED to design                                                   |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type      |   x   |   y                        |
+|    ref des        |    device type                                           |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J2                  CONN PCB 2_HDR1X2_HEADER 1X2 3396.00 2831.00
+ R205                RESISTOR_RES0603_220OHM 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|       Nets changed          :       1                                        |
-|       Components deleted    :       1                                        |
+|  D:.../SchematicPCB/PCB/Beamforming_PCB_Ver1_0_1.brd                         |
+|                                                    Sun Mar 07 11:23:32 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENT PROPERTIES added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   ref  des   |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R205                           ROOM           DSP_LED
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  D:.../SchematicPCB/PCB/Beamforming_PCB_Ver1_0_1.brd                         |
+|                                                    Sun Mar 07 11:23:32 2021  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R205.2                         PRIM_FILE      .\pstchip.dat
+ R205.2                         ROOM           DSP_LED
+|------------------------------------------------------------------------------|
+|       Nets changed          :       3                                        |
+|       Components added      :       1                                        |
+|       Comp property added   :       1                                        |
+|       Slot property added   :       2                                        |
 |                                                                              |
-|   Total ECO changes reported:       2                                        |
+|   Total ECO changes reported:       7                                        |
 |------------------------------------------------------------------------------|

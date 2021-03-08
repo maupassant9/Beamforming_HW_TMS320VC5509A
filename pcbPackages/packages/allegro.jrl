@@ -1,95 +1,27 @@
-\t (00:00:21) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
-\t (00:00:21)     Journal start - Sat Feb 13 19:32:35 2021
-\t (00:00:21)         Host=DESKTOPAMDDONGX User=DongXiaDesktop Pid=344 CPUs=4
-\t (00:00:21) CmdLine= C:\cadence\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
-\t (00:00:21) 
-\d (00:00:21) Design opened: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/pcbPackages/packages/QFN50P500X500X80-33A.dra
-\i (00:00:22) generaledit 
-\i (00:00:25) zoom in 1 
-\i (00:00:25) setwindow pcb
-\i (00:00:25) zoom in -2.361 1.850
-\i (00:00:25) trapsize 41
-\i (00:00:25) zoom in 1 
-\i (00:00:25) setwindow pcb
-\i (00:00:25) zoom in -2.901 1.850
-\i (00:00:25) trapsize 20
-\i (00:00:25) zoom in 1 
-\i (00:00:25) setwindow pcb
-\i (00:00:25) zoom in -2.900 1.850
-\i (00:00:25) trapsize 10
-\i (00:00:26) zoom in 1 
-\i (00:00:26) setwindow pcb
-\i (00:00:26) zoom in -2.710 1.758
-\i (00:00:26) trapsize 5
-\i (00:00:26) zoom in 1 
-\i (00:00:26) setwindow pcb
-\i (00:00:26) zoom in -2.710 1.759
-\i (00:00:26) trapsize 3
-\i (00:00:26) zoom out 1 
-\i (00:00:26) setwindow pcb
-\i (00:00:26) zoom out -2.658 1.753
-\i (00:00:26) trapsize 5
-\i (00:00:26) zoom out 1 
-\i (00:00:26) setwindow pcb
-\i (00:00:26) zoom out -2.658 1.753
-\i (00:00:26) trapsize 10
-\i (00:00:26) zoom out 1 
-\i (00:00:26) setwindow pcb
-\i (00:00:26) zoom out -2.653 1.753
-\i (00:00:26) trapsize 20
-\i (00:00:26) zoom out 1 
-\i (00:00:26) setwindow pcb
-\i (00:00:26) zoom out -2.362 1.754
-\i (00:00:26) trapsize 41
-\i (00:00:27) zoom out 1 
-\i (00:00:27) setwindow pcb
-\i (00:00:27) zoom out 1.638 1.304
-\i (00:00:27) trapsize 82
-\i (00:00:27) zoom out 1 
-\i (00:00:27) setwindow pcb
-\i (00:00:27) zoom out 6.716 0.416
-\i (00:00:27) trapsize 88
-\i (00:00:27) zoom in 1 
-\i (00:00:27) setwindow pcb
-\i (00:00:27) zoom in 3.370 1.821
-\i (00:00:27) trapsize 44
-\i (00:00:27) zoom in 1 
-\i (00:00:27) setwindow pcb
-\i (00:00:27) zoom in -0.035 1.822
-\i (00:00:27) trapsize 22
-\i (00:00:29) zoom out 1 
-\i (00:00:29) setwindow pcb
-\i (00:00:29) zoom out 2.653 1.726
-\i (00:00:29) trapsize 44
-\i (00:00:29) zoom in 1 
-\i (00:00:29) setwindow pcb
-\i (00:00:29) zoom in 5.341 1.725
-\i (00:00:29) trapsize 22
-\i (00:00:29) zoom out 1 
-\i (00:00:29) setwindow pcb
-\i (00:00:29) zoom out 2.809 1.726
-\i (00:00:29) trapsize 44
-\i (00:00:29) zoom out 1 
-\i (00:00:29) setwindow pcb
-\i (00:00:29) zoom out -0.765 1.232
-\i (00:00:29) trapsize 88
-\i (00:00:29) zoom out 1 
-\i (00:00:29) setwindow pcb
-\i (00:00:29) zoom out 1.909 0.449
-\i (00:00:29) trapsize 88
-\i (00:00:29) zoom out 1 
-\i (00:00:29) setwindow pcb
-\i (00:00:29) zoom out 1.909 0.449
-\i (00:00:29) trapsize 88
-\i (00:02:04) open 
-\e (00:02:04) Do you want to save the changes you made to QFN50P500X500X80-33A.dra?
-\i (00:02:05) fillin no 
-\i (00:02:17) fillin "D:\otherProjects\Beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\PCB\Beamforming_PCB_Ver1_0_0.brd"
-\i (00:02:17) cd "D:\otherProjects\Beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\PCB"
-\t (00:02:17) Opening existing design...
-\i (00:02:17) trapsize 1069
-\i (00:02:17) trapsize 1041
-\i (00:02:17) trapsize 1069
-\i (00:02:18) trapsize 1320
-\i (00:02:18) trapsize 1320
-\t (00:02:18)     Journal end - Sat Feb 13 19:34:31 2021
+\t (00:00:01) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
+\t (00:00:01)     Journal start - Sat Mar 06 10:44:27 2021
+\t (00:00:01)         Host=DESKTOP-MRJ3IVS User=xiado Pid=11368 CPUs=2
+\t (00:00:01) CmdLine= C:\Cadence\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
+\t (00:00:01) 
+\t (00:00:04) Opening existing design...
+\d (00:00:04) Design opened: D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/pcbPackages/packages/SD-106M.dra
+\t (00:00:05) Grids are drawn 0.5080, 0.5080 apart for enhanced viewability.
+\i (00:00:05) trapsize 4501
+\i (00:00:05) trapsize 4379
+\i (00:00:05) trapsize 4521
+\i (00:00:05) trapsize 3768
+\t (00:00:05) Grids are drawn 0.5080, 0.5080 apart for enhanced viewability.
+\i (00:00:05) trapsize 3768
+\i (00:00:06) generaledit 
+\i (00:00:12) opencd D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/SchematicPCB/PCB/Beamforming_PCB_Ver1_0_1.brd 
+\t (00:00:13) Opening existing design...
+\t (00:00:13) Grids are drawn 16.00, 16.00 apart for enhanced viewability.
+\i (00:00:13) trapsize 1581
+\i (00:00:13) trapsize 1539
+\i (00:00:13) trapsize 1581
+\t (00:00:14) Grids are drawn 32.00, 32.00 apart for enhanced viewability.
+\i (00:00:14) trapsize 2105
+\t (00:00:14) Grids are drawn 128.00, 128.00 apart for enhanced viewability.
+\t (00:00:14) Grids are drawn 32.00, 32.00 apart for enhanced viewability.
+\i (00:00:14) trapsize 2105
+\t (00:00:14)     Journal end - Sat Mar 06 10:44:40 2021

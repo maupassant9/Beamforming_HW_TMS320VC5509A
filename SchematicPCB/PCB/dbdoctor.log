@@ -1,0 +1,21 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : Beamforming_PCB_Ver1_0_1.brd                  )
+(    Software Version : 16.6-2015S066                                 )
+(    Date/Time        : Sun Mar 07 20:01:00 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+Number of Xnets before update: 38        after update: 38
+Number of Diff Pairs before update: 0   after update: 0
+
+Regenerating DRC
+  Original DRC errors:   3
+  Updated DRC errors:    3
+  DRC elapsed time:      00:00:01
+
+0 warnings, 0 errors detected, 0 errors  fixed.

@@ -4,16 +4,16 @@
 (                                                                     )
 (    Drawing          : SD-106M.dra                                   )
 (    Software Version : 16.6-2015S066                                 )
-(    Date/Time        : Tue Oct 22 22:58:50 2019                      )
+(    Date/Time        : Sat Mar 06 10:43:49 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 Create Symbol of type: PACKAGE
-    Directory = C:/Users/xiado/Documents/PCBProject/Circuits-PCB/ArmBoard/packages
+    Directory = D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/pcbPackages/packages
     Name      = sd-106m.psm
     User      = xiado
-    Machine   = DESKTOP-PTA6I89
+    Machine   = DESKTOP-MRJ3IVS
 
 
 Create symbol started.

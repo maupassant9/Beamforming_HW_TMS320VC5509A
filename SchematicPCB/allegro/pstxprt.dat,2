@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001Feb-22-2021 at 23:20:48 }
+{ Using PSTWRITER 16.6.0 d001Feb-25-2021 at 20:27:08 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='TMS320C5509A_DEV_BOARD';
@@ -1424,30 +1424,6 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- D5 'DIODE_1_SOD-323_B5817WS':
- ROOM='PWR';
-
-SECTION_NUMBER 1
- '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS324457@SIGPROCESSINGBOARD.DIODE_1.NORMAL(CHIPS)':
- C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins324457@sigprocessingboard.\diode_1.normal\(chips)',
- P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins324457@sigprocessingboard.\diode_1.normal\(chips)',
- ROOM='PWR',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- D6 'DIODE_1_SOD-323_B5817WS':
- ROOM='PWR';
-
-SECTION_NUMBER 1
- '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS324569@SIGPROCESSINGBOARD.DIODE_1.NORMAL(CHIPS)':
- C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins324569@sigprocessingboard.\diode_1.normal\(chips)',
- P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins324569@sigprocessingboard.\diode_1.normal\(chips)',
- ROOM='PWR',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
  D7 'LED_LED0603_LED':
  ROOM='DSP_LED';
 
@@ -1504,18 +1480,6 @@ SECTION_NUMBER 1
  C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins325865@connector.\header 5x2.normal\(chips)',
  P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins325865@connector.\header 5x2.normal\(chips)',
  ROOM='CPLD_JTAG',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- J2 'CONN PCB 2_HDR1X2_HEADER 1X2':
- ROOM='DSP_WDOG';
-
-SECTION_NUMBER 1
- '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS357438@CONNECTOR.CONN PCB 2.NORMAL(CHIPS)':
- C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins357438@connector.\conn pcb 2.normal\(chips)',
- P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins357438@connector.\conn pcb 2.normal\(chips)',
- ROOM='DSP_WDOG',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

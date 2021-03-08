@@ -1,24 +1,252 @@
-\t (00:00:01) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
-\t (00:00:01)     Journal start - Mon Dec 23 22:19:26 2019
-\t (00:00:01)         Host=DESKTOP-PTA6I89 User=xiado Pid=2112 CPUs=2
-\t (00:00:01) CmdLine= C:\cadence\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
-\t (00:00:01) 
-\t (00:00:05) Opening existing design...
-\d (00:00:05) Design opened: C:/Users/xiado/Documents/PCBProject/Circuits-PCB/ArmBoard/packages/usb_a.dra
-\i (00:00:05) trapsize 1380
-\i (00:00:05) trapsize 1343
-\i (00:00:05) trapsize 1386
-\i (00:00:06) trapsize 1426
-\i (00:00:06) trapsize 1426
-\i (00:00:07) generaledit 
-\i (00:00:14) open 
-\i (00:00:26) fillin "C:\Users\xiado\Documents\PCBProject\stm8sEncryption\allegro\STM8SENCRYPTION.brd"
-\i (00:00:26) cd "C:\Users\xiado\Documents\PCBProject\stm8sEncryption\allegro"
-\t (00:00:26) Opening existing design...
-\i (00:00:27) trapsize 16160
-\i (00:00:27) trapsize 15152
-\i (00:00:27) trapsize 15657
-\i (00:00:28) trapsize 12685
-\t (00:00:28) Grids are drawn 400.00, 400.00 apart for enhanced viewability.
-\i (00:00:28) trapsize 17312
-\t (00:00:28)     Journal end - Mon Dec 23 22:19:53 2019
+\t (00:38:57) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
+\t (00:38:57)     Journal start - Sat Mar 06 10:40:05 2021
+\t (00:38:57)         Host=DESKTOP-MRJ3IVS User=xiado Pid=2580 CPUs=2
+\t (00:38:57) CmdLine= C:\Cadence\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
+\t (00:38:57) 
+\d (00:38:57) Design opened: D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/pcbPackages/packages/SD-106M.dra
+\i (00:38:58) generaledit 
+\i (00:38:59) zoom in 1 
+\i (00:38:59) setwindow pcb
+\i (00:38:59) zoom in 2.2882 12.8859
+\i (00:38:59) trapsize 1884
+\i (00:38:59) zoom in 1 
+\i (00:38:59) setwindow pcb
+\i (00:38:59) zoom in 1.0448 12.7729
+\i (00:38:59) trapsize 942
+\i (00:39:00) zoom out 1 
+\i (00:39:00) setwindow pcb
+\i (00:39:00) zoom out 4.0214 13.1874
+\i (00:39:00) trapsize 1884
+\i (00:39:00) zoom out 1 
+\i (00:39:00) setwindow pcb
+\i (00:39:00) zoom out 6.9980 13.1875
+\i (00:39:00) trapsize 3768
+\i (00:39:00) zoom out 1 
+\i (00:39:00) setwindow pcb
+\i (00:39:00) zoom out 14.4959 14.3931
+\i (00:39:00) trapsize 3768
+\i (00:39:00) roam start
+\i (00:39:01) roam end
+\i (00:39:02) zoom in 1 
+\i (00:39:02) setwindow pcb
+\i (00:39:02) zoom in 0.6303 13.1874
+\i (00:39:02) trapsize 1884
+\i (00:39:03) zoom in 1 
+\i (00:39:03) setwindow pcb
+\i (00:39:03) zoom in 0.0652 13.1874
+\i (00:39:03) trapsize 942
+\i (00:39:03) zoom in 1 
+\i (00:39:03) setwindow pcb
+\i (00:39:03) zoom in 0.0652 13.1874
+\i (00:39:03) trapsize 471
+\i (00:39:04) zoom out 1 
+\i (00:39:04) setwindow pcb
+\i (00:39:04) zoom out 0.4043 13.2439
+\i (00:39:04) trapsize 942
+\i (00:39:04) zoom out 1 
+\i (00:39:04) setwindow pcb
+\i (00:39:04) zoom out 0.4608 13.2440
+\i (00:39:04) trapsize 1884
+\i (00:39:04) roam start
+\i (00:39:05) roam y -16
+\i (00:39:05) roam end
+\i (00:39:06) zoom in 1 
+\i (00:39:06) setwindow pcb
+\i (00:39:06) zoom in 27.1558 13.6772
+\i (00:39:06) trapsize 942
+\i (00:39:06) zoom in 1 
+\i (00:39:06) setwindow pcb
+\i (00:39:06) zoom in 27.1558 13.6772
+\i (00:39:06) trapsize 471
+\i (00:39:06) zoom out 1 
+\i (00:39:06) setwindow pcb
+\i (00:39:06) zoom out 28.7477 13.4323
+\i (00:39:06) trapsize 942
+\i (00:39:06) zoom out 1 
+\i (00:39:06) setwindow pcb
+\i (00:39:06) zoom out 28.7478 13.4324
+\i (00:39:06) trapsize 1884
+\i (00:39:06) zoom out 1 
+\i (00:39:06) setwindow pcb
+\i (00:39:06) zoom out 33.5235 13.4324
+\i (00:39:06) trapsize 3768
+\i (00:39:07) zoom in 1 
+\i (00:39:07) setwindow pcb
+\i (00:39:07) zoom in 5.9053 13.8656
+\i (00:39:07) trapsize 1884
+\i (00:39:09) pick grid 27.9471 14.4684
+\t (00:39:09) last pick:  27.9400 14.4780
+\i (00:39:10) prepopup 27.9471 14.4684
+\i (00:39:11) pick grid 32.2047 17.8972
+\t (00:39:11) last pick:  32.2580 17.7800
+\i (00:39:15) setwindow form.find
+\i (00:39:15) FORM find all_off  
+\i (00:39:16) FORM find pins YES 
+\i (00:39:18) setwindow pcb
+\i (00:39:18) pick grid 28.2862 13.9033
+\t (00:39:18) last pick:  28.1940 13.9700
+\i (00:39:18) prepopup 28.2862 13.8656
+\i (00:39:21) pop dyn_option_select '@:@Show element' 
+\i (00:39:21) show element 
+\i (00:39:21) generaledit 
+\i (00:39:27) setwindow text
+\i (00:39:27) close 
+\i (00:40:17) setwindow pcb
+\i (00:40:17) prepopup 27.5703 13.7526
+\i (00:40:18) pop dyn_option_select @:@Move 
+\i (00:40:19) move 
+\t (00:40:19) last pick:  27.6860 13.7160
+\t (00:40:19) last pick:  28.0500 13.5500
+\t (00:40:19) Pick new location for the element(s).
+\i (00:40:22) prepopup 29.0021 13.6018
+\i (00:40:23) oops 
+\t (00:40:23) last pick:  27.6860 13.7160
+\i (00:40:23) generaledit 
+\i (00:40:28) prepopup 27.7587 13.5642
+\i (00:40:30) pop dyn_option_select @:@Move 
+\i (00:40:30) move 
+\t (00:40:30) last pick:  27.6860 13.4620
+\t (00:40:30) last pick:  28.0500 13.5500
+\t (00:40:30) Pick new location for the element(s).
+\i (00:40:34) prepopup 25.2719 14.1670
+\i (00:40:35) oops 
+\t (00:40:35) last pick:  27.6860 13.4620
+\i (00:40:35) generaledit 
+\i (00:41:17) prepopup 28.4369 13.3004
+\i (00:41:18) pop dyn_option_select @:@Move 
+\i (00:41:18) move 
+\t (00:41:18) last pick:  28.4480 13.2080
+\t (00:41:18) last pick:  28.0500 13.5500
+\t (00:41:18) Pick new location for the element(s).
+\i (00:41:24) ipick 0.3 
+\t (00:41:24) last pick:  28.3500 13.5500
+\i (00:41:25) generaledit 
+\i (00:41:32) pick grid 28.4746 13.6395
+\t (00:41:32) last pick:  28.4480 13.7160
+\i (00:41:33) prepopup 28.4746 13.5265
+\i (00:41:35) pop dyn_option_select @:@Move 
+\i (00:41:35) move 
+\t (00:41:35) last pick:  28.4480 13.4620
+\t (00:41:35) last pick:  28.3500 13.5500
+\t (00:41:35) Pick new location for the element(s).
+\e (00:41:40) Command not found: lx 0.2
+\i (00:41:52) ipick 0.2 
+\t (00:41:52) last pick:  28.5500 13.5500
+\i (00:41:53) generaledit 
+\i (00:41:56) pick grid 0.5173 13.6772
+\t (00:41:56) last pick:  0.5080 13.7160
+\i (00:41:57) prepopup 0.5173 13.6772
+\i (00:41:58) pop dyn_option_select @:@Move 
+\i (00:41:58) move 
+\t (00:41:58) last pick:  0.5080 13.7160
+\t (00:41:58) last pick:  0.6000 13.5500
+\t (00:41:58) Pick new location for the element(s).
+\i (00:42:02) ipick -0.5 
+\t (00:42:03) last pick:  0.1000 13.5500
+\e (00:42:03) ERROR(SPMHA1-70): Pin is outside of the extents.
+\i (00:42:05) prepopup 5.0387 16.4654
+\i (00:42:06) oops 
+\t (00:42:06) last pick:  0.6000 13.5500
+\i (00:42:06) generaledit 
+\i (00:42:07) zoom out 1 
+\i (00:42:07) setwindow pcb
+\i (00:42:07) zoom out 5.9430 14.9959
+\i (00:42:07) trapsize 3768
+\i (00:42:07) zoom out 1 
+\i (00:42:07) setwindow pcb
+\i (00:42:07) zoom out 12.3859 16.1263
+\i (00:42:07) trapsize 3768
+\i (00:42:09) pick grid 31.6772 2.4114
+\t (00:42:09) last pick:  31.7500 2.2860
+\i (00:42:10) drag_start grid 31.5265 2.1100
+\i (00:42:12) drag_stop -0.1232 35.9450
+\t (00:42:13) last pick:  39.6650 17.9348
+\w (00:42:13) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:42:18) setwindow form.find
+\i (00:42:18) FORM find all_off  
+\i (00:42:18) FORM find all_on  
+\i (00:42:19) setwindow pcb
+\i (00:42:19) pick grid 34.5407 3.9939
+\t (00:42:19) last pick:  34.5440 4.0640
+\i (00:42:20) drag_start grid 32.2800 2.4114
+\i (00:42:22) drag_stop -0.1232 36.7739
+\i (00:42:26) prepopup 19.3187 22.3055
+\i (00:42:27) prepopup 22.1823 35.9450
+\i (00:42:28) pop dyn_option_select @:@Move 
+\i (00:42:28) move 
+\t (00:42:29) last pick:  22.0980 36.0680
+\t (00:42:29) Element has no origin, using pick.
+\t (00:42:29) Element has no origin, using pick.
+\t (00:42:29) Element has no origin, using pick.
+\t (00:42:29) Element has no origin, using pick.
+\t (00:42:29) Element has no origin, using pick.
+\t (00:42:29) Element has no origin, using pick.
+\t (00:42:29) Element has no origin, using pick.
+\t (00:42:29) Element has no origin, using pick.
+\t (00:42:29) Element has no origin, using pick.
+\t (00:42:29) Element has no origin, using pick.
+\t (00:42:29) Element has no origin, using pick.
+\t (00:42:29) Element has no origin, using pick.
+\t (00:42:29) Element has no origin, using pick.
+\t (00:42:29) Element has no origin, using pick.
+\t (00:42:29) Element has no origin, using pick.
+\t (00:42:29) Element has no origin, using pick.
+\t (00:42:29) Element has no origin, using pick.
+\t (00:42:29) Element has no origin, using pick.
+\t (00:42:29) Pick new location for the element(s).
+\i (00:42:35) ipick 0.5 
+\t (00:42:35) last pick:  22.5980 36.0680
+\i (00:42:35) generaledit 
+\i (00:42:37) prepopup 39.5143 12.5845
+\i (00:42:39) save 
+\i (00:42:40) fillin yes 
+\t (00:42:42) Symbol 'sd-106m.psm' created.
+\i (00:42:42) generaledit 
+\i (00:42:42) zoom in 1 
+\i (00:42:42) setwindow pcb
+\i (00:42:42) zoom in 2.2882 11.5295
+\i (00:42:42) trapsize 1884
+\i (00:42:43) zoom in 1 
+\i (00:42:43) setwindow pcb
+\i (00:42:43) zoom in 0.8941 11.5296
+\i (00:42:43) trapsize 942
+\i (00:42:43) zoom out 1 
+\i (00:42:43) setwindow pcb
+\i (00:42:43) zoom out 2.4201 11.1905
+\i (00:42:43) trapsize 1884
+\i (00:42:43) zoom out 1 
+\i (00:42:43) setwindow pcb
+\i (00:42:43) zoom out 3.9460 11.1905
+\i (00:42:43) trapsize 3768
+\i (00:42:43) zoom out 1 
+\i (00:42:43) setwindow pcb
+\i (00:42:43) zoom out 8.3921 10.1731
+\i (00:42:43) trapsize 3768
+\t (00:42:45) last pick:  43.4328 17.7088
+\w (00:42:45) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:42:48) setwindow form.find
+\i (00:42:48) FORM find all_off  
+\i (00:42:51) FORM find pins YES 
+\i (00:42:51) setwindow pcb
+\i (00:42:51) pick grid 32.5815 17.7841
+\t (00:42:51) last pick:  32.5120 17.7800
+\i (00:42:52) pick grid 1.6100 13.6395
+\t (00:42:52) last pick:  1.5240 13.7160
+\i (00:42:53) prepopup 1.6100 13.6395
+\i (00:42:54) pop dyn_option_select @:@Move 
+\i (00:42:54) move 
+\t (00:42:54) last pick:  1.5240 13.7160
+\t (00:42:54) last pick:  1.1000 13.5500
+\t (00:42:54) Pick new location for the element(s).
+\i (00:42:58) ipick -0.5 
+\t (00:42:58) last pick:  0.6000 13.5500
+\i (00:42:58) generaledit 
+\i (00:43:00) prepopup 47.5020 19.2159
+\i (00:43:03) save 
+\i (00:43:04) fillin yes 
+\t (00:43:05) Symbol 'sd-106m.psm' created.
+\i (00:43:05) generaledit 
+\i (00:43:10) pick grid 38.0825 18.2362
+\t (00:43:10) last pick:  38.1000 18.2880
+\i (00:43:12) exit 
+\t (00:43:13)     Journal end - Sat Mar 06 10:44:21 2021
