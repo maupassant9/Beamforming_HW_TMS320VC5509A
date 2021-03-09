@@ -1,27 +1,457 @@
-\t (00:00:01) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
-\t (00:00:01)     Journal start - Mon Mar 08 09:53:34 2021
-\t (00:00:01)         Host=DESKTOP-MRJ3IVS User=xiado Pid=5452 CPUs=2
-\t (00:00:01) CmdLine= C:\Cadence\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
-\t (00:00:01) 
+\t (00:00:02) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
+\t (00:00:02)     Journal start - Mon Mar 08 21:50:15 2021
+\t (00:00:02)         Host=DESKTOP-MRJ3IVS User=xiado Pid=2016 CPUs=2
+\t (00:00:02) CmdLine= C:\Cadence\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
+\t (00:00:02) 
 \t (00:00:05) Opening existing design...
 \d (00:00:06) Design opened: D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/SchematicPCB/PCB/Beamforming_PCB_Ver1_0_1.brd
-\t (00:00:06) Grids are drawn 32.00, 32.00 apart for enhanced viewability.
-\i (00:00:06) trapsize 2488
-\i (00:00:06) trapsize 2421
-\i (00:00:06) trapsize 2499
-\i (00:00:07) trapsize 2105
-\t (00:00:07) Grids are drawn 32.00, 32.00 apart for enhanced viewability.
-\i (00:00:07) trapsize 2105
+\t (00:00:06) Grids are drawn 16.00, 16.00 apart for enhanced viewability.
+\i (00:00:06) trapsize 1130
+\i (00:00:06) trapsize 1100
+\i (00:00:06) trapsize 1136
+\t (00:00:07) Grids are drawn 8.00, 8.00 apart for enhanced viewability.
+\i (00:00:07) trapsize 957
+\t (00:00:07) Grids are drawn 8.00, 8.00 apart for enhanced viewability.
+\i (00:00:07) trapsize 957
 \i (00:00:09) generaledit 
-\i (00:21:58) zoom out 1 
-\i (00:21:58) setwindow pcb
-\i (00:21:58) zoom out 2374.06 3322.49
-\t (00:21:58) Grids are drawn 64.00, 64.00 apart for enhanced viewability.
-\i (00:21:58) trapsize 4211
-\i (00:21:58) zoom out 1 
-\i (00:21:58) setwindow pcb
-\i (00:21:58) zoom out 4900.39 3322.49
-\t (00:21:58) Grids are drawn 128.00, 128.00 apart for enhanced viewability.
-\i (00:21:58) trapsize 8419
-\i (00:22:00) exit 
-\t (00:22:01)     Journal end - Mon Mar 08 10:15:34 2021
+\i (00:00:20) cmgr_phys 
+\i (00:00:22) setwindow cmgr
+\i (00:00:22) cm newView ( worksheet 53:Electrical "1:Electrical Constraint Set" 7:Routing 8:Wiring )
+\i (00:00:22) cm newView ( worksheet 53:Electrical "1:Electrical Constraint Set" 7:Routing 310:Vias )
+\i (00:00:22) cm newView ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:00:23) setwindow pcb
+\i (00:00:23) generaledit 
+\i (00:00:25) setwindow cmgr
+\i (00:00:25) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:00:25) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:00:28) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:00:30) cm newView ( worksheet 145:DRC 43:DRC 44:Electrical 45:Electrical )
+\i (00:00:31) cm newView ( worksheet 145:DRC 43:DRC 46:Spacing 48:Spacing )
+\i (00:00:32) cm select ( worksheet 145:DRC 43:DRC 46:Spacing 48:Spacing )
+\i (00:00:32) cm select ( worksheet 145:DRC 43:DRC 46:Spacing 48:Spacing )
+\i (00:00:32) cm select ( worksheet 145:DRC 43:DRC 46:Spacing 48:Spacing )
+\i (00:00:33) cm select ( worksheet 145:DRC 43:DRC 46:Spacing 48:Spacing )
+\i (00:00:33) cm select ( worksheet 145:DRC 43:DRC 46:Spacing 48:Spacing )
+\i (00:00:33) cm select ( worksheet 145:DRC 43:DRC 46:Spacing 48:Spacing )
+\i (00:00:33) cm select ( worksheet 145:DRC 43:DRC 46:Spacing 48:Spacing )
+\i (00:00:33) cm select ( worksheet 145:DRC 43:DRC 46:Spacing 48:Spacing )
+\i (00:00:35) cm select ( worksheet 145:DRC 43:DRC 46:Spacing 48:Spacing )
+\i (00:00:35) cm select ( worksheet 145:DRC 43:DRC 46:Spacing 48:Spacing )
+\i (00:00:35) cm select ( worksheet 145:DRC 43:DRC 46:Spacing 48:Spacing )
+\i (00:00:36) cm select ( worksheet 145:DRC 43:DRC 46:Spacing 48:Spacing )
+\i (00:00:36) cm select ( worksheet 145:DRC 43:DRC 46:Spacing 48:Spacing )
+\i (00:00:36) cm select ( worksheet 145:DRC 43:DRC 46:Spacing 48:Spacing )
+\i (00:00:36) cm select ( worksheet 145:DRC 43:DRC 46:Spacing 48:Spacing )
+\i (00:00:37) cm newView ( worksheet 53:Electrical 66:Net 25:Routing "30:Relative Propagation Delay" )
+\i (00:00:44) cm scope Design "Beamforming_PCB_Ver1_0_1"
+\i (00:00:44) cm analyze ( "Match Group" "SDRAM_ADDR_CLK_MATCH" ) RELATIVE_PROPAGATION_DELAY 4 ( "Match Group" "SDRAM_ADDR_CLK_MATCH" )
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.35:U22.22" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.35:U23.22" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.55:U22.21" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.55:U23.21" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.54:U22.23" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.54:U23.23" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.52:U22.24" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.52:U23.24" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.51:U22.25" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.51:U23.25" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.50:U22.26" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.50:U23.26" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.48:U22.29" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.48:U23.29" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.47:U22.30" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.47:U23.30" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.46:U22.31" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.46:U23.31" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.44:U22.32" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.44:U23.32" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.43:U22.33" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.43:U23.33" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.21:U22.19" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.21:U23.19" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.28:U22.17" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.28:U23.17" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.31:U22.38" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.31:U23.38" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.32:U22.16" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.32:U23.16" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.34:U22.18" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.34:U23.18" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.38:U22.20" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.38:U23.20" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.39:U22.35" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.39:U23.35" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.42:U22.34" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.42:U23.34" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.101:U22.37" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.101:U23.37" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.35:U22.22" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.35:U23.22" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.55:U22.21" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.55:U23.21" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.54:U22.23" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.54:U23.23" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.52:U22.24" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.52:U23.24" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.51:U22.25" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.51:U23.25" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.50:U22.26" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.50:U23.26" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.48:U22.29" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.48:U23.29" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.47:U22.30" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.47:U23.30" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.46:U22.31" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.46:U23.31" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.44:U22.32" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.44:U23.32" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.43:U22.33" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.43:U23.33" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.21:U22.19" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.21:U23.19" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.28:U22.17" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.28:U23.17" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.31:U22.38" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.31:U23.38" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.32:U22.16" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.32:U23.16" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.34:U22.18" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.34:U23.18" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.38:U22.20" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.38:U23.20" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.39:U22.35" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.39:U23.35" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.42:U22.34" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.42:U23.34" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.101:U22.37" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:45) cm analyze ( "Pin Pair" "U2.101:U23.37" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:49) cm analyze ( "Match Group" "SDRAM_DH_MATCH" ) RELATIVE_PROPAGATION_DELAY 4 ( "Match Group" "SDRAM_DH_MATCH" )
+\i (00:00:49) cm analyze ( "Pin Pair" "U2.27:U23.39" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:49) cm analyze ( "Pin Pair" "U2.67:U23.2" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:49) cm analyze ( "Pin Pair" "U2.69:U23.5" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:49) cm analyze ( "Pin Pair" "U2.70:U23.8" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:49) cm analyze ( "Pin Pair" "U2.71:U23.11" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:49) cm analyze ( "Pin Pair" "U2.74:U23.44" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:49) cm analyze ( "Pin Pair" "U2.75:U23.47" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:49) cm analyze ( "Pin Pair" "U2.76:U23.50" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:49) cm analyze ( "Pin Pair" "U2.77:U23.53" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:49) cm analyze ( "Pin Pair" "U2.27:U23.39" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:49) cm analyze ( "Pin Pair" "U2.67:U23.2" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:49) cm analyze ( "Pin Pair" "U2.69:U23.5" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:49) cm analyze ( "Pin Pair" "U2.70:U23.8" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:49) cm analyze ( "Pin Pair" "U2.71:U23.11" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:49) cm analyze ( "Pin Pair" "U2.74:U23.44" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:49) cm analyze ( "Pin Pair" "U2.75:U23.47" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:49) cm analyze ( "Pin Pair" "U2.76:U23.50" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:49) cm analyze ( "Pin Pair" "U2.77:U23.53" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:52) cm analyze ( "Match Group" "SDRAM_DL_MATCH" ) RELATIVE_PROPAGATION_DELAY 4 ( "Match Group" "SDRAM_DL_MATCH" )
+\i (00:00:52) cm analyze ( "Pin Pair" "U2.26:U22.39" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:52) cm analyze ( "Pin Pair" "U2.57:U22.2" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:52) cm analyze ( "Pin Pair" "U2.58:U22.5" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:52) cm analyze ( "Pin Pair" "U2.59:U22.8" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:52) cm analyze ( "Pin Pair" "U2.61:U22.11" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:52) cm analyze ( "Pin Pair" "U2.62:U22.44" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:52) cm analyze ( "Pin Pair" "U2.63:U22.47" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:52) cm analyze ( "Pin Pair" "U2.65:U22.50" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:52) cm analyze ( "Pin Pair" "U2.66:U22.53" ) RELATIVE_PROPAGATION_OBJECT_LENGTH 0
+\i (00:00:52) cm analyze ( "Pin Pair" "U2.26:U22.39" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:52) cm analyze ( "Pin Pair" "U2.57:U22.2" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:52) cm analyze ( "Pin Pair" "U2.58:U22.5" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:52) cm analyze ( "Pin Pair" "U2.59:U22.8" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:52) cm analyze ( "Pin Pair" "U2.61:U22.11" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:52) cm analyze ( "Pin Pair" "U2.62:U22.44" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:52) cm analyze ( "Pin Pair" "U2.63:U22.47" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:52) cm analyze ( "Pin Pair" "U2.65:U22.50" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:00:52) cm analyze ( "Pin Pair" "U2.66:U22.53" ) RELATIVE_PROPAGATION_OBJECT_DELAY 0
+\i (00:01:05) cm collapse ( row ( "Match Group" "SDRAM_ADDR_CLK_MATCH" ) )
+\i (00:01:06) cm collapse ( row ( "Match Group" "SDRAM_DH_MATCH" ) )
+\i (00:01:06) cm collapse ( row ( "Match Group" "SDRAM_DL_MATCH" ) )
+\i (00:01:07) cm collapse ( row ( Bus "SDRAM_ADDR" ) )
+\i (00:01:08) cm collapse ( row ( Bus "SDRAM_DH" ) )
+\i (00:01:09) cm collapse ( row ( Bus "SDRAM_DL" ) )
+\i (00:01:24) cm exit
+\i (00:04:52) setwindow pcb
+\i (00:04:52) zoom out 1 
+\i (00:04:52) setwindow pcb
+\i (00:04:52) zoom out 1620.90 2825.70
+\t (00:04:52) Grids are drawn 16.00, 16.00 apart for enhanced viewability.
+\i (00:04:52) trapsize 1914
+\i (00:06:07) zoom in 1 
+\i (00:06:07) setwindow pcb
+\i (00:06:07) zoom in 430.97 3506.92
+\t (00:06:07) Grids are drawn 8.00, 8.00 apart for enhanced viewability.
+\i (00:06:07) trapsize 957
+\i (00:06:07) zoom in 1 
+\i (00:06:07) setwindow pcb
+\i (00:06:07) zoom in 432.89 3506.92
+\t (00:06:07) Grids are drawn 4.00, 4.00 apart for enhanced viewability.
+\i (00:06:07) trapsize 478
+\i (00:06:08) roam start
+\i (00:06:08) roam x -160
+\i (00:06:09) roam x -192
+\i (00:06:09) roam x -32
+\i (00:06:09) roam end
+\i (00:06:11) zoom out 1 
+\i (00:06:11) setwindow pcb
+\i (00:06:11) zoom out 380.26 3447.61
+\t (00:06:11) Grids are drawn 8.00, 8.00 apart for enhanced viewability.
+\i (00:06:11) trapsize 957
+\i (00:06:14) zoom in 1 
+\i (00:06:14) setwindow pcb
+\i (00:06:14) zoom in 323.82 3353.84
+\t (00:06:14) Grids are drawn 4.00, 4.00 apart for enhanced viewability.
+\i (00:06:14) trapsize 478
+\i (00:06:14) zoom in 1 
+\i (00:06:14) setwindow pcb
+\i (00:06:14) zoom in 323.82 3354.80
+\t (00:06:14) Grids are drawn 2.00, 2.00 apart for enhanced viewability.
+\i (00:06:14) trapsize 239
+\i (00:06:18) zoom in 1 
+\i (00:06:18) setwindow pcb
+\i (00:06:18) zoom in 332.91 3375.85
+\i (00:06:18) trapsize 120
+\i (00:06:55) zoom out 1 
+\i (00:06:55) setwindow pcb
+\i (00:06:55) zoom out 426.19 3363.89
+\i (00:06:55) trapsize 239
+\i (00:06:56) zoom out 1 
+\i (00:06:56) setwindow pcb
+\i (00:06:56) zoom out 426.20 3363.89
+\t (00:06:56) Grids are drawn 4.00, 4.00 apart for enhanced viewability.
+\i (00:06:56) trapsize 478
+\i (00:06:56) zoom out 1 
+\i (00:06:56) setwindow pcb
+\i (00:06:56) zoom out 485.51 3363.90
+\t (00:06:56) Grids are drawn 8.00, 8.00 apart for enhanced viewability.
+\i (00:06:56) trapsize 957
+\i (00:07:01) roam start
+\i (00:07:01) roam x 16
+\i (00:07:03) roam x 16
+\i (00:07:04) roam x 224
+\i (00:07:04) roam x 80
+\i (00:07:04) roam x 64
+\i (00:07:04) roam x 32
+\i (00:07:05) roam y 16
+\i (00:07:05) roam end
+\i (00:07:06) roam start
+\i (00:07:07) roam x 64
+\i (00:07:07) roam y 144
+\i (00:07:07) roam end
+\i (00:07:19) roam start
+\i (00:07:19) roam x -96
+\i (00:07:20) roam x -144
+\i (00:07:20) roam y 64
+\i (00:07:20) roam x -112
+\i (00:07:20) roam y 32
+\i (00:07:20) roam x -64
+\i (00:07:20) roam y 32
+\i (00:07:20) roam x -32
+\i (00:07:20) roam y 16
+\i (00:07:21) roam y 16
+\i (00:07:21) roam x -16
+\i (00:07:21) roam y 16
+\i (00:07:22) roam x -16
+\i (00:07:22) roam y 32
+\i (00:07:22) roam y 16
+\i (00:07:22) roam y 64
+\i (00:07:23) roam x 16
+\i (00:07:23) roam end
+\i (00:07:30) roam start
+\i (00:07:30) roam y 208
+\i (00:07:30) roam y 80
+\i (00:07:31) roam y 32
+\i (00:07:31) roam y 16
+\i (00:07:33) roam end
+\i (00:07:46) zoom in 1 
+\i (00:07:46) setwindow pcb
+\i (00:07:46) zoom in 729.48 2045.99
+\t (00:07:46) Grids are drawn 4.00, 4.00 apart for enhanced viewability.
+\i (00:07:46) trapsize 478
+\i (00:07:46) zoom in 1 
+\i (00:07:46) setwindow pcb
+\i (00:07:46) zoom in 729.48 2045.03
+\t (00:07:46) Grids are drawn 2.00, 2.00 apart for enhanced viewability.
+\i (00:07:46) trapsize 239
+\i (00:07:49) zoom out 1 
+\i (00:07:49) setwindow pcb
+\i (00:07:49) zoom out 711.30 2003.41
+\t (00:07:49) Grids are drawn 4.00, 4.00 apart for enhanced viewability.
+\i (00:07:49) trapsize 478
+\i (00:07:49) zoom out 1 
+\i (00:07:49) setwindow pcb
+\i (00:07:49) zoom out 712.25 2003.42
+\t (00:07:49) Grids are drawn 8.00, 8.00 apart for enhanced viewability.
+\i (00:07:49) trapsize 957
+\i (00:08:01) setwindow form.find
+\i (00:08:01) FORM find vias YES 
+\i (00:08:04) setwindow pcb
+\i (00:08:04) roam start
+\i (00:08:04) roam x -48
+\i (00:08:04) roam y 224
+\i (00:08:05) roam y 144
+\i (00:08:05) roam end
+\i (00:08:06) roam start
+\i (00:08:06) roam y -80
+\i (00:08:06) roam end
+\i (00:08:11) zoom in 1 
+\i (00:08:11) setwindow pcb
+\i (00:08:11) zoom in 802.20 1709.21
+\t (00:08:11) Grids are drawn 4.00, 4.00 apart for enhanced viewability.
+\i (00:08:11) trapsize 478
+\i (00:08:12) zoom in 1 
+\i (00:08:12) setwindow pcb
+\i (00:08:12) zoom in 802.20 1709.21
+\t (00:08:12) Grids are drawn 2.00, 2.00 apart for enhanced viewability.
+\i (00:08:12) trapsize 239
+\i (00:08:13) roam start
+\i (00:08:13) roam x 32
+\i (00:08:13) roam y -112
+\i (00:08:13) roam y -16
+\i (00:08:13) roam y -32
+\i (00:08:14) roam end
+\i (00:08:16) roam start
+\i (00:08:16) roam y 80
+\i (00:08:16) roam x -32
+\i (00:08:16) roam y 160
+\i (00:08:16) roam y 144
+\i (00:08:17) roam y 16
+\i (00:08:17) roam y 32
+\i (00:08:17) roam y 16
+\i (00:08:17) roam end
+\i (00:08:18) zoom out 1 
+\i (00:08:18) setwindow pcb
+\i (00:08:18) zoom out 858.64 1525.02
+\t (00:08:18) Grids are drawn 4.00, 4.00 apart for enhanced viewability.
+\i (00:08:18) trapsize 478
+\i (00:08:29) roam start
+\i (00:08:30) roam x -48
+\i (00:08:30) roam y 192
+\i (00:08:30) roam y 128
+\i (00:08:30) roam end
+\i (00:08:58) roam start
+\i (00:08:58) roam x -320
+\i (00:08:58) roam y 64
+\i (00:08:58) roam end
+\i (00:09:03) prepopup 474.98 1054.78
+\i (00:09:05) pop dyn_option_select @:@Copy 
+\i (00:09:05) copy 
+\i (00:09:06) zoom in 1 
+\i (00:09:06) setwindow pcb
+\i (00:09:06) zoom in 638.59 1051.91
+\t (00:09:06) Grids are drawn 2.00, 2.00 apart for enhanced viewability.
+\i (00:09:06) trapsize 239
+\i (00:09:06) zoom in 1 
+\i (00:09:06) setwindow pcb
+\i (00:09:06) zoom in 638.59 1052.39
+\i (00:09:06) trapsize 120
+\i (00:09:09) pick grid 630.70 1055.02
+\t (00:09:09) last pick:  631.00 1055.00
+\i (00:09:12) zoom out 1 
+\i (00:09:12) setwindow pcb
+\i (00:09:12) zoom out 646.96 1048.81
+\i (00:09:12) trapsize 239
+\i (00:09:12) zoom out 1 
+\i (00:09:12) setwindow pcb
+\i (00:09:12) zoom out 647.45 1048.80
+\t (00:09:12) Grids are drawn 4.00, 4.00 apart for enhanced viewability.
+\i (00:09:12) trapsize 478
+\i (00:09:17) roam start
+\i (00:09:17) roam x -32
+\i (00:09:17) roam y -176
+\i (00:09:17) roam y -96
+\i (00:09:17) roam y -32
+\i (00:09:18) roam end
+\i (00:09:19) roam start
+\i (00:09:19) roam y -112
+\i (00:09:19) roam end
+\i (00:09:21) zoom in 1 
+\i (00:09:21) setwindow pcb
+\i (00:09:21) zoom in 712.26 1535.08
+\t (00:09:21) Grids are drawn 2.00, 2.00 apart for enhanced viewability.
+\i (00:09:21) trapsize 239
+\i (00:09:21) zoom in 1 
+\i (00:09:21) setwindow pcb
+\i (00:09:21) zoom in 712.26 1535.08
+\i (00:09:21) trapsize 120
+\i (00:09:29) pick grid 698.39 1530.30
+\t (00:09:29) last pick:  698.00 1530.00
+\i (00:09:30) zoom out 1 
+\i (00:09:30) setwindow pcb
+\i (00:09:30) zoom out 704.85 1527.67
+\i (00:09:30) trapsize 239
+\i (00:09:30) zoom out 1 
+\i (00:09:30) setwindow pcb
+\i (00:09:30) zoom out 705.80 1527.18
+\t (00:09:30) Grids are drawn 4.00, 4.00 apart for enhanced viewability.
+\i (00:09:30) trapsize 478
+\i (00:09:39) pick grid 770.86 1671.66
+\t (00:09:39) last pick:  771.00 1672.00
+\i (00:09:41) pick grid 856.97 1684.10
+\t (00:09:42) last pick:  857.00 1684.00
+\i (00:09:42) prepopup 575.68 1545.36
+\i (00:09:44) done 
+\i (00:09:45) generaledit 
+\i (00:09:45) prepopup 705.80 1535.80
+\i (00:09:47) pop dyn_option_select @:@Slide 
+\i (00:09:47) slide 
+\t (00:09:48) Waiting for the destination pick.
+\t (00:09:48) Start slide location has pre-existing DRC errors.
+\i (00:09:52) pick grid 690.49 1532.93
+\t (00:09:52) last pick:  690.00 1533.00
+\t (00:09:55) No DRC errors detected.
+\i (00:09:55) generaledit 
+\i (00:09:58) roam start
+\i (00:09:58) roam x -32
+\i (00:09:58) roam y 80
+\i (00:09:58) roam y 48
+\i (00:09:59) roam y 64
+\i (00:09:59) roam y 16
+\i (00:09:59) roam y 32
+\i (00:09:59) roam y 16
+\i (00:09:59) roam end
+\i (00:10:07) roam start
+\i (00:10:07) roam y -112
+\i (00:10:07) roam y -32
+\i (00:10:08) roam end
+\i (00:10:21) roam start
+\i (00:10:21) roam x 32
+\i (00:10:21) roam y 144
+\i (00:10:21) roam x -16
+\i (00:10:21) roam y 112
+\i (00:10:21) roam x -16
+\i (00:10:21) roam y 64
+\i (00:10:22) roam y 96
+\i (00:10:22) roam y 48
+\i (00:10:22) roam y 32
+\i (00:10:22) roam end
+\i (00:10:26) roam start
+\i (00:10:26) roam y 176
+\i (00:10:26) roam y 192
+\i (00:10:27) roam y 32
+\i (00:10:27) roam y 48
+\i (00:10:30) roam y 16
+\i (00:10:30) roam y -16
+\i (00:10:31) roam y -16
+\i (00:10:31) roam x 16
+\i (00:10:31) roam y -32
+\i (00:10:31) roam x 32
+\i (00:10:31) roam y -48
+\i (00:10:31) roam end
+\i (00:10:42) roam start
+\i (00:10:42) roam x -48
+\i (00:10:42) roam y 144
+\i (00:10:42) roam y 64
+\i (00:10:42) roam y 96
+\i (00:10:42) roam y 16
+\i (00:10:42) roam x 16
+\i (00:10:42) roam y -48
+\i (00:10:43) roam x 144
+\i (00:10:43) roam y -288
+\i (00:10:43) roam y -112
+\i (00:10:43) roam x -16
+\i (00:10:43) roam y -48
+\i (00:10:43) roam end
+\i (00:10:45) exit 
+\e (00:10:45) Do you want to save the changes you made to Beamforming_PCB_Ver1_0_1.brd?
+\i (00:10:46) fillin yes 
+\t (00:10:48)     Journal end - Mon Mar 08 22:01:01 2021
