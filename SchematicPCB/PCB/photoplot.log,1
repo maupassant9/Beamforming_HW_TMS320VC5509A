@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : Beamforming_PCB_Ver1_0_1.brd                  )
 (    Software Version : 16.6-2015S066                                 )
-(    Date/Time        : Thu Mar 11 20:49:11 2021                      )
+(    Date/Time        : Thu Mar 11 20:56:26 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -48,9 +48,6 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
-    WARNING: Film contains objects with associated DRCs (36).
-           In the design editor view this film and enable visibility for the
-           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
 
 
   APERTURES USED:

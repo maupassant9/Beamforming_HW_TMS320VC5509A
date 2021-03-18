@@ -1,36 +1,196 @@
-\t (00:00:06) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
-\t (00:00:06)     Journal start - Wed Mar 17 22:02:42 2021
-\t (00:00:06)         Host=DESKTOP-MRJ3IVS User=xiado Pid=6468 CPUs=2
-\t (00:00:06) CmdLine= C:\Cadence\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
-\t (00:00:06) 
-\t (00:00:08) Opening existing design...
-\d (00:00:08) Design opened: D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/SchematicPCB/PCB/Beamforming_PCB_Ver1_0_1.brd
-\i (00:00:09) trapsize 2419
-\i (00:00:09) trapsize 2354
-\i (00:00:09) trapsize 2430
-\i (00:00:09) trapsize 2105
-\i (00:00:09) trapsize 2105
-\i (00:00:11) generaledit 
-\i (00:00:33) artwork 
-\i (00:00:36) setwindow form.film_control
-\i (00:00:36) FORM film_control filmtree  SectionView 
-\i (00:00:38) FORM film_control filmtree  paste_top 
-\i (00:00:39) FORM film_control filmtree  paste_bottom 
-\i (00:00:40) FORM film_control filmtree  board_outline 
-\i (00:00:45) FORM film_control cancel  
-\i (00:00:46) setwindow pcb
-\i (00:00:46) generaledit 
-\i (00:00:51) ncdrill param 
-\i (00:00:51) generaledit 
-\i (00:00:59) setwindow form.nc_parameters
-\i (00:00:59) FORM nc_parameters browse  
-\i (00:01:00) fillin "menu_cancel"
-\i (00:01:02) FORM nc_parameters cancel  
-\i (00:01:07) setwindow pcb
-\i (00:01:07) nctape_full 
-\i (00:02:26) setwindow form.nc_drill
-\i (00:02:26) FORM nc_drill cancel  
-\i (00:02:26) setwindow pcb
-\i (00:02:26) generaledit 
-\i (00:02:35) exit 
-\t (00:02:37)     Journal end - Wed Mar 17 22:05:13 2021
+\t (00:00:02) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
+\t (00:00:02)     Journal start - Wed Mar 17 23:20:02 2021
+\t (00:00:02)         Host=DESKTOP-MRJ3IVS User=xiado Pid=15132 CPUs=2
+\t (00:00:02) CmdLine= C:\Cadence\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
+\t (00:00:02) 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Design opened: D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/SchematicPCB/PCB/Beamforming_PCB_Ver1_0_1.brd
+\i (00:00:06) trapsize 2419
+\i (00:00:06) trapsize 2354
+\i (00:00:06) trapsize 2430
+\i (00:00:07) trapsize 2105
+\i (00:00:07) trapsize 2105
+\i (00:00:09) generaledit 
+\i (00:00:17) setwindow form.vf_vis
+\i (00:00:17) FORM vf_vis 3 all_colorvisible YES 
+\i (00:00:22) setwindow form.mini
+\i (00:00:22) FORM mini subclass TOP 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out 2748.17 2234.60
+\i (00:00:24) trapsize 4210
+\i (00:00:24) zoom out 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out 3526.94 2348.25
+\i (00:00:24) trapsize 8419
+\i (00:00:24) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in 1447.39 2693.44
+\i (00:00:25) trapsize 4210
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in 1422.13 2760.80
+\i (00:00:25) trapsize 2105
+\i (00:00:26) roam start
+\i (00:00:26) roam x -240
+\i (00:00:26) roam y 96
+\i (00:00:26) roam x -32
+\i (00:00:26) roam y 48
+\i (00:00:26) roam end
+\i (00:00:27) zoom in 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom in 2040.95 2903.92
+\i (00:00:27) trapsize 1052
+\i (00:00:30) artwork 
+\i (00:00:33) setwindow form.film_control
+\i (00:00:33) FORM film_control select_all  
+\i (00:00:35) FORM film_control create  
+\t (00:00:35) Checking db records
+\t (00:00:35)     checking for orphans...
+\t (00:00:35)     Checked  10 percent
+\t (00:00:35)     Checked  20 percent
+\t (00:00:35)     Checked  30 percent
+\t (00:00:35)     Checked  41 percent
+\t (00:00:35)     Checked  51 percent
+\t (00:00:35)     Checked  61 percent
+\t (00:00:35)     Checked  71 percent
+\t (00:00:35)     Checked  82 percent
+\t (00:00:35)     Checked  92 percent
+\t (00:00:36)     Checked 100 percent
+\t (00:00:36) Done dbdoctor.
+\t (00:00:36) Starting Create artwork films...
+\w (00:00:39) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:00:40) Artwork generated with warnings.
+\i (00:00:44) setwindow text
+\i (00:00:44) close 
+\i (00:00:47) setwindow form.film_control
+\i (00:00:47) FORM film_control ok  
+\i (00:00:47) setwindow pcb
+\i (00:00:47) generaledit 
+\i (00:00:51) nctape_full 
+\i (00:00:57) setwindow form.nc_drill
+\i (00:00:57) FORM nc_drill scale 1.00 
+\i (00:00:57) FORM nc_drill execute  
+\t (00:00:57) Starting Generating NC Drill...
+\i (00:01:03) FORM nc_drill cancel  
+\i (00:01:03) setwindow pcb
+\i (00:01:03) generaledit 
+\i (00:01:58) zoom out 1 
+\i (00:01:58) setwindow pcb
+\i (00:01:58) zoom out 2211.44 2710.28
+\i (00:01:58) trapsize 2105
+\i (00:01:58) zoom out 1 
+\i (00:01:58) setwindow pcb
+\i (00:01:58) zoom out 2394.55 2706.07
+\i (00:01:58) trapsize 4210
+\i (00:01:59) zoom in 1 
+\i (00:01:59) setwindow pcb
+\i (00:01:59) zoom in 2491.37 2445.08
+\i (00:01:59) trapsize 2105
+\i (00:01:59) zoom in 1 
+\i (00:01:59) setwindow pcb
+\i (00:01:59) zoom in 2466.11 2491.39
+\i (00:01:59) trapsize 1052
+\i (00:02:00) roam start
+\i (00:02:00) roam x -160
+\i (00:02:00) roam y -64
+\i (00:02:00) roam x -192
+\i (00:02:00) roam y -96
+\i (00:02:00) roam x -128
+\i (00:02:00) roam y -64
+\i (00:02:00) roam x -48
+\i (00:02:00) roam y -32
+\i (00:02:01) roam y -16
+\i (00:02:01) roam end
+\i (00:02:02) zoom out 1 
+\i (00:02:02) setwindow pcb
+\i (00:02:02) zoom out 2322.99 3072.30
+\i (00:02:02) trapsize 2105
+\i (00:02:02) zoom out 1 
+\i (00:02:02) setwindow pcb
+\i (00:02:02) zoom out 3093.35 3072.30
+\i (00:02:02) trapsize 4210
+\i (00:02:03) zoom in 1 
+\i (00:02:03) setwindow pcb
+\i (00:02:03) zoom in 428.66 3047.04
+\i (00:02:03) trapsize 2105
+\i (00:02:03) zoom in 1 
+\i (00:02:03) setwindow pcb
+\i (00:02:03) zoom in 424.46 3038.62
+\i (00:02:03) trapsize 1052
+\i (00:02:03) zoom in 1 
+\i (00:02:04) setwindow pcb
+\i (00:02:04) zoom in 424.46 3038.62
+\i (00:02:04) trapsize 526
+\i (00:02:04) zoom in 1 
+\i (00:02:04) setwindow pcb
+\i (00:02:04) zoom in 419.20 3035.47
+\i (00:02:04) trapsize 263
+\i (00:02:04) zoom out 1 
+\i (00:02:04) setwindow pcb
+\i (00:02:04) zoom out 524.44 3032.84
+\i (00:02:04) trapsize 526
+\i (00:02:04) zoom out 1 
+\i (00:02:04) setwindow pcb
+\i (00:02:04) zoom out 525.48 3036.00
+\i (00:02:04) trapsize 1052
+\i (00:02:04) zoom out 1 
+\i (00:02:04) setwindow pcb
+\i (00:02:04) zoom out 527.59 3038.10
+\i (00:02:04) trapsize 2105
+\i (00:02:05) zoom in 1 
+\i (00:02:05) setwindow pcb
+\i (00:02:05) zoom in 512.85 2970.74
+\i (00:02:05) trapsize 1052
+\i (00:02:05) zoom in 1 
+\i (00:02:05) setwindow pcb
+\i (00:02:05) zoom in 512.85 2970.74
+\i (00:02:05) trapsize 526
+\i (00:02:06) zoom out 1 
+\i (00:02:06) setwindow pcb
+\i (00:02:06) zoom out 544.42 2970.74
+\i (00:02:06) trapsize 1052
+\i (00:02:08) zoom out 1 
+\i (00:02:08) setwindow pcb
+\i (00:02:08) zoom out 1308.47 3029.67
+\i (00:02:08) trapsize 2105
+\i (00:02:08) roam start
+\i (00:02:08) roam x 16
+\i (00:02:08) roam y 192
+\i (00:02:09) roam x 192
+\i (00:02:09) roam y 128
+\i (00:02:09) roam x 320
+\i (00:02:09) roam y 64
+\i (00:02:09) roam x 144
+\i (00:02:09) roam y 64
+\i (00:02:09) roam x 32
+\i (00:02:09) roam y 16
+\i (00:02:09) roam x -128
+\i (00:02:09) roam x -304
+\i (00:02:09) roam y -32
+\i (00:02:10) roam x -240
+\i (00:02:10) roam y -96
+\i (00:02:10) roam x -32
+\i (00:02:10) roam y -128
+\i (00:02:10) roam end
+\i (00:02:12) zoom in 1 
+\i (00:02:12) setwindow pcb
+\i (00:02:12) zoom in 3632.18 1737.85
+\i (00:02:12) trapsize 1052
+\i (00:02:12) zoom in 1 
+\i (00:02:12) setwindow pcb
+\i (00:02:12) zoom in 3632.19 1737.85
+\i (00:02:12) trapsize 526
+\i (00:02:13) zoom out 1 
+\i (00:02:13) setwindow pcb
+\i (00:02:13) zoom out 3632.19 1737.85
+\i (00:02:13) trapsize 1052
+\i (00:02:14) zoom out 1 
+\i (00:02:14) setwindow pcb
+\i (00:02:14) zoom out 3632.20 1737.85
+\i (00:02:14) trapsize 2105
+\i (00:02:21) exit 
+\e (00:02:21) Do you want to save the changes you made to Beamforming_PCB_Ver1_0_1.brd?
+\i (00:02:23) fillin yes 
+\t (00:02:30)     Journal end - Wed Mar 17 23:22:29 2021

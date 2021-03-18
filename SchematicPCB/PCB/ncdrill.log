@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : Beamforming_PCB_Ver1_0_1.brd                  )
 (    Software Version : 16.6-2015S066                                 )
-(    Date/Time        : Fri Mar 12 13:45:26 2021                      )
+(    Date/Time        : Wed Mar 17 23:20:57 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -60,13 +60,13 @@
 
      Tool  Num     Size      +/- Tolerance     Plating   Quantity
 
-     T01    1.   0.3000    0.0000/  0.0000      PLATED       1618
+     T01    1.   0.3000    0.0000/  0.0000      PLATED       1678
      T02    2.   0.8999    0.0000/  0.0000      PLATED         94
      T03    3.   0.8001    0.0000/  0.0000  NON_PLATED          2
      T04    4.   1.5001    0.0000/  0.0000  NON_PLATED          2
      T05    5.   2.0000    0.0000/  0.0000  NON_PLATED          4
 
-     ---- Total holes:                                       1720
+     ---- Total holes:                                       1780
 
-     ---- Total head travel:              60.23 feet (18.36 meters)
+     ---- Total head travel:              61.43 feet (18.72 meters)
 

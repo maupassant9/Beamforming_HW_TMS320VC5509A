@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : Beamforming_PCB_Ver1_0_1.brd                  )
 (    Software Version : 16.6-2015S066                                 )
-(    Date/Time        : Fri Mar 12 13:45:10 2021                      )
+(    Date/Time        : Wed Mar 17 23:20:37 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -43,6 +43,9 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
+    WARNING: Film contains objects with associated DRCs (3).
+           In the design editor view this film and enable visibility for the
+           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
 
 
   APERTURES USED:
@@ -106,7 +109,7 @@ Results from parameter file ...
   PAD SHAPE  SRX0_60Y0_94R0_10         315.000 NO     DARK 
   PAD SHAPE  SRX0_70Y0_95R0_10         315.000 NO     DARK 
 
-     TOP created.
+     TOP created with warnings
 
 
 ================================================================
@@ -125,7 +128,7 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
-    WARNING: Film contains objects with associated DRCs (1).
+    WARNING: Film contains objects with associated DRCs (4).
            In the design editor view this film and enable visibility for the
            associated DRC layer. Verify the DRCs are approved exceptions to your rules.
 
@@ -506,7 +509,7 @@ Results from parameter file ...
 
 ------------------------------------------------------
  SUMMARY:
-        TOP created.
+        TOP created with warnings
         BOTTOM created with warnings
         silkscreen_top created with warnings
         silkscreen_bottom created.
