@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : Beamforming_PCB_Ver1_0_1.brd                  )
 (    Software Version : 16.6-2015S066                                 )
-(    Date/Time        : Sun Mar 07 16:03:19 2021                      )
+(    Date/Time        : Fri Mar 12 13:30:57 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -27,11 +27,11 @@ CmdLine: netrev.exe -y 1 -i D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING
 ------ Preparing to read pst files ------
 
 Starting to read D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstchip.dat 
-   Finished reading D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstchip.dat (00:00:00.08)
+   Finished reading D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstchip.dat (00:00:00.10)
 Starting to read D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstxprt.dat 
    Finished reading D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstxprt.dat (00:00:00.01)
 Starting to read D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstxnet.dat 
-   Finished reading D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstxnet.dat (00:00:00.02)
+   Finished reading D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstxnet.dat (00:00:00.01)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -64,7 +64,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Mar 7 16:03:19 2021
+netrev run on Mar 12 13:30:57 2021
    DESIGN NAME : 'TMS320C5509A_DEV_BOARD'
    PACKAGING ON Feb 15 2016 19:53:59
 
@@ -89,6 +89,6 @@ netrev run on Mar 7 16:03:19 2021
  No oversight detected
  No warning detected
 
-cpu time      0:02:46
+cpu time      0:02:14
 elapsed time  0:00:01
 

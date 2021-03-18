@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : Beamforming_PCB_Ver1_0_1.brd                  )
 (    Software Version : 16.6-2015S066                                 )
-(    Date/Time        : Mon Mar 08 18:22:07 2021                      )
+(    Date/Time        : Thu Mar 11 20:55:40 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -22,6 +22,9 @@
 
  ..... Total number of DRC errors  3
 
- ..... DRC update completed, total CPU time   0:00:01
+
+WARNING: 6 dynamic shape(s) out of date; checking skipped on these elements.
+
+ ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************
 

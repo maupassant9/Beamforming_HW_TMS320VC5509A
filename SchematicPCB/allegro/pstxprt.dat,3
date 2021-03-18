@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001Mar-07-2021 at 11:23:29 }
+{ Using PSTWRITER 16.6.0 d001Mar-07-2021 at 16:03:17 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='TMS320C5509A_DEV_BOARD';
@@ -604,6 +604,18 @@ SECTION_NUMBER 1
  C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins398220@discrete.\cap np.normal\(chips)',
  P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins398220@discrete.\cap np.normal\(chips)',
  ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C144 'CAP NP_CAP0603_0.22UF':
+ ROOM='DSP_WDOG';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS469970@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins469970@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins469970@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_WDOG',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

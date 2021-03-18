@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001Feb-25-2021 at 20:27:08 }
+{ Using PSTWRITER 16.6.0 d001Mar-07-2021 at 11:23:29 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='TMS320C5509A_DEV_BOARD';
@@ -2416,6 +2416,18 @@ SECTION_NUMBER 1
  C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins376437@discrete.\resistor.normal\(chips)',
  P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins376437@discrete.\resistor.normal\(chips)',
  ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R205 'RESISTOR_RES0603_220OHM':
+ ROOM='DSP_LED';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS466008@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins466008@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins466008@discrete.\resistor.normal\(chips)',
+ ROOM='DSP_LED',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
