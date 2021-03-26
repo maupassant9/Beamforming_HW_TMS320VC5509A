@@ -1,0 +1,231 @@
+(ExpressProject "TMS320C5509A_Dev_Board"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "D:\Projects\librarys\captureLib\DSP.OLB"
+        (Type "Schematic Library"))
+      (File "..\libs\5m40ze64c5n.olb"
+        (Type "Schematic Library"))
+      (File "d:\xiado\project\alltheprojects\librarys\capturelib\dsp.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\tms320c5509a_dev_board.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (EXPORT_Scope "0")
+    (EXPORT_Contents "0")
+    (EXPORT_File_Name
+       "D:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\TMS320C5509A_DEV_BOARD.EXP")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File
+       "D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "TRUE")
+    ("Allegro Netlist Input Board File"
+       "D:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\PCB\Beamforming_PCB_Ver1_0_1.brd")
+    ("Allegro Netlist Output Board File"
+       "D:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\PCB\Beamforming_PCB_Ver1_0_1.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0"))
+  (Folder "Outputs"
+    (File ".\tms320c5509a_dev_board.exp"
+      (Type "Report"))
+    (File ".\tms320c5509a_dev_board.bom"
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (PORTLEFT-R
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-L
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-L
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (Crystal_0
+      (FullPartName "Crystal_0.Normal")
+      (LibraryName
+         "C:\USERS\XIADO\DOCUMENTS\PCBPROJECT\CIRCUITS-PCB\ARMBOARD\SIGPROCESSINGBOARD.DSN")
+      (DeviceIndex "0"))
+    (AT25256B
+      (FullPartName "AT25256B.Normal")
+      (LibraryName
+         "D:\XIADO\PROJECT\ALLTHEPROJECTS\LIBRARYS\CAPTURELIB\DSP.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 5X2"
+      (FullPartName "HEADER 5X2.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 2x5"
+      (FullPartName "HEADER 2x5B.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "1"))
+    (VCC_BAR
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (MT48LC8M8A2
+      (FullPartName "MT48LC8M8A2.Normal")
+      (LibraryName
+         "D:\XIADO\PROJECT\ALLTHEPROJECTS\LIBRARYS\CAPTURELIB\DSP.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 15X2"
+      (FullPartName "HEADER 15X2.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 14X2"
+      (FullPartName "HEADER 14X2.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 20X2"
+      (FullPartName "HEADER 20X2.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-R
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 7X2"
+      (FullPartName "HEADER 7X2.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("BEAD FERRITE/SM"
+      (FullPartName "BEAD FERRITE/SM.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("BEAD FERRITE"
+      (FullPartName "BEAD FERRITE.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (BEAD
+      (FullPartName "BEAD.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (GND_POWER
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (74HC04/SO
+      (FullPartName "74HC04/SO.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\GATE.OLB")
+      (DeviceIndex "5"))
+    (TMS340VC5509APGE
+      (FullPartName "TMS340VC5509APGED.Normal")
+      (LibraryName "D:\PROJECTS\LIBRARYS\CAPTURELIB\DSP.OLB")
+      (DeviceIndex "3"))
+    (5M40ZE64C5N
+      (FullPartName "5M40ZE64C5N.Normal")
+      (LibraryName "D:\PROJECTS\HW_TMS320C5509A\LIBS\5M40ZE64C5N.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "d:\xiado\project\someproject\beamforming\beamforming_hw_tms320vc5509a\schematicpcb\tms320c5509a_dev_board.dsn")
+      (Path "Design Resources"
+         "d:\xiado\project\someproject\beamforming\beamforming_hw_tms320vc5509a\schematicpcb\tms320c5509a_dev_board.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "d:\xiado\project\someproject\beamforming\beamforming_hw_tms320vc5509a\schematicpcb\tms320c5509a_dev_board.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 327"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1160 52 418")
+        (Scroll "74 74")
+        (Zoom "88")
+        (Occurrence "/"))
+      (Path
+         "D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "CPLD"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1186 78 444")
+        (Scroll "1360 585")
+        (Zoom "124")
+        (Occurrence "/"))
+      (Path
+         "D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "DSP"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1212 104 470")
+        (Scroll "187 159")
+        (Zoom "88")
+        (Occurrence "/"))
+      (Path
+         "D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "POWER")))
+  (MPSSessionName "xiado")
+  (LastUsedLibraryBrowseDirectory
+     "C:\cadence\Cadence\Cadence_SPB_16.6-2015\tools\capture\library")
+  (ISPCBBASICLICENSE "false"))

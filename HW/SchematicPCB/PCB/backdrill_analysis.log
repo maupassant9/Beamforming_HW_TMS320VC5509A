@@ -1,0 +1,34 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Backdrill Analysis Log File                                      )
+(                                                                     )
+(    Drawing          : Beamforming_PCB_Ver1_0_1.brd                  )
+(    Software Version : 16.6-2015S066                                 )
+(    Date/Time        : Mon Mar 08 14:35:25 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ Backdrill Setup
+ ===============
+
+  Pass definitions:
+
+    From Layer            Objects    Pass  To Layer                      Depth
+    ----------            -------    ----  --------                      -----
+
+    Top                   Pins&Vias        All layers                         
+    Bottom                Pins&Vias        All layers                         
+
+  Layout cross section:
+
+        Layer                  Thickness    From Top    From Bottom
+        -----                  ---------    --------    -----------
+
+     1  TOP                         1.37       38.37
+          Dielectric               37.00
+     2  BOTTOM                      1.37                      38.37
+
+        Total thickness:           39.74
+
+There are no nets flagged for backdrilling.

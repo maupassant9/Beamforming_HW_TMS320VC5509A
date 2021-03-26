@@ -1,0 +1,129 @@
+\t (00:00:02) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
+\t (00:00:02)     Journal start - Sun Mar 21 11:55:38 2021
+\t (00:00:02)         Host=DESKTOP-MRJ3IVS User=xiado Pid=9644 CPUs=2
+\t (00:00:02) CmdLine= C:\Cadence\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
+\t (00:00:02) 
+\t (00:00:06) Opening existing design...
+\d (00:00:07) Design opened: D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/SchematicPCB/PCB/Beamforming_PCB_Ver1_0_1.brd
+\i (00:00:07) trapsize 2419
+\i (00:00:07) trapsize 2354
+\i (00:00:07) trapsize 2430
+\i (00:00:08) trapsize 2105
+\i (00:00:08) trapsize 2105
+\i (00:00:10) generaledit 
+\i (00:00:11) roam start
+\i (00:00:11) roam x -64
+\i (00:00:11) roam y 64
+\i (00:00:11) roam x -176
+\i (00:00:11) roam y 32
+\i (00:00:11) roam x -32
+\i (00:00:11) roam y 80
+\i (00:00:12) roam y 64
+\i (00:00:12) roam y 48
+\i (00:00:12) roam end
+\i (00:00:14) roam start
+\i (00:00:14) roam x 32
+\i (00:00:14) roam y -112
+\i (00:00:14) roam x 16
+\i (00:00:14) roam y -32
+\i (00:00:14) roam end
+\i (00:00:15) zoom in 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom in 2003.06 3194.38
+\i (00:00:15) trapsize 1052
+\i (00:00:15) zoom in 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom in 2003.06 3194.39
+\i (00:00:15) trapsize 526
+\i (00:00:16) zoom in 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom in 2062.00 3150.19
+\i (00:00:16) trapsize 263
+\i (00:00:16) zoom in 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom in 2062.00 3151.25
+\i (00:00:16) trapsize 132
+\i (00:00:20) setwindow form.find
+\i (00:00:20) FORM find lines NO 
+\i (00:00:21) FORM find vias YES 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) prepopup 2046.22 3184.92
+\i (00:00:23) pop dyn_option_select '@:@Show element' 
+\i (00:00:24) show element 
+\i (00:00:24) generaledit 
+\i (00:02:05) setwindow text
+\i (00:02:05) close 
+\i (00:02:06) setwindow pcb
+\i (00:02:06) zoom out 1 
+\i (00:02:06) setwindow pcb
+\i (00:02:06) zoom out 2148.82 3157.04
+\i (00:02:06) trapsize 263
+\i (00:02:06) zoom out 1 
+\i (00:02:06) setwindow pcb
+\i (00:02:06) zoom out 2148.83 3157.56
+\i (00:02:06) trapsize 526
+\i (00:02:06) zoom out 1 
+\i (00:02:06) setwindow pcb
+\i (00:02:06) zoom out 2148.82 3157.56
+\i (00:02:06) trapsize 1052
+\i (00:02:07) zoom out 1 
+\i (00:02:07) setwindow pcb
+\i (00:02:07) zoom out 2148.82 3163.87
+\i (00:02:07) trapsize 2105
+\i (00:02:09) zoom out 1 
+\i (00:02:09) setwindow pcb
+\i (00:02:09) zoom out 3935.19 3155.45
+\i (00:02:09) trapsize 4210
+\i (00:02:10) zoom in 1 
+\i (00:02:10) setwindow pcb
+\i (00:02:10) zoom in 5042.30 3593.24
+\i (00:02:10) trapsize 2105
+\i (00:02:10) zoom in 1 
+\i (00:02:10) setwindow pcb
+\i (00:02:10) zoom in 5042.30 3593.25
+\i (00:02:10) trapsize 1052
+\i (00:02:10) zoom out 1 
+\i (00:02:10) setwindow pcb
+\i (00:02:10) zoom out 5040.19 3593.25
+\i (00:02:10) trapsize 2105
+\i (00:02:11) zoom out 1 
+\i (00:02:11) setwindow pcb
+\i (00:02:11) zoom out 5040.20 3593.25
+\i (00:02:11) trapsize 4210
+\i (00:56:54) roam start
+\i (00:56:55) roam y 176
+\i (00:56:55) roam x 128
+\i (00:56:55) roam y -400
+\i (00:56:55) roam y -16
+\i (00:56:55) roam end
+\i (00:56:56) roam start
+\i (00:56:56) roam x -16
+\i (00:56:56) roam y 192
+\i (00:56:56) roam x -16
+\i (00:56:56) roam y 224
+\i (00:56:57) roam end
+\i (00:56:58) zoom in 1 
+\i (00:56:58) setwindow pcb
+\i (00:56:58) zoom in 975.89 1910.40
+\i (00:56:58) trapsize 2105
+\i (00:56:58) zoom in 1 
+\i (00:56:58) setwindow pcb
+\i (00:56:58) zoom in 975.89 1906.20
+\i (00:56:58) trapsize 1052
+\i (00:56:59) zoom out 1 
+\i (00:56:59) setwindow pcb
+\i (00:56:59) zoom out 975.89 1906.20
+\i (00:56:59) trapsize 2105
+\i (00:56:59) zoom out 1 
+\i (00:56:59) setwindow pcb
+\i (00:56:59) zoom out 992.73 1910.42
+\i (00:56:59) trapsize 4210
+\i (00:56:59) roam start
+\i (00:57:00) roam x -80
+\i (00:57:00) roam y -32
+\i (00:57:00) roam y -80
+\i (00:57:00) roam end
+\i (00:57:02) exit 
+\e (00:57:02) Do you want to save the changes you made to Beamforming_PCB_Ver1_0_1.brd?
+\i (00:57:05) fillin no 
+\t (00:57:06)     Journal end - Sun Mar 21 12:52:41 2021

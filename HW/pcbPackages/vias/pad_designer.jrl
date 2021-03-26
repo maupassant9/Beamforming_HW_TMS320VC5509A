@@ -1,0 +1,10 @@
+\t (00:00:00) pad_designer 16.6-2015 S062 (v16-6-112EZ) Windows 32
+\t (00:00:00)     Journal start - Sat Mar 06 10:40:44 2021
+\t (00:00:00)         Host=DESKTOP-MRJ3IVS User=xiado Pid=9664 CPUs=2
+\t (00:00:00) CmdLine= C:\Cadence\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\pad_designer.exe
+\t (00:00:00) 
+\i (00:00:05) setwindow form.padedit
+\i (00:00:05) pse_open 
+\i (00:00:16) fillin "D:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\pcbPackages\pads\smd12_20.pad"
+\i (00:00:16) cd "D:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\pcbPackages\pads"
+\t (00:00:16)     Journal end - Sat Mar 06 10:41:00 2021

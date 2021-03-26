@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : CMSE0315D.dra                                 )
+(    Software Version : 16.6-2015S066                                 )
+(    Date/Time        : Sat Oct 19 19:47:56 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/MYSYM
+    Name      = cmse0315d.psm
+    User      = xiado
+    Machine   = DESKTOP-PTA6I89
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

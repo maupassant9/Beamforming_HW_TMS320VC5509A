@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : Furo_2mm.dra                                  )
+(    Software Version : 16.6-2015S066                                 )
+(    Date/Time        : Tue Feb 11 19:15:22 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: MECHANICAL
+    Directory = D:/xiado/Project/AllTheProjects/all_TemperatureController/HW/SchemeticsPCB/PCB
+    Name      = furo_2mm.bsm
+    User      = xiado
+    Machine   = LAPTOP-DONGXIAL
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

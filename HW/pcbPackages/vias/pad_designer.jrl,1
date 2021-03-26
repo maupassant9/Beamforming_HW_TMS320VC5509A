@@ -1,0 +1,81 @@
+\t (00:00:14) pad_designer 16.6-2015 S062 (v16-6-112EZ) Windows 32
+\t (00:00:14)     Journal start - Sat Feb 27 11:52:18 2021
+\t (00:00:14)         Host=DESKTOP-MRJ3IVS User=xiado Pid=8672 CPUs=2
+\t (00:00:14) CmdLine= C:\Cadence\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\pad_designer.exe
+\t (00:00:14) 
+\i (00:00:35) FORM padedit layers  
+\i (00:00:53) pse_open 
+\i (00:00:55) fillin "via65-30-85.pad"
+\i (00:01:02) FORM padedit parameters  
+\i (00:01:07) FORM padedit layers  
+\i (00:01:16) FORM padedit parameters  
+\i (00:01:21) FORM padedit layers  
+\i (00:01:23) FORM padedit grid row begin_layer 
+\i (00:01:26) FORM padedit width 0.60 
+\i (00:01:31) FORM padedit height 0.6 
+\i (00:01:43) FORM padedit width_ant 0.80 
+\i (00:02:41) FORM padedit width_ant 0.750 
+\i (00:02:44) FORM padedit parameters  
+\i (00:02:46) FORM padedit layers  
+\i (00:02:47) FORM padedit parameters  
+\i (00:02:49) FORM padedit layers  
+\i (00:02:55) FORM padedit width_ant 0.8 
+\i (00:02:55) FORM padedit parameters  
+\i (00:02:56) FORM padedit layers  
+\i (00:03:01) FORM padedit width_ant .75 
+\i (00:03:06) FORM padedit parameters  
+\i (00:03:07) FORM padedit layers  
+\i (00:03:08) FORM padedit parameters  
+\i (00:03:12) pse_save_as 
+\i (00:03:18) setwindow text
+\i (00:03:18) close 
+\i (00:03:20) fillin no 
+\i (00:03:23) setwindow form.padedit
+\i (00:03:23) FORM padedit layers  
+\i (00:03:30) FORM padedit parameters  
+\i (00:03:35) FORM padedit layers  
+\i (00:03:48) FORM padedit grid row default_internal 
+\i (00:03:54) FORM padedit grid row begin_layer 
+\i (00:03:56) FORM padedit grid rpopup begin_layer Copy 
+\i (00:03:58) FORM padedit grid rpopup default_internal Paste 
+\i (00:04:00) FORM padedit grid rpopup end_layer Paste 
+\i (00:04:01) FORM padedit grid row default_internal 
+\i (00:04:02) FORM padedit grid row end_layer 
+\i (00:04:04) FORM padedit parameters  
+\i (00:04:09) pse_save_as 
+\i (00:04:21) setwindow text
+\i (00:04:21) close 
+\i (00:04:22) fillin no 
+\i (00:04:27) setwindow form.padedit
+\i (00:04:27) FORM padedit layers  
+\i (00:04:28) FORM padedit grid row default_internal 
+\i (00:04:29) FORM padedit grid row begin_layer 
+\i (00:04:30) FORM padedit grid row default_internal 
+\i (00:04:31) FORM padedit grid row end_layer 
+\i (00:04:35) FORM padedit grid row default_internal 
+\i (00:04:35) FORM padedit grid row begin_layer 
+\i (00:04:36) FORM padedit grid row end_layer 
+\i (00:04:36) FORM padedit grid row soldermask_top 
+\i (00:04:37) FORM padedit grid row end_layer 
+\i (00:04:38) FORM padedit grid row default_internal 
+\i (00:04:38) FORM padedit grid row begin_layer 
+\i (00:04:40) FORM padedit single YES 
+\i (00:04:41) FORM padedit single NO 
+\i (00:04:45) FORM padedit parameters  
+\i (00:04:55) FORM padedit characters M 
+\i (00:04:59) pse_save 
+\i (00:05:06) setwindow text
+\i (00:05:06) close 
+\i (00:05:08) fillin no 
+\i (00:05:09) setwindow form.padedit
+\i (00:05:09) FORM padedit layers  
+\i (00:05:11) FORM padedit grid row default_internal 
+\i (00:05:16) FORM padedit width_th 0.6 
+\i (00:05:16) FORM padedit grid row begin_layer 
+\i (00:05:20) FORM padedit width_th 0.6 
+\i (00:05:22) FORM padedit grid row end_layer 
+\i (00:05:30) FORM padedit width_th 0.6 
+\i (00:06:49) pse_save_as 
+\i (00:07:07) fillin "via60-30-75.pad"
+\i (00:07:09) pse_exit
+\t (00:07:10)     Journal end - Sat Feb 27 11:59:14 2021

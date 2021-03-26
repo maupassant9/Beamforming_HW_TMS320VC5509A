@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : res0402.dra                                   )
+(    Software Version : 16.6-2015S066                                 )
+(    Date/Time        : Sun Oct 27 09:41:28 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Users/xiado/Documents/PCBProject/Circuits-PCB/ArmBoard/packages
+    Name      = res0402.psm
+    User      = xiado
+    Machine   = DESKTOP-PTA6I89
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

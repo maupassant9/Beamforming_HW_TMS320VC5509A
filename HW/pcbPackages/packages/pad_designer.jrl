@@ -1,0 +1,48 @@
+\t (00:00:00) pad_designer 16.6-2015 S062 (v16-6-112EZ) Windows 32
+\t (00:00:00)     Journal start - Mon Dec 23 11:18:51 2019
+\t (00:00:00)         Host=DESKTOP-PTA6I89 User=xiado Pid=7448 CPUs=2
+\t (00:00:00) CmdLine= C:\cadence\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\pad_designer.exe
+\t (00:00:00) 
+\i (00:00:03) setwindow form.padedit
+\i (00:00:03) FORM padedit units Millimeter 
+\i (00:00:04) fillin yes 
+\w (00:00:04) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:06) pse_new 
+\i (00:00:07) fillin yes 
+\i (00:00:56) fillin "smd_13_4.pad"
+\i (00:01:00) FORM padedit units Millimeter 
+\i (00:01:01) fillin yes 
+\w (00:01:01) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:11) FORM padedit layers  
+\i (00:01:12) FORM padedit single YES 
+\i (00:01:14) FORM padedit grid row begin_layer 
+\i (00:01:18) FORM padedit geometry Rectangle 
+\i (00:01:23) FORM padedit width 1.35 
+\i (00:01:26) FORM padedit height 0.4 
+\i (00:01:28) FORM padedit crossbox YES 
+\i (00:01:28) FORM padedit stackbox YES 
+\i (00:01:35) FORM padedit grid row soldermask_top 
+\i (00:01:38) FORM padedit geometry Rectangle 
+\i (00:01:49) FORM padedit width 2 
+\i (00:02:02) pse_open C:/Users/xiado/Documents/PCBProject/Circuits-PCB/ArmBoard/packages/smd_26_13.pad 
+\i (00:02:04) fillin yes 
+\i (00:02:23) pse_open 
+\i (00:02:34) fillin "menu_cancel"
+\i (00:02:35) FORM padedit parameters  
+\i (00:02:39) FORM padedit layers  
+\i (00:02:42) FORM padedit grid row begin_layer 
+\i (00:02:52) FORM padedit width 1.35 
+\i (00:02:54) FORM padedit height 0.4 
+\i (00:02:56) FORM padedit crossbox YES 
+\i (00:02:57) FORM padedit grid row soldermask_top 
+\i (00:03:05) FORM padedit width 1.5 
+\i (00:03:12) FORM padedit height 0.55 
+\i (00:03:14) FORM padedit grid row pastemask_top 
+\i (00:03:15) FORM padedit grid row begin_layer 
+\i (00:03:19) FORM padedit grid rpopup begin_layer Copy 
+\i (00:03:21) FORM padedit grid row pastemask_top 
+\i (00:03:23) FORM padedit grid rpopup pastemask_top Paste 
+\i (00:03:26) pse_save_as 
+\i (00:03:36) fillin "smd_13_4.pad"
+\i (00:03:38) pse_exit
+\t (00:03:38)     Journal end - Mon Dec 23 11:22:29 2019

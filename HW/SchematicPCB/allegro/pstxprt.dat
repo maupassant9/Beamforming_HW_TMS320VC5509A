@@ -1,0 +1,2756 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Mar-12-2021 at 13:30:55 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='TMS320C5509A_DEV_BOARD';
+ POST_TIME='Feb 15 2016 19:53:59';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS4319@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins4319@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins4319@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS4613@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins4613@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins4613@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C100 'CAP NP_CAP0805_22UF':
+ ROOM='PWR_CPLD';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS322013@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins322013@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins322013@discrete.\cap np.normal\(chips)',
+ ROOM='PWR_CPLD',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C101 'CAP NP_CAP0805_47UF':
+ ROOM='PWR_CPLD';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS322163@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins322163@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins322163@discrete.\cap np.normal\(chips)',
+ ROOM='PWR_CPLD',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C102 'CAP NP_CAP0805_10UF':
+ ROOM='PWR_CPLD';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS322183@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins322183@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins322183@discrete.\cap np.normal\(chips)',
+ ROOM='PWR_CPLD',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C103 'CAP NP_CAP0805_10UF':
+ ROOM='PWR_CPLD';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS322215@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins322215@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins322215@discrete.\cap np.normal\(chips)',
+ ROOM='PWR_CPLD',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C104 'CAP NP_CAP0603_0.1UF':
+ ROOM='PWR_CPLD';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS322279@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins322279@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins322279@discrete.\cap np.normal\(chips)',
+ ROOM='PWR_CPLD',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C105 'CAP NP_CAP0603_0.1UF':
+ ROOM='PWR_CPLD';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS323251@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins323251@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins323251@discrete.\cap np.normal\(chips)',
+ ROOM='PWR_CPLD',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C106 'CAP NP_CAP0603_0.1UF':
+ ROOM='PWR_CPLD';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS323267@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins323267@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins323267@discrete.\cap np.normal\(chips)',
+ ROOM='PWR_CPLD',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C107 'CAP POL_CAP0805_1UF':
+ ROOM='PWR_CPLD';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS323315@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins323315@discrete.\cap pol.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins323315@discrete.\cap pol.normal\(chips)',
+ ROOM='PWR_CPLD',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C108 'CAP POL_CAP0805_1UF':
+ ROOM='PWR_CPLD';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS323331@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins323331@discrete.\cap pol.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins323331@discrete.\cap pol.normal\(chips)',
+ ROOM='PWR_CPLD',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C109 'CAP NP_CAP0805_10UF':
+ ROOM='PWR_CPLD';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS323431@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins323431@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins323431@discrete.\cap np.normal\(chips)',
+ ROOM='PWR_CPLD',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS4629@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins4629@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins4629@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C110 'CAP NP_CAP0603_0.22UF':
+ ROOM='DSP_WDOG';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS357580@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins357580@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins357580@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_WDOG',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C111 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_JTAG';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS374290@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins374290@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins374290@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_JTAG',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C112 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS397724@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins397724@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins397724@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C113 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS397740@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins397740@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins397740@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C114 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS397756@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins397756@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins397756@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C115 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS397772@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins397772@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins397772@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C116 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS397788@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins397788@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins397788@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C117 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS397804@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins397804@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins397804@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C118 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS397820@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins397820@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins397820@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C119 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS397836@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins397836@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins397836@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C12 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS4645@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins4645@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins4645@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C120 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS397852@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins397852@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins397852@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C121 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS397868@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins397868@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins397868@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C122 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS397884@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins397884@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins397884@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C123 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS397900@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins397900@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins397900@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C124 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS397916@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins397916@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins397916@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C125 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS397932@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins397932@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins397932@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C126 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS397948@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins397948@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins397948@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C127 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS397964@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins397964@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins397964@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C128 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS397980@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins397980@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins397980@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C129 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS397996@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins397996@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins397996@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C13 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS4661@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins4661@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins4661@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C130 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS398012@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins398012@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins398012@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C131 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS398028@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins398028@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins398028@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C132 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS398044@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins398044@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins398044@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C133 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS398060@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins398060@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins398060@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C134 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS398076@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins398076@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins398076@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C135 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS398092@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins398092@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins398092@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C136 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS398108@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins398108@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins398108@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C137 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS398124@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins398124@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins398124@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C138 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS398140@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins398140@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins398140@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C139 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS398156@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins398156@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins398156@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C14 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS4677@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins4677@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins4677@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C140 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS398172@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins398172@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins398172@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C141 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS398188@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins398188@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins398188@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C142 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS398204@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins398204@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins398204@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C143 'CAP NP_CAP0603_0.1UF':
+ ROOM='CPLD_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS398220@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins398220@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins398220@discrete.\cap np.normal\(chips)',
+ ROOM='CPLD_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C144 'CAP NP_CAP0603_0.22UF':
+ ROOM='DSP_WDOG';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS469970@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins469970@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins469970@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_WDOG',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C15 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS4693@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins4693@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins4693@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C16 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS4709@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins4709@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins4709@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C17 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS4885@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins4885@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins4885@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C18 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS4901@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins4901@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins4901@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C19 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS4917@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins4917@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins4917@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS4345@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins4345@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins4345@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C20 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS4933@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins4933@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins4933@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C21 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS4949@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins4949@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins4949@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C22 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS4965@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins4965@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins4965@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C23 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS4981@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins4981@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins4981@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C24 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS4997@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins4997@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins4997@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C25 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS5013@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins5013@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins5013@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C26 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS5029@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins5029@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins5029@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C27 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS5045@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins5045@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins5045@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C28 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS5061@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins5061@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins5061@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C29 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS5077@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins5077@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins5077@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS4371@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins4371@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins4371@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C30 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS5093@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins5093@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins5093@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C31 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS5109@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins5109@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins5109@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C32 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS5125@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins5125@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins5125@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C33 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS7510@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins7510@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins7510@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C34 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS7536@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins7536@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins7536@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C35 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS7562@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins7562@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins7562@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C36 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_JTAG';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS12070@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins12070@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins12070@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_JTAG',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS4397@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins4397@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins4397@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C44 'CAP NP_CAP0603_18PF':
+ ROOM='DSP_CRY';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS287269@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins287269@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins287269@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CRY',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C45 'CAP NP_CAP0603_18PF':
+ ROOM='DSP_CRY';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS287285@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins287285@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins287285@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CRY',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C48 'CAP NP_CAP0603_0.1UF':
+ ROOM='PWR_DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS317236@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins317236@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins317236@discrete.\cap np.normal\(chips)',
+ ROOM='PWR_DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C49 'CAP NP_CAP0805_22UF':
+ ROOM='PWR_DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS317252@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins317252@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins317252@discrete.\cap np.normal\(chips)',
+ ROOM='PWR_DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS4453@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins4453@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins4453@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C50 'CAP NP_CAP0805_47UF':
+ ROOM='PWR_DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS317398@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins317398@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins317398@discrete.\cap np.normal\(chips)',
+ ROOM='PWR_DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C52 'CAP NP_CAP0805_4.7UF':
+ ROOM='DSP_SD';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS263817@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins263817@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins263817@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_SD',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C59 'CAP NP_CAP0603_0.1UF':
+ ROOM='PWR_DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS318039@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins318039@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins318039@discrete.\cap np.normal\(chips)',
+ ROOM='PWR_DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS4469@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins4469@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins4469@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C60 'CAP NP_CAP0603_0.1UF':
+ ROOM='PWR_DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS318063@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins318063@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins318063@discrete.\cap np.normal\(chips)',
+ ROOM='PWR_DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C61 'CAP POL_CAPMP3216X120_10UF':
+ ROOM='PWR_DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS318111@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins318111@discrete.\cap pol.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins318111@discrete.\cap pol.normal\(chips)',
+ ROOM='PWR_DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C62 'CAP POL_CAPMP3216X120_10UF':
+ ROOM='PWR_DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS318127@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins318127@discrete.\cap pol.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins318127@discrete.\cap pol.normal\(chips)',
+ ROOM='PWR_DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C67 'CAP NP_CAP0603_10PF':
+ ROOM='DSP_USB';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS268572@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins268572@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins268572@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_USB',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS4485@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins4485@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins4485@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C71 'CAPACITOR NON-POL_CAP0805_47UF':
+ ROOM='DSP_USB';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS268722@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins268722@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins268722@discrete.\capacitor non-pol.normal\(chips)',
+ ROOM='DSP_USB',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C72 'CAPACITOR NON-POL_CAP0805_2.2UF':
+ ROOM='DSP_USB';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS268738@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins268738@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins268738@discrete.\capacitor non-pol.normal\(chips)',
+ ROOM='DSP_USB',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C73 'CAPACITOR NON-POL_CAP0603_0.1UF':
+ ROOM='DSP_USB';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS268754@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins268754@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins268754@discrete.\capacitor non-pol.normal\(chips)',
+ ROOM='DSP_USB',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C74 'CAPACITOR NON-POL_CAP0603_20UF':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS89922@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins89922@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins89922@discrete.\capacitor non-pol.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C75 'CAPACITOR NON-POL_CAP0805_4.7UF':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS89938@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins89938@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins89938@discrete.\capacitor non-pol.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C76 'CAPACITOR NON-POL_CAP0603_0.1UF':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS89954@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins89954@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins89954@discrete.\capacitor non-pol.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C77 'CAPACITOR NON-POL_CAP0603_0.1UF':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS89970@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins89970@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins89970@discrete.\capacitor non-pol.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C78 'CAPACITOR NON-POL_CAP0603_0.1UF':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS89986@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins89986@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins89986@discrete.\capacitor non-pol.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C79 'CAPACITOR NON-POL_CAP0603_0.1UF':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS90002@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins90002@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins90002@discrete.\capacitor non-pol.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS4501@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins4501@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins4501@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C80 'CAPACITOR NON-POL_CAP0603_0.1UF':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS90030@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins90030@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins90030@discrete.\capacitor non-pol.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C83 'CAP NP_CAP0603_0.1U':
+ ROOM='DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS294524@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins294524@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins294524@discrete.\cap np.normal\(chips)',
+ ROOM='DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C84 'CAP NP_CAP0603_0.1U':
+ ROOM='DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS294550@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins294550@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins294550@discrete.\cap np.normal\(chips)',
+ ROOM='DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C85 'CAP NP_CAP0603_0.1U':
+ ROOM='DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS294576@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins294576@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins294576@discrete.\cap np.normal\(chips)',
+ ROOM='DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C86 'CAPACITOR NON-POL_CAP0603_20UF':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS308815@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins308815@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins308815@discrete.\capacitor non-pol.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C87 'CAPACITOR NON-POL_CAP0805_4.7UF':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS308831@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins308831@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins308831@discrete.\capacitor non-pol.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C88 'CAPACITOR NON-POL_CAP0603_0.1UF':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS308847@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins308847@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins308847@discrete.\capacitor non-pol.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C89 'CAPACITOR NON-POL_CAP0603_0.1UF':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS308863@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins308863@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins308863@discrete.\capacitor non-pol.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'CAP NP_CAP0603_0.1UF':
+ ROOM='DSP_CAPS';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS4597@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins4597@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins4597@discrete.\cap np.normal\(chips)',
+ ROOM='DSP_CAPS',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C90 'CAPACITOR NON-POL_CAP0603_0.1UF':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS308879@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins308879@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins308879@discrete.\capacitor non-pol.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C91 'CAPACITOR NON-POL_CAP0603_0.1UF':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS308895@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins308895@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins308895@discrete.\capacitor non-pol.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C92 'CAPACITOR NON-POL_CAP0603_0.1UF':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS308923@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins308923@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins308923@discrete.\capacitor non-pol.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C95 'CAP NP_CAP0805_10UF':
+ ROOM='PWR_DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS317418@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins317418@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins317418@discrete.\cap np.normal\(chips)',
+ ROOM='PWR_DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C96 'CAP NP_CAP0805_10UF':
+ ROOM='PWR_DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS317454@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins317454@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins317454@discrete.\cap np.normal\(chips)',
+ ROOM='PWR_DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C97 'CAP NP_CAP0603_0.1UF':
+ ROOM='PWR_DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS317510@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins317510@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins317510@discrete.\cap np.normal\(chips)',
+ ROOM='PWR_DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C98 'CAP NP_CAP0805_10UF':
+ ROOM='PWR_DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS318754@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins318754@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins318754@discrete.\cap np.normal\(chips)',
+ ROOM='PWR_DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C99 'CAP NP_CAP0603_0.1UF':
+ ROOM='PWR_CPLD';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS321997@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins321997@discrete.\cap np.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins321997@discrete.\cap np.normal\(chips)',
+ ROOM='PWR_CPLD',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D3 'LED_LED0603_LED':
+ ROOM='PWR';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS317152@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins317152@discrete.\led.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins317152@discrete.\led.normal\(chips)',
+ ROOM='PWR',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D4 'LED_LED0603_LED':
+ ROOM='PWR';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS324008@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins324008@discrete.\led.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins324008@discrete.\led.normal\(chips)',
+ ROOM='PWR',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D7 'LED_LED0603_LED':
+ ROOM='DSP_LED';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS429535@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins429535@discrete.\led.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins429535@discrete.\led.normal\(chips)',
+ ROOM='DSP_LED',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'HEADER 7X2_HDR254M-2X7_HEADER 7':
+ ROOM='DSP_JTAG';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS9606@CONNECTOR.HEADER 7X2.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins9606@connector.\header 7x2.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins9606@connector.\header 7x2.normal\(chips)',
+ ROOM='DSP_JTAG',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J10 'HEADER 20X2_HDR254M-2X20_HEADER':
+ ROOM='CONNECTOR';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS440562@CONNECTOR.HEADER 20X2.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins440562@connector.\header 20x2.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins440562@connector.\header 20x2.normal\(chips)',
+ ROOM='CONNECTOR',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J11 'HEADER 15X2_HDR254M-2X15_HEADER':
+ ROOM='CONNECTOR';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS279309@CONNECTOR.HEADER 15X2.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins279309@connector.\header 15x2.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins279309@connector.\header 15x2.normal\(chips)',
+ ROOM='CONNECTOR',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J13 'HEADER 5X2_HDR254M-2X5_HEADER 5':
+ ROOM='CPLD_JTAG';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS325865@CONNECTOR.HEADER 5X2.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins325865@connector.\header 5x2.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins325865@connector.\header 5x2.normal\(chips)',
+ ROOM='CPLD_JTAG',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J9 'USB_MINI_AB_RECEPTACLE_MICROQTJ':
+ ROOM='DSP_USB';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS268536@FCL_CONNECTOR.USB_MINI_AB_RECEPTACLE.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins268536@fcl_connector.\usb_mini_ab_receptacle.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins268536@fcl_connector.\usb_mini_ab_receptacle.normal\(chips)',
+ ROOM='DSP_USB',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L2 'BEAD FERRITE_RES0603_BEAD FERRI':
+ ROOM='PWR_DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS7453@DISCRETE.BEAD FERRITE.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins7453@discrete.\bead ferrite.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins7453@discrete.\bead ferrite.normal\(chips)',
+ ROOM='PWR_DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L3 'BEAD FERRITE_RES0603_BEAD FERRI':
+ ROOM='PWR_DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS293633@DISCRETE.BEAD FERRITE.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins293633@discrete.\bead ferrite.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins293633@discrete.\bead ferrite.normal\(chips)',
+ ROOM='PWR_DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L4 'INDUCTOR_CKCS5040-3_3UH_3.3UH':
+ ROOM='PWR_DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS317362@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins317362@discrete.\inductor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins317362@discrete.\inductor.normal\(chips)',
+ ROOM='PWR_DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L5 'INDUCTOR_CKCS5040-3_3UH_3.3UH':
+ ROOM='PWR_CPLD';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS322123@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins322123@discrete.\inductor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins322123@discrete.\inductor.normal\(chips)',
+ ROOM='PWR_CPLD',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L6 'BEAD FERRITE_RES0603_BEAD FERRI':
+ ROOM='CPLD_CRY';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS363883@DISCRETE.BEAD FERRITE.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins363883@discrete.\bead ferrite.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins363883@discrete.\bead ferrite.normal\(chips)',
+ ROOM='CPLD_CRY',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ P2 'SDSOCKET_SD-106M_SDSOCKET':
+ ROOM='DSP_SD';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS263491@LIBRARY1.SDSOCKET.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins263491@library1.\sdsocket.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins263491@library1.\sdsocket.normal\(chips)',
+ ROOM='DSP_SD',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'RESISTOR_RES0603_10K':
+ ROOM='DSP_JTAG';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS10719@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins10719@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins10719@discrete.\resistor.normal\(chips)',
+ ROOM='DSP_JTAG',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R133 'RESISTOR_RES0603_10K':
+ ROOM='DSP_SD';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS263721@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins263721@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins263721@discrete.\resistor.normal\(chips)',
+ ROOM='DSP_SD',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R134 'RESISTOR_RES0603_10K':
+ ROOM='DSP_SD';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS263737@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins263737@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins263737@discrete.\resistor.normal\(chips)',
+ ROOM='DSP_SD',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R135 'RESISTOR_RES0603_20OHM':
+ ROOM='DSP_USB';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS269301@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins269301@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins269301@discrete.\resistor.normal\(chips)',
+ ROOM='DSP_USB',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R136 'RESISTOR_RES0603_20OHM':
+ ROOM='DSP_USB';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS269327@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins269327@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins269327@discrete.\resistor.normal\(chips)',
+ ROOM='DSP_USB',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R137 'RESISTOR_RES0603_4.7K':
+ ROOM='DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS273787@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins273787@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins273787@discrete.\resistor.normal\(chips)',
+ ROOM='DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R138 'RESISTOR_RES0603_4.7K':
+ ROOM='DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS273813@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins273813@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins273813@discrete.\resistor.normal\(chips)',
+ ROOM='DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R139 'RESISTOR_RES0603_0OHM':
+ ROOM='DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS274477@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins274477@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins274477@discrete.\resistor.normal\(chips)',
+ ROOM='DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R142 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS296616@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins296616@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins296616@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R143 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS296632@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins296632@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins296632@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R144 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS296658@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins296658@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins296658@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R145 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS296704@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins296704@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins296704@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R146 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS296720@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins296720@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins296720@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R147 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS296736@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins296736@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins296736@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R148 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS296782@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins296782@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins296782@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R149 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS296798@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins296798@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins296798@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R150 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS296814@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins296814@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins296814@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R151 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS296860@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins296860@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins296860@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R152 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS296876@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins296876@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins296876@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R154 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS296938@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins296938@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins296938@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R155 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS296954@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins296954@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins296954@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R156 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS296970@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins296970@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins296970@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R157 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS297016@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins297016@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins297016@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R158 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS297032@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins297032@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins297032@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R159 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS297048@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins297048@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins297048@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R160 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS297094@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins297094@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins297094@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R161 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS297110@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins297110@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins297110@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R162 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS313116@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins313116@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins313116@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R163 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS297172@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins297172@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins297172@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R164 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS297188@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins297188@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins297188@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R165 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS297204@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins297204@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins297204@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R166 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS297250@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins297250@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins297250@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R167 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS297266@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins297266@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins297266@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R168 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS297282@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins297282@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins297282@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R169 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS297328@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins297328@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins297328@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R170 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS297344@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins297344@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins297344@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R171 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS297360@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins297360@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins297360@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R172 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS297446@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins297446@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins297446@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R173 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS297462@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins297462@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins297462@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R174 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS297478@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins297478@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins297478@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R175 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS297494@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins297494@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins297494@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R176 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS297510@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins297510@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins297510@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R177 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS297526@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins297526@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins297526@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R178 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS297542@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins297542@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins297542@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R179 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS297578@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins297578@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins297578@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R180 'RESISTOR_RES0603_30OHM':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS297594@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins297594@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins297594@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R181 'RESISTOR_RES0603_10K':
+ ROOM='PWR_DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS318611@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins318611@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins318611@discrete.\resistor.normal\(chips)',
+ ROOM='PWR_DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R182 'RESISTOR_RES0603_2.8K':
+ ROOM='PWR_DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS318627@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins318627@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins318627@discrete.\resistor.normal\(chips)',
+ ROOM='PWR_DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R183 'RESISTOR_RES0603_10K':
+ ROOM='PWR_CPLD';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS322602@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins322602@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins322602@discrete.\resistor.normal\(chips)',
+ ROOM='PWR_CPLD',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R184 'RESISTOR_RES0603_10K':
+ ROOM='PWR_CPLD';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS322037@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins322037@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins322037@discrete.\resistor.normal\(chips)',
+ ROOM='PWR_CPLD',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R185 'RESISTOR_RES0603_33.2K':
+ ROOM='PWR_CPLD';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS322057@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins322057@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins322057@discrete.\resistor.normal\(chips)',
+ ROOM='PWR_CPLD',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R186 'RESISTOR_RES0603_10K':
+ ROOM='PWR_CPLD';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS323395@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins323395@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins323395@discrete.\resistor.normal\(chips)',
+ ROOM='PWR_CPLD',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R187 'RESISTOR_RES0603_2.8K':
+ ROOM='PWR_CPLD';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS323411@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins323411@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins323411@discrete.\resistor.normal\(chips)',
+ ROOM='PWR_CPLD',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R188 'RESISTOR_RES0603_220OHM':
+ ROOM='PWR';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS324028@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins324028@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins324028@discrete.\resistor.normal\(chips)',
+ ROOM='PWR',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R189 'RESISTOR_RES0603_1.5K':
+ ROOM='DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS341152@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins341152@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins341152@discrete.\resistor.normal\(chips)',
+ ROOM='DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R190 'RESISTOR_RES0603_10K':
+ ROOM='DSP_SD';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS345282@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins345282@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins345282@discrete.\resistor.normal\(chips)',
+ ROOM='DSP_SD',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R191 'RESISTOR_RES0603_10K':
+ ROOM='DSP_SD';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS345308@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins345308@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins345308@discrete.\resistor.normal\(chips)',
+ ROOM='DSP_SD',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R192 'RESISTOR_RES0603_10K':
+ ROOM='DSP_SD';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS345334@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins345334@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins345334@discrete.\resistor.normal\(chips)',
+ ROOM='DSP_SD',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R193 'RESISTOR_RES0603_10K':
+ ROOM='DSP_SD';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS345360@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins345360@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins345360@discrete.\resistor.normal\(chips)',
+ ROOM='DSP_SD',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R194 'RESISTOR_RES0603_1K':
+ ROOM='CPLD_JTAG';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS351910@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins351910@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins351910@discrete.\resistor.normal\(chips)',
+ ROOM='CPLD_JTAG',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R195 'RESISTOR_RES0603_1K':
+ ROOM='CPLD_JTAG';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS351962@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins351962@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins351962@discrete.\resistor.normal\(chips)',
+ ROOM='CPLD_JTAG',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R196 'RESISTOR_RES0603_1K':
+ ROOM='CPLD_JTAG';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS351991@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins351991@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins351991@discrete.\resistor.normal\(chips)',
+ ROOM='CPLD_JTAG',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R197 'RESISTOR_RES0603_4.7K':
+ ROOM='CPLD_EEPROM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS355137@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins355137@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins355137@discrete.\resistor.normal\(chips)',
+ ROOM='CPLD_EEPROM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R198 'RESISTOR_RES0603_4.7K':
+ ROOM='CPLD_EEPROM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS355163@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins355163@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins355163@discrete.\resistor.normal\(chips)',
+ ROOM='CPLD_EEPROM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R199 'RESISTOR_RES0603_4.7K':
+ ROOM='CPLD_EEPROM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS355189@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins355189@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins355189@discrete.\resistor.normal\(chips)',
+ ROOM='CPLD_EEPROM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'RESISTOR_RES0603_1K':
+ ROOM='DSP_JTAG';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS10735@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins10735@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins10735@discrete.\resistor.normal\(chips)',
+ ROOM='DSP_JTAG',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R200 'RESISTOR_RES0603_4.7K':
+ ROOM='CPLD_EEPROM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS355218@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins355218@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins355218@discrete.\resistor.normal\(chips)',
+ ROOM='CPLD_EEPROM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R201 'RESISTOR_RES0603_220OHM':
+ ROOM='DSP_LED';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS429968@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins429968@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins429968@discrete.\resistor.normal\(chips)',
+ ROOM='DSP_LED',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R202 'RESISTOR_RES0603_4.7K':
+ ROOM='PWR_DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS362167@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins362167@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins362167@discrete.\resistor.normal\(chips)',
+ ROOM='PWR_DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R203 'RESISTOR_RES0603_4.7K':
+ ROOM='CPLD_CRY';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS364394@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins364394@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins364394@discrete.\resistor.normal\(chips)',
+ ROOM='CPLD_CRY',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R204 'RESISTOR_RES0603_2.2K':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS376437@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins376437@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins376437@discrete.\resistor.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R205 'RESISTOR_RES0603_220OHM':
+ ROOM='DSP_LED';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS466008@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins466008@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins466008@discrete.\resistor.normal\(chips)',
+ ROOM='DSP_LED',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'RESISTOR_RES0603_1K':
+ ROOM='DSP_JTAG';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS10751@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins10751@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins10751@discrete.\resistor.normal\(chips)',
+ ROOM='DSP_JTAG',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'RESISTOR_RES0603_1K':
+ ROOM='DSP_JTAG';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS10767@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins10767@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins10767@discrete.\resistor.normal\(chips)',
+ ROOM='DSP_JTAG',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R51 'RESISTOR_RES0603_33.2K':
+ ROOM='PWR_DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS317292@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins317292@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins317292@discrete.\resistor.normal\(chips)',
+ ROOM='PWR_DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R52 'RESISTOR_RES0603_10K':
+ ROOM='PWR_DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS317272@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins317272@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins317272@discrete.\resistor.normal\(chips)',
+ ROOM='PWR_DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R57 'RESISTOR_RES0603_10K':
+ ROOM='PWR_DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS317110@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins317110@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins317110@discrete.\resistor.normal\(chips)',
+ ROOM='PWR_DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R58 'RESISTOR_RES0603_10K':
+ ROOM='DSP_WDOG';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS357462@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins357462@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins357462@discrete.\resistor.normal\(chips)',
+ ROOM='DSP_WDOG',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R59 'RESISTOR_RES0603_10K':
+ ROOM='DSP_WDOG';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS357518@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins357518@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins357518@discrete.\resistor.normal\(chips)',
+ ROOM='DSP_WDOG',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'RESISTOR_RES0603_220OHM':
+ ROOM='PWR';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS317172@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins317172@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins317172@discrete.\resistor.normal\(chips)',
+ ROOM='PWR',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R60 'RESISTOR_RES0603_10K':
+ ROOM='DSP_WDOG';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS357534@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins357534@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins357534@discrete.\resistor.normal\(chips)',
+ ROOM='DSP_WDOG',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R61 'RESISTOR_RES0603_1M':
+ ROOM='DSP_USB';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS268632@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins268632@discrete.\resistor.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins268632@discrete.\resistor.normal\(chips)',
+ ROOM='DSP_USB',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW3 'SW_TC_SPST_SPST_BUTTON_SW_TC_SP':
+ ROOM='PWR';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS361728@DISCRETE.SW_TC_SPST.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins361728@discrete.\sw_tc_spst.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins361728@discrete.\sw_tc_spst.normal\(chips)',
+ ROOM='PWR',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 '5M40ZE64C5N_2_QFP40P900X900X120':;
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS184@TMS320C5509A_DEV_BOARD.5M40ZE64C5N_2.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins184@tms320c5509a_dev_board.\5m40ze64c5n_2.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins184@tms320c5509a_dev_board.\5m40ze64c5n_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U15 'TPS562201_TPS562201_TPS562201':
+ ROOM='PWR_DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS317212@LIBRARY1.TPS562201.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins317212@library1.\tps562201.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins317212@library1.\tps562201.normal\(chips)',
+ ROOM='PWR_DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U18 'AMS1117_SOT223_AMS1117':
+ ROOM='PWR_DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS318015@LIBRARY1.AMS1117.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins318015@library1.\ams1117.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins318015@library1.\ams1117.normal\(chips)',
+ ROOM='PWR_DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'TMS340VC5509APGE_QFP50P2200X220':
+ ROOM='DSP';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS443@DSP.TMS340VC5509APGEA.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins443@dsp.\tms340vc5509apgea.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins443@dsp.\tms340vc5509apgea.normal\(chips)',
+ ROOM='DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS622@DSP.TMS340VC5509APGEB.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins622@dsp.\tms340vc5509apgeb.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins622@dsp.\tms340vc5509apgeb.normal\(chips)',
+ ROOM='DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS737@DSP.TMS340VC5509APGEC.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins737@dsp.\tms340vc5509apgec.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins737@dsp.\tms340vc5509apgec.normal\(chips)',
+ ROOM='DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS864@DSP.TMS340VC5509APGED.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins864@dsp.\tms340vc5509apged.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins864@dsp.\tms340vc5509apged.normal\(chips)',
+ ROOM='DSP',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U20 'STWD100NYWY3F_STWD100_STWD100NY':
+ ROOM='DSP_WDOG';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS357396@LIBRARY1.STWD100NYWY3F.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins357396@library1.\stwd100nywy3f.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins357396@library1.\stwd100nywy3f.normal\(chips)',
+ ROOM='DSP_WDOG',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U21 'SESOT12CLC_SRV05-4-N_SRV05-4-N':
+ ROOM='DSP_USB';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS268834@LIBRARY1.SESOT12CLC.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins268834@library1.\sesot12clc.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins268834@library1.\sesot12clc.normal\(chips)',
+ ROOM='DSP_USB',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U22 'MT48LC8M8A2_TSOP80P1175X120-54_':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS305842@DSP.MT48LC8M8A2.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins305842@dsp.\mt48lc8m8a2.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins305842@dsp.\mt48lc8m8a2.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U23 'MT48LC8M8A2_TSOP80P1175X120-54_':
+ ROOM='SDRAM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS308431@DSP.MT48LC8M8A2.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins308431@dsp.\mt48lc8m8a2.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins308431@dsp.\mt48lc8m8a2.normal\(chips)',
+ ROOM='SDRAM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U24 'TPS562201_TPS562201_TPS562201':
+ ROOM='PWR_CPLD';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS321973@LIBRARY1.TPS562201.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins321973@library1.\tps562201.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins321973@library1.\tps562201.normal\(chips)',
+ ROOM='PWR_CPLD',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U25 'AMS1117_SOT223_AMS1117':
+ ROOM='PWR_CPLD';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS323223@LIBRARY1.AMS1117.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins323223@library1.\ams1117.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins323223@library1.\ams1117.normal\(chips)',
+ ROOM='PWR_CPLD',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U26 'AT25256B_SOIC127P600X175-8_AT25':
+ ROOM='CPLD_EEPROM';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS336443@DSP.AT25256B.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins336443@dsp.\at25256b.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins336443@dsp.\at25256b.normal\(chips)',
+ ROOM='CPLD_EEPROM',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Y2 'CRYSTAL_1_32768KHZCRYSTAL_32768':
+ ROOM='DSP_CRY';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS287249@SIGPROCESSINGBOARD.CRYSTAL_1.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins287249@sigprocessingboard.\crystal_1.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins287249@sigprocessingboard.\crystal_1.normal\(chips)',
+ ROOM='DSP_CRY',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Y3 'CRYSTAL_0_OSCCC250X320X100_OSCI':
+ ROOM='CPLD_CRY';
+
+SECTION_NUMBER 1
+ '@TMS320C5509A_DEV_BOARD.SCHEMATIC1(SCH_1):INS364354@SIGPROCESSINGBOARD.CRYSTAL_0.NORMAL(CHIPS)':
+ C_PATH='@tms320c5509a_dev_board.schematic1(sch_1):ins364354@sigprocessingboard.\crystal_0.normal\(chips)',
+ P_PATH='@tms320c5509a_dev_board.schematic1(sch_1):page1_ins364354@sigprocessingboard.\crystal_0.normal\(chips)',
+ ROOM='CPLD_CRY',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

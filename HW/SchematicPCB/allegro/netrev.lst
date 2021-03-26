@@ -1,0 +1,94 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : Beamforming_PCB_Ver1_0_1.brd                  )
+(    Software Version : 16.6-2015S066                                 )
+(    Date/Time        : Fri Mar 12 13:30:57 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\allegro'
+Design Directory:            'D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/SchematicPCB/PCB'
+Old design name:             'D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/SchematicPCB/PCB/Beamforming_PCB_Ver1_0_1.brd'
+New design name:             'D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/SchematicPCB/PCB/Beamforming_PCB_Ver1_0_1.brd'
+
+CmdLine: netrev.exe -y 1 -i D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\allegro D:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\PCB\Beamforming_PCB_Ver1_0_1.brd D:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\PCB\Beamforming_PCB_Ver1_0_1.brd
+
+------ Preparing to read pst files ------
+
+Starting to read D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstchip.dat 
+   Finished reading D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstchip.dat (00:00:00.10)
+Starting to read D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstxprt.dat 
+   Finished reading D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstxprt.dat (00:00:00.01)
+Starting to read D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstxnet.dat 
+   Finished reading D:/XIADO/PROJECT/SOMEPROJECT/BEAMFORMING/BEAMFORMING_HW_TMS320VC5509A/SCHEMATICPCB/allegro/pstxnet.dat (00:00:00.01)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/Cadence/Cadence_SPB_16.6-2015/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/Cadence/Cadence_SPB_16.6-2015/share/local/pcb/symbols 
+           C:/Cadence/Cadence/Cadence_SPB_16.6-2015/share/pcb/pcb_lib/symbols 
+           C:/Cadence/Cadence/Cadence_SPB_16.6-2015/share/pcb/allegrolib/symbols 
+           ../../pcbPackages/packages/ 
+           ../../pcbPackages/machanics/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/Cadence/Cadence_SPB_16.6-2015/share/local/pcb/padstacks 
+           C:/Cadence/Cadence/Cadence_SPB_16.6-2015/share/pcb/pcb_lib/symbols 
+           C:/Cadence/Cadence/Cadence_SPB_16.6-2015/share/pcb/allegrolib/symbols 
+           ../../pcbPackages/pads/ 
+           ../../pcbPackages/vias/ 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Mar 12 13:30:57 2021
+   DESIGN NAME : 'TMS320C5509A_DEV_BOARD'
+   PACKAGING ON Feb 15 2016 19:53:59
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:02:14
+elapsed time  0:00:01
+

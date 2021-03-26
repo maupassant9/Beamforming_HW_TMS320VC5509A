@@ -1,0 +1,69 @@
+\t (00:00:01) sigxp 16.6-2015 S066 (v16-6-112FJ) Windows 32
+\t (00:00:01)     Journal start - Sun Feb 28 20:31:36 2021
+\t (00:00:01)         Host=DESKTOP-MRJ3IVS User=xiado Pid=5052 CPUs=2
+\t (00:00:01) CmdLine= sigxp -spawn -p D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\PCB C:/Users/xiado/AppData/Local/Temp/#Taaaabl05736.tmp
+\t (00:00:01) 
+\t (00:00:01) Starting new design...
+\i (00:00:01) trapsize 1718
+\i (00:00:01) trapsize 1638
+\i (00:00:01) trapsize 1816
+\i (00:00:01) trapsize 1885
+\i (00:00:02) trapsize 1885
+\i (00:00:02) trapsize 9874
+\t (00:00:02) Starting new design...
+\i (00:00:02) trapsize 9874
+\i (00:00:02) trapsize 9874
+\i (00:00:02) trapsize 9874
+   (00:00:02) Loading signal.cxt 
+   (00:00:02) Loading sigxp.cxt 
+   (00:00:02) Loading sxutil.cxt 
+   (00:00:02) Loading axlcore.cxt 
+   (00:00:02) Loading fputil.cxt 
+   (00:00:02) Beginning Autoplacement
+   (00:00:02) Finished Autoplacement
+\i (00:00:02) trapsize 39
+   (00:00:02) Loading skillExt.cxt 
+\i (00:00:03) sigxp background 
+\i (00:00:07) trapsize 23
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow sigxp
+\i (00:00:08) zoom out 5503.20 4218.05
+\i (00:00:08) trapsize 47
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow sigxp
+\i (00:00:09) zoom in 5496.05 4227.73
+\i (00:00:09) trapsize 23
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow sigxp
+\i (00:00:09) zoom in 5496.06 4227.73
+\i (00:00:09) trapsize 12
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow sigxp
+\i (00:00:10) zoom out 5496.65 4227.50
+\i (00:00:10) trapsize 23
+\i (00:00:17) zoom out 1 
+\i (00:00:17) setwindow sigxp
+\i (00:00:17) zoom out 5507.08 4225.01
+\i (00:00:17) trapsize 47
+\i (00:00:17) zoom out 1 
+\i (00:00:17) setwindow sigxp
+\i (00:00:17) zoom out 5508.87 4226.14
+\i (00:00:17) trapsize 94
+\i (00:00:17) zoom out 1 
+\i (00:00:17) setwindow sigxp
+\i (00:00:17) zoom out 5532.19 4232.53
+\i (00:00:17) trapsize 188
+\i (00:00:18) zoom in 1 
+\i (00:00:18) setwindow sigxp
+\i (00:00:18) zoom in 5490.46 4217.11
+\i (00:00:18) trapsize 94
+\i (00:00:18) zoom in 1 
+\i (00:00:18) setwindow sigxp
+\i (00:00:18) zoom in 5491.21 4218.24
+\i (00:00:18) trapsize 47
+\i (00:00:18) zoom in 1 
+\i (00:00:18) setwindow sigxp
+\i (00:00:18) zoom in 5491.78 4218.81
+\i (00:00:18) trapsize 23
+\i (00:00:22) exit 
+\t (00:00:22)     Journal end - Sun Feb 28 20:31:58 2021
