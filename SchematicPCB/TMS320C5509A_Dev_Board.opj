@@ -17,7 +17,7 @@
     (EXPORT_Scope "0")
     (EXPORT_Contents "0")
     (EXPORT_File_Name
-       "D:\otherProjects\Beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\TMS320C5509A_DEV_BOARD.EXP")
+       "D:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\TMS320C5509A_DEV_BOARD.EXP")
     (BOM_Scope "0")
     (BOM_Mode "0")
     (BOM_Report_File
@@ -185,8 +185,7 @@
       (Path "Design Resources" "Library")
       (Path "Outputs")
       (Select "Design Resources"
-         "d:\xiado\project\someproject\beamforming\beamforming_hw_tms320vc5509a\schematicpcb\tms320c5509a_dev_board.dsn"
-         "SCHEMATIC1" "POWER"))
+         "d:\xiado\project\someproject\beamforming\beamforming_hw_tms320vc5509a\schematicpcb\tms320c5509a_dev_board.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -197,8 +196,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 52 1160 52 418")
-        (Scroll "-270 -6")
-        (Zoom "44")
+        (Scroll "74 74")
+        (Zoom "88")
         (Occurrence "/"))
       (Path
          "D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
@@ -208,8 +207,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 78 1186 78 444")
-        (Scroll "-173 0")
-        (Zoom "31")
+        (Scroll "1360 585")
+        (Zoom "124")
         (Occurrence "/"))
       (Path
          "D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
@@ -219,8 +218,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 104 1212 104 470")
-        (Scroll "-171 0")
-        (Zoom "44")
+        (Scroll "187 159")
+        (Zoom "88")
         (Occurrence "/"))
       (Path
          "D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")

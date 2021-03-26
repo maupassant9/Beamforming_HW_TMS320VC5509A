@@ -4,22 +4,26 @@
 	<morelayertypes>
 	</morelayertypes>
 	<usecolors>
-		<mixer>0.000</mixer>
-		<object type="Plated H. In">00BFBFBF</object>
-		<object type="Plated H. Out">0026120F</object>
-		<object type="Edge In">008C8C09</object>
-		<object type="Edge Out">00809854</object>
-		<object type="Volume">9E7D8C59</object>
-		<object type="Background">00898989</object>
-		<layer type="PasteMask">008080C0</layer>
-		<layer type="Silkscreen">00E3E3E3</layer>
-		<layer type="SolderMask">900B2B06</layer>
-		<layer type="Copper">00765223</layer>
+		<mixer>1.000</mixer>
+		<object type="Plated H. In">10202020</object>
+		<object type="Plated H. Out">10101010</object>
+		<object type="Edge In">00808008</object>
+		<object type="Edge Out">0080C008</object>
+		<object type="Volume">FF505008</object>
+		<object type="Background">00000000</object>
+		<layer type="PasteMask">00FFD9D9</layer>
+		<layer type="Silkscreen">00FFFFFF</layer>
+		<layer type="SolderMask">C5A00002</layer>
+		<layer type="Copper">10A05000</layer>
 		<layer type="Core">00000000</layer>
 		<layer type="Prepreg">00000000</layer>
 		<layer type="BoardOutline">00000000</layer>
 	</usecolors>
 	<boardlayers>
+		<layer type="Silkscreen" H="35" Er="0.000" color="00FFFFFF">
+			<filename>D:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\PCB\Gerber\silkscreen_top.art</filename>
+			<filedisp>silkscreen_top.art</filedisp>
+		</layer>
 		<layer type="SolderMask" H="35" Er="0.000" color="C0A00002">
 			<filename>D:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\PCB\Gerber\soldermask_top.art</filename>
 			<filedisp>soldermask_top.art</filedisp>
@@ -28,25 +32,21 @@
 			<filename>D:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\PCB\Gerber\paste_top.art</filename>
 			<filedisp>paste_top.art</filedisp>
 		</layer>
-		<layer type="Silkscreen" H="35" Er="0.000" color="00A0A0A0">
-			<filename>D:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\PCB\Gerber\silkscreen_top.art</filename>
-			<filedisp>silkscreen_top.art</filedisp>
-		</layer>
 		<layer type="Copper" H="35" Negative="DefaultPositive" color="10A05000">
 			<filename>D:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\PCB\Gerber\TOP.art</filename>
 			<filedisp>TOP.art</filedisp>
 		</layer>
-		<layer type="PasteMask" H="35" Er="0.000" color="00800000">
+		<layer type="Silkscreen" H="35" Er="0.000" color="00FFFFFF">
+			<filename>D:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\PCB\Gerber\silkscreen_bottom.art</filename>
+			<filedisp>silkscreen_bottom.art</filedisp>
+		</layer>
+		<layer type="PasteMask" H="35" Er="0.000" color="10A05000">
 			<filename>D:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\PCB\Gerber\paste_bottom.art</filename>
 			<filedisp>paste_bottom.art</filedisp>
 		</layer>
 		<layer type="SolderMask" H="35" Er="0.000" color="FFA00002">
 			<filename>D:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\PCB\Gerber\soldermask_bottom.art</filename>
 			<filedisp>soldermask_bottom.art</filedisp>
-		</layer>
-		<layer type="Silkscreen" H="35" Er="0.000" color="00A0A0A0">
-			<filename>D:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\PCB\Gerber\silkscreen_bottom.art</filename>
-			<filedisp>silkscreen_bottom.art</filedisp>
 		</layer>
 		<layer type="Copper" H="35" Negative="DefaultPositive" color="10A05000">
 			<filename>D:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\SchematicPCB\PCB\Gerber\BOTTOM.art</filename>

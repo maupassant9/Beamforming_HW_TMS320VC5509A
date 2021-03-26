@@ -4,15 +4,10 @@
 (                                                                     )
 (    Drawing          : Beamforming_PCB_Ver1_0_1.brd                  )
 (    Software Version : 16.6-2015S066                                 )
-(    Date/Time        : Fri Mar 12 11:43:15 2021                      )
+(    Date/Time        : Thu Mar 18 00:04:29 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
-
-
- ******************************************
- WARNING: DRC OUT OF DATE on this layout.
- ******************************************
 
  ---- Photoplot outline rectangle not found; using drawing extents.
 
@@ -48,6 +43,9 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
+    WARNING: Film contains objects with associated DRCs (3).
+           In the design editor view this film and enable visibility for the
+           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
 
 
   APERTURES USED:
@@ -63,6 +61,7 @@ Results from parameter file ...
   CIRCLE     0.01800                                  DARK 
   CIRCLE     0.02000                                  DARK 
   CIRCLE     0.02362                                  DARK 
+  CIRCLE     0.02500                                  DARK 
   CIRCLE     0.02756                                  DARK 
   CIRCLE     0.03000                                  DARK 
   CIRCLE     0.03500                                  DARK 
@@ -129,7 +128,7 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
-    WARNING: Film contains objects with associated DRCs (1).
+    WARNING: Film contains objects with associated DRCs (4).
            In the design editor view this film and enable visibility for the
            associated DRC layer. Verify the DRCs are approved exceptions to your rules.
 
@@ -189,6 +188,7 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
+  CIRCLE     0.00300                                  DARK 
   CIRCLE     0.00400                                  DARK 
   CIRCLE     0.00500                                  DARK 
   CIRCLE     0.00600                                  DARK 
@@ -222,10 +222,11 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
+  CIRCLE     0.00300                                  DARK 
   CIRCLE     0.00400                                  DARK 
   CIRCLE     0.00787                                  DARK 
 
-     silkscreen_bottom created with warnings
+     silkscreen_bottom created.
 
 
 ================================================================
@@ -258,7 +259,7 @@ Results from parameter file ...
   PAD SHAPE  SRX0_60Y0_94R0_10         270.000 YES    DARK 
   PAD SHAPE  SRX0_70Y0_95R0_10         270.000 YES    DARK 
 
-     paste_bottom created with warnings
+     paste_bottom created.
 
 
 ================================================================
@@ -321,7 +322,7 @@ Results from parameter file ...
   PAD SHAPE  SRX0_60Y0_94R0_10         315.000 NO     DARK 
   PAD SHAPE  SRX0_70Y0_95R0_10         315.000 NO     DARK 
 
-     paste_top created with warnings
+     paste_top created.
 
 
 ================================================================
@@ -387,7 +388,7 @@ Results from parameter file ...
   PAD SHAPE  SRX0_80Y1_05R0_10         315.000 NO     DARK 
   PAD SHAPE  SRX0_70Y1_04R0_10         315.000 NO     DARK 
 
-     soldermask_top created with warnings
+     soldermask_top created.
 
 
 ================================================================
@@ -422,7 +423,7 @@ Results from parameter file ...
   PAD SHAPE  SRX0_80Y1_05R0_10         270.000 YES    DARK 
   PAD SHAPE  SRX0_70Y1_04R0_10         270.000 YES    DARK 
 
-     soldermask_bottom created with warnings
+     soldermask_bottom created.
 
 
 ================================================================
@@ -505,7 +506,7 @@ Results from parameter file ...
   ---------------------------------------------------------
   CIRCLE     0.00400                                  DARK 
 
-     SectionView created with warnings
+     SectionView created.
 
 
 ------------------------------------------------------
@@ -513,13 +514,13 @@ Results from parameter file ...
         TOP created with warnings
         BOTTOM created with warnings
         silkscreen_top created with warnings
-        silkscreen_bottom created with warnings
-        paste_bottom created with warnings
-        paste_top created with warnings
-        soldermask_top created with warnings
-        soldermask_bottom created with warnings
+        silkscreen_bottom created.
+        paste_bottom created.
+        paste_top created.
+        soldermask_top created.
+        soldermask_bottom created.
         board_outline created with warnings
         Drill created with warnings
-        SectionView created with warnings
+        SectionView created.
 
  ARTWORK had warnings

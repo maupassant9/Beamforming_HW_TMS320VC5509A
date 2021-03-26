@@ -3,7 +3,7 @@ G04 Layout Name:  Beamforming_PCB_Ver1_0_1.brd*
 G04 Film Name:    board_outline*
 G04 File Format:  Gerber RS274X*
 G04 File Origin:  Cadence Allegro 16.6-2015-S066*
-G04 Origin Date:  Thu Mar 18 21:49:34 2021*
+G04 Origin Date:  Fri Mar 19 12:49:22 2021*
 G04 *
 G04 Layer:  BOARD GEOMETRY/OUTLINE*
 G04 *
@@ -12,8 +12,27 @@ G04 Mirror:    No*
 G04 Mode:      Positive*
 G04 Rotation:  0*
 G04 FullContactRelief:  No*
-G04 UndefLineWidth:     0.00*
+G04 UndefLineWidth:     10.00*
 G04 ================== end FILE IDENTIFICATION RECORD ====================*
 %FSLAX25Y25*MOIN*%
 %IR0*IPPOS*OFA0.00000B0.00000*MIA0B0*SFA1.00000B1.00000*%
+%ADD10C,.01*%
+G75*
+%LPD*%
+G75*
+G54D10*
+G01X393701Y40800D02*
+Y391800D01*
+X391800Y393701D01*
+X1301D01*
+X0Y392400D01*
+Y40900D01*
+Y40600D01*
+Y39100D01*
+Y26900D01*
+X3100Y23800D01*
+X392100D01*
+X393701Y25401D01*
+Y39501D01*
+Y40800D01*
 M02*
