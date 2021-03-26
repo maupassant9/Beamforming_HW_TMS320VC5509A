@@ -1,8 +1,0 @@
-\t (00:00:16) pad_designer 16.6-2015 S062 (v16-6-112EZ) Windows 32
-\t (00:00:16)     Journal start - Sat Mar 06 10:41:00 2021
-\t (00:00:16)         Host=DESKTOP-MRJ3IVS User=xiado Pid=9664 CPUs=2
-\t (00:00:16) CmdLine= C:\Cadence\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\pad_designer.exe
-\t (00:00:16) 
-\i (00:00:20) FORM padedit layers  
-\i (00:00:39) pse_exit
-\t (00:00:39)     Journal end - Sat Mar 06 10:41:23 2021
