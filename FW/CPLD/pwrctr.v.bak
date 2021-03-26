@@ -1,0 +1,16 @@
+//Power Control for TMS320VC5509A
+//
+// Author: Dong Xia
+// Date: 26/03/2021
+// 
+// 
+
+module pwrctr(
+	input clk_in,
+	output pwr_en
+);
+
+	assign pwr_en = clk_in;
+
+
+endmodule

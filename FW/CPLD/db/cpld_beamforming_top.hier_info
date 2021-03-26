@@ -1,0 +1,69 @@
+|cpld_beamforming_top
+CPLD_CONN_IO2 <= ad7864:inst.clk
+CPLD_CLKIN => ad7864:inst.clk_in
+CPLD_CLKIN => pwrctr:inst3.clk_in
+CPLD_CONN_IO18 => ad7864:inst.eoc
+CPLD_IO16 => ad7864:inst.spi_miso
+CPLD_CONN_IO[14] <> ad7864:inst.db[0]
+CPLD_CONN_IO[13] <> ad7864:inst.db[1]
+CPLD_CONN_IO[12] <> ad7864:inst.db[2]
+CPLD_CONN_IO[11] <> ad7864:inst.db[3]
+CPLD_CONN_IO[10] <> ad7864:inst.db[4]
+CPLD_CONN_IO[9] <> ad7864:inst.db[5]
+CPLD_CONN_IO[8] <> ad7864:inst.db[6]
+CPLD_CONN_IO[7] <> ad7864:inst.db[7]
+CPLD_CONN_IO[6] <> ad7864:inst.db[8]
+CPLD_CONN_IO[5] <> ad7864:inst.db[9]
+CPLD_CONN_IO[4] <> ad7864:inst.db[10]
+CPLD_CONN_IO[3] <> ad7864:inst.db[11]
+CPLD_CONN_IO15 <= ad7864:inst.cs_a
+CPLD_CONN_IO1 <= ad7864:inst.cs_b
+CPLD_CONN_IO16 <= ad7864:inst.wr
+CPLD_CONN_IO17 <= ad7864:inst.rd
+CPLD_CONN_IO0 <= ad7864:inst.conv
+DSP_PWR_EN <= pwrctr:inst3.pwr_en
+CPLD_IO13 <= ad7864:inst.spi_mosi
+CPLD_IO14 <= ad7864:inst.spi_clk
+CPLD_IO15 <= ad7864:inst.spi_cs
+
+
+|cpld_beamforming_top|ad7864:inst
+clk_in => ~NO_FANOUT~
+clk <= clk.DB_MAX_OUTPUT_PORT_TYPE
+cs_a <= busy.DB_MAX_OUTPUT_PORT_TYPE
+cs_b <= cs_b.DB_MAX_OUTPUT_PORT_TYPE
+wr <= eoc.DB_MAX_OUTPUT_PORT_TYPE
+rd <= eoc.DB_MAX_OUTPUT_PORT_TYPE
+conv <= conv.DB_MAX_OUTPUT_PORT_TYPE
+busy => clk.IN0
+busy => cs_b.IN0
+busy => conv.IN0
+busy => cs_a.DATAIN
+eoc => clk.IN1
+eoc => cs_b.IN1
+eoc => conv.IN1
+eoc => rd.DATAIN
+eoc => wr.DATAIN
+db[0] <> <UNC>
+db[1] <> <UNC>
+db[2] <> <UNC>
+db[3] <> <UNC>
+db[4] <> <UNC>
+db[5] <> <UNC>
+db[6] <> <UNC>
+db[7] <> <UNC>
+db[8] <> <UNC>
+db[9] <> <UNC>
+db[10] <> <UNC>
+db[11] <> <UNC>
+spi_clk <= <GND>
+spi_mosi <= <GND>
+spi_cs <= <GND>
+spi_miso => ~NO_FANOUT~
+
+
+|cpld_beamforming_top|pwrctr:inst3
+pwr_en <= clk_in.DB_MAX_OUTPUT_PORT_TYPE
+clk_in => pwr_en.DATAIN
+
+

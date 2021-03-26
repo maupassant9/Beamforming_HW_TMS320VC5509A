@@ -1,5 +1,6 @@
 (ExpressProject "TMS320C5509A_Dev_Board"
   (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S008 (3870700) [6/25/2020]-[03/20/21]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -50,7 +51,11 @@
     ("Allegro Netlist Combine Property String" "PCB Footprint")
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
     ("Allegro Netlist User Defined Property" "FALSE")
-    (Netlist_TAB "0"))
+    (Netlist_TAB "0")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (Display_Online_DRC_Results "FALSE"))
+  (Folder "Layout")
   (Folder "Outputs"
     (File ".\tms320c5509a_dev_board.exp"
       (Type "Report"))
@@ -177,55 +182,61 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "d:\xiado\project\someproject\beamforming\beamforming_hw_tms320vc5509a\schematicpcb\tms320c5509a_dev_board.dsn")
-      (Path "Design Resources"
-         "d:\xiado\project\someproject\beamforming\beamforming_hw_tms320vc5509a\schematicpcb\tms320c5509a_dev_board.dsn"
-         "SCHEMATIC1")
+      (Path "Design Resources" ".\tms320c5509a_dev_board.dsn")
+      (Path "Design Resources" ".\tms320c5509a_dev_board.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources"
-         "d:\xiado\project\someproject\beamforming\beamforming_hw_tms320vc5509a\schematicpcb\tms320c5509a_dev_board.dsn"))
+      (Select "Design Resources" ".\tms320c5509a_dev_board.dsn" "SCHEMATIC1"
+         "DSP"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 327"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 576"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1160 52 418")
-        (Scroll "74 74")
-        (Zoom "88")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1155 24 617")
+        (Scroll "0 120")
+        (Zoom "96")
         (Occurrence "/"))
       (Path
-         "D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
+         "C:\USERS\DONG.X\DOCUMENTS\XIADONG\PROJETOS\PRIVATEPROJECTS\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\HW\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
       (Schematic "SCHEMATIC1")
       (Page "CPLD"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1186 78 444")
-        (Scroll "1360 585")
-        (Zoom "124")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1155 24 617")
+        (Scroll "1896 627")
+        (Zoom "136")
         (Occurrence "/"))
       (Path
-         "D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
+         "C:\USERS\DONG.X\DOCUMENTS\XIADONG\PROJETOS\PRIVATEPROJECTS\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\HW\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
       (Schematic "SCHEMATIC1")
       (Page "DSP"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1212 104 470")
-        (Scroll "187 159")
-        (Zoom "88")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1155 24 617")
+        (Scroll "0 204")
+        (Zoom "200")
         (Occurrence "/"))
       (Path
-         "D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
+         "C:\USERS\DONG.X\DOCUMENTS\XIADONG\PROJETOS\PRIVATEPROJECTS\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\HW\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
       (Schematic "SCHEMATIC1")
       (Page "POWER")))
-  (MPSSessionName "xiado")
+  (MPSSessionName "dong.x")
   (LastUsedLibraryBrowseDirectory
      "C:\cadence\Cadence\Cadence_SPB_16.6-2015\tools\capture\library")
-  (ISPCBBASICLICENSE "false"))
+  (ISPCBBASICLICENSE "false")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs"))
