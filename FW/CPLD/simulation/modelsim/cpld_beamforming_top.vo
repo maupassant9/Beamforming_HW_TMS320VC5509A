@@ -17,7 +17,7 @@
 // PROGRAM "Quartus Prime"
 // VERSION "Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition"
 
-// DATE "03/26/2021 15:29:15"
+// DATE "03/27/2021 01:24:14"
 
 // 
 // Device: Altera 5M40ZE64C5 Package EQFP64
@@ -41,9 +41,18 @@ module cpld_beamforming_top (
 	CPLD_CONN_IO17,
 	CPLD_CONN_IO0,
 	DSP_PWR_EN,
+	pin_name6,
+	pin_name7,
+	pin_name8,
+	pin_name9,
 	CPLD_IO13,
 	CPLD_IO14,
-	CPLD_IO15);
+	CPLD_IO15,
+	pin_name2,
+	pin_name3,
+	pin_name4,
+	pin_name5,
+	DSP_BOOT);
 output 	CPLD_CONN_IO2;
 input 	CPLD_CLKIN;
 input 	CPLD_CONN_IO18;
@@ -55,9 +64,18 @@ output 	CPLD_CONN_IO16;
 output 	CPLD_CONN_IO17;
 output 	CPLD_CONN_IO0;
 output 	DSP_PWR_EN;
+input 	pin_name6;
+input 	pin_name7;
+input 	pin_name8;
+input 	pin_name9;
 output 	CPLD_IO13;
 output 	CPLD_IO14;
 output 	CPLD_IO15;
+output 	pin_name2;
+output 	pin_name3;
+output 	pin_name4;
+output 	pin_name5;
+output 	[3:0] DSP_BOOT;
 
 // Design Ports Information
 
@@ -74,7 +92,10 @@ tri1 devclrn;
 tri1 devpor;
 tri1 devoe;
 wire \CPLD_CONN_IO18~combout ;
-wire \CPLD_CLKIN~combout ;
+wire \pin_name7~combout ;
+wire \pin_name8~combout ;
+wire \pin_name9~combout ;
+wire \pin_name6~combout ;
 
 
 // Location: PIN_24,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
@@ -87,14 +108,44 @@ maxv_io \CPLD_CONN_IO18~I (
 defparam \CPLD_CONN_IO18~I .operation_mode = "input";
 // synopsys translate_on
 
-// Location: PIN_7,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
-maxv_io \CPLD_CLKIN~I (
+// Location: PIN_36,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+maxv_io \pin_name7~I (
 	.datain(gnd),
 	.oe(gnd),
-	.combout(\CPLD_CLKIN~combout ),
-	.padio(CPLD_CLKIN));
+	.combout(\pin_name7~combout ),
+	.padio(pin_name7));
 // synopsys translate_off
-defparam \CPLD_CLKIN~I .operation_mode = "input";
+defparam \pin_name7~I .operation_mode = "input";
+// synopsys translate_on
+
+// Location: PIN_40,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+maxv_io \pin_name8~I (
+	.datain(gnd),
+	.oe(gnd),
+	.combout(\pin_name8~combout ),
+	.padio(pin_name8));
+// synopsys translate_off
+defparam \pin_name8~I .operation_mode = "input";
+// synopsys translate_on
+
+// Location: PIN_37,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+maxv_io \pin_name9~I (
+	.datain(gnd),
+	.oe(gnd),
+	.combout(\pin_name9~combout ),
+	.padio(pin_name9));
+// synopsys translate_off
+defparam \pin_name9~I .operation_mode = "input";
+// synopsys translate_on
+
+// Location: PIN_51,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+maxv_io \pin_name6~I (
+	.datain(gnd),
+	.oe(gnd),
+	.combout(\pin_name6~combout ),
+	.padio(pin_name6));
+// synopsys translate_off
+defparam \pin_name6~I .operation_mode = "input";
 // synopsys translate_on
 
 // Location: PIN_2,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 16mA
@@ -105,6 +156,16 @@ maxv_io \CPLD_CONN_IO2~I (
 	.padio(CPLD_CONN_IO2));
 // synopsys translate_off
 defparam \CPLD_CONN_IO2~I .operation_mode = "output";
+// synopsys translate_on
+
+// Location: PIN_64,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+maxv_io \CPLD_CLKIN~I (
+	.datain(gnd),
+	.oe(gnd),
+	.combout(),
+	.padio(CPLD_CLKIN));
+// synopsys translate_off
+defparam \CPLD_CLKIN~I .operation_mode = "input";
 // synopsys translate_on
 
 // Location: PIN_59,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
@@ -169,7 +230,7 @@ defparam \CPLD_CONN_IO0~I .operation_mode = "output";
 
 // Location: PIN_32,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 16mA
 maxv_io \DSP_PWR_EN~I (
-	.datain(\CPLD_CLKIN~combout ),
+	.datain(vcc),
 	.oe(vcc),
 	.combout(),
 	.padio(DSP_PWR_EN));
@@ -205,6 +266,86 @@ maxv_io \CPLD_IO15~I (
 	.padio(CPLD_IO15));
 // synopsys translate_off
 defparam \CPLD_IO15~I .operation_mode = "output";
+// synopsys translate_on
+
+// Location: PIN_34,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 16mA
+maxv_io \pin_name2~I (
+	.datain(\pin_name7~combout ),
+	.oe(vcc),
+	.combout(),
+	.padio(pin_name2));
+// synopsys translate_off
+defparam \pin_name2~I .operation_mode = "output";
+// synopsys translate_on
+
+// Location: PIN_38,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 16mA
+maxv_io \pin_name3~I (
+	.datain(\pin_name8~combout ),
+	.oe(vcc),
+	.combout(),
+	.padio(pin_name3));
+// synopsys translate_off
+defparam \pin_name3~I .operation_mode = "output";
+// synopsys translate_on
+
+// Location: PIN_44,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 16mA
+maxv_io \pin_name4~I (
+	.datain(\pin_name9~combout ),
+	.oe(vcc),
+	.combout(),
+	.padio(pin_name4));
+// synopsys translate_off
+defparam \pin_name4~I .operation_mode = "output";
+// synopsys translate_on
+
+// Location: PIN_52,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 16mA
+maxv_io \pin_name5~I (
+	.datain(\pin_name6~combout ),
+	.oe(vcc),
+	.combout(),
+	.padio(pin_name5));
+// synopsys translate_off
+defparam \pin_name5~I .operation_mode = "output";
+// synopsys translate_on
+
+// Location: PIN_61,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 16mA
+maxv_io \DSP_BOOT[3]~I (
+	.datain(vcc),
+	.oe(vcc),
+	.combout(),
+	.padio(DSP_BOOT[3]));
+// synopsys translate_off
+defparam \DSP_BOOT[3]~I .operation_mode = "output";
+// synopsys translate_on
+
+// Location: PIN_60,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 16mA
+maxv_io \DSP_BOOT[2]~I (
+	.datain(gnd),
+	.oe(vcc),
+	.combout(),
+	.padio(DSP_BOOT[2]));
+// synopsys translate_off
+defparam \DSP_BOOT[2]~I .operation_mode = "output";
+// synopsys translate_on
+
+// Location: PIN_33,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 16mA
+maxv_io \DSP_BOOT[1]~I (
+	.datain(gnd),
+	.oe(vcc),
+	.combout(),
+	.padio(DSP_BOOT[1]));
+// synopsys translate_off
+defparam \DSP_BOOT[1]~I .operation_mode = "output";
+// synopsys translate_on
+
+// Location: PIN_7,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 16mA
+maxv_io \DSP_BOOT[0]~I (
+	.datain(vcc),
+	.oe(vcc),
+	.combout(),
+	.padio(DSP_BOOT[0]));
+// synopsys translate_off
+defparam \DSP_BOOT[0]~I .operation_mode = "output";
 // synopsys translate_on
 
 // Location: PIN_29,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 16mA

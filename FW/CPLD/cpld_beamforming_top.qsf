@@ -56,7 +56,6 @@ set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
 set_global_assignment -name BDF_FILE cpld_beamforming_top.bdf
 set_global_assignment -name VERILOG_FILE AD7864.v
-set_location_assignment PIN_7 -to CPLD_CLKIN
 set_location_assignment PIN_29 -to CPLD_CONN_IO[3]
 set_location_assignment PIN_26 -to CPLD_CONN_IO[4]
 set_location_assignment PIN_22 -to CPLD_CONN_IO[5]
@@ -84,3 +83,9 @@ set_location_assignment PIN_58 -to CPLD_IO15
 set_location_assignment PIN_59 -to CPLD_IO16
 set_global_assignment -name VERILOG_FILE i2cmodule.v
 set_global_assignment -name QIP_FILE counter.qip
+set_global_assignment -name AUTO_RESTART_CONFIGURATION OFF
+set_global_assignment -name ENABLE_OCT_DONE OFF
+set_global_assignment -name ENABLE_CONFIGURATION_PINS OFF
+set_global_assignment -name ENABLE_BOOT_SEL_PIN OFF
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_instance_assignment -name GLOBAL_SIGNAL GLOBAL_CLOCK -to CPLD_CLKIN

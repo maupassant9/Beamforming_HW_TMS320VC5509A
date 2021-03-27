@@ -1,4 +1,4 @@
-Fitter Status : Successful - Fri Mar 26 15:29:10 2021
+Fitter Status : Successful - Sat Mar 27 01:24:11 2021
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : cpld_beamforming_top
 Top-level Entity Name : cpld_beamforming_top
@@ -6,6 +6,6 @@ Family : MAX V
 Device : 5M40ZE64C5
 Timing Models : Final
 Total logic elements : 0 / 40 ( 0 % )
-Total pins : 25 / 54 ( 46 % )
+Total pins : 37 / 54 ( 69 % )
 Total virtual pins : 0
 UFM blocks : 0 / 1 ( 0 % )

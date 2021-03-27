@@ -1,7 +1,7 @@
 |cpld_beamforming_top
 CPLD_CONN_IO2 <= ad7864:inst.clk
 CPLD_CLKIN => ad7864:inst.clk_in
-CPLD_CLKIN => pwrctr:inst3.clk_in
+CPLD_CLKIN => counter:inst2.clock
 CPLD_CONN_IO18 => ad7864:inst.eoc
 CPLD_IO16 => ad7864:inst.spi_miso
 CPLD_CONN_IO[14] <> ad7864:inst.db[0]
@@ -22,9 +22,21 @@ CPLD_CONN_IO16 <= ad7864:inst.wr
 CPLD_CONN_IO17 <= ad7864:inst.rd
 CPLD_CONN_IO0 <= ad7864:inst.conv
 DSP_PWR_EN <= pwrctr:inst3.pwr_en
+pin_name6 => pwrctr:inst3.eeprom_miso
+pin_name7 => pwrctr:inst3.sclk
+pin_name8 => pwrctr:inst3.mosi
+pin_name9 => pwrctr:inst3.cs
 CPLD_IO13 <= ad7864:inst.spi_mosi
 CPLD_IO14 <= ad7864:inst.spi_clk
 CPLD_IO15 <= ad7864:inst.spi_cs
+pin_name2 <= pwrctr:inst3.eeprom_sclk
+pin_name3 <= pwrctr:inst3.eeprom_mosi
+pin_name4 <= pwrctr:inst3.eeprom_mem_cs
+pin_name5 <= pwrctr:inst3.miso
+DSP_BOOT[0] <= pwrctr:inst3.bootcfg[0]
+DSP_BOOT[1] <= pwrctr:inst3.bootcfg[1]
+DSP_BOOT[2] <= pwrctr:inst3.bootcfg[2]
+DSP_BOOT[3] <= pwrctr:inst3.bootcfg[3]
 
 
 |cpld_beamforming_top|ad7864:inst
@@ -63,7 +75,99 @@ spi_miso => ~NO_FANOUT~
 
 
 |cpld_beamforming_top|pwrctr:inst3
-pwr_en <= clk_in.DB_MAX_OUTPUT_PORT_TYPE
-clk_in => pwr_en.DATAIN
+clk_in => highreg.CLK
+pwr_en <= highreg.DB_MAX_OUTPUT_PORT_TYPE
+bootcfg[0] <= highreg.DB_MAX_OUTPUT_PORT_TYPE
+bootcfg[1] <= highreg.DB_MAX_OUTPUT_PORT_TYPE
+bootcfg[2] <= highreg.DB_MAX_OUTPUT_PORT_TYPE
+bootcfg[3] <= highreg.DB_MAX_OUTPUT_PORT_TYPE
+eeprom_sclk <= sclk.DB_MAX_OUTPUT_PORT_TYPE
+eeprom_mosi <= mosi.DB_MAX_OUTPUT_PORT_TYPE
+eeprom_mem_cs <= cs.DB_MAX_OUTPUT_PORT_TYPE
+eeprom_miso => miso.DATAIN
+sclk => eeprom_sclk.DATAIN
+mosi => eeprom_mosi.DATAIN
+cs => eeprom_mem_cs.DATAIN
+miso <= eeprom_miso.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cpld_beamforming_top|counter:inst2
+clock => clock.IN1
+q[0] <= lpm_counter:LPM_COUNTER_component.q
+q[1] <= lpm_counter:LPM_COUNTER_component.q
+q[2] <= lpm_counter:LPM_COUNTER_component.q
+q[3] <= lpm_counter:LPM_COUNTER_component.q
+q[4] <= lpm_counter:LPM_COUNTER_component.q
+q[5] <= lpm_counter:LPM_COUNTER_component.q
+q[6] <= lpm_counter:LPM_COUNTER_component.q
+q[7] <= lpm_counter:LPM_COUNTER_component.q
+
+
+|cpld_beamforming_top|counter:inst2|lpm_counter:LPM_COUNTER_component
+clock => cntr_p4h:auto_generated.clock
+clk_en => ~NO_FANOUT~
+cnt_en => ~NO_FANOUT~
+updown => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+data[2] => ~NO_FANOUT~
+data[3] => ~NO_FANOUT~
+data[4] => ~NO_FANOUT~
+data[5] => ~NO_FANOUT~
+data[6] => ~NO_FANOUT~
+data[7] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+q[0] <= cntr_p4h:auto_generated.q[0]
+q[1] <= cntr_p4h:auto_generated.q[1]
+q[2] <= cntr_p4h:auto_generated.q[2]
+q[3] <= cntr_p4h:auto_generated.q[3]
+q[4] <= cntr_p4h:auto_generated.q[4]
+q[5] <= cntr_p4h:auto_generated.q[5]
+q[6] <= cntr_p4h:auto_generated.q[6]
+q[7] <= cntr_p4h:auto_generated.q[7]
+cout <= <GND>
+eq[0] <= <GND>
+eq[1] <= <GND>
+eq[2] <= <GND>
+eq[3] <= <GND>
+eq[4] <= <GND>
+eq[5] <= <GND>
+eq[6] <= <GND>
+eq[7] <= <GND>
+eq[8] <= <GND>
+eq[9] <= <GND>
+eq[10] <= <GND>
+eq[11] <= <GND>
+eq[12] <= <GND>
+eq[13] <= <GND>
+eq[14] <= <GND>
+eq[15] <= <GND>
+
+
+|cpld_beamforming_top|counter:inst2|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated
+clock => counter_cella0.CLK
+clock => counter_cella1.CLK
+clock => counter_cella2.CLK
+clock => counter_cella3.CLK
+clock => counter_cella4.CLK
+clock => counter_cella5.CLK
+clock => counter_cella6.CLK
+clock => counter_cella7.CLK
+q[0] <= counter_cella0.REGOUT
+q[1] <= counter_cella1.REGOUT
+q[2] <= counter_cella2.REGOUT
+q[3] <= counter_cella3.REGOUT
+q[4] <= counter_cella4.REGOUT
+q[5] <= counter_cella5.REGOUT
+q[6] <= counter_cella6.REGOUT
+q[7] <= counter_cella7.REGOUT
 
 

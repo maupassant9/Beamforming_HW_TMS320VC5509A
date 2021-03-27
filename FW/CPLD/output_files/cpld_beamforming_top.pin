@@ -69,7 +69,7 @@ CPLD_CONN_IO[13]             : 3         : bidir  : 3.3-V LVTTL       :         
 CPLD_CONN_IO[12]             : 4         : bidir  : 3.3-V LVTTL       :         : 1         : Y              
 CPLD_CONN_IO[11]             : 5         : bidir  : 3.3-V LVTTL       :         : 1         : Y              
 VCCIO1                       : 6         : power  :                   : 3.3V    : 1         :                
-CPLD_CLKIN                   : 7         : input  : 3.3-V LVTTL       :         : 1         : Y              
+DSP_BOOT[0]                  : 7         : output : 3.3-V LVTTL       :         : 1         : N              
 VCCINT                       : 8         : power  :                   : 1.8V    :           :                
 CPLD_CONN_IO[10]             : 9         : bidir  : 3.3-V LVTTL       :         : 1         : Y              
 CPLD_CONN_IO[9]              : 10        : bidir  : 3.3-V LVTTL       :         : 1         : Y              
@@ -95,26 +95,26 @@ CPLD_CONN_IO[3]              : 29        : bidir  : 3.3-V LVTTL       :         
 CPLD_CONN_IO16               : 30        : output : 3.3-V LVTTL       :         : 1         : Y              
 CPLD_CONN_IO15               : 31        : output : 3.3-V LVTTL       :         : 1         : Y              
 DSP_PWR_EN                   : 32        : output : 3.3-V LVTTL       :         : 1         : Y              
-GND*                         : 33        :        :                   :         : 1         :                
-GND*                         : 34        :        :                   :         : 2         :                
+DSP_BOOT[1]                  : 33        : output : 3.3-V LVTTL       :         : 1         : N              
+pin_name2                    : 34        : output : 3.3-V LVTTL       :         : 2         : N              
 GND*                         : 35        :        :                   :         : 2         :                
-GND*                         : 36        :        :                   :         : 2         :                
-GND*                         : 37        :        :                   :         : 2         :                
-GND*                         : 38        :        :                   :         : 2         :                
+pin_name7                    : 36        : input  : 3.3-V LVTTL       :         : 2         : N              
+pin_name9                    : 37        : input  : 3.3-V LVTTL       :         : 2         : N              
+pin_name3                    : 38        : output : 3.3-V LVTTL       :         : 2         : N              
 VCCIO2                       : 39        : power  :                   : 3.3V    : 2         :                
-GND*                         : 40        :        :                   :         : 2         :                
+pin_name8                    : 40        : input  : 3.3-V LVTTL       :         : 2         : N              
 VCCINT                       : 41        : power  :                   : 1.8V    :           :                
 GND*                         : 42        :        :                   :         : 2         :                
 GND*                         : 43        :        :                   :         : 2         :                
-GND*                         : 44        :        :                   :         : 2         :                
+pin_name4                    : 44        : output : 3.3-V LVTTL       :         : 2         : N              
 GND*                         : 45        :        :                   :         : 2         :                
 GND*                         : 46        :        :                   :         : 2         :                
 GND*                         : 47        :        :                   :         : 2         :                
 GND*                         : 48        :        :                   :         : 2         :                
 GND*                         : 49        :        :                   :         : 2         :                
 GND*                         : 50        :        :                   :         : 2         :                
-GND*                         : 51        :        :                   :         : 2         :                
-GND*                         : 52        :        :                   :         : 2         :                
+pin_name6                    : 51        : input  : 3.3-V LVTTL       :         : 2         : N              
+pin_name5                    : 52        : output : 3.3-V LVTTL       :         : 2         : N              
 GND*                         : 53        :        :                   :         : 2         :                
 GND*                         : 54        :        :                   :         : 2         :                
 CPLD_IO13                    : 55        : output : 3.3-V LVTTL       :         : 2         : Y              
@@ -122,8 +122,8 @@ CPLD_IO14                    : 56        : output : 3.3-V LVTTL       :         
 VCCIO2                       : 57        : power  :                   : 3.3V    : 2         :                
 CPLD_IO15                    : 58        : output : 3.3-V LVTTL       :         : 2         : Y              
 CPLD_IO16                    : 59        : input  : 3.3-V LVTTL       :         : 2         : Y              
-GND*                         : 60        :        :                   :         : 2         :                
-GND*                         : 61        :        :                   :         : 2         :                
+DSP_BOOT[2]                  : 60        : output : 3.3-V LVTTL       :         : 2         : N              
+DSP_BOOT[3]                  : 61        : output : 3.3-V LVTTL       :         : 2         : N              
 GND*                         : 62        :        :                   :         : 2         :                
 GND*                         : 63        :        :                   :         : 2         :                
-GND*                         : 64        :        :                   :         : 1         :                
+CPLD_CLKIN                   : 64        : input  : 3.3-V LVTTL       :         : 1         : N              

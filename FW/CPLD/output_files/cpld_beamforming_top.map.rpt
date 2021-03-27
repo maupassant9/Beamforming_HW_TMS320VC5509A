@@ -1,5 +1,5 @@
 Analysis & Synthesis report for cpld_beamforming_top
-Fri Mar 26 17:19:54 2021
+Sat Mar 27 01:24:10 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -11,7 +11,14 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   3. Analysis & Synthesis Settings
   4. Parallel Compilation
   5. Analysis & Synthesis Source Files Read
-  6. Analysis & Synthesis Messages
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Analysis & Synthesis IP Cores Summary
+  9. Registers Removed During Synthesis
+ 10. Removed Registers Triggering Further Register Optimizations
+ 11. General Register Statistics
+ 12. Parameter Settings for User Entity Instance: counter:inst2|lpm_counter:LPM_COUNTER_component
+ 13. Analysis & Synthesis Messages
 
 
 
@@ -38,11 +45,15 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                              ;
 +-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Failed - Fri Mar 26 17:19:54 2021           ;
+; Analysis & Synthesis Status ; Successful - Sat Mar 27 01:24:10 2021       ;
 ; Quartus Prime Version       ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name               ; cpld_beamforming_top                        ;
 ; Top-level Entity Name       ; cpld_beamforming_top                        ;
 ; Family                      ; MAX V                                       ;
+; Total logic elements        ; 0                                           ;
+; Total pins                  ; 37                                          ;
+; Total virtual pins          ; 0                                           ;
+; UFM blocks                  ; 0 / 1 ( 0 % )                               ;
 +-----------------------------+---------------------------------------------+
 
 
@@ -123,7 +134,7 @@ https://fpgasoftware.intel.com/eula.
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
 ; Number detected on machine ; 4           ;
-; Maximum allowed            ; 2           ;
+; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -133,13 +144,143 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                                   ;
-+----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                                                                         ; Library ;
-+----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+---------+
-; cpld_beamforming_top.bdf         ; yes             ; User Block Diagram/Schematic File  ; C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/cpld_beamforming_top.bdf ;         ;
-+----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                             ;
++----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                                   ; Library ;
++----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------------------------------+---------+
+; cpld_beamforming_top.bdf         ; yes             ; User Block Diagram/Schematic File  ; /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/cpld_beamforming_top.bdf ;         ;
+; AD7864.v                         ; yes             ; User Verilog HDL File              ; /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864.v                 ;         ;
+; pwrctr.v                         ; yes             ; User Verilog HDL File              ; /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/pwrctr.v                 ;         ;
+; counter.v                        ; yes             ; User Wizard-Generated File         ; /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/counter.v                ;         ;
+; lpm_counter.tdf                  ; yes             ; Megafunction                       ; /home/dary/intelFPGA_lite/20.1/quartus/libraries/megafunctions/lpm_counter.tdf                 ;         ;
+; lpm_constant.inc                 ; yes             ; Megafunction                       ; /home/dary/intelFPGA_lite/20.1/quartus/libraries/megafunctions/lpm_constant.inc                ;         ;
+; lpm_decode.inc                   ; yes             ; Megafunction                       ; /home/dary/intelFPGA_lite/20.1/quartus/libraries/megafunctions/lpm_decode.inc                  ;         ;
+; lpm_add_sub.inc                  ; yes             ; Megafunction                       ; /home/dary/intelFPGA_lite/20.1/quartus/libraries/megafunctions/lpm_add_sub.inc                 ;         ;
+; cmpconst.inc                     ; yes             ; Megafunction                       ; /home/dary/intelFPGA_lite/20.1/quartus/libraries/megafunctions/cmpconst.inc                    ;         ;
+; lpm_compare.inc                  ; yes             ; Megafunction                       ; /home/dary/intelFPGA_lite/20.1/quartus/libraries/megafunctions/lpm_compare.inc                 ;         ;
+; lpm_counter.inc                  ; yes             ; Megafunction                       ; /home/dary/intelFPGA_lite/20.1/quartus/libraries/megafunctions/lpm_counter.inc                 ;         ;
+; dffeea.inc                       ; yes             ; Megafunction                       ; /home/dary/intelFPGA_lite/20.1/quartus/libraries/megafunctions/dffeea.inc                      ;         ;
+; alt_counter_stratix.inc          ; yes             ; Megafunction                       ; /home/dary/intelFPGA_lite/20.1/quartus/libraries/megafunctions/alt_counter_stratix.inc         ;         ;
+; aglobal201.inc                   ; yes             ; Megafunction                       ; /home/dary/intelFPGA_lite/20.1/quartus/libraries/megafunctions/aglobal201.inc                  ;         ;
+; db/cntr_p4h.tdf                  ; yes             ; Auto-Generated Megafunction        ; /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/db/cntr_p4h.tdf          ;         ;
++----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------------------------------+---------+
+
+
++--------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                  ;
++---------------------------------------------+----------------+
+; Resource                                    ; Usage          ;
++---------------------------------------------+----------------+
+; Total logic elements                        ; 0              ;
+;     -- Combinational with no register       ; 0              ;
+;     -- Register only                        ; 0              ;
+;     -- Combinational with a register        ; 0              ;
+;                                             ;                ;
+; Logic element usage by number of LUT inputs ;                ;
+;     -- 4 input functions                    ; 0              ;
+;     -- 3 input functions                    ; 0              ;
+;     -- 2 input functions                    ; 0              ;
+;     -- 1 input functions                    ; 0              ;
+;     -- 0 input functions                    ; 0              ;
+;                                             ;                ;
+; Logic elements by mode                      ;                ;
+;     -- normal mode                          ; 0              ;
+;     -- arithmetic mode                      ; 0              ;
+;     -- qfbk mode                            ; 0              ;
+;     -- register cascade mode                ; 0              ;
+;     -- synchronous clear/load mode          ; 0              ;
+;     -- asynchronous clear/load mode         ; 0              ;
+;                                             ;                ;
+; Total registers                             ; 0              ;
+; I/O pins                                    ; 37             ;
+; Maximum fan-out node                        ; CPLD_CONN_IO18 ;
+; Maximum fan-out                             ; 4              ;
+; Total fan-out                               ; 8              ;
+; Average fan-out                             ; 0.22           ;
++---------------------------------------------+----------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                           ;
++----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+-----------------------+----------------------+--------------+
+; Compilation Hierarchy Node ; Logic Cells ; LC Registers ; UFM Blocks ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name   ; Entity Name          ; Library Name ;
++----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+-----------------------+----------------------+--------------+
+; |cpld_beamforming_top      ; 0 (0)       ; 0            ; 0          ; 37   ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |cpld_beamforming_top ; cpld_beamforming_top ; work         ;
++----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+-----------------------+----------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                 ;
++--------+--------------+---------+--------------+--------------+-------------------------------------+-----------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                     ; IP Include File ;
++--------+--------------+---------+--------------+--------------+-------------------------------------+-----------------+
+; Altera ; LPM_COUNTER  ; 20.1    ; N/A          ; N/A          ; |cpld_beamforming_top|counter:inst2 ; counter.v       ;
++--------+--------------+---------+--------------+--------------+-------------------------------------+-----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                            ;
++--------------------------------------------------------------------------------------+----------------------------------------+
+; Register name                                                                        ; Reason for Removal                     ;
++--------------------------------------------------------------------------------------+----------------------------------------+
+; pwrctr:inst3|highreg                                                                 ; Stuck at VCC due to stuck port data_in ;
+; counter:inst2|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[0..7] ; Lost fanout                            ;
+; Total Number of Removed Registers = 9                                                ;                                        ;
++--------------------------------------------------------------------------------------+----------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                                          ;
++----------------------+---------------------------+-----------------------------------------------------------------------------------+
+; Register name        ; Reason for Removal        ; Registers Removed due to This Register                                            ;
++----------------------+---------------------------+-----------------------------------------------------------------------------------+
+; pwrctr:inst3|highreg ; Stuck at VCC              ; counter:inst2|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[7] ;
+;                      ; due to stuck port data_in ;                                                                                   ;
++----------------------+---------------------------+-----------------------------------------------------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++----------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: counter:inst2|lpm_counter:LPM_COUNTER_component ;
++------------------------+-------------+-------------------------------------------------------+
+; Parameter Name         ; Value       ; Type                                                  ;
++------------------------+-------------+-------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                            ;
+; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                          ;
+; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                          ;
+; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                        ;
+; LPM_WIDTH              ; 8           ; Signed Integer                                        ;
+; LPM_DIRECTION          ; UP          ; Untyped                                               ;
+; LPM_MODULUS            ; 0           ; Untyped                                               ;
+; LPM_AVALUE             ; UNUSED      ; Untyped                                               ;
+; LPM_SVALUE             ; UNUSED      ; Untyped                                               ;
+; LPM_PORT_UPDOWN        ; PORT_UNUSED ; Untyped                                               ;
+; DEVICE_FAMILY          ; MAX V       ; Untyped                                               ;
+; CARRY_CHAIN            ; MANUAL      ; Untyped                                               ;
+; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                    ;
+; NOT_GATE_PUSH_BACK     ; ON          ; NOT_GATE_PUSH_BACK                                    ;
+; CARRY_CNT_EN           ; SMART       ; Untyped                                               ;
+; LABWIDE_SCLR           ; ON          ; Untyped                                               ;
+; USE_NEW_VERSION        ; TRUE        ; Untyped                                               ;
+; CBXI_PARAMETER         ; cntr_p4h    ; Untyped                                               ;
++------------------------+-------------+-------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +-------------------------------+
@@ -148,27 +289,73 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Fri Mar 26 17:19:41 2021
+    Info: Processing started: Sat Mar 27 01:24:03 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off cpld_beamforming -c cpld_beamforming_top
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file cpld_beamforming_top.bdf
     Info (12023): Found entity 1: cpld_beamforming_top
-Info (12021): Found 1 design units, including 1 entities, in source file ad7864.v
-    Info (12023): Found entity 1: ad7864 File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864.v Line: 8
+Info (12021): Found 1 design units, including 1 entities, in source file AD7864.v
+    Info (12023): Found entity 1: ad7864 File: /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file pwrctr.v
-    Info (12023): Found entity 1: pwrctr File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/pwrctr.v Line: 8
+    Info (12023): Found entity 1: pwrctr File: /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/pwrctr.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file i2cmodule.v
-    Info (12023): Found entity 1: i2cmodule File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/i2cmodule.v Line: 8
+    Info (12023): Found entity 1: i2cmodule File: /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/i2cmodule.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file counter.v
-    Info (12023): Found entity 1: counter File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/counter.v Line: 40
+    Info (12023): Found entity 1: counter File: /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/counter.v Line: 40
 Info (12127): Elaborating entity "cpld_beamforming_top" for the top level hierarchy
-Error (275062): Logic function of type counter and instance "inst" is already defined as a signal name or another logic function
-Error (12153): Can't elaborate top-level user hierarchy
-Error: Quartus Prime Analysis & Synthesis was unsuccessful. 2 errors, 1 warning
-    Error: Peak virtual memory: 4680 megabytes
-    Error: Processing ended: Fri Mar 26 17:19:54 2021
-    Error: Elapsed time: 00:00:13
-    Error: Total CPU time (on all processors): 00:00:27
+Info (12128): Elaborating entity "ad7864" for hierarchy "ad7864:inst"
+Warning (10034): Output port "spi_clk" at AD7864.v(25) has no driver File: /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864.v Line: 25
+Warning (10034): Output port "spi_mosi" at AD7864.v(26) has no driver File: /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864.v Line: 26
+Warning (10034): Output port "spi_cs" at AD7864.v(27) has no driver File: /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864.v Line: 27
+Info (12128): Elaborating entity "pwrctr" for hierarchy "pwrctr:inst3"
+Info (12128): Elaborating entity "counter" for hierarchy "counter:inst2"
+Info (12128): Elaborating entity "lpm_counter" for hierarchy "counter:inst2|lpm_counter:LPM_COUNTER_component" File: /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/counter.v Line: 65
+Info (12130): Elaborated megafunction instantiation "counter:inst2|lpm_counter:LPM_COUNTER_component" File: /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/counter.v Line: 65
+Info (12133): Instantiated megafunction "counter:inst2|lpm_counter:LPM_COUNTER_component" with the following parameter: File: /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/counter.v Line: 65
+    Info (12134): Parameter "lpm_direction" = "UP"
+    Info (12134): Parameter "lpm_port_updown" = "PORT_UNUSED"
+    Info (12134): Parameter "lpm_type" = "LPM_COUNTER"
+    Info (12134): Parameter "lpm_width" = "8"
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_p4h.tdf
+    Info (12023): Found entity 1: cntr_p4h File: /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/db/cntr_p4h.tdf Line: 26
+Info (12128): Elaborating entity "cntr_p4h" for hierarchy "counter:inst2|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated" File: /home/dary/intelFPGA_lite/20.1/quartus/libraries/megafunctions/lpm_counter.tdf Line: 259
+Warning (13039): The following bidirectional pins have no drivers
+    Warning (13040): bidirectional pin "CPLD_CONN_IO" has no driver
+    Warning (13040): bidirectional pin "CPLD_CONN_IO" has no driver
+    Warning (13040): bidirectional pin "CPLD_CONN_IO" has no driver
+    Warning (13040): bidirectional pin "CPLD_CONN_IO" has no driver
+    Warning (13040): bidirectional pin "CPLD_CONN_IO" has no driver
+    Warning (13040): bidirectional pin "CPLD_CONN_IO" has no driver
+    Warning (13040): bidirectional pin "CPLD_CONN_IO" has no driver
+    Warning (13040): bidirectional pin "CPLD_CONN_IO" has no driver
+    Warning (13040): bidirectional pin "CPLD_CONN_IO" has no driver
+    Warning (13040): bidirectional pin "CPLD_CONN_IO" has no driver
+    Warning (13040): bidirectional pin "CPLD_CONN_IO" has no driver
+    Warning (13040): bidirectional pin "CPLD_CONN_IO" has no driver
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "CPLD_CONN_IO2" is stuck at GND
+    Warning (13410): Pin "CPLD_CONN_IO15" is stuck at VCC
+    Warning (13410): Pin "DSP_PWR_EN" is stuck at VCC
+    Warning (13410): Pin "CPLD_IO13" is stuck at GND
+    Warning (13410): Pin "CPLD_IO14" is stuck at GND
+    Warning (13410): Pin "CPLD_IO15" is stuck at GND
+    Warning (13410): Pin "DSP_BOOT[3]" is stuck at VCC
+    Warning (13410): Pin "DSP_BOOT[2]" is stuck at GND
+    Warning (13410): Pin "DSP_BOOT[1]" is stuck at GND
+    Warning (13410): Pin "DSP_BOOT[0]" is stuck at VCC
+Info (17049): 8 registers lost all their fanouts during netlist optimizations.
+Warning (21074): Design contains 2 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "CPLD_CLKIN"
+    Warning (15610): No output dependent on input pin "CPLD_IO16"
+Info (21057): Implemented 37 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 7 input pins
+    Info (21059): Implemented 18 output pins
+    Info (21060): Implemented 12 bidirectional pins
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 31 warnings
+    Info: Peak virtual memory: 373 megabytes
+    Info: Processing ended: Sat Mar 27 01:24:10 2021
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:17
 
 
