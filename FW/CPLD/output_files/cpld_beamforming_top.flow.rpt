@@ -1,5 +1,5 @@
 Flow report for cpld_beamforming_top
-Sat Mar 27 01:24:14 2021
+Sun Mar 28 18:35:27 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------+
 ; Flow Summary                                                        ;
 +-----------------------+---------------------------------------------+
-; Flow Status           ; Successful - Sat Mar 27 01:24:14 2021       ;
+; Flow Status           ; Successful - Sun Mar 28 18:35:27 2021       ;
 ; Quartus Prime Version ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name         ; cpld_beamforming_top                        ;
 ; Top-level Entity Name ; cpld_beamforming_top                        ;
@@ -60,31 +60,31 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+----------------------+
 ; Option            ; Setting              ;
 +-------------------+----------------------+
-; Start date & time ; 03/27/2021 01:24:03  ;
+; Start date & time ; 03/28/2021 18:35:03  ;
 ; Main task         ; Compilation          ;
 ; Revision Name     ; cpld_beamforming_top ;
 +-------------------+----------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                    ;
-+---------------------------------+---------------------------------+---------------+-------------+-----------------------------------+
-; Assignment Name                 ; Value                           ; Default Value ; Entity Name ; Section Id                        ;
-+---------------------------------+---------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID           ; 269058766099854.161681904311560 ; --            ; --          ; --                                ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST ; Off                             ; --            ; --          ; eda_board_design_timing           ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST ; Off                             ; --            ; --          ; eda_board_design_boundary_scan    ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST ; Off                             ; --            ; --          ; eda_board_design_signal_integrity ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST ; Off                             ; --            ; --          ; eda_board_design_symbol           ;
-; EDA_OUTPUT_DATA_FORMAT          ; Verilog Hdl                     ; --            ; --          ; eda_simulation                    ;
-; EDA_SIMULATION_TOOL             ; ModelSim-Altera (Verilog)       ; <None>        ; --          ; --                                ;
-; EDA_TIME_SCALE                  ; 1 ps                            ; --            ; --          ; eda_simulation                    ;
-; MAX_CORE_JUNCTION_TEMP          ; 85                              ; --            ; --          ; --                                ;
-; MIN_CORE_JUNCTION_TEMP          ; 0                               ; --            ; --          ; --                                ;
-; MISC_FILE                       ; counter.bsf                     ; --            ; --          ; --                                ;
-; MISC_FILE                       ; counter_bb.v                    ; --            ; --          ; --                                ;
-; PROJECT_OUTPUT_DIRECTORY        ; output_files                    ; --            ; --          ; --                                ;
-+---------------------------------+---------------------------------+---------------+-------------+-----------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                   ;
++---------------------------------+--------------------------------+---------------+-------------+-----------------------------------+
+; Assignment Name                 ; Value                          ; Default Value ; Entity Name ; Section Id                        ;
++---------------------------------+--------------------------------+---------------+-------------+-----------------------------------+
+; COMPILER_SIGNATURE_ID           ; 88147557978092.161696730303182 ; --            ; --          ; --                                ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST ; Off                            ; --            ; --          ; eda_board_design_timing           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST ; Off                            ; --            ; --          ; eda_board_design_boundary_scan    ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST ; Off                            ; --            ; --          ; eda_board_design_signal_integrity ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST ; Off                            ; --            ; --          ; eda_board_design_symbol           ;
+; EDA_OUTPUT_DATA_FORMAT          ; Verilog Hdl                    ; --            ; --          ; eda_simulation                    ;
+; EDA_SIMULATION_TOOL             ; ModelSim-Altera (Verilog)      ; <None>        ; --          ; --                                ;
+; EDA_TIME_SCALE                  ; 1 ps                           ; --            ; --          ; eda_simulation                    ;
+; MAX_CORE_JUNCTION_TEMP          ; 85                             ; --            ; --          ; --                                ;
+; MIN_CORE_JUNCTION_TEMP          ; 0                              ; --            ; --          ; --                                ;
+; MISC_FILE                       ; counter.bsf                    ; --            ; --          ; --                                ;
+; MISC_FILE                       ; counter_bb.v                   ; --            ; --          ; --                                ;
+; PROJECT_OUTPUT_DIRECTORY        ; output_files                   ; --            ; --          ; --                                ;
++---------------------------------+--------------------------------+---------------+-------------+-----------------------------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -92,12 +92,12 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:07     ; 1.0                     ; 373 MB              ; 00:00:17                           ;
-; Fitter               ; 00:00:00     ; 1.0                     ; 805 MB              ; 00:00:01                           ;
-; Assembler            ; 00:00:00     ; 1.0                     ; 351 MB              ; 00:00:00                           ;
-; Timing Analyzer      ; 00:00:00     ; 1.0                     ; 370 MB              ; 00:00:00                           ;
-; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 599 MB              ; 00:00:00                           ;
-; Total                ; 00:00:07     ; --                      ; --                  ; 00:00:18                           ;
+; Analysis & Synthesis ; 00:00:09     ; 1.0                     ; 375 MB              ; 00:00:17                           ;
+; Fitter               ; 00:00:06     ; 1.0                     ; 803 MB              ; 00:00:01                           ;
+; Assembler            ; 00:00:01     ; 1.0                     ; 351 MB              ; 00:00:00                           ;
+; Timing Analyzer      ; 00:00:01     ; 1.0                     ; 370 MB              ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 599 MB              ; 00:00:00                           ;
+; Total                ; 00:00:18     ; --                      ; --                  ; 00:00:18                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

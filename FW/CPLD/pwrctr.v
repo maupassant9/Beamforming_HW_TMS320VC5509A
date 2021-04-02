@@ -35,13 +35,13 @@ module pwrctr(
 	assign miso = eeprom_miso;
 	
 	//wait for first clk, and set bootcfg
-	assign pwr_en = highreg;
-	assign bootcfg[0] = highreg;
-	assign bootcfg[1] = !highreg;
-	assign bootcfg[2] = !highreg;
-	assign bootcfg[3] = highreg;
-	always @ (posedge clk_in) begin
-		highreg = 1;
-	end 	
+//	assign pwr_en = highreg;
+//	assign bootcfg[0] = highreg;
+//	assign bootcfg[1] = !highreg;
+//	assign bootcfg[2] = !highreg;
+//	assign bootcfg[3] = highreg;
+//	always @ (posedge clk_in) begin
+//		highreg = 1;
+//	end 	
 	
 endmodule

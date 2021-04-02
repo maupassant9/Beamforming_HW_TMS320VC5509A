@@ -1,7 +1,7 @@
 |cpld_beamforming_top
 CPLD_CONN_IO2 <= ad7864:inst.clk
 CPLD_CLKIN => ad7864:inst.clk_in
-CPLD_CLKIN => counter:inst2.clock
+CPLD_CLKIN => counter:inst1.clock
 CPLD_CONN_IO18 => ad7864:inst.eoc
 CPLD_IO16 => ad7864:inst.spi_miso
 CPLD_CONN_IO[14] <> ad7864:inst.db[0]
@@ -20,7 +20,7 @@ CPLD_CONN_IO15 <= ad7864:inst.cs_a
 CPLD_CONN_IO1 <= ad7864:inst.cs_b
 CPLD_CONN_IO16 <= ad7864:inst.wr
 CPLD_CONN_IO17 <= ad7864:inst.rd
-CPLD_CONN_IO0 <= ad7864:inst.conv
+CPLD_CONN_IO0 <= ad7864:inst.conv_out
 DSP_PWR_EN <= pwrctr:inst3.pwr_en
 pin_name6 => pwrctr:inst3.eeprom_miso
 pin_name7 => pwrctr:inst3.sclk
@@ -46,14 +46,12 @@ cs_a <= busy.DB_MAX_OUTPUT_PORT_TYPE
 cs_b <= cs_b.DB_MAX_OUTPUT_PORT_TYPE
 wr <= eoc.DB_MAX_OUTPUT_PORT_TYPE
 rd <= eoc.DB_MAX_OUTPUT_PORT_TYPE
-conv <= conv.DB_MAX_OUTPUT_PORT_TYPE
+conv_out <= conv_in.DB_MAX_OUTPUT_PORT_TYPE
 busy => clk.IN0
 busy => cs_b.IN0
-busy => conv.IN0
 busy => cs_a.DATAIN
 eoc => clk.IN1
 eoc => cs_b.IN1
-eoc => conv.IN1
 eoc => rd.DATAIN
 eoc => wr.DATAIN
 db[0] <> <UNC>
@@ -68,6 +66,7 @@ db[8] <> <UNC>
 db[9] <> <UNC>
 db[10] <> <UNC>
 db[11] <> <UNC>
+conv_in => conv_out.DATAIN
 spi_clk <= <GND>
 spi_mosi <= <GND>
 spi_cs <= <GND>
@@ -75,12 +74,12 @@ spi_miso => ~NO_FANOUT~
 
 
 |cpld_beamforming_top|pwrctr:inst3
-clk_in => highreg.CLK
-pwr_en <= highreg.DB_MAX_OUTPUT_PORT_TYPE
-bootcfg[0] <= highreg.DB_MAX_OUTPUT_PORT_TYPE
-bootcfg[1] <= highreg.DB_MAX_OUTPUT_PORT_TYPE
-bootcfg[2] <= highreg.DB_MAX_OUTPUT_PORT_TYPE
-bootcfg[3] <= highreg.DB_MAX_OUTPUT_PORT_TYPE
+clk_in => ~NO_FANOUT~
+pwr_en <= <GND>
+bootcfg[0] <= <GND>
+bootcfg[1] <= <GND>
+bootcfg[2] <= <GND>
+bootcfg[3] <= <GND>
 eeprom_sclk <= sclk.DB_MAX_OUTPUT_PORT_TYPE
 eeprom_mosi <= mosi.DB_MAX_OUTPUT_PORT_TYPE
 eeprom_mem_cs <= cs.DB_MAX_OUTPUT_PORT_TYPE
@@ -91,7 +90,7 @@ cs => eeprom_mem_cs.DATAIN
 miso <= eeprom_miso.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|cpld_beamforming_top|counter:inst2
+|cpld_beamforming_top|counter:inst1
 clock => clock.IN1
 q[0] <= lpm_counter:LPM_COUNTER_component.q
 q[1] <= lpm_counter:LPM_COUNTER_component.q
@@ -103,7 +102,7 @@ q[6] <= lpm_counter:LPM_COUNTER_component.q
 q[7] <= lpm_counter:LPM_COUNTER_component.q
 
 
-|cpld_beamforming_top|counter:inst2|lpm_counter:LPM_COUNTER_component
+|cpld_beamforming_top|counter:inst1|lpm_counter:LPM_COUNTER_component
 clock => cntr_p4h:auto_generated.clock
 clk_en => ~NO_FANOUT~
 cnt_en => ~NO_FANOUT~
@@ -152,7 +151,7 @@ eq[14] <= <GND>
 eq[15] <= <GND>
 
 
-|cpld_beamforming_top|counter:inst2|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated
+|cpld_beamforming_top|counter:inst1|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated
 clock => counter_cella0.CLK
 clock => counter_cella1.CLK
 clock => counter_cella2.CLK

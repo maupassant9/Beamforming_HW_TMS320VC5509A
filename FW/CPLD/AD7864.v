@@ -14,7 +14,7 @@ module ad7864(
 	output cs_b, //chip select for chip B
 	output wr,   //write signal
 	output rd,   //read signal
-	output conv, //start conversion signal
+	output conv_out, //start conversion signal
 	
 	input busy,  //ADC busy signal
 	input eoc,   //end of conversion signal
@@ -22,6 +22,7 @@ module ad7864(
 	inout [11:0] db,
 	
 	//CPLD <-->DSP (SPI interface)
+	input conv_in,
 	output spi_clk,
 	output spi_mosi,
 	output spi_cs,
@@ -35,6 +36,8 @@ module ad7864(
 	assign cs_b = busy || eoc;
 	assign wr = !eoc;
 	assign rd = eoc;
-	assign conv = (!busy) && eoc;
+	assign conv_out = conv_in;
+	
+	
 endmodule
 	

@@ -17,7 +17,7 @@
 // PROGRAM "Quartus Prime"
 // VERSION "Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition"
 
-// DATE "03/27/2021 01:24:14"
+// DATE "03/28/2021 18:35:26"
 
 // 
 // Device: Altera 5M40ZE64C5 Package EQFP64
@@ -220,7 +220,7 @@ defparam \CPLD_CONN_IO17~I .operation_mode = "output";
 
 // Location: PIN_13,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 16mA
 maxv_io \CPLD_CONN_IO0~I (
-	.datain(\CPLD_CONN_IO18~combout ),
+	.datain(gnd),
 	.oe(vcc),
 	.combout(),
 	.padio(CPLD_CONN_IO0));
@@ -230,7 +230,7 @@ defparam \CPLD_CONN_IO0~I .operation_mode = "output";
 
 // Location: PIN_32,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 16mA
 maxv_io \DSP_PWR_EN~I (
-	.datain(vcc),
+	.datain(gnd),
 	.oe(vcc),
 	.combout(),
 	.padio(DSP_PWR_EN));
@@ -310,7 +310,7 @@ defparam \pin_name5~I .operation_mode = "output";
 
 // Location: PIN_61,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 16mA
 maxv_io \DSP_BOOT[3]~I (
-	.datain(vcc),
+	.datain(gnd),
 	.oe(vcc),
 	.combout(),
 	.padio(DSP_BOOT[3]));
@@ -340,7 +340,7 @@ defparam \DSP_BOOT[1]~I .operation_mode = "output";
 
 // Location: PIN_7,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 16mA
 maxv_io \DSP_BOOT[0]~I (
-	.datain(vcc),
+	.datain(gnd),
 	.oe(vcc),
 	.combout(),
 	.padio(DSP_BOOT[0]));

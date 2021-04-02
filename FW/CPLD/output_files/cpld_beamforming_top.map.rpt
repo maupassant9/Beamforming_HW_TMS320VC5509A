@@ -1,5 +1,5 @@
 Analysis & Synthesis report for cpld_beamforming_top
-Sat Mar 27 01:24:10 2021
+Sun Mar 28 18:35:12 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -15,10 +15,9 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   7. Analysis & Synthesis Resource Utilization by Entity
   8. Analysis & Synthesis IP Cores Summary
   9. Registers Removed During Synthesis
- 10. Removed Registers Triggering Further Register Optimizations
- 11. General Register Statistics
- 12. Parameter Settings for User Entity Instance: counter:inst2|lpm_counter:LPM_COUNTER_component
- 13. Analysis & Synthesis Messages
+ 10. General Register Statistics
+ 11. Parameter Settings for User Entity Instance: counter:inst1|lpm_counter:LPM_COUNTER_component
+ 12. Analysis & Synthesis Messages
 
 
 
@@ -45,7 +44,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                              ;
 +-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Sat Mar 27 01:24:10 2021       ;
+; Analysis & Synthesis Status ; Successful - Sun Mar 28 18:35:12 2021       ;
 ; Quartus Prime Version       ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name               ; cpld_beamforming_top                        ;
 ; Top-level Entity Name       ; cpld_beamforming_top                        ;
@@ -195,9 +194,9 @@ https://fpgasoftware.intel.com/eula.
 ; Total registers                             ; 0              ;
 ; I/O pins                                    ; 37             ;
 ; Maximum fan-out node                        ; CPLD_CONN_IO18 ;
-; Maximum fan-out                             ; 4              ;
-; Total fan-out                               ; 8              ;
-; Average fan-out                             ; 0.22           ;
+; Maximum fan-out                             ; 3              ;
+; Total fan-out                               ; 7              ;
+; Average fan-out                             ; 0.19           ;
 +---------------------------------------------+----------------+
 
 
@@ -216,29 +215,18 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------+--------------+---------+--------------+--------------+-------------------------------------+-----------------+
 ; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                     ; IP Include File ;
 +--------+--------------+---------+--------------+--------------+-------------------------------------+-----------------+
-; Altera ; LPM_COUNTER  ; 20.1    ; N/A          ; N/A          ; |cpld_beamforming_top|counter:inst2 ; counter.v       ;
+; Altera ; LPM_COUNTER  ; 20.1    ; N/A          ; N/A          ; |cpld_beamforming_top|counter:inst1 ; counter.v       ;
 +--------+--------------+---------+--------------+--------------+-------------------------------------+-----------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                                            ;
-+--------------------------------------------------------------------------------------+----------------------------------------+
-; Register name                                                                        ; Reason for Removal                     ;
-+--------------------------------------------------------------------------------------+----------------------------------------+
-; pwrctr:inst3|highreg                                                                 ; Stuck at VCC due to stuck port data_in ;
-; counter:inst2|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[0..7] ; Lost fanout                            ;
-; Total Number of Removed Registers = 9                                                ;                                        ;
-+--------------------------------------------------------------------------------------+----------------------------------------+
-
-
-+--------------------------------------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                                                          ;
-+----------------------+---------------------------+-----------------------------------------------------------------------------------+
-; Register name        ; Reason for Removal        ; Registers Removed due to This Register                                            ;
-+----------------------+---------------------------+-----------------------------------------------------------------------------------+
-; pwrctr:inst3|highreg ; Stuck at VCC              ; counter:inst2|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[7] ;
-;                      ; due to stuck port data_in ;                                                                                   ;
-+----------------------+---------------------------+-----------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                        ;
++--------------------------------------------------------------------------------------+--------------------+
+; Register name                                                                        ; Reason for Removal ;
++--------------------------------------------------------------------------------------+--------------------+
+; counter:inst1|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[0..7] ; Lost fanout        ;
+; Total Number of Removed Registers = 8                                                ;                    ;
++--------------------------------------------------------------------------------------+--------------------+
 
 
 +------------------------------------------------------+
@@ -257,7 +245,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +----------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: counter:inst2|lpm_counter:LPM_COUNTER_component ;
+; Parameter Settings for User Entity Instance: counter:inst1|lpm_counter:LPM_COUNTER_component ;
 +------------------------+-------------+-------------------------------------------------------+
 ; Parameter Name         ; Value       ; Type                                                  ;
 +------------------------+-------------+-------------------------------------------------------+
@@ -289,7 +277,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Sat Mar 27 01:24:03 2021
+    Info: Processing started: Sun Mar 28 18:35:03 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off cpld_beamforming -c cpld_beamforming_top
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -305,21 +293,23 @@ Info (12021): Found 1 design units, including 1 entities, in source file counter
     Info (12023): Found entity 1: counter File: /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/counter.v Line: 40
 Info (12127): Elaborating entity "cpld_beamforming_top" for the top level hierarchy
 Info (12128): Elaborating entity "ad7864" for hierarchy "ad7864:inst"
-Warning (10034): Output port "spi_clk" at AD7864.v(25) has no driver File: /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864.v Line: 25
-Warning (10034): Output port "spi_mosi" at AD7864.v(26) has no driver File: /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864.v Line: 26
-Warning (10034): Output port "spi_cs" at AD7864.v(27) has no driver File: /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864.v Line: 27
+Warning (10034): Output port "spi_clk" at AD7864.v(26) has no driver File: /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864.v Line: 26
+Warning (10034): Output port "spi_mosi" at AD7864.v(27) has no driver File: /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864.v Line: 27
+Warning (10034): Output port "spi_cs" at AD7864.v(28) has no driver File: /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864.v Line: 28
 Info (12128): Elaborating entity "pwrctr" for hierarchy "pwrctr:inst3"
-Info (12128): Elaborating entity "counter" for hierarchy "counter:inst2"
-Info (12128): Elaborating entity "lpm_counter" for hierarchy "counter:inst2|lpm_counter:LPM_COUNTER_component" File: /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/counter.v Line: 65
-Info (12130): Elaborated megafunction instantiation "counter:inst2|lpm_counter:LPM_COUNTER_component" File: /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/counter.v Line: 65
-Info (12133): Instantiated megafunction "counter:inst2|lpm_counter:LPM_COUNTER_component" with the following parameter: File: /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/counter.v Line: 65
+Warning (10034): Output port "bootcfg" at pwrctr.v(14) has no driver File: /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/pwrctr.v Line: 14
+Warning (10034): Output port "pwr_en" at pwrctr.v(12) has no driver File: /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/pwrctr.v Line: 12
+Info (12128): Elaborating entity "counter" for hierarchy "counter:inst1"
+Info (12128): Elaborating entity "lpm_counter" for hierarchy "counter:inst1|lpm_counter:LPM_COUNTER_component" File: /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/counter.v Line: 65
+Info (12130): Elaborated megafunction instantiation "counter:inst1|lpm_counter:LPM_COUNTER_component" File: /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/counter.v Line: 65
+Info (12133): Instantiated megafunction "counter:inst1|lpm_counter:LPM_COUNTER_component" with the following parameter: File: /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/counter.v Line: 65
     Info (12134): Parameter "lpm_direction" = "UP"
     Info (12134): Parameter "lpm_port_updown" = "PORT_UNUSED"
     Info (12134): Parameter "lpm_type" = "LPM_COUNTER"
     Info (12134): Parameter "lpm_width" = "8"
 Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_p4h.tdf
     Info (12023): Found entity 1: cntr_p4h File: /home/dary/Documents/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/db/cntr_p4h.tdf Line: 26
-Info (12128): Elaborating entity "cntr_p4h" for hierarchy "counter:inst2|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated" File: /home/dary/intelFPGA_lite/20.1/quartus/libraries/megafunctions/lpm_counter.tdf Line: 259
+Info (12128): Elaborating entity "cntr_p4h" for hierarchy "counter:inst1|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated" File: /home/dary/intelFPGA_lite/20.1/quartus/libraries/megafunctions/lpm_counter.tdf Line: 259
 Warning (13039): The following bidirectional pins have no drivers
     Warning (13040): bidirectional pin "CPLD_CONN_IO" has no driver
     Warning (13040): bidirectional pin "CPLD_CONN_IO" has no driver
@@ -336,14 +326,15 @@ Warning (13039): The following bidirectional pins have no drivers
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "CPLD_CONN_IO2" is stuck at GND
     Warning (13410): Pin "CPLD_CONN_IO15" is stuck at VCC
-    Warning (13410): Pin "DSP_PWR_EN" is stuck at VCC
+    Warning (13410): Pin "CPLD_CONN_IO0" is stuck at GND
+    Warning (13410): Pin "DSP_PWR_EN" is stuck at GND
     Warning (13410): Pin "CPLD_IO13" is stuck at GND
     Warning (13410): Pin "CPLD_IO14" is stuck at GND
     Warning (13410): Pin "CPLD_IO15" is stuck at GND
-    Warning (13410): Pin "DSP_BOOT[3]" is stuck at VCC
+    Warning (13410): Pin "DSP_BOOT[3]" is stuck at GND
     Warning (13410): Pin "DSP_BOOT[2]" is stuck at GND
     Warning (13410): Pin "DSP_BOOT[1]" is stuck at GND
-    Warning (13410): Pin "DSP_BOOT[0]" is stuck at VCC
+    Warning (13410): Pin "DSP_BOOT[0]" is stuck at GND
 Info (17049): 8 registers lost all their fanouts during netlist optimizations.
 Warning (21074): Design contains 2 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "CPLD_CLKIN"
@@ -352,10 +343,10 @@ Info (21057): Implemented 37 device resources after synthesis - the final resour
     Info (21058): Implemented 7 input pins
     Info (21059): Implemented 18 output pins
     Info (21060): Implemented 12 bidirectional pins
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 31 warnings
-    Info: Peak virtual memory: 373 megabytes
-    Info: Processing ended: Sat Mar 27 01:24:10 2021
-    Info: Elapsed time: 00:00:07
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 34 warnings
+    Info: Peak virtual memory: 375 megabytes
+    Info: Processing ended: Sun Mar 28 18:35:12 2021
+    Info: Elapsed time: 00:00:09
     Info: Total CPU time (on all processors): 00:00:17
 
 
