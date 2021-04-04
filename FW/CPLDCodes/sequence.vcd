@@ -1,0 +1,159 @@
+$date
+	Sat Apr  3 23:58:10 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module testbench_seq $end
+$var wire 1 ! z2 $end
+$var wire 1 " z1 $end
+$var reg 1 # clk $end
+$var reg 1 $ reset $end
+$var reg 1 % x $end
+$scope module DUT $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var wire 1 % x $end
+$var reg 2 & state [1:0] $end
+$var reg 1 " z $end
+$upscope $end
+$scope module DUT2 $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var wire 1 % x $end
+$var reg 2 ' next_state [1:0] $end
+$var reg 2 ( present_state [1:0] $end
+$var reg 1 ! z $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx (
+b0 '
+b0 &
+x%
+1$
+0#
+x"
+x!
+$end
+#500
+b0x '
+0!
+b0 (
+1#
+#1000
+0#
+#1200
+b1 '
+0%
+#1500
+b1 (
+b1 &
+0"
+1#
+0$
+#2000
+0#
+#2500
+1#
+#3000
+0#
+#3200
+b10 '
+1%
+#3500
+b11 '
+b10 (
+b10 &
+1#
+#4000
+0#
+#4500
+b0 '
+b11 (
+b11 &
+1#
+#5000
+0#
+#5200
+b1 '
+1!
+0%
+#5500
+0!
+b1 (
+b1 &
+1"
+1#
+#6000
+0#
+#6200
+b10 '
+1%
+#6500
+b11 '
+b10 (
+b10 &
+0"
+1#
+#7000
+0#
+#7500
+b0 '
+b11 (
+b11 &
+1#
+#8000
+0#
+#8200
+1!
+b1 '
+0%
+#8500
+0!
+b1 (
+b1 &
+1"
+1#
+#9000
+0#
+#9500
+0"
+1#
+#10000
+0#
+#10200
+b10 '
+1%
+#10500
+b11 '
+b10 (
+b10 &
+1#
+#11000
+0#
+#11500
+b0 '
+b11 (
+b11 &
+1#
+#12000
+0#
+#12200
+b1 '
+1!
+0%
+#12500
+0!
+b1 (
+b1 &
+1"
+1#
+#13000
+0#
+#13200
