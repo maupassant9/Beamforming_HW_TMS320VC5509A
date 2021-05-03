@@ -1,27 +1,22 @@
 \t (00:00:01) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
-\t (00:00:01)     Journal start - Sat Mar 06 10:44:27 2021
-\t (00:00:01)         Host=DESKTOP-MRJ3IVS User=xiado Pid=11368 CPUs=2
-\t (00:00:01) CmdLine= C:\Cadence\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
+\t (00:00:01)     Journal start - Mon Apr 26 10:29:24 2021
+\t (00:00:01)         Host=DESKTOPAMDDONGX User=DongXiaDesktop Pid=16224 CPUs=4
+\t (00:00:01) CmdLine= C:\cadence\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe -ORCAD
 \t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
 \t (00:00:04) Opening existing design...
-\d (00:00:04) Design opened: D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/pcbPackages/packages/SD-106M.dra
-\t (00:00:05) Grids are drawn 0.5080, 0.5080 apart for enhanced viewability.
-\i (00:00:05) trapsize 4501
-\i (00:00:05) trapsize 4379
-\i (00:00:05) trapsize 4521
-\i (00:00:05) trapsize 3768
-\t (00:00:05) Grids are drawn 0.5080, 0.5080 apart for enhanced viewability.
-\i (00:00:05) trapsize 3768
+\d (00:00:05) Design opened: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/HW/pcbPackages/packages/OSCCC250X320X100.dra
+\i (00:00:05) trapsize 79
+\i (00:00:05) trapsize 77
+\i (00:00:05) trapsize 79
+\i (00:00:05) trapsize 66
+\i (00:00:05) trapsize 66
 \i (00:00:06) generaledit 
-\i (00:00:12) opencd D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/SchematicPCB/PCB/Beamforming_PCB_Ver1_0_1.brd 
-\t (00:00:13) Opening existing design...
-\t (00:00:13) Grids are drawn 16.00, 16.00 apart for enhanced viewability.
-\i (00:00:13) trapsize 1581
-\i (00:00:13) trapsize 1539
-\i (00:00:13) trapsize 1581
-\t (00:00:14) Grids are drawn 32.00, 32.00 apart for enhanced viewability.
-\i (00:00:14) trapsize 2105
-\t (00:00:14) Grids are drawn 128.00, 128.00 apart for enhanced viewability.
-\t (00:00:14) Grids are drawn 32.00, 32.00 apart for enhanced viewability.
-\i (00:00:14) trapsize 2105
-\t (00:00:14)     Journal end - Sat Mar 06 10:44:40 2021
+\i (00:00:10) opencd D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/HW/SchematicPCB/PCB/Beamforming_PCB_Ver1_0_1.brd 
+\t (00:00:10) Opening existing design...
+\i (00:00:10) trapsize 1013
+\i (00:00:11) trapsize 986
+\i (00:00:11) trapsize 1013
+\i (00:00:11) trapsize 1250
+\i (00:00:11) trapsize 1250
+\t (00:00:11)     Journal end - Mon Apr 26 10:29:34 2021

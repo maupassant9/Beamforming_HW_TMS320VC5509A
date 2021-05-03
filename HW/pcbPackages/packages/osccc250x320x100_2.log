@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : OSCCC250X320X100_2.dra                        )
+(    Software Version : 16.6-2015S066                                 )
+(    Date/Time        : Mon Apr 26 10:28:08 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/HW/pcbPackages/packages
+    Name      = osccc250x320x100_2.psm
+    User      = DongXiaDesktop
+    Machine   = DESKTOPAMDDONGX
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+
