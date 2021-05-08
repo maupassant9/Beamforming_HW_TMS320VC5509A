@@ -182,52 +182,45 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\tms320c5509a_dev_board.dsn")
-      (Path "Design Resources" ".\tms320c5509a_dev_board.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "d:\xiado\project\someproject\beamforming\beamforming_hw_tms320vc5509a\hw\schematicpcb\tms320c5509a_dev_board.dsn")
+      (Path "Design Resources"
+         "d:\xiado\project\someproject\beamforming\beamforming_hw_tms320vc5509a\hw\schematicpcb\tms320c5509a_dev_board.dsn"
+         "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\tms320c5509a_dev_board.dsn" "SCHEMATIC1"
-         "DSP"))
+      (Select "Design Resources"
+         "d:\xiado\project\someproject\beamforming\beamforming_hw_tms320vc5509a\hw\schematicpcb\tms320c5509a_dev_board.dsn"
+         "SCHEMATIC1" "DSP"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 576"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 589"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1155 24 617")
-        (Scroll "0 120")
-        (Zoom "96")
+        (Placement "44 2 3 -1 -1 -8 -31 137 1011 98 477")
+        (Scroll "75 0")
+        (Zoom "100")
         (Occurrence "/"))
       (Path
-         "C:\USERS\DONG.X\DOCUMENTS\XIADONG\PROJETOS\PRIVATEPROJECTS\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\HW\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "CPLD"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1155 24 617")
-        (Scroll "1896 627")
-        (Zoom "136")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\DONG.X\DOCUMENTS\XIADONG\PROJETOS\PRIVATEPROJECTS\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\HW\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
+         "D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\HW\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
       (Schematic "SCHEMATIC1")
       (Page "DSP"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1155 24 617")
-        (Scroll "0 204")
-        (Zoom "200")
+        (Placement "44 0 1 -1 -1 -8 -31 78 930 78 444")
+        (Scroll "0 643")
+        (Zoom "100")
         (Occurrence "/"))
       (Path
-         "C:\USERS\DONG.X\DOCUMENTS\XIADONG\PROJETOS\PRIVATEPROJECTS\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\HW\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
+         "D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\HW\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
       (Schematic "SCHEMATIC1")
       (Page "POWER")))
-  (MPSSessionName "dong.x")
+  (MPSSessionName "xiado")
   (LastUsedLibraryBrowseDirectory
      "C:\cadence\Cadence\Cadence_SPB_16.6-2015\tools\capture\library")
   (ISPCBBASICLICENSE "false")
