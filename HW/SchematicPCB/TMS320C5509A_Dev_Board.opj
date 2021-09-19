@@ -184,14 +184,11 @@
       (Path "Design Resources")
       (Path "Design Resources"
          "d:\xiado\project\someproject\beamforming\beamforming_hw_tms320vc5509a\hw\schematicpcb\tms320c5509a_dev_board.dsn")
-      (Path "Design Resources"
-         "d:\xiado\project\someproject\beamforming\beamforming_hw_tms320vc5509a\hw\schematicpcb\tms320c5509a_dev_board.dsn"
-         "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
       (Select "Design Resources"
          "d:\xiado\project\someproject\beamforming\beamforming_hw_tms320vc5509a\hw\schematicpcb\tms320c5509a_dev_board.dsn"
-         "SCHEMATIC1" "DSP"))
+         "SCHEMATIC1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -201,8 +198,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 137 1011 98 477")
-        (Scroll "75 0")
+        (Placement "44 0 1 -1 -1 -8 -31 137 1011 98 477")
+        (Scroll "364 536")
         (Zoom "100")
         (Occurrence "/"))
       (Path
@@ -212,14 +209,25 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 930 78 444")
-        (Scroll "0 643")
+        (Placement "44 2 3 -1 -1 -8 -31 78 930 78 444")
+        (Scroll "627 804")
         (Zoom "100")
         (Occurrence "/"))
       (Path
          "D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\HW\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "POWER")))
+      (Page "POWER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 956 104 470")
+        (Scroll "684 388")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "D:\XIADO\PROJECT\SOMEPROJECT\BEAMFORMING\BEAMFORMING_HW_TMS320VC5509A\HW\SCHEMATICPCB\TMS320C5509A_DEV_BOARD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "CPLD")))
   (MPSSessionName "xiado")
   (LastUsedLibraryBrowseDirectory
      "C:\cadence\Cadence\Cadence_SPB_16.6-2015\tools\capture\library")

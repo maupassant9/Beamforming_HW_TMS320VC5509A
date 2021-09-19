@@ -1,91 +1,63 @@
-\t (00:00:02) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
-\t (00:00:02)     Journal start - Tue May 04 11:39:33 2021
-\t (00:00:02)         Host=DESKTOP-MRJ3IVS User=xiado Pid=4860 CPUs=2
-\t (00:00:02) CmdLine= C:\Cadence\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
-\t (00:00:02) 
-\t (00:00:05) Opening existing design...
-\d (00:00:05) Design opened: D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/HW/SchematicPCB/PCB/Beamforming_PCB_Ver1_0_1.brd
-\i (00:00:05) trapsize 127
-\i (00:00:05) trapsize 124
-\i (00:00:05) trapsize 128
-\i (00:00:06) trapsize 111
-\i (00:00:06) trapsize 132
-\i (00:00:08) generaledit 
-\i (00:08:40) zoom out 1 
-\i (00:08:40) setwindow pcb
-\i (00:08:40) zoom out 2777.25 1658.28
-\i (00:08:40) trapsize 263
-\i (00:08:40) zoom out 1 
-\i (00:08:40) setwindow pcb
-\i (00:08:40) zoom out 2777.25 1658.29
-\i (00:08:40) trapsize 526
-\i (00:08:40) zoom out 1 
-\i (00:08:40) setwindow pcb
-\i (00:08:40) zoom out 2702.53 1646.71
-\i (00:08:40) trapsize 1052
-\i (00:08:41) zoom out 1 
-\i (00:08:41) setwindow pcb
-\i (00:08:41) zoom out 2660.44 1657.23
-\i (00:08:41) trapsize 2105
-\i (00:08:41) roam start
-\i (00:08:42) roam x -96
-\i (00:08:42) roam y -240
-\i (00:08:42) roam y -96
-\i (00:08:42) roam y -32
-\i (00:08:43) roam end
-\i (00:08:44) roam start
-\i (00:08:44) roam y 224
-\i (00:08:44) roam y 96
-\i (00:08:45) roam end
-\i (00:08:46) zoom in 1 
-\i (00:08:46) setwindow pcb
-\i (00:08:46) zoom in 1455.78 2099.84
-\i (00:08:46) trapsize 1052
-\i (00:08:46) zoom in 1 
-\i (00:08:46) setwindow pcb
-\i (00:08:46) zoom in 1455.78 2099.84
-\i (00:08:46) trapsize 526
-\i (00:08:46) zoom in 1 
-\i (00:08:46) setwindow pcb
-\i (00:08:46) zoom in 1455.78 2099.84
-\i (00:08:46) trapsize 263
-\i (00:08:46) zoom in 1 
-\i (00:08:46) setwindow pcb
-\i (00:08:46) zoom in 1455.78 2099.84
-\i (00:08:46) trapsize 132
-\i (00:08:50) hilight 
-\i (00:08:52) pick grid 1509.19 2084.85
-\t (00:08:52) last pick:  1509.00 2085.00
-\t (00:08:52) Net "Dsp_Cke" highlighted.
-\i (00:08:52) zoom out 1 
-\i (00:08:52) setwindow pcb
-\i (00:08:52) zoom out 1524.71 2075.90
-\i (00:08:52) trapsize 263
-\i (00:08:52) zoom out 1 
-\i (00:08:52) setwindow pcb
-\i (00:08:52) zoom out 1524.71 2075.91
-\i (00:08:52) trapsize 526
-\i (00:08:52) zoom out 1 
-\i (00:08:52) setwindow pcb
-\i (00:08:52) zoom out 1524.72 2075.90
-\i (00:08:52) trapsize 1052
-\i (00:08:52) zoom out 1 
-\i (00:08:52) setwindow pcb
-\i (00:08:52) zoom out 1526.82 2075.90
-\i (00:08:52) trapsize 2105
-\i (00:08:56) roam start
-\i (00:08:57) roam y -32
-\i (00:08:57) roam x 16
-\i (00:08:57) roam x 64
-\i (00:08:57) roam y 96
-\i (00:08:58) roam y 80
-\i (00:08:58) roam y 16
-\i (00:08:59) roam x -80
-\i (00:08:59) roam y -320
-\i (00:08:59) roam y -112
-\i (00:08:59) roam y -64
-\i (00:08:59) roam end
-\i (00:56:52) exit 
-\e (00:56:52) Do you want to save the changes you made to Beamforming_PCB_Ver1_0_1.brd?
-\i (00:56:54) fillin no 
-\t (00:56:55)     Journal end - Tue May 04 12:36:25 2021
+\t (00:00:03) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
+\t (00:00:03)     Journal start - Fri Sep 10 20:46:10 2021
+\t (00:00:03)         Host=DESKTOP-MRJ3IVS User=xiado Pid=2936 CPUs=2
+\t (00:00:03) CmdLine= C:\Cadence\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
+\t (00:00:03) 
+\t (00:00:07) Opening existing design...
+\d (00:00:07) Design opened: D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/HW/SchematicPCB/PCB/Beamforming_PCB_Ver1_0_1.brd
+\i (00:00:07) trapsize 904
+\i (00:00:07) trapsize 879
+\i (00:00:07) trapsize 880
+\i (00:00:07) trapsize 908
+\i (00:00:08) trapsize 786
+\i (00:00:08) trapsize 786
+\i (00:00:10) generaledit 
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 3165.87 2510.02
+\i (00:00:11) trapsize 1573
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 3165.87 2510.02
+\i (00:00:11) trapsize 3146
+\i (00:00:13) zoom in 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom in 3054.21 3919.25
+\i (00:00:13) trapsize 1573
+\i (00:00:13) zoom in 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom in 3057.35 3919.26
+\i (00:00:13) trapsize 786
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in 3145.43 3875.22
+\i (00:00:14) trapsize 393
+\i (00:00:16) pick grid 3062.86 3856.35
+\t (00:00:16) last pick:  3063.00 3856.00
+\i (00:00:18) zoom out 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom out 3348.32 3865.00
+\i (00:00:18) trapsize 786
+\i (00:00:19) zoom in 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom in 3135.99 3857.13
+\i (00:00:19) trapsize 393
+\i (00:00:41) zoom out 1 
+\i (00:00:41) setwindow pcb
+\i (00:00:41) zoom out 3318.44 3871.29
+\i (00:00:41) trapsize 786
+\i (00:00:41) zoom out 1 
+\i (00:00:41) setwindow pcb
+\i (00:00:41) zoom out 3318.44 3871.29
+\i (00:00:41) trapsize 1573
+\i (00:00:42) zoom out 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom out 3318.44 3871.29
+\i (00:00:42) trapsize 3146
+\i (00:00:42) zoom out 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom out 6388.55 3525.28
+\i (00:00:42) trapsize 6291
+\i (00:00:45) trapsize 8703
+\i (00:00:47) exit 
+\t (00:00:48)     Journal end - Fri Sep 10 20:46:55 2021
