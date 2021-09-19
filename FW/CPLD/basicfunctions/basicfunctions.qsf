@@ -1,0 +1,111 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2019  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+# Date created = 13:27:24  August 29, 2021
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		basicfunctions_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX V"
+set_global_assignment -name DEVICE 5M160ZE64C5
+set_global_assignment -name TOP_LEVEL_ENTITY basicfunctions
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 19.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:27:24  AUGUST 29, 2021"
+set_global_assignment -name LAST_QUARTUS_VERSION "19.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name DEVICE_FILTER_PACKAGE EQFP
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR "-1"
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ns" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_BOARD_DESIGN_TIMING_TOOL "Stamp (Timing)"
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_timing
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT STAMP -section_id eda_board_design_timing
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
+set_global_assignment -name AUTO_RESTART_CONFIGURATION OFF
+set_global_assignment -name ENABLE_OCT_DONE OFF
+set_global_assignment -name ENABLE_CONFIGURATION_PINS OFF
+set_global_assignment -name ENABLE_BOOT_SEL_PIN OFF
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED"
+set_location_assignment PIN_38 -to DSPCLKOUT
+set_location_assignment PIN_32 -to DSP_PWR_EN
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "NO HEAT SINK WITH STILL AIR"
+set_global_assignment -name ENABLE_DEVICE_WIDE_OE ON
+set_location_assignment PIN_7 -to CLOCKPIN
+set_instance_assignment -name GLOBAL_SIGNAL GLOBAL_CLOCK -to CLOCKPIN
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
+set_location_assignment PIN_36 -to CPLD_EEPROM_CS
+set_location_assignment PIN_35 -to CPLD_EEPROM_MISO
+set_location_assignment PIN_33 -to CPLD_EEPROM_MOSI
+set_location_assignment PIN_34 -to CPLD_EEPROM_SCK
+set_location_assignment PIN_60 -to DSP_RST
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DSP_RST
+set_location_assignment PIN_50 -to DSP_EEPROM_SCK
+set_location_assignment PIN_52 -to DSP_EEPROM_MOSI
+set_location_assignment PIN_49 -to DSP_EEPROM_MISO
+set_location_assignment PIN_51 -to DSP_EEPROM_CS
+set_global_assignment -name CDF_FILE chaindescription.cdf
+set_global_assignment -name BDF_FILE basicfunctions.bdf
+set_global_assignment -name QIP_FILE cnter.qip
+set_global_assignment -name BDF_FILE basicfunctionstest.bdf
+set_global_assignment -name QIP_FILE cnter8Bits.qip
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
+set_global_assignment -name QIP_FILE osc.qip
+set_global_assignment -name QIP_FILE mux2.qip
+set_global_assignment -name VECTOR_WAVEFORM_FILE output_files/Waveform1.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE WaveformSimulation.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE basicfunctions.vwf
+set_global_assignment -name VERILOG_FILE ad7864Drv.v
+set_location_assignment PIN_31 -to AD_CS
+set_location_assignment PIN_2 -to ADC_CLK
+set_location_assignment PIN_29 -to ADC_DB_PIN[0]
+set_location_assignment PIN_26 -to ADC_DB_PIN[1]
+set_location_assignment PIN_22 -to ADC_DB_PIN[2]
+set_location_assignment PIN_19 -to ADC_DB_PIN[3]
+set_location_assignment PIN_18 -to ADC_DB_PIN[4]
+set_location_assignment PIN_12 -to ADC_DB_PIN[5]
+set_location_assignment PIN_10 -to ADC_DB_PIN[6]
+set_location_assignment PIN_9 -to ADC_DB_PIN[7]
+set_location_assignment PIN_5 -to ADC_DB_PIN[8]
+set_location_assignment PIN_4 -to ADC_DB_PIN[9]
+set_location_assignment PIN_3 -to ADC_DB_PIN[10]
+set_location_assignment PIN_1 -to ADC_DB_PIN[11]
+set_location_assignment PIN_27 -to ADC_RD
+set_location_assignment PIN_13 -to ADC_CONV
+set_location_assignment PIN_46 -to DSP_CONV_PIN

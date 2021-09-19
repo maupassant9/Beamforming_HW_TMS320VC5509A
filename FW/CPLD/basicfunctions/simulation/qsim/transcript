@@ -1,0 +1,32 @@
+# do basicfunctions.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:49:09 on Aug 30,2021
+# vlog -work work basicfunctions.vo 
+# -- Compiling module basicfunctions
+# 
+# Top level modules:
+# 	basicfunctions
+# End time: 11:49:09 on Aug 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:49:09 on Aug 30,2021
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module basicfunctions_vlg_vec_tst
+# 
+# Top level modules:
+# 	basicfunctions_vlg_vec_tst
+# End time: 11:49:09 on Aug 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L maxv_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.basicfunctions_vlg_vec_tst 
+# Start time: 11:49:09 on Aug 30,2021
+# Loading work.basicfunctions_vlg_vec_tst
+# Loading work.basicfunctions
+# Loading maxv_ver.maxv_io
+# Loading maxv_ver.maxv_lcell
+# Loading maxv_ver.maxv_asynch_lcell
+# Loading maxv_ver.maxv_lcell_register
+# after#23
+# ** Note: $finish    : Waveform.vwf.vt(65)
+#    Time: 10 us  Iteration: 0  Instance: /basicfunctions_vlg_vec_tst
+# End time: 11:49:09 on Aug 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

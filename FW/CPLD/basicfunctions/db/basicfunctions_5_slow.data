@@ -1,0 +1,500 @@
+
+
+
+TIMINGDATA
+
+ARCDATA
+pos_ADC_DB_PIN[0]__cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("6.700");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("6.700");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_ADC_DB_PIN[1]__cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("6.715");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("6.715");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_ADC_DB_PIN[2]__cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("4.869");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("4.869");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_ADC_DB_PIN[3]__cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("6.771");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("6.771");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_ADC_DB_PIN[4]__cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("4.810");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("4.810");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_ADC_DB_PIN[5]__cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("6.543");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("6.543");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_ADC_DB_PIN[6]__cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("4.545");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("4.545");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_ADC_DB_PIN[7]__cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("4.510");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("4.510");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_ADC_DB_PIN[8]__cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("4.967");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("4.967");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_ADC_DB_PIN[9]__cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("6.454");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("6.454");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_ADC_DB_PIN[10]__cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("8.319");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("8.319");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_ADC_DB_PIN[11]__cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("4.860");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("4.860");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_DSP_CONV_PIN__cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("9.770");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("9.770");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_ADC_DB_PIN[0]__cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-6.340");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-6.340");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_ADC_DB_PIN[1]__cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-6.355");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-6.355");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_ADC_DB_PIN[2]__cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-4.509");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-4.509");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_ADC_DB_PIN[3]__cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-6.411");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-6.411");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_ADC_DB_PIN[4]__cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-4.450");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-4.450");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_ADC_DB_PIN[5]__cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-6.183");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-6.183");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_ADC_DB_PIN[6]__cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-4.185");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-4.185");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_ADC_DB_PIN[7]__cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-4.150");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-4.150");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_ADC_DB_PIN[8]__cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-4.607");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-4.607");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_ADC_DB_PIN[9]__cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-6.094");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-6.094");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_ADC_DB_PIN[10]__cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-7.959");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-7.959");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_ADC_DB_PIN[11]__cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-4.500");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-4.500");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_DSP_CONV_PIN__cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.014");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.014");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_DSP_CONV_PIN__ADC_CLK__delay:
+CELL_RISE( scalar ) {
+VALUES ("25.812");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("25.812");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_DSP_CONV_PIN__ADC_CONV__delay:
+CELL_RISE( scalar ) {
+VALUES ("13.912");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("13.912");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_DSP_CONV_PIN__ADC_CONV__delay:
+CELL_RISE( scalar ) {
+VALUES ("13.912");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("13.912");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__ADC_CLK__delay:
+CELL_RISE( scalar ) {
+VALUES ("14.353");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("14.353");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__ADC_CLK__delay:
+CELL_RISE( scalar ) {
+VALUES ("21.463");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("21.463");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__ADC_RD__delay:
+CELL_RISE( scalar ) {
+VALUES ("35.649");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("35.649");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__AD_CS__delay:
+CELL_RISE( scalar ) {
+VALUES ("35.649");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("35.649");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__CPLD_SPI_CLK__delay:
+CELL_RISE( scalar ) {
+VALUES ("12.744");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("12.744");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]__CPLD_SPI_MO__delay:
+CELL_RISE( scalar ) {
+VALUES ("14.421");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("14.421");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc__DSPCLKOUT__delay:
+CELL_RISE( scalar ) {
+VALUES ("10.701");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("10.701");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc__DSPCLKOUT__delay:
+CELL_RISE( scalar ) {
+VALUES ("");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("");
+}
+
+ENDARCDATA
+
+ARCDATA
+___11.807__delay:
+CELL_RISE( scalar ) {
+VALUES ("11.807");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("11.807");
+}
+
+ENDARCDATA
+
+ARCDATA
+___12.330__delay:
+CELL_RISE( scalar ) {
+VALUES ("12.330");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("12.330");
+}
+
+ENDARCDATA
+
+ARCDATA
+___13.990__delay:
+CELL_RISE( scalar ) {
+VALUES ("13.990");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("13.990");
+}
+
+ENDARCDATA
+
+ARCDATA
+___12.363__delay:
+CELL_RISE( scalar ) {
+VALUES ("12.363");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("12.363");
+}
+
+ENDARCDATA
+
+ENDTIMINGDATA
+
+ENDMODELDATA

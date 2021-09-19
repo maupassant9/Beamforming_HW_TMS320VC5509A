@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at ad7864Drv.v(108): always construct contains both blocking and non-blocking assignments File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 108

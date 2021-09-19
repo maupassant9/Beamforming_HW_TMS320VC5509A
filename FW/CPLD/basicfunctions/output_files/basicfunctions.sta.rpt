@@ -1,0 +1,630 @@
+Timing Analyzer report for basicfunctions
+Tue Aug 31 09:51:40 2021
+Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Fmax Summary
+  6. Setup Summary
+  7. Hold Summary
+  8. Recovery Summary
+  9. Removal Summary
+ 10. Minimum Pulse Width Summary
+ 11. Setup: 'cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]'
+ 12. Setup: 'DSP_CONV_PIN'
+ 13. Setup: 'inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc'
+ 14. Hold: 'cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]'
+ 15. Hold: 'inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc'
+ 16. Hold: 'DSP_CONV_PIN'
+ 17. Setup Transfers
+ 18. Hold Transfers
+ 19. Report TCCS
+ 20. Report RSKM
+ 21. Unconstrained Paths Summary
+ 22. Clock Status Summary
+ 23. Unconstrained Input Ports
+ 24. Unconstrained Output Ports
+ 25. Unconstrained Input Ports
+ 26. Unconstrained Output Ports
+ 27. Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-----------------------------------------------------------------------------+
+; Timing Analyzer Summary                                                     ;
++-----------------------+-----------------------------------------------------+
+; Quartus Prime Version ; Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
+; Timing Analyzer       ; Legacy Timing Analyzer                              ;
+; Revision Name         ; basicfunctions                                      ;
+; Device Family         ; MAX V                                               ;
+; Device Name           ; 5M160ZE64C5                                         ;
+; Timing Models         ; Final                                               ;
+; Delay Model           ; Slow Model                                          ;
+; Rise/Fall Delays      ; Unavailable                                         ;
++-----------------------+-----------------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clocks                                                                                                                                                                                                                                                                                                                                     ;
++-------------------------------------------------------------------------------------+------+---------+------------+-------+--------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+-----------------------------------------------------------------------------------------+
+; Clock Name                                                                          ; Type ; Period  ; Frequency  ; Rise  ; Fall   ; Duty Cycle ; Divide by ; Multiply by ; Phase ; Offset ; Edge List ; Edge Shift ; Inverted ; Master ; Source ; Targets                                                                                 ;
++-------------------------------------------------------------------------------------+------+---------+------------+-------+--------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+-----------------------------------------------------------------------------------------+
+; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; Base ; 1.000   ; 1000.0 MHz ; 0.000 ; 0.500  ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] } ;
+; DSP_CONV_PIN                                                                        ; Base ; 1.000   ; 1000.0 MHz ; 0.000 ; 0.500  ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { DSP_CONV_PIN }                                                                        ;
+; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc                             ; Base ; 181.818 ; 5.5 MHz    ; 0.000 ; 90.909 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc }                             ;
++-------------------------------------------------------------------------------------+------+---------+------------+-------+--------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+-----------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Fmax Summary                                                                                                              ;
++------------+-----------------+-------------------------------------------------------------------------------------+------+
+; Fmax       ; Restricted Fmax ; Clock Name                                                                          ; Note ;
++------------+-----------------+-------------------------------------------------------------------------------------+------+
+; 53.16 MHz  ; 53.16 MHz       ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ;      ;
+; 84.6 MHz   ; 84.6 MHz        ; DSP_CONV_PIN                                                                        ;      ;
+; 153.61 MHz ; 153.61 MHz      ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc                             ;      ;
++------------+-----------------+-------------------------------------------------------------------------------------+------+
+This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
+
+
++---------------------------------------------------------------------------------------------------------------+
+; Setup Summary                                                                                                 ;
++-------------------------------------------------------------------------------------+---------+---------------+
+; Clock                                                                               ; Slack   ; End Point TNS ;
++-------------------------------------------------------------------------------------+---------+---------------+
+; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; -17.810 ; -182.505      ;
+; DSP_CONV_PIN                                                                        ; -10.821 ; -10.821       ;
+; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc                             ; 3.828   ; 0.000         ;
++-------------------------------------------------------------------------------------+---------+---------------+
+
+
++--------------------------------------------------------------------------------------------------------------+
+; Hold Summary                                                                                                 ;
++-------------------------------------------------------------------------------------+--------+---------------+
+; Clock                                                                               ; Slack  ; End Point TNS ;
++-------------------------------------------------------------------------------------+--------+---------------+
+; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; -9.021 ; -9.021        ;
+; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc                             ; -4.186 ; -4.186        ;
+; DSP_CONV_PIN                                                                        ; 1.300  ; 0.000         ;
++-------------------------------------------------------------------------------------+--------+---------------+
+
+
+--------------------
+; Recovery Summary ;
+--------------------
+No paths to report.
+
+
+-------------------
+; Removal Summary ;
+-------------------
+No paths to report.
+
+
++--------------------------------------------------------------------------------------------------------------+
+; Minimum Pulse Width Summary                                                                                  ;
++-------------------------------------------------------------------------------------+--------+---------------+
+; Clock                                                                               ; Slack  ; End Point TNS ;
++-------------------------------------------------------------------------------------+--------+---------------+
+; DSP_CONV_PIN                                                                        ; -2.289 ; -2.289        ;
+; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.161  ; 0.000         ;
+; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc                             ; 90.570 ; 0.000         ;
++-------------------------------------------------------------------------------------+--------+---------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Setup: 'cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]'                                                                                                                                                                                           ;
++---------+-----------------------------+---------------------------+-------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+--------------+------------+------------+
+; Slack   ; From Node                   ; To Node                   ; Launch Clock                                                                        ; Latch Clock                                                                         ; Relationship ; Clock Skew ; Data Delay ;
++---------+-----------------------------+---------------------------+-------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+--------------+------------+------------+
+; -17.810 ; ad7864Drv:inst13|cnter[0]   ; ad7864Drv:inst13|cnter[1] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; -0.057     ; 12.822     ;
+; -17.239 ; ad7864Drv:inst13|cnter[6]   ; ad7864Drv:inst13|cnter[6] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 13.414     ;
+; -16.572 ; ad7864Drv:inst13|cnter[0]   ; ad7864Drv:inst13|cnter[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.002      ; 12.750     ;
+; -16.445 ; ad7864Drv:inst13|cnter[0]   ; ad7864Drv:inst13|cnter[6] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; -0.052     ; 12.568     ;
+; -16.243 ; ad7864Drv:inst13|cnter[2]   ; ad7864Drv:inst13|cnter[6] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; -0.054     ; 12.364     ;
+; -16.072 ; ad7864Drv:inst13|cnter[5]   ; ad7864Drv:inst13|cnter[6] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.004      ; 12.251     ;
+; -15.913 ; ad7864Drv:inst13|cnter[0]   ; ad7864Drv:inst13|cnter[3] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; -0.051     ; 12.026     ;
+; -15.910 ; ad7864Drv:inst13|cnter[1]   ; ad7864Drv:inst13|cnter[1] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 10.979     ;
+; -15.776 ; ad7864Drv:inst13|cnter[1]   ; ad7864Drv:inst13|cnter[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.059      ; 12.011     ;
+; -15.774 ; ad7864Drv:inst13|cnter[4]   ; ad7864Drv:inst13|cnter[6] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; -0.049     ; 11.900     ;
+; -15.711 ; ad7864Drv:inst13|cnter[2]   ; ad7864Drv:inst13|cnter[3] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; -0.053     ; 11.822     ;
+; -15.649 ; ad7864Drv:inst13|cnter[1]   ; ad7864Drv:inst13|cnter[6] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.005      ; 11.829     ;
+; -15.575 ; ad7864Drv:inst13|cnter[0]   ; ad7864Drv:inst13|cnter[5] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; -0.056     ; 11.696     ;
+; -15.520 ; ad7864Drv:inst13|cnter[2]   ; ad7864Drv:inst13|cnter[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 11.696     ;
+; -15.373 ; ad7864Drv:inst13|cnter[2]   ; ad7864Drv:inst13|cnter[5] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; -0.058     ; 11.492     ;
+; -15.218 ; ad7864Drv:inst13|cnter[3]   ; ad7864Drv:inst13|cnter[6] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; -0.001     ; 11.392     ;
+; -15.170 ; ad7864Drv:inst13|adcen      ; ad7864Drv:inst13|adcen    ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; -4.349     ; 6.951      ;
+; -15.117 ; ad7864Drv:inst13|cnter[1]   ; ad7864Drv:inst13|cnter[3] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.006      ; 11.287     ;
+; -15.006 ; ad7864Drv:inst13|cnter[0]   ; ad7864Drv:inst13|cnter[4] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; -0.003     ; 11.131     ;
+; -14.804 ; ad7864Drv:inst13|cnter[2]   ; ad7864Drv:inst13|cnter[4] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; -0.005     ; 10.927     ;
+; -14.779 ; ad7864Drv:inst13|cnter[1]   ; ad7864Drv:inst13|cnter[5] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.001      ; 10.957     ;
+; -14.744 ; ad7864Drv:inst13|cnter[4]   ; ad7864Drv:inst13|cnter[5] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; -0.053     ; 10.868     ;
+; -14.731 ; ad7864Drv:inst13|cnter[0]   ; ad7864Drv:inst13|cnter[0] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 10.705     ;
+; -14.348 ; ad7864Drv:inst13|cnter[3]   ; ad7864Drv:inst13|cnter[5] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; -0.005     ; 10.520     ;
+; -14.210 ; ad7864Drv:inst13|cnter[1]   ; ad7864Drv:inst13|cnter[4] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.054      ; 10.392     ;
+; -13.938 ; ad7864Drv:inst13|cnter[5]   ; ad7864Drv:inst13|cnter[5] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 10.115     ;
+; -13.779 ; ad7864Drv:inst13|cnter[3]   ; ad7864Drv:inst13|cnter[4] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.048      ; 9.955      ;
+; -13.512 ; ad7864Drv:inst13|cnter[3]   ; ad7864Drv:inst13|cnter[3] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 9.676      ;
+; -13.397 ; ad7864Drv:inst13|cnter[5]   ; ad7864Drv:inst13|adcen    ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 1.852      ; 11.379     ;
+; -13.165 ; ad7864Drv:inst13|cnter[4]   ; ad7864Drv:inst13|cnter[4] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 9.293      ;
+; -12.643 ; ad7864Drv:inst13|sel[0]     ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 13.322     ;
+; -11.675 ; ad7864Drv:inst13|cnter[3]   ; ad7864Drv:inst13|adcen    ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 1.847      ; 9.652      ;
+; -11.282 ; ad7864Drv:inst13|db_reg[4]  ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 11.961     ;
+; -11.220 ; ad7864Drv:inst13|cnter[6]   ; ad7864Drv:inst13|adcen    ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 1.848      ; 9.198      ;
+; -11.098 ; ad7864Drv:inst13|sel[1]     ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 11.777     ;
+; -10.974 ; ad7864Drv:inst13|db_reg[0]  ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 11.653     ;
+; -10.892 ; ad7864Drv:inst13|cnter[2]   ; ad7864Drv:inst13|adcen    ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 1.794      ; 8.816      ;
+; -10.821 ; ad7864Drv:inst13|adcen      ; ad7864Drv:inst13|adcen    ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 6.951      ;
+; -10.616 ; ad7864Drv:inst13|sel[0]     ; ad7864Drv:inst13|sel[3]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 11.295     ;
+; -10.456 ; ad7864Drv:inst13|sel[0]     ; ad7864Drv:inst13|sel[2]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 11.135     ;
+; -10.420 ; ad7864Drv:inst13|sel[2]     ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 11.099     ;
+; -10.209 ; ad7864Drv:inst13|db_reg[7]  ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 10.888     ;
+; -9.982  ; ad7864Drv:inst13|db_reg[8]  ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 10.661     ;
+; -9.974  ; ad7864Drv:inst13|cnter[1]   ; ad7864Drv:inst13|adcen    ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 1.853      ; 7.957      ;
+; -9.729  ; ad7864Drv:inst13|cnter[0]   ; ad7864Drv:inst13|adcen    ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 1.796      ; 7.655      ;
+; -9.519  ; ad7864Drv:inst13|cnter[4]   ; ad7864Drv:inst13|adcen    ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 1.799      ; 7.448      ;
+; -9.414  ; ad7864Drv:inst13|sel[0]     ; ad7864Drv:inst13|sel[1]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 10.093     ;
+; -9.270  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[1] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.500        ; 7.375      ; 11.214     ;
+; -9.158  ; ad7864Drv:inst13|db_reg[11] ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 9.837      ;
+; -9.116  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[0] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.500        ; 7.432      ; 12.022     ;
+; -9.034  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[3] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.500        ; 7.381      ; 12.079     ;
+; -8.966  ; ad7864Drv:inst13|sel[3]     ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 9.645      ;
+; -8.770  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[1] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 7.375      ; 11.214     ;
+; -8.664  ; ad7864Drv:inst13|sclk       ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 9.343      ;
+; -8.616  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[0] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 7.432      ; 12.022     ;
+; -8.534  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[3] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 7.381      ; 12.079     ;
+; -8.210  ; ad7864Drv:inst13|sclk       ; ad7864Drv:inst13|sel[0]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 8.889      ;
+; -8.196  ; ad7864Drv:inst13|mosi       ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 8.875      ;
+; -8.058  ; ad7864Drv:inst13|db_reg[5]  ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 8.737      ;
+; -7.534  ; ad7864Drv:inst13|db_reg[1]  ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 8.213      ;
+; -7.422  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[4] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.500        ; 7.429      ; 10.479     ;
+; -7.359  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[2] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.500        ; 7.434      ; 10.469     ;
+; -7.041  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[6] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.500        ; 7.380      ; 10.096     ;
+; -6.922  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[4] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 7.429      ; 10.479     ;
+; -6.859  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[2] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 7.434      ; 10.469     ;
+; -6.541  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[6] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 7.380      ; 10.096     ;
+; -6.509  ; ad7864Drv:inst13|db_reg[10] ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 7.188      ;
+; -6.337  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[5] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.500        ; 7.376      ; 9.390      ;
+; -6.289  ; ad7864Drv:inst13|db_reg[3]  ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 6.968      ;
+; -5.844  ; ad7864Drv:inst13|sel[2]     ; ad7864Drv:inst13|sel[3]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 6.523      ;
+; -5.837  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[5] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 7.376      ; 9.390      ;
+; -5.683  ; ad7864Drv:inst13|db_reg[9]  ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 6.362      ;
+; -5.673  ; ad7864Drv:inst13|db_reg[6]  ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 6.352      ;
+; -5.536  ; ad7864Drv:inst13|sel[1]     ; ad7864Drv:inst13|sel[3]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 6.215      ;
+; -5.376  ; ad7864Drv:inst13|sel[1]     ; ad7864Drv:inst13|sel[2]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 6.055      ;
+; -4.826  ; ad7864Drv:inst13|sel[3]     ; ad7864Drv:inst13|sel[3]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 5.505      ;
+; -4.802  ; ad7864Drv:inst13|sel[2]     ; ad7864Drv:inst13|sel[2]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 5.481      ;
+; -4.602  ; ad7864Drv:inst13|sel[1]     ; ad7864Drv:inst13|sel[1]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 5.281      ;
+; -4.192  ; ad7864Drv:inst13|sclk       ; ad7864Drv:inst13|sel[3]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 4.871      ;
+; -4.192  ; ad7864Drv:inst13|sclk       ; ad7864Drv:inst13|sel[1]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 4.871      ;
+; -4.192  ; ad7864Drv:inst13|sclk       ; ad7864Drv:inst13|sel[2]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 4.871      ;
+; -3.452  ; ad7864Drv:inst13|db_reg[2]  ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 4.131      ;
+; -3.150  ; ad7864Drv:inst13|sclk       ; ad7864Drv:inst13|sclk     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 3.829      ;
+; -2.750  ; ad7864Drv:inst13|sel[0]     ; ad7864Drv:inst13|sel[0]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 0.000      ; 3.429      ;
+; 0.097   ; ad7864Drv:inst13|cnter[3]   ; ad7864Drv:inst13|cs_bar   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 19.361     ; 16.796     ;
+; 1.798   ; ad7864Drv:inst13|cnter[1]   ; ad7864Drv:inst13|cs_bar   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 19.367     ; 15.101     ;
+; 2.081   ; ad7864Drv:inst13|cnter[5]   ; ad7864Drv:inst13|cs_bar   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 19.366     ; 14.817     ;
+; 2.253   ; ad7864Drv:inst13|cnter[4]   ; ad7864Drv:inst13|cs_bar   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 19.313     ; 14.592     ;
+; 2.893   ; ad7864Drv:inst13|cnter[2]   ; ad7864Drv:inst13|cs_bar   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 19.308     ; 13.947     ;
+; 6.170   ; ad7864Drv:inst13|cnter[0]   ; ad7864Drv:inst13|cs_bar   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 19.310     ; 10.672     ;
+; 6.553   ; ad7864Drv:inst13|cnter[6]   ; ad7864Drv:inst13|cs_bar   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 1.000        ; 19.362     ; 10.341     ;
++---------+-----------------------------+---------------------------+-------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+--------------+------------+------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Setup: 'DSP_CONV_PIN'                                                                                                                                                                                      ;
++---------+---------------------------+------------------------+-------------------------------------------------------------------------------------+--------------+--------------+------------+------------+
+; Slack   ; From Node                 ; To Node                ; Launch Clock                                                                        ; Latch Clock  ; Relationship ; Clock Skew ; Data Delay ;
++---------+---------------------------+------------------------+-------------------------------------------------------------------------------------+--------------+--------------+------------+------------+
+; -10.821 ; ad7864Drv:inst13|adcen    ; ad7864Drv:inst13|adcen ; DSP_CONV_PIN                                                                        ; DSP_CONV_PIN ; 1.000        ; 0.000      ; 6.951      ;
+; -9.048  ; ad7864Drv:inst13|cnter[5] ; ad7864Drv:inst13|adcen ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; DSP_CONV_PIN ; 1.000        ; 6.201      ; 11.379     ;
+; -7.326  ; ad7864Drv:inst13|cnter[3] ; ad7864Drv:inst13|adcen ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; DSP_CONV_PIN ; 1.000        ; 6.196      ; 9.652      ;
+; -6.871  ; ad7864Drv:inst13|cnter[6] ; ad7864Drv:inst13|adcen ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; DSP_CONV_PIN ; 1.000        ; 6.197      ; 9.198      ;
+; -6.543  ; ad7864Drv:inst13|cnter[2] ; ad7864Drv:inst13|adcen ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; DSP_CONV_PIN ; 1.000        ; 6.143      ; 8.816      ;
+; -6.472  ; ad7864Drv:inst13|adcen    ; ad7864Drv:inst13|adcen ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; DSP_CONV_PIN ; 1.000        ; 4.349      ; 6.951      ;
+; -5.625  ; ad7864Drv:inst13|cnter[1] ; ad7864Drv:inst13|adcen ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; DSP_CONV_PIN ; 1.000        ; 6.202      ; 7.957      ;
+; -5.380  ; ad7864Drv:inst13|cnter[0] ; ad7864Drv:inst13|adcen ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; DSP_CONV_PIN ; 1.000        ; 6.145      ; 7.655      ;
+; -5.170  ; ad7864Drv:inst13|cnter[4] ; ad7864Drv:inst13|adcen ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; DSP_CONV_PIN ; 1.000        ; 6.148      ; 7.448      ;
++---------+---------------------------+------------------------+-------------------------------------------------------------------------------------+--------------+--------------+------------+------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Setup: 'inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc'                                                                                                                                                                                                                                                                                                             ;
++---------+-------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+---------------------------------------------------------+--------------+------------+------------+
+; Slack   ; From Node                                                                           ; To Node                                                                             ; Launch Clock                                                                        ; Latch Clock                                             ; Relationship ; Clock Skew ; Data Delay ;
++---------+-------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+---------------------------------------------------------+--------------+------------+------------+
+; 3.828   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc ; 0.002        ; 7.055      ; 3.402      ;
+; 3.828   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc ; 0.002        ; 7.055      ; 3.402      ;
+; 175.308 ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[0] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc                             ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc ; 181.818      ; 0.000      ; 6.189      ;
+; 175.454 ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[1] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc                             ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc ; 181.818      ; 0.000      ; 6.043      ;
+; 175.468 ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[0] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[1] ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc                             ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc ; 181.818      ; 0.000      ; 6.029      ;
+; 176.228 ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[1] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[1] ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc                             ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc ; 181.818      ; 0.000      ; 5.269      ;
+; 176.242 ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[0] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[0] ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc                             ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc ; 181.818      ; 0.000      ; 5.255      ;
++---------+-------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+---------------------------------------------------------+--------------+------------+------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Hold: 'cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]'                                                                                                                                                                                           ;
++--------+-----------------------------+---------------------------+-------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+--------------+------------+------------+
+; Slack  ; From Node                   ; To Node                   ; Launch Clock                                                                        ; Latch Clock                                                                         ; Relationship ; Clock Skew ; Data Delay ;
++--------+-----------------------------+---------------------------+-------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+--------------+------------+------------+
+; -9.021 ; ad7864Drv:inst13|cnter[6]   ; ad7864Drv:inst13|cs_bar   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 19.362     ; 10.341     ;
+; -8.638 ; ad7864Drv:inst13|cnter[0]   ; ad7864Drv:inst13|cs_bar   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 19.310     ; 10.672     ;
+; -5.960 ; ad7864Drv:inst13|cnter[1]   ; ad7864Drv:inst13|cs_bar   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 19.367     ; 13.407     ;
+; -5.582 ; ad7864Drv:inst13|cnter[4]   ; ad7864Drv:inst13|cs_bar   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 19.313     ; 13.731     ;
+; -5.387 ; ad7864Drv:inst13|cnter[2]   ; ad7864Drv:inst13|cs_bar   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 19.308     ; 13.921     ;
+; -4.549 ; ad7864Drv:inst13|cnter[5]   ; ad7864Drv:inst13|cs_bar   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 19.366     ; 14.817     ;
+; -4.271 ; ad7864Drv:inst13|cnter[3]   ; ad7864Drv:inst13|cs_bar   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 19.361     ; 15.090     ;
+; 2.014  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[5] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 7.376      ; 9.390      ;
+; 2.514  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[5] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; -0.500       ; 7.376      ; 9.390      ;
+; 2.716  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[6] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 7.380      ; 10.096     ;
+; 3.035  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[2] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 7.434      ; 10.469     ;
+; 3.050  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[4] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 7.429      ; 10.479     ;
+; 3.216  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[6] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; -0.500       ; 7.380      ; 10.096     ;
+; 3.390  ; ad7864Drv:inst13|sel[0]     ; ad7864Drv:inst13|sel[0]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 3.429      ;
+; 3.535  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[2] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; -0.500       ; 7.434      ; 10.469     ;
+; 3.550  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[4] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; -0.500       ; 7.429      ; 10.479     ;
+; 3.790  ; ad7864Drv:inst13|sclk       ; ad7864Drv:inst13|sclk     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 3.829      ;
+; 3.839  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[1] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 7.375      ; 11.214     ;
+; 4.092  ; ad7864Drv:inst13|db_reg[2]  ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 4.131      ;
+; 4.339  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[1] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; -0.500       ; 7.375      ; 11.214     ;
+; 4.590  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[0] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 7.432      ; 12.022     ;
+; 4.698  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[3] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 7.381      ; 12.079     ;
+; 4.832  ; ad7864Drv:inst13|sclk       ; ad7864Drv:inst13|sel[3]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 4.871      ;
+; 4.832  ; ad7864Drv:inst13|sclk       ; ad7864Drv:inst13|sel[1]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 4.871      ;
+; 4.832  ; ad7864Drv:inst13|sclk       ; ad7864Drv:inst13|sel[2]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 4.871      ;
+; 5.090  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[0] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; -0.500       ; 7.432      ; 12.022     ;
+; 5.198  ; DSP_CONV_PIN                ; ad7864Drv:inst13|cnter[3] ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; -0.500       ; 7.381      ; 12.079     ;
+; 5.242  ; ad7864Drv:inst13|sel[1]     ; ad7864Drv:inst13|sel[1]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 5.281      ;
+; 5.442  ; ad7864Drv:inst13|sel[2]     ; ad7864Drv:inst13|sel[2]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 5.481      ;
+; 5.466  ; ad7864Drv:inst13|sel[3]     ; ad7864Drv:inst13|sel[3]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 5.505      ;
+; 5.486  ; ad7864Drv:inst13|db_reg[6]  ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 5.525      ;
+; 5.649  ; ad7864Drv:inst13|cnter[4]   ; ad7864Drv:inst13|adcen    ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 1.799      ; 7.448      ;
+; 5.859  ; ad7864Drv:inst13|cnter[0]   ; ad7864Drv:inst13|adcen    ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 1.796      ; 7.655      ;
+; 5.977  ; ad7864Drv:inst13|sel[1]     ; ad7864Drv:inst13|sel[2]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 6.016      ;
+; 6.104  ; ad7864Drv:inst13|cnter[1]   ; ad7864Drv:inst13|adcen    ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 1.853      ; 7.957      ;
+; 6.121  ; ad7864Drv:inst13|sel[1]     ; ad7864Drv:inst13|sel[3]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 6.160      ;
+; 6.323  ; ad7864Drv:inst13|db_reg[9]  ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 6.362      ;
+; 6.444  ; ad7864Drv:inst13|sel[2]     ; ad7864Drv:inst13|sel[3]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 6.483      ;
+; 6.929  ; ad7864Drv:inst13|db_reg[3]  ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 6.968      ;
+; 6.951  ; ad7864Drv:inst13|adcen      ; ad7864Drv:inst13|adcen    ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 6.951      ;
+; 7.022  ; ad7864Drv:inst13|cnter[2]   ; ad7864Drv:inst13|adcen    ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 1.794      ; 8.816      ;
+; 7.149  ; ad7864Drv:inst13|db_reg[10] ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 7.188      ;
+; 7.350  ; ad7864Drv:inst13|cnter[6]   ; ad7864Drv:inst13|adcen    ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 1.848      ; 9.198      ;
+; 7.601  ; ad7864Drv:inst13|sel[2]     ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 7.640      ;
+; 7.805  ; ad7864Drv:inst13|cnter[3]   ; ad7864Drv:inst13|adcen    ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 1.847      ; 9.652      ;
+; 7.871  ; ad7864Drv:inst13|db_reg[5]  ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 7.910      ;
+; 7.934  ; ad7864Drv:inst13|sel[3]     ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 7.973      ;
+; 8.174  ; ad7864Drv:inst13|db_reg[1]  ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 8.213      ;
+; 8.637  ; ad7864Drv:inst13|sel[1]     ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 8.676      ;
+; 8.774  ; ad7864Drv:inst13|sclk       ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 8.813      ;
+; 8.836  ; ad7864Drv:inst13|mosi       ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 8.875      ;
+; 8.850  ; ad7864Drv:inst13|sclk       ; ad7864Drv:inst13|sel[0]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 8.889      ;
+; 9.293  ; ad7864Drv:inst13|cnter[4]   ; ad7864Drv:inst13|cnter[4] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 9.293      ;
+; 9.527  ; ad7864Drv:inst13|cnter[5]   ; ad7864Drv:inst13|adcen    ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 1.852      ; 11.379     ;
+; 9.676  ; ad7864Drv:inst13|cnter[3]   ; ad7864Drv:inst13|cnter[3] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 9.676      ;
+; 9.798  ; ad7864Drv:inst13|db_reg[11] ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 9.837      ;
+; 9.907  ; ad7864Drv:inst13|cnter[3]   ; ad7864Drv:inst13|cnter[4] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.048      ; 9.955      ;
+; 10.022 ; ad7864Drv:inst13|db_reg[7]  ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 10.061     ;
+; 10.054 ; ad7864Drv:inst13|sel[0]     ; ad7864Drv:inst13|sel[1]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 10.093     ;
+; 10.115 ; ad7864Drv:inst13|cnter[5]   ; ad7864Drv:inst13|cnter[5] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 10.115     ;
+; 10.299 ; ad7864Drv:inst13|cnter[1]   ; ad7864Drv:inst13|cnter[4] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.054      ; 10.353     ;
+; 10.525 ; ad7864Drv:inst13|cnter[3]   ; ad7864Drv:inst13|cnter[5] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; -0.005     ; 10.520     ;
+; 10.622 ; ad7864Drv:inst13|db_reg[8]  ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 10.661     ;
+; 10.650 ; ad7864Drv:inst13|sel[0]     ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 10.689     ;
+; 10.705 ; ad7864Drv:inst13|cnter[0]   ; ad7864Drv:inst13|cnter[0] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 10.705     ;
+; 10.882 ; ad7864Drv:inst13|cnter[4]   ; ad7864Drv:inst13|cnter[5] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; -0.053     ; 10.829     ;
+; 10.910 ; ad7864Drv:inst13|cnter[2]   ; ad7864Drv:inst13|cnter[4] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; -0.005     ; 10.905     ;
+; 10.917 ; ad7864Drv:inst13|cnter[1]   ; ad7864Drv:inst13|cnter[5] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.001      ; 10.918     ;
+; 10.979 ; ad7864Drv:inst13|cnter[1]   ; ad7864Drv:inst13|cnter[1] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 10.979     ;
+; 11.056 ; ad7864Drv:inst13|sel[0]     ; ad7864Drv:inst13|sel[2]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 11.095     ;
+; 11.080 ; ad7864Drv:inst13|cnter[0]   ; ad7864Drv:inst13|cnter[4] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; -0.003     ; 11.077     ;
+; 11.095 ; ad7864Drv:inst13|db_reg[4]  ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 11.134     ;
+; 11.200 ; ad7864Drv:inst13|sel[0]     ; ad7864Drv:inst13|sel[3]   ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 11.239     ;
+; 11.225 ; ad7864Drv:inst13|cnter[1]   ; ad7864Drv:inst13|cnter[3] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.006      ; 11.231     ;
+; 11.300 ; ad7864Drv:inst13|adcen      ; ad7864Drv:inst13|adcen    ; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; -4.349     ; 6.951      ;
+; 11.393 ; ad7864Drv:inst13|cnter[3]   ; ad7864Drv:inst13|cnter[6] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; -0.001     ; 11.392     ;
+; 11.528 ; ad7864Drv:inst13|cnter[2]   ; ad7864Drv:inst13|cnter[5] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; -0.058     ; 11.470     ;
+; 11.614 ; ad7864Drv:inst13|db_reg[0]  ; ad7864Drv:inst13|mosi     ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 11.653     ;
+; 11.696 ; ad7864Drv:inst13|cnter[2]   ; ad7864Drv:inst13|cnter[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 11.696     ;
+; 11.698 ; ad7864Drv:inst13|cnter[0]   ; ad7864Drv:inst13|cnter[5] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; -0.056     ; 11.642     ;
+; 11.785 ; ad7864Drv:inst13|cnter[1]   ; ad7864Drv:inst13|cnter[6] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.005      ; 11.790     ;
+; 11.836 ; ad7864Drv:inst13|cnter[2]   ; ad7864Drv:inst13|cnter[3] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; -0.053     ; 11.783     ;
+; 11.894 ; ad7864Drv:inst13|cnter[4]   ; ad7864Drv:inst13|cnter[6] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; -0.049     ; 11.845     ;
+; 11.912 ; ad7864Drv:inst13|cnter[1]   ; ad7864Drv:inst13|cnter[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.059      ; 11.971     ;
+; 12.006 ; ad7864Drv:inst13|cnter[0]   ; ad7864Drv:inst13|cnter[3] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; -0.051     ; 11.955     ;
+; 12.207 ; ad7864Drv:inst13|cnter[5]   ; ad7864Drv:inst13|cnter[6] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.004      ; 12.211     ;
+; 12.396 ; ad7864Drv:inst13|cnter[2]   ; ad7864Drv:inst13|cnter[6] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; -0.054     ; 12.342     ;
+; 12.566 ; ad7864Drv:inst13|cnter[0]   ; ad7864Drv:inst13|cnter[6] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; -0.052     ; 12.514     ;
+; 12.693 ; ad7864Drv:inst13|cnter[0]   ; ad7864Drv:inst13|cnter[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.002      ; 12.695     ;
+; 12.840 ; ad7864Drv:inst13|cnter[0]   ; ad7864Drv:inst13|cnter[1] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; -0.057     ; 12.783     ;
+; 13.414 ; ad7864Drv:inst13|cnter[6]   ; ad7864Drv:inst13|cnter[6] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0.000        ; 0.000      ; 13.414     ;
++--------+-----------------------------+---------------------------+-------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+--------------+------------+------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Hold: 'inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc'                                                                                                                                                                                                                                                                                                             ;
++--------+-------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+---------------------------------------------------------+--------------+------------+------------+
+; Slack  ; From Node                                                                           ; To Node                                                                             ; Launch Clock                                                                        ; Latch Clock                                             ; Relationship ; Clock Skew ; Data Delay ;
++--------+-------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+---------------------------------------------------------+--------------+------------+------------+
+; -4.186 ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc ; 0.000        ; 7.055      ; 3.402      ;
+; -4.186 ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc ; 0.000        ; 7.055      ; 3.402      ;
+; 5.216  ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[0] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[0] ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc                             ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc ; 0.000        ; 0.000      ; 5.255      ;
+; 5.230  ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[1] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[1] ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc                             ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc ; 0.000        ; 0.000      ; 5.269      ;
+; 5.951  ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[0] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[1] ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc                             ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc ; 0.000        ; 0.000      ; 5.990      ;
+; 5.965  ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[1] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc                             ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc ; 0.000        ; 0.000      ; 6.004      ;
+; 6.095  ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[0] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc                             ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc ; 0.000        ; 0.000      ; 6.134      ;
++--------+-------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+---------------------------------------------------------+--------------+------------+------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Hold: 'DSP_CONV_PIN'                                                                                                                                                                                     ;
++-------+---------------------------+------------------------+-------------------------------------------------------------------------------------+--------------+--------------+------------+------------+
+; Slack ; From Node                 ; To Node                ; Launch Clock                                                                        ; Latch Clock  ; Relationship ; Clock Skew ; Data Delay ;
++-------+---------------------------+------------------------+-------------------------------------------------------------------------------------+--------------+--------------+------------+------------+
+; 1.300 ; ad7864Drv:inst13|cnter[4] ; ad7864Drv:inst13|adcen ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; DSP_CONV_PIN ; 0.000        ; 6.148      ; 7.448      ;
+; 1.510 ; ad7864Drv:inst13|cnter[0] ; ad7864Drv:inst13|adcen ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; DSP_CONV_PIN ; 0.000        ; 6.145      ; 7.655      ;
+; 1.755 ; ad7864Drv:inst13|cnter[1] ; ad7864Drv:inst13|adcen ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; DSP_CONV_PIN ; 0.000        ; 6.202      ; 7.957      ;
+; 2.602 ; ad7864Drv:inst13|adcen    ; ad7864Drv:inst13|adcen ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; DSP_CONV_PIN ; 0.000        ; 4.349      ; 6.951      ;
+; 2.673 ; ad7864Drv:inst13|cnter[2] ; ad7864Drv:inst13|adcen ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; DSP_CONV_PIN ; 0.000        ; 6.143      ; 8.816      ;
+; 3.001 ; ad7864Drv:inst13|cnter[6] ; ad7864Drv:inst13|adcen ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; DSP_CONV_PIN ; 0.000        ; 6.197      ; 9.198      ;
+; 3.456 ; ad7864Drv:inst13|cnter[3] ; ad7864Drv:inst13|adcen ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; DSP_CONV_PIN ; 0.000        ; 6.196      ; 9.652      ;
+; 5.178 ; ad7864Drv:inst13|cnter[5] ; ad7864Drv:inst13|adcen ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; DSP_CONV_PIN ; 0.000        ; 6.201      ; 11.379     ;
+; 6.951 ; ad7864Drv:inst13|adcen    ; ad7864Drv:inst13|adcen ; DSP_CONV_PIN                                                                        ; DSP_CONV_PIN ; 0.000        ; 0.000      ; 6.951      ;
++-------+---------------------------+------------------------+-------------------------------------------------------------------------------------+--------------+--------------+------------+------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Setup Transfers                                                                                                                                                                                                       ;
++-------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+----------+----------+----------+----------+
+; From Clock                                                                          ; To Clock                                                                            ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++-------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+----------+----------+----------+----------+
+; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 57       ; 0        ; 0        ; 65       ;
+; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0        ; 0        ; 7        ; 8        ;
+; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; DSP_CONV_PIN                                                                        ; 0        ; 0        ; 0        ; 8        ;
+; DSP_CONV_PIN                                                                        ; DSP_CONV_PIN                                                                        ; 0        ; 0        ; 0        ; 1        ;
+; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc                             ; 1        ; 1        ; 0        ; 0        ;
+; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc                             ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc                             ; 8        ; 0        ; 0        ; 0        ;
++-------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+----------+----------+----------+----------+
+Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Hold Transfers                                                                                                                                                                                                        ;
++-------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+----------+----------+----------+----------+
+; From Clock                                                                          ; To Clock                                                                            ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++-------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+----------+----------+----------+----------+
+; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 57       ; 0        ; 0        ; 65       ;
+; DSP_CONV_PIN                                                                        ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 0        ; 0        ; 7        ; 8        ;
+; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; DSP_CONV_PIN                                                                        ; 0        ; 0        ; 0        ; 8        ;
+; DSP_CONV_PIN                                                                        ; DSP_CONV_PIN                                                                        ; 0        ; 0        ; 0        ; 1        ;
+; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc                             ; 1        ; 1        ; 0        ; 0        ;
+; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc                             ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc                             ; 8        ; 0        ; 0        ; 0        ;
++-------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+----------+----------+----------+----------+
+Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No non-DPA dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths Summary                    ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 17    ; 17   ;
+; Unconstrained Input Port Paths  ; 17    ; 17   ;
+; Unconstrained Output Ports      ; 11    ; 11   ;
+; Unconstrained Output Port Paths ; 12    ; 12   ;
++---------------------------------+-------+------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clock Status Summary                                                                                                                                                                           ;
++-------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+------+-------------+
+; Target                                                                              ; Clock                                                                               ; Type ; Status      ;
++-------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+------+-------------+
+; DSP_CONV_PIN                                                                        ; DSP_CONV_PIN                                                                        ; Base ; Constrained ;
+; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; Base ; Constrained ;
+; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc                             ; inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc                             ; Base ; Constrained ;
++-------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+------+-------------+
+
+
++---------------------------------------------------------------------------------------------------------+
+; Unconstrained Input Ports                                                                               ;
++------------------+--------------------------------------------------------------------------------------+
+; Input Port       ; Comment                                                                              ;
++------------------+--------------------------------------------------------------------------------------+
+; ADC_DB_PIN[0]    ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ADC_DB_PIN[1]    ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ADC_DB_PIN[2]    ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ADC_DB_PIN[3]    ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ADC_DB_PIN[4]    ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ADC_DB_PIN[5]    ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ADC_DB_PIN[6]    ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ADC_DB_PIN[7]    ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ADC_DB_PIN[8]    ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ADC_DB_PIN[9]    ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ADC_DB_PIN[10]   ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ADC_DB_PIN[11]   ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CPLD_EEPROM_MISO ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DSP_CONV_PIN     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DSP_EEPROM_CS    ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DSP_EEPROM_MOSI  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DSP_EEPROM_SCK   ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
++------------------+--------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------+
+; Unconstrained Output Ports                                                                               ;
++------------------+---------------------------------------------------------------------------------------+
+; Output Port      ; Comment                                                                               ;
++------------------+---------------------------------------------------------------------------------------+
+; ADC_CLK          ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ADC_CONV         ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ADC_RD           ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; AD_CS            ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CPLD_EEPROM_CS   ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CPLD_EEPROM_MOSI ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CPLD_EEPROM_SCK  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CPLD_SPI_CLK     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CPLD_SPI_MO      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DSPCLKOUT        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DSP_EEPROM_MISO  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
++------------------+---------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------+
+; Unconstrained Input Ports                                                                               ;
++------------------+--------------------------------------------------------------------------------------+
+; Input Port       ; Comment                                                                              ;
++------------------+--------------------------------------------------------------------------------------+
+; ADC_DB_PIN[0]    ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ADC_DB_PIN[1]    ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ADC_DB_PIN[2]    ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ADC_DB_PIN[3]    ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ADC_DB_PIN[4]    ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ADC_DB_PIN[5]    ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ADC_DB_PIN[6]    ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ADC_DB_PIN[7]    ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ADC_DB_PIN[8]    ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ADC_DB_PIN[9]    ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ADC_DB_PIN[10]   ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ADC_DB_PIN[11]   ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CPLD_EEPROM_MISO ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DSP_CONV_PIN     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DSP_EEPROM_CS    ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DSP_EEPROM_MOSI  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DSP_EEPROM_SCK   ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
++------------------+--------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------+
+; Unconstrained Output Ports                                                                               ;
++------------------+---------------------------------------------------------------------------------------+
+; Output Port      ; Comment                                                                               ;
++------------------+---------------------------------------------------------------------------------------+
+; ADC_CLK          ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ADC_CONV         ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ADC_RD           ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; AD_CS            ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CPLD_EEPROM_CS   ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CPLD_EEPROM_MOSI ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CPLD_EEPROM_SCK  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CPLD_SPI_CLK     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CPLD_SPI_MO      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DSPCLKOUT        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; DSP_EEPROM_MISO  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
++------------------+---------------------------------------------------------------------------------------+
+
+
++--------------------------+
+; Timing Analyzer Messages ;
++--------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Timing Analyzer
+    Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+    Info: Processing started: Tue Aug 31 09:51:39 2021
+Info: Command: quartus_sta basicfunctions -c basicfunctions
+Info: qsta_default_script.tcl version: #1
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Warning (335093): The Timing Analyzer is analyzing 9 combinational loops as latches. For more details, run the Check Timing command in the Timing Analyzer or view the "User-Specified and Inferred Latches" table in the Analysis & Synthesis report.
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'basicfunctions.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained generated clocks found in the design. Calling "derive_pll_clocks -create_base_clocks"
+Info (332110): Deriving PLL clocks
+    Info (332110): create_clock -period 181.818 -name {inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc} {inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc}
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332105): Deriving Clocks
+    Info (332105): create_clock -period 1.000 -name DSP_CONV_PIN DSP_CONV_PIN
+    Info (332105): create_clock -period 1.000 -name cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]
+Info: Found TIMING_ANALYZER_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info: Can't run Report Timing Closure Recommendations. The current device family is not supported.
+Critical Warning (332148): Timing requirements not met
+Info (332146): Worst-case setup slack is -17.810
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):   -17.810            -182.505 cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] 
+    Info (332119):   -10.821             -10.821 DSP_CONV_PIN 
+    Info (332119):     3.828               0.000 inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc 
+Info (332146): Worst-case hold slack is -9.021
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -9.021              -9.021 cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] 
+    Info (332119):    -4.186              -4.186 inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc 
+    Info (332119):     1.300               0.000 DSP_CONV_PIN 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is -2.289
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -2.289              -2.289 DSP_CONV_PIN 
+    Info (332119):     0.161               0.000 cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] 
+    Info (332119):    90.570               0.000 inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc 
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus Prime Timing Analyzer was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 4675 megabytes
+    Info: Processing ended: Tue Aug 31 09:51:40 2021
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
