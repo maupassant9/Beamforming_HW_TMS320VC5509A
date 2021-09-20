@@ -1,26 +1,30 @@
 `timescale 100ns/10ns
+
 //TestBench for AD7864
+// iverilog -g2005-sv -o testbench ad7864Drv.v testbench.v
 module testbench;
     reg clki;
+	 reg clkihf;
     reg conv2;
     reg conv;
     reg rd;
-    reg cs;
+    reg [3:0] cs;
     reg [11:0] datas;
     wire spi_clk, spi_miso, spi_mosi;
 
 
 
-    ad7864Drv DUT(.clkin(clki),
+    ad7864Drv DUT1(.clkin(clki),
 		  .clkout(clko),
         .dsp_conv_bar(conv),
         .ad_conv_bar(conv2),
-        .rd_bar(rd),
-        .cs_bar(cs),
-        .db(datas),
-        .sclk(spi_clk),
-        .miso(spi_miso),
-        .mosi(spi_mosi) );
+		  .db_rdy(en));
+		  
+	 Parallel2Serial DUT2(.clkin(clkihf),
+			.enable(en),
+			.db(datas),
+			.cs_bar(cs),
+			.rd_bar(rd));
 
         reg [1:0] cnter;
     
@@ -28,22 +32,32 @@ module testbench;
         $dumpfile("testbench.vcd");$dumpvars(0,testbench);
         $monitor($time, "conv = %b, clki = %b", conv,clki);
         clki = 1'b0;
+		  clkihf = 1'b0;
         conv = 1'b1;
         datas = 11'b10111010010;
  
     end
 
-    always
-        #1 clki = ~clki;
+    always begin
+        #8 clki = ~clki;
+	 end
+	 
+	 always begin
+	     #1 clkihf = ~clkihf;
+	 end
     
 
     initial begin
-        #700 $finish;
+        #2000 $finish;
     end
     
     always begin
-        #240 conv = 1'b0;
-        #2 conv = 1'b1;
+        #1000 conv = 1'b0;
+        #16 conv = 1'b1;
     end
+	 
+	 always begin
+		#50 datas = datas + 11'b1;
+	 end
     
 endmodule
