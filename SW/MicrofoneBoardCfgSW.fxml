@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <VBox prefHeight="400.0" prefWidth="191.0" BorderPane.alignment="CENTER">
+         <children>
+            <TitledPane alignment="CENTER" animated="false" collapsible="false" contentDisplay="CENTER" prefHeight="153.0" prefWidth="154.0" text="Function Selection" textAlignment="RIGHT" textFill="#358f2e" textOverrun="CLIP" wrapText="true">
+              <content>
+                <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="83.0" prefWidth="189.0">
+                     <children>
+                        <VBox alignment="CENTER_LEFT" prefHeight="113.0" prefWidth="189.0" spacing="5.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <CheckBox mnemonicParsing="false" text="SD Writer" />
+                              <CheckBox mnemonicParsing="false" text="Signal Processor" />
+                              <CheckBox mnemonicParsing="false" text="Record Data" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+              </content>
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </TitledPane>
+            <TitledPane alignment="CENTER" animated="false" collapsible="false" contentDisplay="CENTER" prefHeight="153.0" prefWidth="154.0" text="Serial Port" textAlignment="RIGHT" textFill="#358f2e" textOverrun="CLIP" wrapText="true">
+               <content>
+                  <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="74.0" prefWidth="189.0">
+                     <children>
+                        <VBox alignment="CENTER_RIGHT" prefHeight="113.0" prefWidth="189.0" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <children>
+                              <HBox alignment="CENTER" prefHeight="70.0" prefWidth="161.0" spacing="10.0">
+                                 <children>
+                                    <ComboBox prefHeight="29.0" prefWidth="94.0" />
+                                    <ToggleButton mnemonicParsing="false" text="Connect" />
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" text="Record" />
+                                    <Button mnemonicParsing="false" text="Stop" />
+                                    <Button mnemonicParsing="false" text="Save" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+               </content>
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </TitledPane>
+            <TitledPane alignment="CENTER" animated="false" collapsible="false" contentDisplay="CENTER" prefHeight="60.0" prefWidth="154.0" text="Status" textAlignment="RIGHT" textFill="#358f2e" textOverrun="CLIP" wrapText="true">
+               <content>
+                  <AnchorPane maxHeight="80.0" maxWidth="189.0" minHeight="80.0" minWidth="189.0" prefHeight="80.0" prefWidth="189.0">
+                     <children>
+                        <VBox layoutX="28.4" layoutY="36.4" prefHeight="90.0" prefWidth="189.0" spacing="5.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <children>
+                              <Label text="SD WRITER" />
+                              <Label text="Signal Processor" />
+                              <Label text="Data Recorder" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+               </content>
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </TitledPane>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <LineChart prefHeight="365.0" prefWidth="368.0">
+              <xAxis>
+                <CategoryAxis side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis side="LEFT" />
+              </yAxis>
+            </LineChart>
+            <HBox alignment="CENTER" prefHeight="35.0" prefWidth="409.0" spacing="40.0">
+               <children>
+                  <Button mnemonicParsing="false" text="Prev" />
+                  <Button mnemonicParsing="false" text="Next" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
