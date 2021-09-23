@@ -1,0 +1,42 @@
+[*]
+[*] GTKWave Analyzer v3.3.108 (w)1999-2020 BSI
+[*] Thu Sep 23 22:27:04 2021
+[*]
+[dumpfile] "C:\Users\dong.x\Documents\xiadong\Projetos\privateProjects\beamforming\Beamforming_HW_TMS320VC5509A\FW\CPLD\basicfunctions\testbench.vcd"
+[dumpfile_mtime] "Thu Sep 23 22:20:10 2021"
+[dumpfile_size] 52261
+[savefile] "C:\Users\dong.x\Documents\xiadong\Projetos\privateProjects\beamforming\Beamforming_HW_TMS320VC5509A\FW\CPLD\basicfunctions\16channelsread.gtkw"
+[timestart] 174450
+[size] 1366 681
+[pos] -1 -1
+*-14.000000 268980 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbench.
+[sst_width] 34
+[signals_width] 118
+[sst_expanded] 0
+[sst_vpaned_height] 184
+@28
+testbench.DUT2.spi_cs
+testbench.DUT2.sclk
+testbench.DUT2.mosi
+testbench.DUT2.rd_bar
+@800023
+testbench.DUT2.cs_bar[3:0]
+@29
+(0)testbench.DUT2.cs_bar[3:0]
+(1)testbench.DUT2.cs_bar[3:0]
+(2)testbench.DUT2.cs_bar[3:0]
+(3)testbench.DUT2.cs_bar[3:0]
+@1001201
+-group_end
+@28
+testbench.DUT2.clkin
+testbench.DUT1.ad_conv_bar
+@22
+testbench.DUT2.dbreg[11:0]
+@28
+testbench.DUT2.dbrdy
+@22
+testbench.DUT2.db[11:0]
+[pattern_trace] 1
+[pattern_trace] 0

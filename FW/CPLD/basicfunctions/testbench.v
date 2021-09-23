@@ -9,6 +9,7 @@ module testbench;
     reg conv;
     reg rd;
     reg [3:0] cs;
+	//reg cs;
     reg [11:0] datas;
     wire spi_clk, spi_miso, spi_mosi;
 
@@ -48,11 +49,11 @@ module testbench;
     
 
     initial begin
-        #2000 $finish;
+        #8000 $finish;
     end
     
     always begin
-        #1000 conv = 1'b0;
+        #2000 conv = 1'b0;
         #16 conv = 1'b1;
     end
 	 
