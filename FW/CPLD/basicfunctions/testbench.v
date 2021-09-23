@@ -53,7 +53,7 @@ module testbench;
     end
     
     always begin
-        #2000 conv = 1'b0;
+        #500 conv = 1'b0;
         #16 conv = 1'b1;
     end
 	 
