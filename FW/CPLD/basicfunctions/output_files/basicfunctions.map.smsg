@@ -1,1 +1,1 @@
-Warning (10268): Verilog HDL information at Parallel2Serial.v(127): always construct contains both blocking and non-blocking assignments File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial.v Line: 127
+Warning (10268): Verilog HDL information at parrallel2serialnew.v(68): always construct contains both blocking and non-blocking assignments File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parrallel2serialnew.v Line: 68

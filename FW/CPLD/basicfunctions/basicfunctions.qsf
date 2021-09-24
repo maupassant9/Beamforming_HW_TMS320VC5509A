@@ -42,7 +42,7 @@ set_global_assignment -name DEVICE 5M160ZE64C5
 set_global_assignment -name TOP_LEVEL_ENTITY basicfunctions
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 19.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:27:24  AUGUST 29, 2021"
-set_global_assignment -name LAST_QUARTUS_VERSION "19.1.0 Lite Edition"
+set_global_assignment -name LAST_QUARTUS_VERSION "20.1.1 Lite Edition"
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
@@ -97,6 +97,10 @@ set_location_assignment PIN_1 -to ADC_DB_PIN[11]
 set_location_assignment PIN_27 -to ADC_RD
 set_location_assignment PIN_13 -to ADC_CONV
 set_location_assignment PIN_46 -to DSP_CONV_PIN
+set_location_assignment PIN_40 -to GPIO0
+set_location_assignment PIN_42 -to GPIO1
+set_location_assignment PIN_43 -to GPIO2
+set_location_assignment PIN_44 -to GPIO3
 set_global_assignment -name CDF_FILE chaindescription.cdf
 set_global_assignment -name BDF_FILE basicfunctions.bdf
 set_global_assignment -name QIP_FILE cnter.qip
@@ -111,9 +115,7 @@ set_global_assignment -name VECTOR_WAVEFORM_FILE basicfunctions.vwf
 set_global_assignment -name VERILOG_FILE ad7864Drv.v
 set_global_assignment -name QIP_FILE mux4boot.qip
 set_global_assignment -name VERILOG_FILE bootGPIO.v
-set_location_assignment PIN_40 -to GPIO0
-set_location_assignment PIN_42 -to GPIO1
-set_location_assignment PIN_43 -to GPIO2
-set_location_assignment PIN_44 -to GPIO3
 set_global_assignment -name VERILOG_FILE Parallel2Serial.v
 set_global_assignment -name TEXT_FILE AD7864cpy.txt
+set_global_assignment -name VERILOG_FILE RdBarTruthTable.v
+set_global_assignment -name VERILOG_FILE CsBarTruthTable.v

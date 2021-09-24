@@ -21,7 +21,7 @@ module testbench;
         .ad_conv_bar(conv2),
 		  .db_rdy(en));
 		  
-	 Parallel2Serial DUT2(.clkin(clkihf),
+	 Parrallel2SerialNew DUT2(.clkin(clkihf),
 			.enable(en),
 			.db(datas),
 			.cs_bar(cs),

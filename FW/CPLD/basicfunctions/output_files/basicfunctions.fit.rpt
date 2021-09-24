@@ -1,6 +1,6 @@
 Fitter report for basicfunctions
-Sun Sep 19 21:47:57 2021
-Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Fri Sep 24 18:59:40 2021
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
 ---------------------
@@ -13,23 +13,22 @@ Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
   5. Fitter Resource Usage Summary
   6. Input Pins
   7. Output Pins
-  8. Bidir Pins
-  9. I/O Bank Usage
- 10. All Package Pins
- 11. Output Pin Default Load For Reported TCO
- 12. I/O Assignment Warnings
- 13. Fitter Resource Utilization by Entity
- 14. Delay Chain Summary
- 15. Control Signals
- 16. Fitter Device Options
- 17. Fitter Messages
+  8. I/O Bank Usage
+  9. All Package Pins
+ 10. Output Pin Default Load For Reported TCO
+ 11. I/O Assignment Warnings
+ 12. Fitter Resource Utilization by Entity
+ 13. Delay Chain Summary
+ 14. Control Signals
+ 15. Fitter Device Options
+ 16. Fitter Messages
 
 
 
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2019  Intel Corporation. All rights reserved.
+Copyright (C) 2020  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
@@ -49,14 +48,14 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------+
 ; Fitter Summary                                                      ;
 +-----------------------+---------------------------------------------+
-; Fitter Status         ; Failed - Sun Sep 19 21:47:57 2021           ;
-; Quartus Prime Version ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
+; Fitter Status         ; Failed - Fri Sep 24 18:59:40 2021           ;
+; Quartus Prime Version ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name         ; basicfunctions                              ;
 ; Top-level Entity Name ; basicfunctions                              ;
 ; Family                ; MAX V                                       ;
 ; Device                ; 5M160ZE64C5                                 ;
 ; Timing Models         ; Final                                       ;
-; Total logic elements  ; 136 / 160 ( 85 % )                          ;
+; Total logic elements  ; 102 / 160 ( 64 % )                          ;
 ; Total pins            ; 39 / 54 ( 72 % )                            ;
 ; Total virtual pins    ; 0                                           ;
 ; UFM blocks            ; 1 / 1 ( 100 % )                             ;
@@ -118,7 +117,7 @@ https://fpgasoftware.intel.com/eula.
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
 ; Number detected on machine ; 4           ;
-; Maximum allowed            ; 4           ;
+; Maximum allowed            ; 2           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -136,7 +135,7 @@ https://fpgasoftware.intel.com/eula.
 ; Total logic elements                   ; Not available    ;
 ;                                        ;                  ;
 ; Total LABs                             ; Not available    ;
-; Logic elements in carry chains         ; 21               ;
+; Logic elements in carry chains         ; 20               ;
 ; Virtual pins                           ; 0                ;
 ; I/O pins                               ; 39 / 54 ( 72 % ) ;
 ;     -- Clock pins                      ; 0 / 4 ( 0 % )    ;
@@ -149,10 +148,10 @@ https://fpgasoftware.intel.com/eula.
 ; Global signals                         ; 0                ;
 ;     -- Global clocks                   ; 0 / 4 ( 0 % )    ;
 ; JTAGs                                  ; 0 / 1 ( 0 % )    ;
-; Maximum fan-out                        ; 30               ;
-; Highest non-global fan-out             ; 30               ;
-; Total fan-out                          ; 425              ;
-; Average fan-out                        ; 2.40             ;
+; Maximum fan-out                        ; 16               ;
+; Highest non-global fan-out             ; 15               ;
+; Total fan-out                          ; 339              ;
+; Average fan-out                        ; 2.37             ;
 +----------------------------------------+------------------+
 
 
@@ -161,21 +160,20 @@ https://fpgasoftware.intel.com/eula.
 +------------------+------------+----------+-----------------------+--------------------+--------+-----------------+----------+--------------+--------------+----------------------+----------------+
 ; Name             ; Pin #      ; I/O Bank ; Combinational Fan-Out ; Registered Fan-Out ; Global ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Location assigned by ; Slow Slew Rate ;
 +------------------+------------+----------+-----------------------+--------------------+--------+-----------------+----------+--------------+--------------+----------------------+----------------+
-; ADC_DB_PIN[0]    ; Unassigned ; --       ; 1                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
-; ADC_DB_PIN[10]   ; Unassigned ; --       ; 1                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
-; ADC_DB_PIN[11]   ; Unassigned ; --       ; 1                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
-; ADC_DB_PIN[1]    ; Unassigned ; --       ; 1                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
-; ADC_DB_PIN[2]    ; Unassigned ; --       ; 1                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
-; ADC_DB_PIN[3]    ; Unassigned ; --       ; 1                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
-; ADC_DB_PIN[4]    ; Unassigned ; --       ; 1                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
-; ADC_DB_PIN[5]    ; Unassigned ; --       ; 1                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
-; ADC_DB_PIN[6]    ; Unassigned ; --       ; 1                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
-; ADC_DB_PIN[7]    ; Unassigned ; --       ; 1                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
-; ADC_DB_PIN[8]    ; Unassigned ; --       ; 1                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
-; ADC_DB_PIN[9]    ; Unassigned ; --       ; 1                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
-; CLOCKPIN         ; Unassigned ; --       ; 30                    ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
+; ADC_DB_PIN[0]    ; Unassigned ; --       ; 0                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
+; ADC_DB_PIN[10]   ; Unassigned ; --       ; 0                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
+; ADC_DB_PIN[11]   ; Unassigned ; --       ; 0                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
+; ADC_DB_PIN[1]    ; Unassigned ; --       ; 0                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
+; ADC_DB_PIN[2]    ; Unassigned ; --       ; 0                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
+; ADC_DB_PIN[3]    ; Unassigned ; --       ; 0                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
+; ADC_DB_PIN[4]    ; Unassigned ; --       ; 0                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
+; ADC_DB_PIN[5]    ; Unassigned ; --       ; 0                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
+; ADC_DB_PIN[6]    ; Unassigned ; --       ; 0                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
+; ADC_DB_PIN[7]    ; Unassigned ; --       ; 0                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
+; ADC_DB_PIN[8]    ; Unassigned ; --       ; 0                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
+; ADC_DB_PIN[9]    ; Unassigned ; --       ; 0                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
+; CLOCKPIN         ; Unassigned ; --       ; 5                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
 ; CPLD_EEPROM_MISO ; Unassigned ; --       ; 1                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
-; CPLD_SPI_MI      ; Unassigned ; --       ; 0                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Fitter               ; no             ;
 ; DSP_CONV_PIN     ; Unassigned ; --       ; 9                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
 ; DSP_EEPROM_CS    ; Unassigned ; --       ; 1                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
 ; DSP_EEPROM_MOSI  ; Unassigned ; --       ; 1                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
@@ -199,24 +197,17 @@ https://fpgasoftware.intel.com/eula.
 ; CPLD_EEPROM_MOSI ; Unassigned ; --       ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; Default          ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
 ; CPLD_EEPROM_SCK  ; Unassigned ; --       ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; Default          ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
 ; CPLD_SPI_CLK     ; Unassigned ; --       ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; Default          ; no                     ; Fitter               ; 10 pF ; -                    ; -                   ;
+; CPLD_SPI_CS      ; Unassigned ; --       ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; Default          ; no                     ; Fitter               ; 10 pF ; -                    ; -                   ;
 ; CPLD_SPI_MO      ; Unassigned ; --       ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; Default          ; no                     ; Fitter               ; 10 pF ; -                    ; -                   ;
 ; DSPCLKOUT        ; Unassigned ; --       ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; Default          ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
 ; DSP_EEPROM_MISO  ; Unassigned ; --       ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; Default          ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
 ; DSP_PWR_EN       ; Unassigned ; --       ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; Default          ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
 ; DSP_RST          ; Unassigned ; --       ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; Default          ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
+; GPIO0            ; Unassigned ; --       ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; Default          ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
+; GPIO1            ; Unassigned ; --       ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; Default          ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
+; GPIO2            ; Unassigned ; --       ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; Default          ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
+; GPIO3            ; Unassigned ; --       ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; Default          ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
 +------------------+------------+----------+-----------------+----------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+------------------------+----------------------+-------+----------------------+---------------------+
-
-
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Bidir Pins                                                                                                                                                                                                                                                                                                             ;
-+-------+------------+----------+-----------------------+--------------------+--------+-----------------+----------------+-----------------+------------+----------+--------------+--------------+------------------+------------------------+----------------------+-------+----------------------+---------------------+
-; Name  ; Pin #      ; I/O Bank ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Output Register ; Slow Slew Rate ; PCI I/O Enabled ; Open Drain ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Fast Output Connection ; Location assigned by ; Load  ; Output Enable Source ; Output Enable Group ;
-+-------+------------+----------+-----------------------+--------------------+--------+-----------------+----------------+-----------------+------------+----------+--------------+--------------+------------------+------------------------+----------------------+-------+----------------------+---------------------+
-; GPIO0 ; Unassigned ; --       ; 0                     ; 0                  ; no     ; no              ; no             ; no              ; no         ; no       ; Off          ; 3.3-V LVTTL  ; Default          ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
-; GPIO1 ; Unassigned ; --       ; 0                     ; 0                  ; no     ; no              ; no             ; no              ; yes        ; no       ; Off          ; 3.3-V LVTTL  ; Default          ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
-; GPIO2 ; Unassigned ; --       ; 0                     ; 0                  ; no     ; no              ; no             ; no              ; yes        ; no       ; Off          ; 3.3-V LVTTL  ; Default          ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
-; GPIO3 ; Unassigned ; --       ; 0                     ; 0                  ; no     ; no              ; no             ; no              ; yes        ; no       ; Off          ; 3.3-V LVTTL  ; Default          ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
-+-------+------------+----------+-----------------------+--------------------+--------+-----------------+----------------+-----------------+------------+----------+--------------+--------------+------------------+------------------------+----------------------+-------+----------------------+---------------------+
 
 
 +----------------------------------------------------------+
@@ -329,24 +320,25 @@ Note: User assignments will override these defaults. The user specified values a
 +--------------+-----------------------------+
 ; CPLD_SPI_CLK ; Missing location assignment ;
 ; CPLD_SPI_MO  ; Missing location assignment ;
-; CPLD_SPI_MI  ; Missing location assignment ;
+; CPLD_SPI_CS  ; Missing location assignment ;
 +--------------+-----------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                                                                                        ;
-+---------------------------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+-------------------------------------------------------------------------------------------+--------------------+--------------+
-; Compilation Hierarchy Node                              ; Logic Cells ; LC Registers ; UFM Blocks ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name                                                                       ; Entity Name        ; Library Name ;
-+---------------------------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+-------------------------------------------------------------------------------------------+--------------------+--------------+
-; |basicfunctions                                         ; 136 (0)     ; 21           ; 1          ; 39   ; 0            ; 115 (0)      ; 14 (0)            ; 7 (0)            ; 21 (0)          ; 0 (0)      ; |basicfunctions                                                                           ; basicfunctions     ; work         ;
-;    |Parallel2Serial:inst17|                             ; 102 (102)   ; 18           ; 0          ; 0    ; 0            ; 84 (84)      ; 14 (14)           ; 4 (4)            ; 11 (11)         ; 0 (0)      ; |basicfunctions|Parallel2Serial:inst17                                                    ; Parallel2Serial    ; work         ;
-;    |ad7864Drv:inst13|                                   ; 31 (31)     ; 0            ; 0          ; 0    ; 0            ; 31 (31)      ; 0 (0)             ; 0 (0)            ; 7 (7)           ; 0 (0)      ; |basicfunctions|ad7864Drv:inst13                                                          ; ad7864Drv          ; work         ;
-;    |cnter8Bits:inst|                                    ; 3 (0)       ; 3            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 3 (0)            ; 3 (0)           ; 0 (0)      ; |basicfunctions|cnter8Bits:inst                                                           ; cnter8Bits         ; work         ;
-;       |lpm_counter:LPM_COUNTER_component|               ; 3 (0)       ; 3            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 3 (0)            ; 3 (0)           ; 0 (0)      ; |basicfunctions|cnter8Bits:inst|lpm_counter:LPM_COUNTER_component                         ; lpm_counter        ; work         ;
-;          |cntr_p4h:auto_generated|                      ; 3 (3)       ; 3            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 3 (3)            ; 3 (3)           ; 0 (0)      ; |basicfunctions|cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated ; cntr_p4h           ; work         ;
-;    |osc:inst5|                                          ; 0 (0)       ; 0            ; 1          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |basicfunctions|osc:inst5                                                                 ; osc                ; work         ;
-;       |osc_altufm_osc_7v7:osc_altufm_osc_7v7_component| ; 0 (0)       ; 0            ; 1          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |basicfunctions|osc:inst5|osc_altufm_osc_7v7:osc_altufm_osc_7v7_component                 ; osc_altufm_osc_7v7 ; work         ;
-+---------------------------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+-------------------------------------------------------------------------------------------+--------------------+--------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                                                                                         ;
++---------------------------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+-------------------------------------------------------------------------------------------+---------------------+--------------+
+; Compilation Hierarchy Node                              ; Logic Cells ; LC Registers ; UFM Blocks ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name                                                                       ; Entity Name         ; Library Name ;
++---------------------------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+-------------------------------------------------------------------------------------------+---------------------+--------------+
+; |basicfunctions                                         ; 102 (0)     ; 3            ; 1          ; 39   ; 0            ; 99 (0)       ; 0 (0)             ; 3 (0)            ; 20 (0)          ; 0 (0)      ; |basicfunctions                                                                           ; basicfunctions      ; work         ;
+;    |Parrallel2SerialNew:inst19|                         ; 68 (27)     ; 0            ; 0          ; 0    ; 0            ; 68 (27)      ; 0 (0)             ; 0 (0)            ; 10 (10)         ; 0 (0)      ; |basicfunctions|Parrallel2SerialNew:inst19                                                ; Parrallel2SerialNew ; work         ;
+;       |RdBarTruthTable:comb_101|                        ; 41 (41)     ; 0            ; 0          ; 0    ; 0            ; 41 (41)      ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |basicfunctions|Parrallel2SerialNew:inst19|RdBarTruthTable:comb_101                       ; RdBarTruthTable     ; work         ;
+;    |ad7864Drv:inst13|                                   ; 31 (31)     ; 0            ; 0          ; 0    ; 0            ; 31 (31)      ; 0 (0)             ; 0 (0)            ; 7 (7)           ; 0 (0)      ; |basicfunctions|ad7864Drv:inst13                                                          ; ad7864Drv           ; work         ;
+;    |cnter8Bits:inst|                                    ; 3 (0)       ; 3            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 3 (0)            ; 3 (0)           ; 0 (0)      ; |basicfunctions|cnter8Bits:inst                                                           ; cnter8Bits          ; work         ;
+;       |lpm_counter:LPM_COUNTER_component|               ; 3 (0)       ; 3            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 3 (0)            ; 3 (0)           ; 0 (0)      ; |basicfunctions|cnter8Bits:inst|lpm_counter:LPM_COUNTER_component                         ; lpm_counter         ; work         ;
+;          |cntr_p4h:auto_generated|                      ; 3 (3)       ; 3            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 3 (3)            ; 3 (3)           ; 0 (0)      ; |basicfunctions|cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated ; cntr_p4h            ; work         ;
+;    |osc:inst5|                                          ; 0 (0)       ; 0            ; 1          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |basicfunctions|osc:inst5                                                                 ; osc                 ; work         ;
+;       |osc_altufm_osc_7v7:osc_altufm_osc_7v7_component| ; 0 (0)       ; 0            ; 1          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |basicfunctions|osc:inst5|osc_altufm_osc_7v7:osc_altufm_osc_7v7_component                 ; osc_altufm_osc_7v7  ; work         ;
++---------------------------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+-------------------------------------------------------------------------------------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -364,55 +356,49 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; DSP_EEPROM_MISO  ; Output   ; --            ;
 ; ADC_CONV         ; Output   ; --            ;
 ; ADC_RD           ; Output   ; --            ;
+; ADC_DB_PIN[11]   ; Input    ; --            ;
+; ADC_DB_PIN[10]   ; Input    ; --            ;
+; ADC_DB_PIN[9]    ; Input    ; --            ;
+; ADC_DB_PIN[8]    ; Input    ; --            ;
+; ADC_DB_PIN[7]    ; Input    ; --            ;
+; ADC_DB_PIN[6]    ; Input    ; --            ;
+; ADC_DB_PIN[5]    ; Input    ; --            ;
+; ADC_DB_PIN[4]    ; Input    ; --            ;
+; ADC_DB_PIN[3]    ; Input    ; --            ;
+; ADC_DB_PIN[2]    ; Input    ; --            ;
+; ADC_DB_PIN[1]    ; Input    ; --            ;
+; ADC_DB_PIN[0]    ; Input    ; --            ;
 ; CPLD_SPI_CLK     ; Output   ; --            ;
 ; CPLD_SPI_MO      ; Output   ; --            ;
 ; ADC_CLK          ; Output   ; --            ;
+; GPIO0            ; Output   ; --            ;
+; GPIO1            ; Output   ; --            ;
+; GPIO2            ; Output   ; --            ;
+; GPIO3            ; Output   ; --            ;
+; CPLD_SPI_CS      ; Output   ; --            ;
 ; AD_CS[3]         ; Output   ; --            ;
 ; AD_CS[2]         ; Output   ; --            ;
 ; AD_CS[1]         ; Output   ; --            ;
 ; AD_CS[0]         ; Output   ; --            ;
-; CPLD_SPI_MI      ; Input    ; --            ;
-; GPIO0            ; Bidir    ; 0             ;
-; GPIO1            ; Bidir    ; 0             ;
-; GPIO2            ; Bidir    ; 0             ;
-; GPIO3            ; Bidir    ; 0             ;
 ; CLOCKPIN         ; Input    ; 0             ;
 ; DSP_EEPROM_CS    ; Input    ; 0             ;
 ; DSP_EEPROM_SCK   ; Input    ; 0             ;
 ; DSP_EEPROM_MOSI  ; Input    ; 0             ;
 ; CPLD_EEPROM_MISO ; Input    ; 0             ;
 ; DSP_CONV_PIN     ; Input    ; 0             ;
-; ADC_DB_PIN[5]    ; Input    ; 0             ;
-; ADC_DB_PIN[6]    ; Input    ; 0             ;
-; ADC_DB_PIN[4]    ; Input    ; 0             ;
-; ADC_DB_PIN[7]    ; Input    ; 0             ;
-; ADC_DB_PIN[10]   ; Input    ; 0             ;
-; ADC_DB_PIN[9]    ; Input    ; 0             ;
-; ADC_DB_PIN[8]    ; Input    ; 0             ;
-; ADC_DB_PIN[11]   ; Input    ; 0             ;
-; ADC_DB_PIN[2]    ; Input    ; 0             ;
-; ADC_DB_PIN[1]    ; Input    ; 0             ;
-; ADC_DB_PIN[0]    ; Input    ; 0             ;
-; ADC_DB_PIN[3]    ; Input    ; 0             ;
 +------------------+----------+---------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Control Signals                                                                                                                                                                     ;
-+-------------------------------------------------------------------------------------+------------+---------+---------------------+--------+----------------------+------------------+
-; Name                                                                                ; Location   ; Fan-Out ; Usage               ; Global ; Global Resource Used ; Global Line Name ;
-+-------------------------------------------------------------------------------------+------------+---------+---------------------+--------+----------------------+------------------+
-; CLOCKPIN                                                                            ; Unassigned ; 30      ; Clock, Latch enable ; no     ; --                   ; --               ;
-; Parallel2Serial:inst17|always2~0                                                    ; Unassigned ; 12      ; Clock enable        ; no     ; --                   ; --               ;
-; Parallel2Serial:inst17|cnter[0]~1                                                   ; Unassigned ; 7       ; Latch enable        ; no     ; --                   ; --               ;
-; Parallel2Serial:inst17|enspi~17                                                     ; Unassigned ; 1       ; Latch enable        ; no     ; --                   ; --               ;
-; Parallel2Serial:inst17|en~1                                                         ; Unassigned ; 1       ; Latch enable        ; no     ; --                   ; --               ;
-; Parallel2Serial:inst17|rd_bar                                                       ; Unassigned ; 11      ; Latch enable        ; no     ; --                   ; --               ;
-; Parallel2Serial:inst17|rd_bar~5                                                     ; Unassigned ; 1       ; Latch enable        ; no     ; --                   ; --               ;
-; ad7864Drv:inst13|adcen~3                                                            ; Unassigned ; 1       ; Latch enable        ; no     ; --                   ; --               ;
-; ad7864Drv:inst13|db_rdy~0                                                           ; Unassigned ; 1       ; Latch enable        ; no     ; --                   ; --               ;
-; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; Unassigned ; 10      ; Latch enable        ; no     ; --                   ; --               ;
-+-------------------------------------------------------------------------------------+------------+---------+---------------------+--------+----------------------+------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Control Signals                                                                                                                                                              ;
++-------------------------------------------------------------------------------------+------------+---------+--------------+--------+----------------------+------------------+
+; Name                                                                                ; Location   ; Fan-Out ; Usage        ; Global ; Global Resource Used ; Global Line Name ;
++-------------------------------------------------------------------------------------+------------+---------+--------------+--------+----------------------+------------------+
+; CLOCKPIN                                                                            ; Unassigned ; 5       ; Clock        ; no     ; --                   ; --               ;
+; ad7864Drv:inst13|adcen~3                                                            ; Unassigned ; 1       ; Latch enable ; no     ; --                   ; --               ;
+; ad7864Drv:inst13|db_rdy~0                                                           ; Unassigned ; 1       ; Latch enable ; no     ; --                   ; --               ;
+; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; Unassigned ; 10      ; Latch enable ; no     ; --                   ; --               ;
++-------------------------------------------------------------------------------------+------------+---------+--------------+--------+----------------------+------------------+
 
 
 +--------------------------------------------------------------------+
@@ -433,7 +419,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Fitter Messages ;
 +-----------------+
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (119006): Selected device 5M160ZE64C5 for design "basicfunctions"
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
@@ -453,15 +439,17 @@ Error (169014): Cannot place node AD_CS[0] in location 31 because location alrea
 Critical Warning (169085): No exact pin location assignment(s) for 3 pins of 39 total pins. For the list of pins please refer to the I/O Assignment Warnings table in the fitter report.
 Info (171121): Fitter preparation operations ending: elapsed time is 00:00:00
 Error (171000): Can't fit design in device
-Warning (169064): Following 4 pins have no output enable or a GND or VCC output enable - later changes to this connectivity may change fitting results
-    Info (169065): Pin GPIO0 has a permanently enabled output enable
-    Info (169065): Pin GPIO1 has a permanently disabled output enable
-    Info (169065): Pin GPIO2 has a permanently enabled output enable
-    Info (169065): Pin GPIO3 has a permanently disabled output enable
+Warning (169069): Following 6 pins have nothing, GND, or VCC driving datain port -- changes to this connectivity may change fitting results
+    Info (169070): Pin CPLD_SPI_CLK has VCC driving its datain port
+    Info (169070): Pin CPLD_SPI_MO has GND driving its datain port
+    Info (169070): Pin CPLD_SPI_CS has GND driving its datain port
+    Info (169070): Pin AD_CS[2] has GND driving its datain port
+    Info (169070): Pin AD_CS[1] has GND driving its datain port
+    Info (169070): Pin AD_CS[0] has GND driving its datain port
 Error: Quartus Prime Fitter was unsuccessful. 4 errors, 4 warnings
-    Error: Peak virtual memory: 4888 megabytes
-    Error: Processing ended: Sun Sep 19 21:47:57 2021
-    Error: Elapsed time: 00:00:02
-    Error: Total CPU time (on all processors): 00:00:02
+    Error: Peak virtual memory: 4806 megabytes
+    Error: Processing ended: Fri Sep 24 18:59:40 2021
+    Error: Elapsed time: 00:00:01
+    Error: Total CPU time (on all processors): 00:00:01
 
 

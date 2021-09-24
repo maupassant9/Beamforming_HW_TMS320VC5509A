@@ -1,6 +1,6 @@
 Flow report for basicfunctions
-Sun Sep 19 21:50:16 2021
-Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Fri Sep 24 18:59:40 2021
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
 ---------------------
@@ -21,7 +21,7 @@ Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2019  Intel Corporation. All rights reserved.
+Copyright (C) 2020  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
@@ -41,13 +41,17 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------+
 ; Flow Summary                                                        ;
 +-----------------------+---------------------------------------------+
-; Flow Status           ; Successful - Sun Sep 19 21:50:16 2021       ;
-; Quartus Prime Version ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
+; Flow Status           ; Flow Failed - Fri Sep 24 18:59:40 2021      ;
+; Quartus Prime Version ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name         ; basicfunctions                              ;
 ; Top-level Entity Name ; basicfunctions                              ;
 ; Family                ; MAX V                                       ;
 ; Device                ; 5M160ZE64C5                                 ;
 ; Timing Models         ; Final                                       ;
+; Total logic elements  ; 102 / 160 ( 64 % )                          ;
+; Total pins            ; 39 / 54 ( 72 % )                            ;
+; Total virtual pins    ; 0                                           ;
+; UFM blocks            ; 1 / 1 ( 100 % )                             ;
 +-----------------------+---------------------------------------------+
 
 
@@ -56,7 +60,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/19/2021 21:50:06 ;
+; Start date & time ; 09/24/2021 18:59:26 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; basicfunctions      ;
 +-------------------+---------------------+
@@ -67,7 +71,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------+---------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                 ; Value                           ; Default Value ; Entity Name ; Section Id                        ;
 +---------------------------------+---------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID           ; 269058766099854.163209900607688 ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID           ; 150461128227000.163252076521448 ; --            ; --          ; --                                ;
 ; EDA_BOARD_DESIGN_TIMING_TOOL    ; Stamp (Timing)                  ; <None>        ; --          ; --                                ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST ; Off                             ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST ; Off                             ; --            ; --          ; eda_board_design_boundary_scan    ;
@@ -97,29 +101,32 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------+---------------------------------+---------------+-------------+-----------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                          ;
-+------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:11     ; 1.0                     ; 4702 MB             ; 00:00:21                           ;
-; Total                  ; 00:00:11     ; --                      ; --                  ; 00:00:21                           ;
-+------------------------+--------------+-------------------------+---------------------+------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:13     ; 1.0                     ; 4704 MB             ; 00:00:26                           ;
+; Fitter               ; 00:00:01     ; 1.0                     ; 4805 MB             ; 00:00:01                           ;
+; Total                ; 00:00:14     ; --                      ; --                  ; 00:00:27                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+---------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                       ;
-+------------------------+-------------------+------------+------------+----------------+
-; Module Name            ; Machine Hostname  ; OS Name    ; OS Version ; Processor type ;
-+------------------------+-------------------+------------+------------+----------------+
-; Analysis & Elaboration ; DesktopAMDDongXia ; Windows 10 ; 10.0       ; x86_64         ;
-+------------------------+-------------------+------------+------------+----------------+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; PK6588           ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; PK6588           ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
-quartus_map --read_settings_files=on --write_settings_files=off basicfunctions -c basicfunctions --analysis_and_elaboration
+quartus_map --read_settings_files=on --write_settings_files=off basicfunctions -c basicfunctions
+quartus_fit --read_settings_files=off --write_settings_files=off basicfunctions -c basicfunctions
 
 
 
