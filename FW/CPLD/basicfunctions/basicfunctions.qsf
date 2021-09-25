@@ -42,7 +42,7 @@ set_global_assignment -name DEVICE 5M160ZE64C5
 set_global_assignment -name TOP_LEVEL_ENTITY basicfunctions
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 19.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:27:24  AUGUST 29, 2021"
-set_global_assignment -name LAST_QUARTUS_VERSION "20.1.1 Lite Edition"
+set_global_assignment -name LAST_QUARTUS_VERSION "19.1.0 Lite Edition"
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
@@ -80,8 +80,7 @@ set_location_assignment PIN_50 -to DSP_EEPROM_SCK
 set_location_assignment PIN_52 -to DSP_EEPROM_MOSI
 set_location_assignment PIN_49 -to DSP_EEPROM_MISO
 set_location_assignment PIN_51 -to DSP_EEPROM_CS
-set_location_assignment PIN_31 -to AD_CS
-set_location_assignment PIN_2 -to ADC_CLK
+set_location_assignment PIN_31 -to ADC_CLK
 set_location_assignment PIN_29 -to ADC_DB_PIN[0]
 set_location_assignment PIN_26 -to ADC_DB_PIN[1]
 set_location_assignment PIN_22 -to ADC_DB_PIN[2]
@@ -94,13 +93,30 @@ set_location_assignment PIN_5 -to ADC_DB_PIN[8]
 set_location_assignment PIN_4 -to ADC_DB_PIN[9]
 set_location_assignment PIN_3 -to ADC_DB_PIN[10]
 set_location_assignment PIN_1 -to ADC_DB_PIN[11]
-set_location_assignment PIN_27 -to ADC_RD
-set_location_assignment PIN_13 -to ADC_CONV
+set_location_assignment PIN_2 -to ADC_RD
+set_location_assignment PIN_30 -to ADC_CONV
 set_location_assignment PIN_46 -to DSP_CONV_PIN
 set_location_assignment PIN_40 -to GPIO0
 set_location_assignment PIN_42 -to GPIO1
 set_location_assignment PIN_43 -to GPIO2
 set_location_assignment PIN_44 -to GPIO3
+set_location_assignment PIN_11 -to AD_CS[3]
+set_location_assignment PIN_13 -to AD_CS[2]
+set_location_assignment PIN_24 -to AD_CS[1]
+set_location_assignment PIN_27 -to AD_CS[0]
+set_location_assignment PIN_58 -to CPLD_SPI_CS
+set_location_assignment PIN_56 -to CPLD_SPI_CLK
+set_location_assignment PIN_55 -to CPLD_SPI_MO
+set_global_assignment -name FLOW_ENABLE_RTL_VIEWER ON
+set_global_assignment -name TIMING_ANALYZER_MULTICORNER_ANALYSIS OFF
+set_global_assignment -name NUM_PARALLEL_PROCESSORS ALL
+set_global_assignment -name FLOW_ENABLE_IO_ASSIGNMENT_ANALYSIS ON
+set_global_assignment -name FITTER_AGGRESSIVE_ROUTABILITY_OPTIMIZATION NEVER
+set_global_assignment -name ENABLE_DRC_SETTINGS ON
+set_global_assignment -name OPTIMIZATION_MODE BALANCED
+set_instance_assignment -name RESERVE_PIN AS_OUTPUT_DRIVING_AN_UNSPECIFIED_SIGNAL -to CPLD_SPI_MO
+set_instance_assignment -name RESERVE_PIN AS_OUTPUT_DRIVING_AN_UNSPECIFIED_SIGNAL -to CPLD_EEPROM_SCK
+set_global_assignment -name VERILOG_FILE Parallel2Serial.v
 set_global_assignment -name CDF_FILE chaindescription.cdf
 set_global_assignment -name BDF_FILE basicfunctions.bdf
 set_global_assignment -name QIP_FILE cnter.qip
@@ -115,7 +131,7 @@ set_global_assignment -name VECTOR_WAVEFORM_FILE basicfunctions.vwf
 set_global_assignment -name VERILOG_FILE ad7864Drv.v
 set_global_assignment -name QIP_FILE mux4boot.qip
 set_global_assignment -name VERILOG_FILE bootGPIO.v
-set_global_assignment -name VERILOG_FILE Parallel2Serial.v
 set_global_assignment -name TEXT_FILE AD7864cpy.txt
-set_global_assignment -name VERILOG_FILE RdBarTruthTable.v
-set_global_assignment -name VERILOG_FILE CsBarTruthTable.v
+set_global_assignment -name VERILOG_FILE DbSample.v
+set_global_assignment -name VERILOG_FILE Parallel2Serial4OneAD7265New.v
+set_global_assignment -name VERILOG_FILE Parallel2SerialModule.v

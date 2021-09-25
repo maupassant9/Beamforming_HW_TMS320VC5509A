@@ -2,40 +2,40 @@
 Timing Analyzer Summary
 ------------------------------------------------------------
 
+Type  : Setup 'CLOCKPIN'
+Slack : -33.533
+TNS   : -613.869
+
 Type  : Setup 'cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]'
-Slack : -17.810
-TNS   : -182.505
+Slack : -21.383
+TNS   : -148.548
 
 Type  : Setup 'DSP_CONV_PIN'
-Slack : -10.821
-TNS   : -10.821
+Slack : -11.038
+TNS   : -11.038
 
-Type  : Setup 'inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc'
-Slack : 3.828
-TNS   : 0.000
+Type  : Hold 'CLOCKPIN'
+Slack : -15.296
+TNS   : -15.519
 
 Type  : Hold 'cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]'
-Slack : -9.021
-TNS   : -9.021
-
-Type  : Hold 'inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc'
-Slack : -4.186
-TNS   : -4.186
+Slack : 0.305
+TNS   : 0.000
 
 Type  : Hold 'DSP_CONV_PIN'
-Slack : 1.300
+Slack : 1.164
 TNS   : 0.000
+
+Type  : Minimum Pulse Width 'CLOCKPIN'
+Slack : -9.090
+TNS   : -56.829
 
 Type  : Minimum Pulse Width 'DSP_CONV_PIN'
 Slack : -2.289
 TNS   : -2.289
 
 Type  : Minimum Pulse Width 'cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]'
-Slack : 0.161
-TNS   : 0.000
-
-Type  : Minimum Pulse Width 'inst5|osc_altufm_osc_7v7_component|maxii_ufm_block1|osc'
-Slack : 90.570
+Slack : 0.500
 TNS   : 0.000
 
 ------------------------------------------------------------

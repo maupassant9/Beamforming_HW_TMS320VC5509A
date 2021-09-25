@@ -1,11 +1,11 @@
-Fitter Status : Failed - Fri Sep 24 18:59:40 2021
-Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Fitter Status : Successful - Sat Sep 25 12:43:27 2021
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 Revision Name : basicfunctions
 Top-level Entity Name : basicfunctions
 Family : MAX V
 Device : 5M160ZE64C5
 Timing Models : Final
-Total logic elements : 102 / 160 ( 64 % )
+Total logic elements : 121 / 160 ( 76 % )
 Total pins : 39 / 54 ( 72 % )
 Total virtual pins : 0
 UFM blocks : 1 / 1 ( 100 % )

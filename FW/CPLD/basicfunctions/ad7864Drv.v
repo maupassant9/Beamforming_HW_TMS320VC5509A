@@ -31,7 +31,7 @@ module ad7864Drv
 	 
 	 //initialize the regs
 	 initial begin
-		cnter <= 6'b000000;
+		cnter <= 7'b000000;
 		adcen <= 1'b0;
 		clken <= 1'b0;
 		db_rdy <= 1'b0;
@@ -45,31 +45,31 @@ module ad7864Drv
 		if (clkin == 1'b1) begin
 			if(dsp_conv_bar == 1'b0) 
 				begin
-					cnter <= 6'b00000;
+					cnter <= 7'b00000;
 					adcen <= 1'b1;
 				end
 			else
 				begin
-					cnter <= cnter + 1;
+					cnter <= cnter + 1'b1;
 				end
 				
 			//begin the adc clock
 			if(adcen == 1'b1) begin 
-				if((cnter == 6'h03))
+				if((cnter == 7'h03))
 					begin
 						clken <= 1'b1;
 					end		
 				
 				//here should read the data
-				if(cnter == 6'h11)
+				if(cnter == 7'h11)
 					begin
 						db_rdy <= 1'b1;
 					end
-				if(cnter == 6'h12)
+				if(cnter == 7'h12)
 					begin
 						db_rdy <= 1'b0;
 					end				
-				if(cnter == 6'h3b)
+				if(cnter == 7'h3b)
 					begin
 						adcen <= 1'b0;
 					end

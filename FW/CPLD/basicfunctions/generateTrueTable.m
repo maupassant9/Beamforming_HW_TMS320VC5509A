@@ -1,13 +1,17 @@
-valueinit = [2 3 4 5];
+%valueinit = [5 6 7 8]; rd_bar
+%valueinit = 10:10+48; % enspi
+%valueinit = 7:8;  %dbsample
+valueinit = 10:8;  %spi_cs
 steps = 52;
 numseq = 16;
+value2convert = [];
 
-for i = 1:numseq-1
+for i = 0:numseq-1
 value2convert = [value2convert valueinit+steps*i];
 end
 
 noOfBits = 10;
-fid = fopen("C:\\Users\\dong.x\\Documents\\truetable.txt","w");
+fid = fopen("D:\\truetable.txt","w");
 i = 1;
 fprintf(fid, "\n    ");
 for val = 0: 2^noOfBits-1
@@ -15,10 +19,10 @@ for val = 0: 2^noOfBits-1
   fprintf(fid, "  ");
   for j = length(a):-1:1
     fprintf(fid, "%d  ",a(j));  
-  endfor
+  end
   if(val == value2convert(i))
     output = 1;
-    if( i < length(value2convert)) i = i + 1; end;
+    if( i < length(value2convert)) i = i + 1; end
   else 
     output = 0;
   end
@@ -26,4 +30,4 @@ for val = 0: 2^noOfBits-1
   
 end
 
-fclose(fid)
+fclose(fid);

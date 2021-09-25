@@ -1,0 +1,165 @@
+//Parallel2Serial4OneAD7265.v
+//This controller read only one ADC and then transfer
+//the 4 channels of this adc parallel data into 12 bits serial
+//Author: Dong Xia
+//Date: 19/Set/2021
+
+`define ADC_CHIP_NO 1
+`define SPI_CLK_NO 10+(12*4*2)
+module Parallel2Serial (
+
+	//clock in: 24Mhz clk
+    input clkin,
+	 
+	 //enable the logic, pulse signal
+	 input enable,
+	
+	 //parallel data and control signal
+	 input [11:0] db, //data[11:0]
+    output reg cs_bar, //chip select to ad
+	 output reg rd_bar,//read signal to ad
+
+	 
+//    //serial port
+    output reg sclk,
+//    input miso,
+	output spi_cs,
+    output reg mosi);
+	 
+	 
+	 reg [3:0] sel;
+	 reg [6:0] cnter;
+	 reg en;
+	 reg enspi;
+	 reg reg_cs_bar;
+	 reg [11:0] dbreg;
+	 reg dbrdy;
+	 		
+	 initial begin
+			sel <= 4'b0;
+			cnter <= 7'h00;
+			en <= 1'b0;
+			sclk <= 1'b1;
+			rd_bar <= 1'b1;
+			reg_cs_bar <= `ADC_CHIP_NO'b0;
+			dbrdy <= 1'b0;
+			cs_bar <= 4'b1111;
+			mosi <= 1'b0;
+	 end
+	 
+	 
+	 always @(clkin) begin
+		 
+		 if(clkin == 1'b1) begin
+			 if(enable == 1'b1) begin
+				 en = 1'b1;
+			 end
+			 
+			 // stop the enable signal after 
+			 // counter count to some value
+			 if(cnter == 6'd`SPI_CLK_NO) begin
+				 en = 1'b0;
+				 cnter = 7'h0;
+			 end
+			 
+			 //During en signal:
+			 // counter add up
+			 // generate the rd cs signal
+			 if(en == 1'b1) begin
+				 cnter = cnter + 7'h1;
+				 
+				 //when the counter is one
+				 //generate the rd signal
+				 if((cnter == 7'h1)|
+					(cnter == 7'h1b)|
+					(cnter == 7'h35)|
+					(cnter == 7'h4f))
+				 begin
+					rd_bar = 1'b0;
+				 end
+				 if((cnter == 7'h3)|
+					(cnter == 7'h1d)|
+					(cnter == 7'h37)|
+					(cnter == 7'h51))
+				 begin
+					rd_bar = 1'b1;
+				 end
+			end
+			
+			//control the enspi signal
+			if((cnter == 7'h1c)|
+				(cnter == 7'h36)|
+				(cnter == 7'h50)|
+				(cnter == 7'h6A))
+			 begin
+				enspi = 1'b0;
+			 end
+		end
+		else begin
+			//read the parallel data
+			if(rd_bar == 1'b0) begin
+				dbrdy = 1'b1;
+			end
+			else begin
+				dbrdy = 1'b0;
+				
+			end
+			//control the enspi signal
+			if((cnter == 7'h3)|
+				(cnter == 7'h1d)|
+				(cnter == 7'h37)|
+				(cnter == 7'h51))
+			 begin
+				enspi = 1'b1;
+			 end
+			
+		end
+	 end
+	 
+	 
+	 //generate the cs signal 
+	 always @(rd_bar) begin
+		 if(rd_bar == 1'b0) begin
+			reg_cs_bar = reg_cs_bar << 1;
+			if(reg_cs_bar == `ADC_CHIP_NO'b0) begin
+				reg_cs_bar = `ADC_CHIP_NO'b1;
+			end 
+			cs_bar = ~reg_cs_bar;
+		 end
+		 else begin
+			cs_bar = ~`ADC_CHIP_NO'b0;
+		 end
+	 end
+	 
+	 //sample the data
+	 always @(posedge clkin) begin
+		if((dbrdy == 1'b1)&(rd_bar == 1'b0)) begin
+			dbreg <= db;		
+		end 
+	 end
+	 
+
+	assign spi_cs = ((~rd_bar)&en)|(~en);
+    //convert parallel data into serial
+	 //dbrdy negedge work as a enable signal to spi 
+	 always @(posedge clkin) begin
+	  
+			if(enspi == 1'b1) begin
+				sclk = ~sclk;
+				//read the data into register
+            if(sclk == 1'b0) begin
+                mosi = dbreg[sel];
+            end
+            else begin
+                sel = sel + 1;
+            end
+			end
+			
+			//check the sel value
+			if(sel == 4'b1100) begin
+				sel = 4'b0000;
+			end
+	  end
+	 
+endmodule
+

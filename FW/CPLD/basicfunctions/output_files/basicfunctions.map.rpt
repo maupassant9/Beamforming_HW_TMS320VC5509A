@@ -1,6 +1,6 @@
 Analysis & Synthesis report for basicfunctions
-Fri Sep 24 18:59:38 2021
-Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Sat Sep 25 12:43:22 2021
+Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
 ---------------------
@@ -18,18 +18,19 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
  10. Registers Removed During Synthesis
  11. Removed Registers Triggering Further Register Optimizations
  12. General Register Statistics
- 13. Parameter Settings for User Entity Instance: mux2:inst12|lpm_mux:LPM_MUX_component
- 14. Parameter Settings for User Entity Instance: cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component
- 15. Parameter Settings for User Entity Instance: cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component
- 16. Parameter Settings for User Entity Instance: cnter8Bits:inst|lpm_counter:LPM_COUNTER_component
- 17. Analysis & Synthesis Messages
+ 13. Inverted Register Statistics
+ 14. Parameter Settings for User Entity Instance: mux2:inst12|lpm_mux:LPM_MUX_component
+ 15. Parameter Settings for User Entity Instance: cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component
+ 16. Parameter Settings for User Entity Instance: cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component
+ 17. Parameter Settings for User Entity Instance: cnter8Bits:inst|lpm_counter:LPM_COUNTER_component
+ 18. Analysis & Synthesis Messages
 
 
 
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2020  Intel Corporation. All rights reserved.
+Copyright (C) 2019  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
@@ -49,12 +50,12 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                              ;
 +-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Fri Sep 24 18:59:38 2021       ;
-; Quartus Prime Version       ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Analysis & Synthesis Status ; Successful - Sat Sep 25 12:43:22 2021       ;
+; Quartus Prime Version       ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name               ; basicfunctions                              ;
 ; Top-level Entity Name       ; basicfunctions                              ;
 ; Family                      ; MAX V                                       ;
-; Total logic elements        ; 102                                         ;
+; Total logic elements        ; 129                                         ;
 ; Total pins                  ; 39                                          ;
 ; Total virtual pins          ; 0                                           ;
 ; UFM blocks                  ; 1 / 1 ( 100 % )                             ;
@@ -69,6 +70,7 @@ https://fpgasoftware.intel.com/eula.
 ; Device                                                           ; 5M160ZE64C5        ;                    ;
 ; Top-level entity name                                            ; basicfunctions     ; basicfunctions     ;
 ; Family name                                                      ; MAX V              ; Cyclone V          ;
+; Maximum processors allowed for parallel compilation              ; All                ;                    ;
 ; Use smart compilation                                            ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
 ; Enable compact report table                                      ; Off                ; Off                ;
@@ -138,7 +140,7 @@ https://fpgasoftware.intel.com/eula.
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
 ; Number detected on machine ; 4           ;
-; Maximum allowed            ; 2           ;
+; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -148,89 +150,87 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                                               ;
-+----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                                                                                     ; Library ;
-+----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-; basicfunctions.bdf               ; yes             ; User Block Diagram/Schematic File  ; C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/basicfunctions.bdf    ;         ;
-; cnter8Bits.v                     ; yes             ; User Wizard-Generated File         ; C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/cnter8Bits.v          ;         ;
-; osc.v                            ; yes             ; User Wizard-Generated File         ; C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/osc.v                 ;         ;
-; mux2.v                           ; yes             ; User Wizard-Generated File         ; C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/mux2.v                ;         ;
-; ad7864Drv.v                      ; yes             ; User Verilog HDL File              ; C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v           ;         ;
-; Parallel2Serial.v                ; yes             ; User Verilog HDL File              ; C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial.v     ;         ;
-; RdBarTruthTable.v                ; yes             ; User Verilog HDL File              ; C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/RdBarTruthTable.v     ;         ;
-; lpm_mux.tdf                      ; yes             ; Megafunction                       ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mux.tdf                                                                               ;         ;
-; aglobal201.inc                   ; yes             ; Megafunction                       ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/aglobal201.inc                                                                            ;         ;
-; muxlut.inc                       ; yes             ; Megafunction                       ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/muxlut.inc                                                                                ;         ;
-; bypassff.inc                     ; yes             ; Megafunction                       ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/bypassff.inc                                                                              ;         ;
-; altshift.inc                     ; yes             ; Megafunction                       ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altshift.inc                                                                              ;         ;
-; db/mux_i6c.tdf                   ; yes             ; Auto-Generated Megafunction        ; C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/db/mux_i6c.tdf        ;         ;
-; lpm_counter.tdf                  ; yes             ; Megafunction                       ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_counter.tdf                                                                           ;         ;
-; lpm_constant.inc                 ; yes             ; Megafunction                       ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_constant.inc                                                                          ;         ;
-; lpm_decode.inc                   ; yes             ; Megafunction                       ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_decode.inc                                                                            ;         ;
-; lpm_add_sub.inc                  ; yes             ; Megafunction                       ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_add_sub.inc                                                                           ;         ;
-; cmpconst.inc                     ; yes             ; Megafunction                       ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/cmpconst.inc                                                                              ;         ;
-; lpm_compare.inc                  ; yes             ; Megafunction                       ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_compare.inc                                                                           ;         ;
-; lpm_counter.inc                  ; yes             ; Megafunction                       ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_counter.inc                                                                           ;         ;
-; dffeea.inc                       ; yes             ; Megafunction                       ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/dffeea.inc                                                                                ;         ;
-; alt_counter_stratix.inc          ; yes             ; Megafunction                       ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/alt_counter_stratix.inc                                                                   ;         ;
-; db/cntr_p4h.tdf                  ; yes             ; Auto-Generated Megafunction        ; C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/db/cntr_p4h.tdf       ;         ;
-; parrallel2serialnew.v            ; yes             ; Auto-Found Verilog HDL File        ; C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parrallel2serialnew.v ;         ;
-+----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                           ;
++----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                                                 ; Library ;
++----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------------------------------+---------+
+; Parallel2Serial.v                ; yes             ; User Verilog HDL File              ; D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial.v           ;         ;
+; basicfunctions.bdf               ; yes             ; User Block Diagram/Schematic File  ; D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/basicfunctions.bdf          ;         ;
+; cnter8Bits.v                     ; yes             ; User Wizard-Generated File         ; D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/cnter8Bits.v                ;         ;
+; osc.v                            ; yes             ; User Wizard-Generated File         ; D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/osc.v                       ;         ;
+; mux2.v                           ; yes             ; User Wizard-Generated File         ; D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/mux2.v                      ;         ;
+; ad7864Drv.v                      ; yes             ; User Verilog HDL File              ; D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v                 ;         ;
+; lpm_mux.tdf                      ; yes             ; Megafunction                       ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/lpm_mux.tdf                                           ;         ;
+; aglobal191.inc                   ; yes             ; Megafunction                       ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/aglobal191.inc                                        ;         ;
+; muxlut.inc                       ; yes             ; Megafunction                       ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/muxlut.inc                                            ;         ;
+; bypassff.inc                     ; yes             ; Megafunction                       ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/bypassff.inc                                          ;         ;
+; altshift.inc                     ; yes             ; Megafunction                       ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altshift.inc                                          ;         ;
+; db/mux_i6c.tdf                   ; yes             ; Auto-Generated Megafunction        ; D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/db/mux_i6c.tdf              ;         ;
+; lpm_counter.tdf                  ; yes             ; Megafunction                       ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/lpm_counter.tdf                                       ;         ;
+; lpm_constant.inc                 ; yes             ; Megafunction                       ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/lpm_constant.inc                                      ;         ;
+; lpm_decode.inc                   ; yes             ; Megafunction                       ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/lpm_decode.inc                                        ;         ;
+; lpm_add_sub.inc                  ; yes             ; Megafunction                       ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/lpm_add_sub.inc                                       ;         ;
+; cmpconst.inc                     ; yes             ; Megafunction                       ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/cmpconst.inc                                          ;         ;
+; lpm_compare.inc                  ; yes             ; Megafunction                       ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/lpm_compare.inc                                       ;         ;
+; lpm_counter.inc                  ; yes             ; Megafunction                       ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/lpm_counter.inc                                       ;         ;
+; dffeea.inc                       ; yes             ; Megafunction                       ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/dffeea.inc                                            ;         ;
+; alt_counter_stratix.inc          ; yes             ; Megafunction                       ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/alt_counter_stratix.inc                               ;         ;
+; db/cntr_p4h.tdf                  ; yes             ; Auto-Generated Megafunction        ; D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/db/cntr_p4h.tdf             ;         ;
+; parallel2serial4onead7265.v      ; yes             ; Auto-Found Verilog HDL File        ; D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v ;         ;
++----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------------------------------+---------+
 
 
-+----------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                                      ;
-+---------------------------------------------+------------------------------------+
-; Resource                                    ; Usage                              ;
-+---------------------------------------------+------------------------------------+
-; Total logic elements                        ; 102                                ;
-;     -- Combinational with no register       ; 99                                 ;
-;     -- Register only                        ; 0                                  ;
-;     -- Combinational with a register        ; 3                                  ;
-;                                             ;                                    ;
-; Logic element usage by number of LUT inputs ;                                    ;
-;     -- 4 input functions                    ; 50                                 ;
-;     -- 3 input functions                    ; 27                                 ;
-;     -- 2 input functions                    ; 22                                 ;
-;     -- 1 input functions                    ; 3                                  ;
-;     -- 0 input functions                    ; 0                                  ;
-;                                             ;                                    ;
-; Logic elements by mode                      ;                                    ;
-;     -- normal mode                          ; 85                                 ;
-;     -- arithmetic mode                      ; 17                                 ;
-;     -- qfbk mode                            ; 0                                  ;
-;     -- register cascade mode                ; 0                                  ;
-;     -- synchronous clear/load mode          ; 0                                  ;
-;     -- asynchronous clear/load mode         ; 0                                  ;
-;                                             ;                                    ;
-; Total registers                             ; 3                                  ;
-; Total logic cells in carry chains           ; 20                                 ;
-; I/O pins                                    ; 39                                 ;
-; UFM blocks                                  ; 1                                  ;
-; Maximum fan-out node                        ; Parrallel2SerialNew:inst19|Add0~10 ;
-; Maximum fan-out                             ; 16                                 ;
-; Total fan-out                               ; 339                                ;
-; Average fan-out                             ; 2.39                               ;
-+---------------------------------------------+------------------------------------+
++--------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary            ;
++---------------------------------------------+----------+
+; Resource                                    ; Usage    ;
++---------------------------------------------+----------+
+; Total logic elements                        ; 129      ;
+;     -- Combinational with no register       ; 108      ;
+;     -- Register only                        ; 14       ;
+;     -- Combinational with a register        ; 7        ;
+;                                             ;          ;
+; Logic element usage by number of LUT inputs ;          ;
+;     -- 4 input functions                    ; 34       ;
+;     -- 3 input functions                    ; 46       ;
+;     -- 2 input functions                    ; 32       ;
+;     -- 1 input functions                    ; 3        ;
+;     -- 0 input functions                    ; 0        ;
+;                                             ;          ;
+; Logic elements by mode                      ;          ;
+;     -- normal mode                          ; 112      ;
+;     -- arithmetic mode                      ; 17       ;
+;     -- qfbk mode                            ; 0        ;
+;     -- register cascade mode                ; 0        ;
+;     -- synchronous clear/load mode          ; 0        ;
+;     -- asynchronous clear/load mode         ; 0        ;
+;                                             ;          ;
+; Total registers                             ; 21       ;
+; Total logic cells in carry chains           ; 21       ;
+; I/O pins                                    ; 39       ;
+; UFM blocks                                  ; 1        ;
+; Maximum fan-out node                        ; CLOCKPIN ;
+; Maximum fan-out                             ; 29       ;
+; Total fan-out                               ; 400      ;
+; Average fan-out                             ; 2.37     ;
++---------------------------------------------+----------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                                           ;
-+---------------------------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+-------------------------------------------------------------------------------------------+---------------------+--------------+
-; Compilation Hierarchy Node                              ; Logic Cells ; LC Registers ; UFM Blocks ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name                                                                       ; Entity Name         ; Library Name ;
-+---------------------------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+-------------------------------------------------------------------------------------------+---------------------+--------------+
-; |basicfunctions                                         ; 102 (0)     ; 3            ; 1          ; 39   ; 0            ; 99 (0)       ; 0 (0)             ; 3 (0)            ; 20 (0)          ; 0 (0)      ; |basicfunctions                                                                           ; basicfunctions      ; work         ;
-;    |Parrallel2SerialNew:inst19|                         ; 68 (27)     ; 0            ; 0          ; 0    ; 0            ; 68 (27)      ; 0 (0)             ; 0 (0)            ; 10 (10)         ; 0 (0)      ; |basicfunctions|Parrallel2SerialNew:inst19                                                ; Parrallel2SerialNew ; work         ;
-;       |RdBarTruthTable:comb_101|                        ; 41 (41)     ; 0            ; 0          ; 0    ; 0            ; 41 (41)      ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |basicfunctions|Parrallel2SerialNew:inst19|RdBarTruthTable:comb_101                       ; RdBarTruthTable     ; work         ;
-;    |ad7864Drv:inst13|                                   ; 31 (31)     ; 0            ; 0          ; 0    ; 0            ; 31 (31)      ; 0 (0)             ; 0 (0)            ; 7 (7)           ; 0 (0)      ; |basicfunctions|ad7864Drv:inst13                                                          ; ad7864Drv           ; work         ;
-;    |cnter8Bits:inst|                                    ; 3 (0)       ; 3            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 3 (0)            ; 3 (0)           ; 0 (0)      ; |basicfunctions|cnter8Bits:inst                                                           ; cnter8Bits          ; work         ;
-;       |lpm_counter:LPM_COUNTER_component|               ; 3 (0)       ; 3            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 3 (0)            ; 3 (0)           ; 0 (0)      ; |basicfunctions|cnter8Bits:inst|lpm_counter:LPM_COUNTER_component                         ; lpm_counter         ; work         ;
-;          |cntr_p4h:auto_generated|                      ; 3 (3)       ; 3            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 3 (3)            ; 3 (3)           ; 0 (0)      ; |basicfunctions|cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated ; cntr_p4h            ; work         ;
-;    |osc:inst5|                                          ; 0 (0)       ; 0            ; 1          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |basicfunctions|osc:inst5                                                                 ; osc                 ; work         ;
-;       |osc_altufm_osc_7v7:osc_altufm_osc_7v7_component| ; 0 (0)       ; 0            ; 1          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |basicfunctions|osc:inst5|osc_altufm_osc_7v7:osc_altufm_osc_7v7_component                 ; osc_altufm_osc_7v7  ; work         ;
-+---------------------------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+-------------------------------------------------------------------------------------------+---------------------+--------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                                                 ;
++---------------------------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+-------------------------------------------------------------------------------------------+---------------------------+--------------+
+; Compilation Hierarchy Node                              ; Logic Cells ; LC Registers ; UFM Blocks ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name                                                                       ; Entity Name               ; Library Name ;
++---------------------------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+-------------------------------------------------------------------------------------------+---------------------------+--------------+
+; |basicfunctions                                         ; 129 (0)     ; 21           ; 1          ; 39   ; 0            ; 108 (0)      ; 14 (0)            ; 7 (0)            ; 21 (0)          ; 0 (0)      ; |basicfunctions                                                                           ; basicfunctions            ; work         ;
+;    |Parallel2Serial4OneAD7265:inst18|                   ; 95 (95)     ; 18           ; 0          ; 0    ; 0            ; 77 (77)      ; 14 (14)           ; 4 (4)            ; 11 (11)         ; 0 (0)      ; |basicfunctions|Parallel2Serial4OneAD7265:inst18                                          ; Parallel2Serial4OneAD7265 ; work         ;
+;    |ad7864Drv:inst13|                                   ; 31 (31)     ; 0            ; 0          ; 0    ; 0            ; 31 (31)      ; 0 (0)             ; 0 (0)            ; 7 (7)           ; 0 (0)      ; |basicfunctions|ad7864Drv:inst13                                                          ; ad7864Drv                 ; work         ;
+;    |cnter8Bits:inst|                                    ; 3 (0)       ; 3            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 3 (0)            ; 3 (0)           ; 0 (0)      ; |basicfunctions|cnter8Bits:inst                                                           ; cnter8Bits                ; work         ;
+;       |lpm_counter:LPM_COUNTER_component|               ; 3 (0)       ; 3            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 3 (0)            ; 3 (0)           ; 0 (0)      ; |basicfunctions|cnter8Bits:inst|lpm_counter:LPM_COUNTER_component                         ; lpm_counter               ; work         ;
+;          |cntr_p4h:auto_generated|                      ; 3 (3)       ; 3            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 3 (3)            ; 3 (3)           ; 0 (0)      ; |basicfunctions|cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated ; cntr_p4h                  ; work         ;
+;    |osc:inst5|                                          ; 0 (0)       ; 0            ; 1          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |basicfunctions|osc:inst5                                                                 ; osc                       ; work         ;
+;       |osc_altufm_osc_7v7:osc_altufm_osc_7v7_component| ; 0 (0)       ; 0            ; 1          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |basicfunctions|osc:inst5|osc_altufm_osc_7v7:osc_altufm_osc_7v7_component                 ; osc_altufm_osc_7v7        ; work         ;
++---------------------------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+-------------------------------------------------------------------------------------------+---------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -239,9 +239,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------+-------------------------+---------+--------------+--------------+----------------------------------+-----------------+
 ; Vendor ; IP Core Name            ; Version ; Release Date ; License Type ; Entity Instance                  ; IP Include File ;
 +--------+-------------------------+---------+--------------+--------------+----------------------------------+-----------------+
-; Altera ; LPM_COUNTER             ; 20.1    ; N/A          ; N/A          ; |basicfunctions|cnter8Bits:inst  ; cnter8Bits.v    ;
-; Altera ; LPM_COUNTER             ; 20.1    ; N/A          ; N/A          ; |basicfunctions|cnter8Bits:inst1 ; cnter8Bits.v    ;
-; Altera ; LPM_COUNTER             ; 20.1    ; N/A          ; N/A          ; |basicfunctions|cnter8Bits:inst3 ; cnter8Bits.v    ;
+; Altera ; LPM_COUNTER             ; 19.1    ; N/A          ; N/A          ; |basicfunctions|cnter8Bits:inst  ; cnter8Bits.v    ;
+; Altera ; LPM_COUNTER             ; 19.1    ; N/A          ; N/A          ; |basicfunctions|cnter8Bits:inst1 ; cnter8Bits.v    ;
+; Altera ; LPM_COUNTER             ; 19.1    ; N/A          ; N/A          ; |basicfunctions|cnter8Bits:inst3 ; cnter8Bits.v    ;
 ; Altera ; MAX II/MAX V oscillator ; 20.1    ; N/A          ; N/A          ; |basicfunctions|osc:inst5        ; osc.v           ;
 ; Altera ; LPM_MUX                 ; 20.1    ; N/A          ; N/A          ; |basicfunctions|mux2:inst12      ; mux2.v          ;
 +--------+-------------------------+---------+--------------+--------------+----------------------------------+-----------------+
@@ -254,16 +254,18 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------------------------------------+-------------------------------------------------------------------------------------+------------------------+
 ; inst7                                               ; inst7                                                                               ; yes                    ;
 ; inst9                                               ; inst9                                                                               ; yes                    ;
-; Parrallel2SerialNew:inst19|cnter[2]                 ; VCC                                                                                 ; yes                    ;
-; Parrallel2SerialNew:inst19|cnter[1]                 ; VCC                                                                                 ; yes                    ;
-; Parrallel2SerialNew:inst19|cnter[0]                 ; VCC                                                                                 ; yes                    ;
-; Parrallel2SerialNew:inst19|cnter[4]                 ; VCC                                                                                 ; yes                    ;
-; Parrallel2SerialNew:inst19|cnter[5]                 ; VCC                                                                                 ; yes                    ;
-; Parrallel2SerialNew:inst19|cnter[6]                 ; VCC                                                                                 ; yes                    ;
-; Parrallel2SerialNew:inst19|cnter[8]                 ; VCC                                                                                 ; yes                    ;
-; Parrallel2SerialNew:inst19|cnter[7]                 ; VCC                                                                                 ; yes                    ;
-; Parrallel2SerialNew:inst19|cnter[3]                 ; VCC                                                                                 ; yes                    ;
+; Parallel2Serial4OneAD7265:inst18|cs_bar             ; Parallel2Serial4OneAD7265:inst18|rd_bar                                             ; yes                    ;
 ; ad7864Drv:inst13|adcen                              ; ad7864Drv:inst13|adcen                                                              ; yes                    ;
+; Parallel2Serial4OneAD7265:inst18|en                 ; Parallel2Serial4OneAD7265:inst18|en                                                 ; yes                    ;
+; Parallel2Serial4OneAD7265:inst18|cnter[0]           ; Parallel2Serial4OneAD7265:inst18|cnter[0]                                           ; yes                    ;
+; Parallel2Serial4OneAD7265:inst18|cnter[1]           ; Parallel2Serial4OneAD7265:inst18|cnter[0]                                           ; yes                    ;
+; Parallel2Serial4OneAD7265:inst18|cnter[2]           ; Parallel2Serial4OneAD7265:inst18|cnter[0]                                           ; yes                    ;
+; Parallel2Serial4OneAD7265:inst18|cnter[3]           ; Parallel2Serial4OneAD7265:inst18|cnter[0]                                           ; yes                    ;
+; Parallel2Serial4OneAD7265:inst18|cnter[4]           ; Parallel2Serial4OneAD7265:inst18|cnter[0]                                           ; yes                    ;
+; Parallel2Serial4OneAD7265:inst18|cnter[5]           ; Parallel2Serial4OneAD7265:inst18|cnter[0]                                           ; yes                    ;
+; Parallel2Serial4OneAD7265:inst18|cnter[6]           ; Parallel2Serial4OneAD7265:inst18|cnter[0]                                           ; yes                    ;
+; ad7864Drv:inst13|db_rdy                             ; ad7864Drv:inst13|db_rdy                                                             ; yes                    ;
+; Parallel2Serial4OneAD7265:inst18|enspi              ; Parallel2Serial4OneAD7265:inst18|enspi                                              ; yes                    ;
 ; ad7864Drv:inst13|cnter[0]                           ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; yes                    ;
 ; ad7864Drv:inst13|cnter[1]                           ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; yes                    ;
 ; ad7864Drv:inst13|cnter[2]                           ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; yes                    ;
@@ -271,8 +273,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; ad7864Drv:inst13|cnter[4]                           ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; yes                    ;
 ; ad7864Drv:inst13|cnter[5]                           ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; yes                    ;
 ; ad7864Drv:inst13|cnter[6]                           ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; yes                    ;
-; ad7864Drv:inst13|db_rdy                             ; ad7864Drv:inst13|db_rdy                                                             ; yes                    ;
-; Number of user-specified and inferred latches = 20  ;                                                                                     ;                        ;
+; Parallel2Serial4OneAD7265:inst18|dbrdy              ; CLOCKPIN                                                                            ; yes                    ;
+; Number of user-specified and inferred latches = 22  ;                                                                                     ;                        ;
 +-----------------------------------------------------+-------------------------------------------------------------------------------------+------------------------+
 Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
@@ -317,14 +319,24 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 3     ;
+; Total registers                              ; 21    ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Clock Enable       ; 12    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
+
+
++--------------------------------------------------+
+; Inverted Register Statistics                     ;
++----------------------------------------+---------+
+; Inverted Register                      ; Fan out ;
++----------------------------------------+---------+
+; Parallel2Serial4OneAD7265:inst18|sclk  ; 4       ;
+; Total number of inverted registers = 1 ;         ;
++----------------------------------------+---------+
 
 
 +------------------------------------------------------------------------------------+
@@ -432,143 +444,155 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Fri Sep 24 18:59:25 2021
+    Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+    Info: Processing started: Sat Sep 25 12:43:11 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off basicfunctions -c basicfunctions
-Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file parallel2serial.v
+    Info (12023): Found entity 1: Parallel2Serial File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial.v Line: 9
 Info (12021): Found 1 design units, including 1 entities, in source file basicfunctions.bdf
     Info (12023): Found entity 1: basicfunctions
 Info (12021): Found 1 design units, including 1 entities, in source file cnter.v
-    Info (12023): Found entity 1: cnter File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/cnter.v Line: 40
+    Info (12023): Found entity 1: cnter File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/cnter.v Line: 40
 Info (12021): Found 1 design units, including 1 entities, in source file basicfunctionstest.bdf
     Info (12023): Found entity 1: basicfunctionstest
 Info (12021): Found 1 design units, including 1 entities, in source file cnter8bits.v
-    Info (12023): Found entity 1: cnter8Bits File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/cnter8Bits.v Line: 40
+    Info (12023): Found entity 1: cnter8Bits File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/cnter8Bits.v Line: 40
 Info (12021): Found 2 design units, including 2 entities, in source file osc.v
-    Info (12023): Found entity 1: osc_altufm_osc_7v7 File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/osc.v Line: 47
-    Info (12023): Found entity 2: osc File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/osc.v Line: 100
+    Info (12023): Found entity 1: osc_altufm_osc_7v7 File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/osc.v Line: 47
+    Info (12023): Found entity 2: osc File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/osc.v Line: 100
 Info (12021): Found 1 design units, including 1 entities, in source file mux2.v
-    Info (12023): Found entity 1: mux2 File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/mux2.v Line: 40
+    Info (12023): Found entity 1: mux2 File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/mux2.v Line: 40
 Info (12021): Found 1 design units, including 1 entities, in source file ad7864drv.v
-    Info (12023): Found entity 1: ad7864Drv File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 7
+    Info (12023): Found entity 1: ad7864Drv File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 7
 Info (12021): Found 1 design units, including 1 entities, in source file mux4boot.v
-    Info (12023): Found entity 1: mux4boot File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/mux4boot.v Line: 40
+    Info (12023): Found entity 1: mux4boot File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/mux4boot.v Line: 40
 Info (12021): Found 0 design units, including 0 entities, in source file bootgpio.v
-Info (12021): Found 1 design units, including 1 entities, in source file parallel2serial.v
-    Info (12023): Found entity 1: Parallel2Serial File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial.v Line: 9
-Info (12021): Found 1 design units, including 1 entities, in source file rdbartruthtable.v
-    Info (12023): Found entity 1: RdBarTruthTable File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/RdBarTruthTable.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file csbartruthtable.v
-    Info (12023): Found entity 1: CsBarTruthTable File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/CsBarTruthTable.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file dbsample.v
+    Info (12023): Found entity 1: DbSampleTruthTable File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/DbSample.v Line: 1
 Info (12127): Elaborating entity "basicfunctions" for the top level hierarchy
 Info (12128): Elaborating entity "mux2" for hierarchy "mux2:inst12"
-Info (12128): Elaborating entity "lpm_mux" for hierarchy "mux2:inst12|lpm_mux:LPM_MUX_component" File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/mux2.v Line: 70
-Info (12130): Elaborated megafunction instantiation "mux2:inst12|lpm_mux:LPM_MUX_component" File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/mux2.v Line: 70
-Info (12133): Instantiated megafunction "mux2:inst12|lpm_mux:LPM_MUX_component" with the following parameter: File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/mux2.v Line: 70
+Info (12128): Elaborating entity "lpm_mux" for hierarchy "mux2:inst12|lpm_mux:LPM_MUX_component" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/mux2.v Line: 70
+Info (12130): Elaborated megafunction instantiation "mux2:inst12|lpm_mux:LPM_MUX_component" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/mux2.v Line: 70
+Info (12133): Instantiated megafunction "mux2:inst12|lpm_mux:LPM_MUX_component" with the following parameter: File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/mux2.v Line: 70
     Info (12134): Parameter "lpm_size" = "2"
     Info (12134): Parameter "lpm_type" = "LPM_MUX"
     Info (12134): Parameter "lpm_width" = "1"
     Info (12134): Parameter "lpm_widths" = "1"
 Info (12021): Found 1 design units, including 1 entities, in source file db/mux_i6c.tdf
-    Info (12023): Found entity 1: mux_i6c File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/db/mux_i6c.tdf Line: 23
-Info (12128): Elaborating entity "mux_i6c" for hierarchy "mux2:inst12|lpm_mux:LPM_MUX_component|mux_i6c:auto_generated" File: c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mux.tdf Line: 87
+    Info (12023): Found entity 1: mux_i6c File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/db/mux_i6c.tdf Line: 23
+Info (12128): Elaborating entity "mux_i6c" for hierarchy "mux2:inst12|lpm_mux:LPM_MUX_component|mux_i6c:auto_generated" File: c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/lpm_mux.tdf Line: 87
 Info (12128): Elaborating entity "osc" for hierarchy "osc:inst5"
-Info (12128): Elaborating entity "osc_altufm_osc_7v7" for hierarchy "osc:inst5|osc_altufm_osc_7v7:osc_altufm_osc_7v7_component" File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/osc.v Line: 112
+Info (12128): Elaborating entity "osc_altufm_osc_7v7" for hierarchy "osc:inst5|osc_altufm_osc_7v7:osc_altufm_osc_7v7_component" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/osc.v Line: 112
 Info (12128): Elaborating entity "cnter8Bits" for hierarchy "cnter8Bits:inst3"
-Info (12128): Elaborating entity "lpm_counter" for hierarchy "cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component" File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/cnter8Bits.v Line: 65
-Info (12130): Elaborated megafunction instantiation "cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component" File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/cnter8Bits.v Line: 65
-Info (12133): Instantiated megafunction "cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component" with the following parameter: File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/cnter8Bits.v Line: 65
+Info (12128): Elaborating entity "lpm_counter" for hierarchy "cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/cnter8Bits.v Line: 65
+Info (12130): Elaborated megafunction instantiation "cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/cnter8Bits.v Line: 65
+Info (12133): Instantiated megafunction "cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component" with the following parameter: File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/cnter8Bits.v Line: 65
     Info (12134): Parameter "lpm_direction" = "UP"
     Info (12134): Parameter "lpm_port_updown" = "PORT_UNUSED"
     Info (12134): Parameter "lpm_type" = "LPM_COUNTER"
     Info (12134): Parameter "lpm_width" = "8"
 Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_p4h.tdf
-    Info (12023): Found entity 1: cntr_p4h File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/db/cntr_p4h.tdf Line: 26
-Info (12128): Elaborating entity "cntr_p4h" for hierarchy "cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated" File: c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_counter.tdf Line: 259
+    Info (12023): Found entity 1: cntr_p4h File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/db/cntr_p4h.tdf Line: 26
+Info (12128): Elaborating entity "cntr_p4h" for hierarchy "cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated" File: c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/lpm_counter.tdf Line: 259
 Info (12128): Elaborating entity "ad7864Drv" for hierarchy "ad7864Drv:inst13"
-Warning (10235): Verilog HDL Always Construct warning at ad7864Drv.v(46): variable "dsp_conv_bar" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 46
-Warning (10235): Verilog HDL Always Construct warning at ad7864Drv.v(53): variable "cnter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 53
-Warning (10230): Verilog HDL assignment warning at ad7864Drv.v(53): truncated value with size 32 to match size of target (7) File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 53
-Warning (10235): Verilog HDL Always Construct warning at ad7864Drv.v(57): variable "adcen" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 57
-Warning (10235): Verilog HDL Always Construct warning at ad7864Drv.v(58): variable "cnter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 58
-Warning (10235): Verilog HDL Always Construct warning at ad7864Drv.v(64): variable "cnter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 64
-Warning (10235): Verilog HDL Always Construct warning at ad7864Drv.v(68): variable "cnter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 68
-Warning (10235): Verilog HDL Always Construct warning at ad7864Drv.v(72): variable "cnter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 72
-Warning (10240): Verilog HDL Always Construct warning at ad7864Drv.v(44): inferring latch(es) for variable "cnter", which holds its previous value in one or more paths through the always construct File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
-Warning (10240): Verilog HDL Always Construct warning at ad7864Drv.v(44): inferring latch(es) for variable "adcen", which holds its previous value in one or more paths through the always construct File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
-Warning (10240): Verilog HDL Always Construct warning at ad7864Drv.v(44): inferring latch(es) for variable "clken", which holds its previous value in one or more paths through the always construct File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
-Warning (10240): Verilog HDL Always Construct warning at ad7864Drv.v(44): inferring latch(es) for variable "db_rdy", which holds its previous value in one or more paths through the always construct File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
-Info (10041): Inferred latch for "db_rdy" at ad7864Drv.v(44) File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
-Info (10041): Inferred latch for "clken" at ad7864Drv.v(44) File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
-Info (10041): Inferred latch for "adcen" at ad7864Drv.v(44) File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
-Info (10041): Inferred latch for "cnter[0]" at ad7864Drv.v(44) File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
-Info (10041): Inferred latch for "cnter[1]" at ad7864Drv.v(44) File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
-Info (10041): Inferred latch for "cnter[2]" at ad7864Drv.v(44) File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
-Info (10041): Inferred latch for "cnter[3]" at ad7864Drv.v(44) File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
-Info (10041): Inferred latch for "cnter[4]" at ad7864Drv.v(44) File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
-Info (10041): Inferred latch for "cnter[5]" at ad7864Drv.v(44) File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
-Info (10041): Inferred latch for "cnter[6]" at ad7864Drv.v(44) File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
-Warning (10229): Verilog HDL Expression warning at parrallel2serialnew.v(52): truncated literal to match 3 bits File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parrallel2serialnew.v Line: 52
-Warning (12125): Using design file parrallel2serialnew.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: Parrallel2SerialNew File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parrallel2serialnew.v Line: 9
-Info (12128): Elaborating entity "Parrallel2SerialNew" for hierarchy "Parrallel2SerialNew:inst19"
-Warning (10036): Verilog HDL or VHDL warning at parrallel2serialnew.v(29): object "sel" assigned a value but never read File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parrallel2serialnew.v Line: 29
-Warning (10240): Verilog HDL Always Construct warning at parrallel2serialnew.v(43): inferring latch(es) for variable "cnter", which holds its previous value in one or more paths through the always construct File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parrallel2serialnew.v Line: 43
-Warning (10034): Output port "cs_bar" at parrallel2serialnew.v(19) has no driver File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parrallel2serialnew.v Line: 19
-Warning (10034): Output port "spi_cs" at parrallel2serialnew.v(25) has no driver File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parrallel2serialnew.v Line: 25
-Info (10041): Inferred latch for "cnter[0]" at parrallel2serialnew.v(57) File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parrallel2serialnew.v Line: 57
-Info (10041): Inferred latch for "cnter[1]" at parrallel2serialnew.v(57) File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parrallel2serialnew.v Line: 57
-Info (10041): Inferred latch for "cnter[2]" at parrallel2serialnew.v(57) File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parrallel2serialnew.v Line: 57
-Info (10041): Inferred latch for "cnter[3]" at parrallel2serialnew.v(57) File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parrallel2serialnew.v Line: 57
-Info (10041): Inferred latch for "cnter[4]" at parrallel2serialnew.v(57) File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parrallel2serialnew.v Line: 57
-Info (10041): Inferred latch for "cnter[5]" at parrallel2serialnew.v(57) File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parrallel2serialnew.v Line: 57
-Info (10041): Inferred latch for "cnter[6]" at parrallel2serialnew.v(57) File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parrallel2serialnew.v Line: 57
-Info (10041): Inferred latch for "cnter[7]" at parrallel2serialnew.v(57) File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parrallel2serialnew.v Line: 57
-Info (10041): Inferred latch for "cnter[8]" at parrallel2serialnew.v(57) File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parrallel2serialnew.v Line: 57
-Info (10041): Inferred latch for "cnter[9]" at parrallel2serialnew.v(57) File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parrallel2serialnew.v Line: 57
-Info (12128): Elaborating entity "RdBarTruthTable" for hierarchy "Parrallel2SerialNew:inst19|RdBarTruthTable:comb_101" File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parrallel2serialnew.v Line: 68
-Warning (13012): Latch ad7864Drv:inst13|adcen has unsafe behavior File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 27
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal ad7864Drv:inst13|adcen File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 27
-Warning (13012): Latch ad7864Drv:inst13|db_rdy has unsafe behavior File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 24
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal ad7864Drv:inst13|cnter[0] File: C:/Users/dong.x/Documents/xiadong/Projetos/privateProjects/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
+Warning (10235): Verilog HDL Always Construct warning at ad7864Drv.v(46): variable "dsp_conv_bar" is read inside the Always Construct but isn't in the Always Construct's Event Control File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 46
+Warning (10235): Verilog HDL Always Construct warning at ad7864Drv.v(53): variable "cnter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 53
+Warning (10235): Verilog HDL Always Construct warning at ad7864Drv.v(57): variable "adcen" is read inside the Always Construct but isn't in the Always Construct's Event Control File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 57
+Warning (10235): Verilog HDL Always Construct warning at ad7864Drv.v(58): variable "cnter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 58
+Warning (10235): Verilog HDL Always Construct warning at ad7864Drv.v(64): variable "cnter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 64
+Warning (10235): Verilog HDL Always Construct warning at ad7864Drv.v(68): variable "cnter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 68
+Warning (10235): Verilog HDL Always Construct warning at ad7864Drv.v(72): variable "cnter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 72
+Warning (10240): Verilog HDL Always Construct warning at ad7864Drv.v(44): inferring latch(es) for variable "cnter", which holds its previous value in one or more paths through the always construct File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
+Warning (10240): Verilog HDL Always Construct warning at ad7864Drv.v(44): inferring latch(es) for variable "adcen", which holds its previous value in one or more paths through the always construct File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
+Warning (10240): Verilog HDL Always Construct warning at ad7864Drv.v(44): inferring latch(es) for variable "clken", which holds its previous value in one or more paths through the always construct File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
+Warning (10240): Verilog HDL Always Construct warning at ad7864Drv.v(44): inferring latch(es) for variable "db_rdy", which holds its previous value in one or more paths through the always construct File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
+Info (10041): Inferred latch for "db_rdy" at ad7864Drv.v(44) File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
+Info (10041): Inferred latch for "clken" at ad7864Drv.v(44) File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
+Info (10041): Inferred latch for "adcen" at ad7864Drv.v(44) File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
+Info (10041): Inferred latch for "cnter[0]" at ad7864Drv.v(44) File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
+Info (10041): Inferred latch for "cnter[1]" at ad7864Drv.v(44) File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
+Info (10041): Inferred latch for "cnter[2]" at ad7864Drv.v(44) File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
+Info (10041): Inferred latch for "cnter[3]" at ad7864Drv.v(44) File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
+Info (10041): Inferred latch for "cnter[4]" at ad7864Drv.v(44) File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
+Info (10041): Inferred latch for "cnter[5]" at ad7864Drv.v(44) File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
+Info (10041): Inferred latch for "cnter[6]" at ad7864Drv.v(44) File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
+Warning (10274): Verilog HDL macro warning at parallel2serial4onead7265.v(8): overriding existing definition for macro "ADC_CHIP_NO", which was defined in "Parallel2Serial.v", line 8 File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 8
+Warning (10274): Verilog HDL macro warning at parallel2serial4onead7265.v(9): overriding existing definition for macro "SPI_CLK_NO", which was defined in "Parallel2Serial.v", line 9 File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 9
+Warning (12125): Using design file parallel2serial4onead7265.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: Parallel2Serial4OneAD7265 File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 9
+Info (12128): Elaborating entity "Parallel2Serial4OneAD7265" for hierarchy "Parallel2Serial4OneAD7265:inst18"
+Warning (10230): Verilog HDL assignment warning at parallel2serial4onead7265.v(46): truncated value with size 4 to match size of target (1) File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 46
+Warning (10235): Verilog HDL Always Construct warning at parallel2serial4onead7265.v(54): variable "enable" is read inside the Always Construct but isn't in the Always Construct's Event Control File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 54
+Warning (10235): Verilog HDL Always Construct warning at parallel2serial4onead7265.v(60): variable "cnter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 60
+Warning (10235): Verilog HDL Always Construct warning at parallel2serial4onead7265.v(100): variable "rd_bar" is read inside the Always Construct but isn't in the Always Construct's Event Control File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+Warning (10235): Verilog HDL Always Construct warning at parallel2serial4onead7265.v(108): variable "cnter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 108
+Warning (10235): Verilog HDL Always Construct warning at parallel2serial4onead7265.v(109): variable "cnter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 109
+Warning (10235): Verilog HDL Always Construct warning at parallel2serial4onead7265.v(110): variable "cnter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 110
+Warning (10235): Verilog HDL Always Construct warning at parallel2serial4onead7265.v(111): variable "cnter" is read inside the Always Construct but isn't in the Always Construct's Event Control File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 111
+Warning (10240): Verilog HDL Always Construct warning at parallel2serial4onead7265.v(51): inferring latch(es) for variable "en", which holds its previous value in one or more paths through the always construct File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 51
+Warning (10240): Verilog HDL Always Construct warning at parallel2serial4onead7265.v(51): inferring latch(es) for variable "cnter", which holds its previous value in one or more paths through the always construct File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 51
+Warning (10240): Verilog HDL Always Construct warning at parallel2serial4onead7265.v(51): inferring latch(es) for variable "rd_bar", which holds its previous value in one or more paths through the always construct File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 51
+Warning (10240): Verilog HDL Always Construct warning at parallel2serial4onead7265.v(51): inferring latch(es) for variable "enspi", which holds its previous value in one or more paths through the always construct File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 51
+Warning (10240): Verilog HDL Always Construct warning at parallel2serial4onead7265.v(51): inferring latch(es) for variable "dbrdy", which holds its previous value in one or more paths through the always construct File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 51
+Warning (10235): Verilog HDL Always Construct warning at parallel2serial4onead7265.v(123): variable "reg_cs_bar" is read inside the Always Construct but isn't in the Always Construct's Event Control File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 123
+Warning (10240): Verilog HDL Always Construct warning at parallel2serial4onead7265.v(121): inferring latch(es) for variable "reg_cs_bar", which holds its previous value in one or more paths through the always construct File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 121
+Warning (10230): Verilog HDL assignment warning at parallel2serial4onead7265.v(154): truncated value with size 32 to match size of target (4) File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 154
+Info (10041): Inferred latch for "dbrdy" at parallel2serial4onead7265.v(100) File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+Info (10041): Inferred latch for "enspi" at parallel2serial4onead7265.v(100) File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+Info (10041): Inferred latch for "rd_bar" at parallel2serial4onead7265.v(100) File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+Info (10041): Inferred latch for "cnter[0]" at parallel2serial4onead7265.v(100) File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+Info (10041): Inferred latch for "cnter[1]" at parallel2serial4onead7265.v(100) File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+Info (10041): Inferred latch for "cnter[2]" at parallel2serial4onead7265.v(100) File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+Info (10041): Inferred latch for "cnter[3]" at parallel2serial4onead7265.v(100) File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+Info (10041): Inferred latch for "cnter[4]" at parallel2serial4onead7265.v(100) File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+Info (10041): Inferred latch for "cnter[5]" at parallel2serial4onead7265.v(100) File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+Info (10041): Inferred latch for "cnter[6]" at parallel2serial4onead7265.v(100) File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+Info (10041): Inferred latch for "en" at parallel2serial4onead7265.v(100) File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+Warning (13012): Latch Parallel2Serial4OneAD7265:inst18|cs_bar has unsafe behavior File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 19
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Parallel2Serial4OneAD7265:inst18|always0~synth
+Warning (13012): Latch ad7864Drv:inst13|adcen has unsafe behavior File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 27
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ad7864Drv:inst13|adcen File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 27
+Warning (13012): Latch Parallel2Serial4OneAD7265:inst18|en has unsafe behavior File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 32
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Parallel2Serial4OneAD7265:inst18|cnter[0] File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+Warning (13012): Latch Parallel2Serial4OneAD7265:inst18|cnter[0] has unsafe behavior File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Parallel2Serial4OneAD7265:inst18|cnter[0] File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+Warning (13012): Latch Parallel2Serial4OneAD7265:inst18|cnter[1] has unsafe behavior File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Parallel2Serial4OneAD7265:inst18|cnter[0] File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+Warning (13012): Latch Parallel2Serial4OneAD7265:inst18|cnter[2] has unsafe behavior File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Parallel2Serial4OneAD7265:inst18|cnter[0] File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+Warning (13012): Latch Parallel2Serial4OneAD7265:inst18|cnter[3] has unsafe behavior File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Parallel2Serial4OneAD7265:inst18|cnter[0] File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+Warning (13012): Latch Parallel2Serial4OneAD7265:inst18|cnter[4] has unsafe behavior File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Parallel2Serial4OneAD7265:inst18|cnter[0] File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+Warning (13012): Latch Parallel2Serial4OneAD7265:inst18|cnter[5] has unsafe behavior File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Parallel2Serial4OneAD7265:inst18|cnter[0] File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+Warning (13012): Latch Parallel2Serial4OneAD7265:inst18|cnter[6] has unsafe behavior File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Parallel2Serial4OneAD7265:inst18|cnter[0] File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+Warning (13012): Latch ad7864Drv:inst13|db_rdy has unsafe behavior File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 24
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ad7864Drv:inst13|cnter[0] File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
+Warning (13012): Latch Parallel2Serial4OneAD7265:inst18|enspi has unsafe behavior File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 33
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal CLOCKPIN
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "DSP_PWR_EN" is stuck at VCC
     Warning (13410): Pin "DSP_RST" is stuck at VCC
-    Warning (13410): Pin "CPLD_SPI_CLK" is stuck at VCC
-    Warning (13410): Pin "CPLD_SPI_MO" is stuck at GND
     Warning (13410): Pin "GPIO0" is stuck at VCC
     Warning (13410): Pin "GPIO1" is stuck at VCC
     Warning (13410): Pin "GPIO2" is stuck at GND
     Warning (13410): Pin "GPIO3" is stuck at GND
-    Warning (13410): Pin "CPLD_SPI_CS" is stuck at GND
     Warning (13410): Pin "AD_CS[3]" is stuck at GND
     Warning (13410): Pin "AD_CS[2]" is stuck at GND
     Warning (13410): Pin "AD_CS[1]" is stuck at GND
-    Warning (13410): Pin "AD_CS[0]" is stuck at GND
 Info (17049): 21 registers lost all their fanouts during netlist optimizations.
-Warning (21074): Design contains 12 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "ADC_DB_PIN[11]"
-    Warning (15610): No output dependent on input pin "ADC_DB_PIN[10]"
-    Warning (15610): No output dependent on input pin "ADC_DB_PIN[9]"
-    Warning (15610): No output dependent on input pin "ADC_DB_PIN[8]"
-    Warning (15610): No output dependent on input pin "ADC_DB_PIN[7]"
-    Warning (15610): No output dependent on input pin "ADC_DB_PIN[6]"
-    Warning (15610): No output dependent on input pin "ADC_DB_PIN[5]"
-    Warning (15610): No output dependent on input pin "ADC_DB_PIN[4]"
-    Warning (15610): No output dependent on input pin "ADC_DB_PIN[3]"
-    Warning (15610): No output dependent on input pin "ADC_DB_PIN[2]"
-    Warning (15610): No output dependent on input pin "ADC_DB_PIN[1]"
-    Warning (15610): No output dependent on input pin "ADC_DB_PIN[0]"
-Info (21057): Implemented 142 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 169 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 18 input pins
     Info (21059): Implemented 21 output pins
-    Info (21061): Implemented 102 logic cells
+    Info (21061): Implemented 129 logic cells
     Info (21070): Implemented 1 User Flash Memory blocks
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 50 warnings
-    Info: Peak virtual memory: 4704 megabytes
-    Info: Processing ended: Fri Sep 24 18:59:38 2021
-    Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:26
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 64 warnings
+    Info: Peak virtual memory: 4709 megabytes
+    Info: Processing ended: Sat Sep 25 12:43:22 2021
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:22
 
 
