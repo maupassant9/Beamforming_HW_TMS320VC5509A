@@ -1,8 +1,8 @@
 |basicfunctions
 DSPCLKOUT <= inst2.DB_MAX_OUTPUT_PORT_TYPE
 CLOCKPIN => mux2:inst12.data0
-DSP_PWR_EN <= inst7.DB_MAX_OUTPUT_PORT_TYPE
-DSP_RST <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+DSP_PWR_EN <= DelayDrv:inst18.pwron
+DSP_RST <= DelayDrv:inst18.rst
 CPLD_EEPROM_CS <= DSP_EEPROM_CS.DB_MAX_OUTPUT_PORT_TYPE
 DSP_EEPROM_CS => CPLD_EEPROM_CS.DATAIN
 CPLD_EEPROM_SCK <= DSP_EEPROM_SCK.DB_MAX_OUTPUT_PORT_TYPE
@@ -13,31 +13,31 @@ DSP_EEPROM_MISO <= CPLD_EEPROM_MISO.DB_MAX_OUTPUT_PORT_TYPE
 CPLD_EEPROM_MISO => DSP_EEPROM_MISO.DATAIN
 ADC_CONV <= ad7864Drv:inst13.ad_conv_bar
 DSP_CONV_PIN => ad7864Drv:inst13.dsp_conv_bar
-ADC_RD <= Parallel2Serial4OneAD7265:inst18.rd_bar
-ADC_DB_PIN[0] => Parallel2Serial4OneAD7265:inst18.db[0]
-ADC_DB_PIN[1] => Parallel2Serial4OneAD7265:inst18.db[1]
-ADC_DB_PIN[2] => Parallel2Serial4OneAD7265:inst18.db[2]
-ADC_DB_PIN[3] => Parallel2Serial4OneAD7265:inst18.db[3]
-ADC_DB_PIN[4] => Parallel2Serial4OneAD7265:inst18.db[4]
-ADC_DB_PIN[5] => Parallel2Serial4OneAD7265:inst18.db[5]
-ADC_DB_PIN[6] => Parallel2Serial4OneAD7265:inst18.db[6]
-ADC_DB_PIN[7] => Parallel2Serial4OneAD7265:inst18.db[7]
-ADC_DB_PIN[8] => Parallel2Serial4OneAD7265:inst18.db[8]
-ADC_DB_PIN[9] => Parallel2Serial4OneAD7265:inst18.db[9]
-ADC_DB_PIN[10] => Parallel2Serial4OneAD7265:inst18.db[10]
-ADC_DB_PIN[11] => Parallel2Serial4OneAD7265:inst18.db[11]
-CPLD_SPI_CLK <= Parallel2Serial4OneAD7265:inst18.sclk
-CPLD_SPI_MO <= Parallel2Serial4OneAD7265:inst18.mosi
+ADC_RD <= Parallel2Serial4OneAD7265New:inst17.rd_bar
+ADC_DB_PIN[0] => Parallel2Serial4OneAD7265New:inst17.db[0]
+ADC_DB_PIN[1] => Parallel2Serial4OneAD7265New:inst17.db[1]
+ADC_DB_PIN[2] => Parallel2Serial4OneAD7265New:inst17.db[2]
+ADC_DB_PIN[3] => Parallel2Serial4OneAD7265New:inst17.db[3]
+ADC_DB_PIN[4] => Parallel2Serial4OneAD7265New:inst17.db[4]
+ADC_DB_PIN[5] => Parallel2Serial4OneAD7265New:inst17.db[5]
+ADC_DB_PIN[6] => Parallel2Serial4OneAD7265New:inst17.db[6]
+ADC_DB_PIN[7] => Parallel2Serial4OneAD7265New:inst17.db[7]
+ADC_DB_PIN[8] => Parallel2Serial4OneAD7265New:inst17.db[8]
+ADC_DB_PIN[9] => Parallel2Serial4OneAD7265New:inst17.db[9]
+ADC_DB_PIN[10] => Parallel2Serial4OneAD7265New:inst17.db[10]
+ADC_DB_PIN[11] => Parallel2Serial4OneAD7265New:inst17.db[11]
+CPLD_SPI_CLK <= Parallel2Serial4OneAD7265New:inst17.sclk
+CPLD_SPI_MO <= Parallel2Serial4OneAD7265New:inst17.mosi
 ADC_CLK <= ad7864Drv:inst13.clkout
 GPIO0 <= <VCC>
 GPIO1 <= <VCC>
 GPIO2 <= <GND>
 GPIO3 <= <GND>
-CPLD_SPI_CS <= Parallel2Serial4OneAD7265:inst18.spi_cs
-AD_CS[0] <= Parallel2Serial4OneAD7265:inst18.cs_bar
-AD_CS[1] <= <GND>
-AD_CS[2] <= <GND>
-AD_CS[3] <= <GND>
+CPLD_SPI_CS <= Parallel2Serial4OneAD7265New:inst17.spi_cs
+AD_CS[0] <= Parallel2Serial4OneAD7265New:inst17.cs_bar[0]
+AD_CS[1] <= Parallel2Serial4OneAD7265New:inst17.cs_bar[1]
+AD_CS[2] <= Parallel2Serial4OneAD7265New:inst17.cs_bar[2]
+AD_CS[3] <= Parallel2Serial4OneAD7265New:inst17.cs_bar[3]
 
 
 |basicfunctions|mux2:inst12
@@ -73,6 +73,13 @@ osc <= osc_altufm_osc_7v7:osc_altufm_osc_7v7_component.osc
 |basicfunctions|osc:inst5|osc_altufm_osc_7v7:osc_altufm_osc_7v7_component
 osc <= maxii_ufm_block1.OSC
 oscena => maxii_ufm_block1.OSCENA
+
+
+|basicfunctions|DelayDrv:inst18
+in1 => pwron~reg0.CLK
+in2 => rst~reg0.CLK
+pwron <= pwron~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rst <= rst~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |basicfunctions|cnter8Bits:inst3
@@ -341,13 +348,15 @@ ad_conv_bar <= dsp_conv_bar.DB_MAX_OUTPUT_PORT_TYPE
 db_rdy <= db_rdy$latch.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|basicfunctions|Parallel2Serial4OneAD7265:inst18
+|basicfunctions|Parallel2Serial4OneAD7265New:inst17
+clkin => mosi~reg0.CLK
+clkin => sclk~reg0.CLK
+clkin => enspiPrev.CLK
 clkin => sel[0].CLK
 clkin => sel[1].CLK
 clkin => sel[2].CLK
 clkin => sel[3].CLK
-clkin => mosi~reg0.CLK
-clkin => sclk~reg0.CLK
+clkin => enspi.CLK
 clkin => dbreg[0].CLK
 clkin => dbreg[1].CLK
 clkin => dbreg[2].CLK
@@ -360,28 +369,28 @@ clkin => dbreg[8].CLK
 clkin => dbreg[9].CLK
 clkin => dbreg[10].CLK
 clkin => dbreg[11].CLK
-clkin => enspi.OUTPUTSELECT
-clkin => rd_bar.IN1
-clkin => cnter[0].IN1
-clkin => en.IN1
-clkin => enspi.DATAIN
-clkin => dbrdy.LATCH_ENABLE
-enable => en.OUTPUTSELECT
-enable => en.IN1
-db[0] => dbreg[0].DATAIN
-db[1] => dbreg[1].DATAIN
-db[2] => dbreg[2].DATAIN
-db[3] => dbreg[3].DATAIN
-db[4] => dbreg[4].DATAIN
-db[5] => dbreg[5].DATAIN
-db[6] => dbreg[6].DATAIN
-db[7] => dbreg[7].DATAIN
-db[8] => dbreg[8].DATAIN
-db[9] => dbreg[9].DATAIN
-db[10] => dbreg[10].DATAIN
-db[11] => dbreg[11].DATAIN
-cs_bar <= rd_bar$latch.DB_MAX_OUTPUT_PORT_TYPE
-rd_bar <= rd_bar$latch.DB_MAX_OUTPUT_PORT_TYPE
+clkin => rd_bar~reg0.CLK
+clkin => cnter[0].CLK
+clkin => cnter[1].CLK
+clkin => cnter[2].CLK
+enable => ~NO_FANOUT~
+db[0] => dbreg.DATAB
+db[1] => dbreg.DATAB
+db[2] => dbreg.DATAB
+db[3] => dbreg.DATAB
+db[4] => dbreg.DATAB
+db[5] => dbreg.DATAB
+db[6] => dbreg.DATAB
+db[7] => dbreg.DATAB
+db[8] => dbreg.DATAB
+db[9] => dbreg.DATAB
+db[10] => dbreg.DATAB
+db[11] => dbreg.DATAB
+cs_bar[0] <= cs_bar.DB_MAX_OUTPUT_PORT_TYPE
+cs_bar[1] <= cs_bar.DB_MAX_OUTPUT_PORT_TYPE
+cs_bar[2] <= cs_bar.DB_MAX_OUTPUT_PORT_TYPE
+cs_bar[3] <= cs_bar.DB_MAX_OUTPUT_PORT_TYPE
+rd_bar <= rd_bar~reg0.DB_MAX_OUTPUT_PORT_TYPE
 sclk <= sclk~reg0.DB_MAX_OUTPUT_PORT_TYPE
 spi_cs <= spi_cs.DB_MAX_OUTPUT_PORT_TYPE
 mosi <= mosi~reg0.DB_MAX_OUTPUT_PORT_TYPE

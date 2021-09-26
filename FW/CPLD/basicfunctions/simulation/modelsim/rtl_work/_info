@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dD:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/simulation/modelsim
 vad7864Drv
-Z1 !s110 1632537541
+Z1 !s110 1632611710
 !i10b 1
 !s100 FT_aAJR4cK9TUW0XRPY6f3
 I_A;;VoM_o;^c29_nRzloN1
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1632537541.000000
+Z4 !s108 1632611710.000000
 !s107 D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions|D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v|
 !i113 1
@@ -38,15 +38,15 @@ R1
 Im1HWD6[9]J4ldWg5`FLg^3
 R2
 R0
-Z8 w1632521422
+w1632578209
 8D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/cnter8Bits.v
 FD:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/cnter8Bits.v
-Z9 L0 40
+Z8 L0 40
 R3
 r1
 !s85 0
 31
-!s108 1632537540.000000
+R4
 !s107 D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/cnter8Bits.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions|D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/cnter8Bits.v|
 !i113 1
@@ -54,52 +54,6 @@ R5
 R6
 R7
 ncnter8@bits
-UDbSampleTruthTable
-Z10 !s110 1632537542
-!i10b 1
-!s100 Ua:Oe[fR659O?^8cNMUFN0
-IHdCRHcQ69XoNBO6840B2R0
-R2
-R0
-w1632530421
-8D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/DbSample.v
-FD:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/DbSample.v
-L0 1
-R3
-r1
-!s85 0
-31
-Z11 !s108 1632537542.000000
-!s107 D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/DbSample.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions|D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/DbSample.v|
-!i113 1
-R5
-R6
-R7
-n@db@sample@truth@table
-UEnspiTruthTable
-R10
-!i10b 1
-!s100 YK@KG@lC3PAVEljG?i4Qa0
-I9VfeJW5P>k3D[ae7XWfAE1
-R2
-R0
-w1632529203
-8D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/EnspiTruthTable.v
-FD:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/EnspiTruthTable.v
-L0 1
-R3
-r1
-!s85 0
-31
-R11
-!s107 D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/EnspiTruthTable.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions|D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/EnspiTruthTable.v|
-!i113 1
-R5
-R6
-R7
-n@enspi@truth@table
 vmux2
 R1
 !i10b 1
@@ -107,10 +61,10 @@ R1
 ILibKQkAl`WN7on[D`=0:Y2
 R2
 R0
-R8
+Z9 w1632521422
 8D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/mux2.v
 FD:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/mux2.v
-R9
+R8
 R3
 r1
 !s85 0
@@ -129,17 +83,17 @@ R1
 I:oDhWAKSYLBV]8^GSIj6J2
 R2
 R0
-R8
-Z12 8D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/osc.v
-Z13 FD:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/osc.v
+R9
+Z10 8D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/osc.v
+Z11 FD:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/osc.v
 L0 100
 R3
 r1
 !s85 0
 31
 R4
-Z14 !s107 D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/osc.v|
-Z15 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions|D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/osc.v|
+Z12 !s107 D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/osc.v|
+Z13 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions|D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/osc.v|
 !i113 1
 R5
 R6
@@ -151,87 +105,41 @@ R1
 IbOYJW<_6kgN]WfL64L5n^1
 R2
 R0
-R8
-R12
-R13
+R9
+R10
+R11
 L0 47
 R3
 r1
 !s85 0
 31
 R4
-R14
-R15
+R12
+R13
 !i113 1
 R5
 R6
 R7
-vParallel2Serial
+vParallel2Serial4OneAD7265New
 R1
 !i10b 1
-!s100 cA<NR_HmMLhn_NQQ7JSOI2
-I<MWZFoO^7]mIC?6iFcF9]3
+!s100 cXnj0[Hjc9X9]>^TzWAaU2
+ILHRcW_kj>>=i4XnH6BSeF0
 R2
 R0
-R8
-8D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial.v
-FD:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial.v
-L0 9
+w1632611663
+8D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v
+FD:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v
+L0 10
 R3
 r1
 !s85 0
 31
 R4
-!s107 D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions|D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial.v|
+!s107 D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions|D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v|
 !i113 1
 R5
 R6
 R7
-n@parallel2@serial
-vParrallel2SerialNew
-R10
-!i10b 1
-!s100 NRabPD[^1HL]1@gSAVnTU1
-IQBY7N0D5Lh7@2@VC^Z:WG2
-R2
-R0
-w1632534486
-8D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parrallel2serialnew.v
-FD:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parrallel2serialnew.v
-L0 11
-R3
-r1
-!s85 0
-31
-R11
-!s107 D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parrallel2serialnew.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions|D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parrallel2serialnew.v|
-!i113 1
-R5
-R6
-R7
-n@parrallel2@serial@new
-URdBarTruthTable
-R10
-!i10b 1
-!s100 ZOc[2>l6d1W^:]Go2;;cJ1
-IQ=ckB>_LPO2SIML?:RDVA2
-R2
-R0
-w1632526766
-8D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/RdBarTruthTable.v
-FD:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/RdBarTruthTable.v
-L0 1
-R3
-r1
-!s85 0
-31
-R4
-!s107 D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/RdBarTruthTable.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions|D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/RdBarTruthTable.v|
-!i113 1
-R5
-R6
-R7
-n@rd@bar@truth@table
+n@parallel2@serial4@one@a@d7265@new

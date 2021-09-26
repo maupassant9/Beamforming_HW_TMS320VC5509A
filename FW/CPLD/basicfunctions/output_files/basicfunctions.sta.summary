@@ -2,37 +2,69 @@
 Timing Analyzer Summary
 ------------------------------------------------------------
 
-Type  : Setup 'CLOCKPIN'
-Slack : -33.533
-TNS   : -613.869
-
 Type  : Setup 'cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]'
-Slack : -21.383
-TNS   : -148.548
+Slack : -18.911
+TNS   : -125.891
 
-Type  : Setup 'DSP_CONV_PIN'
-Slack : -11.038
-TNS   : -11.038
+Type  : Setup 'CLOCKPIN'
+Slack : -18.659
+TNS   : -316.596
+
+Type  : Setup 'Parallel2Serial4OneAD7265New:inst17|rd_bar'
+Slack : -8.863
+TNS   : -23.238
+
+Type  : Setup 'cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[7]'
+Slack : -6.449
+TNS   : -46.283
+
+Type  : Setup 'cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[7]'
+Slack : -6.437
+TNS   : -40.601
+
+Type  : Hold 'cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[7]'
+Slack : -2.605
+TNS   : -10.973
 
 Type  : Hold 'CLOCKPIN'
-Slack : -15.296
-TNS   : -15.519
+Slack : -0.714
+TNS   : -0.925
 
-Type  : Hold 'cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]'
-Slack : 0.305
+Type  : Hold 'cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[7]'
+Slack : 1.163
 TNS   : 0.000
 
-Type  : Hold 'DSP_CONV_PIN'
-Slack : 1.164
+Type  : Hold 'cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]'
+Slack : 1.483
+TNS   : 0.000
+
+Type  : Hold 'Parallel2Serial4OneAD7265New:inst17|rd_bar'
+Slack : 1.650
 TNS   : 0.000
 
 Type  : Minimum Pulse Width 'CLOCKPIN'
-Slack : -9.090
-TNS   : -56.829
-
-Type  : Minimum Pulse Width 'DSP_CONV_PIN'
 Slack : -2.289
 TNS   : -2.289
+
+Type  : Minimum Pulse Width 'cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[7]'
+Slack : 0.161
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[1]'
+Slack : 0.161
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[6]'
+Slack : 0.161
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[7]'
+Slack : 0.161
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'Parallel2Serial4OneAD7265New:inst17|rd_bar'
+Slack : 0.500
+TNS   : 0.000
 
 Type  : Minimum Pulse Width 'cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]'
 Slack : 0.500

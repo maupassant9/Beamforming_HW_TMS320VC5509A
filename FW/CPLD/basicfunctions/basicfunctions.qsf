@@ -116,7 +116,6 @@ set_global_assignment -name ENABLE_DRC_SETTINGS ON
 set_global_assignment -name OPTIMIZATION_MODE BALANCED
 set_instance_assignment -name RESERVE_PIN AS_OUTPUT_DRIVING_AN_UNSPECIFIED_SIGNAL -to CPLD_SPI_MO
 set_instance_assignment -name RESERVE_PIN AS_OUTPUT_DRIVING_AN_UNSPECIFIED_SIGNAL -to CPLD_EEPROM_SCK
-set_global_assignment -name VERILOG_FILE Parallel2Serial.v
 set_global_assignment -name CDF_FILE chaindescription.cdf
 set_global_assignment -name BDF_FILE basicfunctions.bdf
 set_global_assignment -name QIP_FILE cnter.qip
@@ -132,6 +131,5 @@ set_global_assignment -name VERILOG_FILE ad7864Drv.v
 set_global_assignment -name QIP_FILE mux4boot.qip
 set_global_assignment -name VERILOG_FILE bootGPIO.v
 set_global_assignment -name TEXT_FILE AD7864cpy.txt
-set_global_assignment -name VERILOG_FILE DbSample.v
 set_global_assignment -name VERILOG_FILE Parallel2Serial4OneAD7265New.v
-set_global_assignment -name VERILOG_FILE Parallel2SerialModule.v
+set_global_assignment -name VERILOG_FILE DelayDrv.v

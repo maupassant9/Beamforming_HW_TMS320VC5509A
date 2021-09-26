@@ -22,7 +22,7 @@ https://fpgasoftware.intel.com/eula.
 (header "symbol" (version "1.1"))
 (symbol
 	(rect 16 16 200 160)
-	(text "Parrallel2SerialNew" (rect 5 0 79 12)(font "Arial" ))
+	(text "Parallel2Serial4OneAD7265New" (rect 5 0 132 12)(font "Arial" ))
 	(text "inst" (rect 8 128 20 140)(font "Arial" ))
 	(port
 		(pt 0 32)

@@ -1,5 +1,5 @@
 EDA Netlist Writer report for basicfunctions
-Sat Sep 25 12:43:35 2021
+Sun Sep 26 10:33:50 2021
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -39,7 +39,7 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                                   ;
 +--------------------------------------+---------------------------------------+
-; EDA Netlist Writer Status            ; Successful - Sat Sep 25 12:43:35 2021 ;
+; EDA Netlist Writer Status            ; Successful - Sun Sep 26 10:33:50 2021 ;
 ; Revision Name                        ; basicfunctions                        ;
 ; Top-level Entity Name                ; basicfunctions                        ;
 ; Family                               ; MAX V                                 ;
@@ -106,7 +106,7 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Sat Sep 25 12:43:34 2021
+    Info: Processing started: Sun Sep 26 10:33:49 2021
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off basicfunctions -c basicfunctions
 Warning (202000): An incorrect timescale is selected for the Verilog Output (.VO) file of this PLL design. It's required that the timescale should be 1 ps when simulating a PLL design in a third party EDA tool.
 Info (204019): Generated file basicfunctions.vo in folder "D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/simulation/modelsim/" for EDA simulation tool
@@ -114,7 +114,7 @@ Info (199047): Generated files "D:/otherProjects/Beamforming/Beamforming_HW_TMS3
 Info (199047): Generated files "D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/timing/stamp//basicfunctions_board.mod" and "D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/timing/stamp//basicfunctions_board.data"
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4621 megabytes
-    Info: Processing ended: Sat Sep 25 12:43:35 2021
+    Info: Processing ended: Sun Sep 26 10:33:50 2021
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

@@ -1,9 +1,9 @@
-Analysis & Synthesis Status : Successful - Sat Sep 25 12:43:22 2021
+Analysis & Synthesis Status : Successful - Sun Sep 26 10:33:34 2021
 Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 Revision Name : basicfunctions
 Top-level Entity Name : basicfunctions
 Family : MAX V
-Total logic elements : 129
+Total logic elements : 106
 Total pins : 39
 Total virtual pins : 0
 UFM blocks : 1 / 1 ( 100 % )

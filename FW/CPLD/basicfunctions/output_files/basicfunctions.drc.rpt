@@ -1,5 +1,5 @@
 Design Assistant report for basicfunctions
-Sat Sep 25 12:43:33 2021
+Sun Sep 26 10:33:48 2021
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -40,18 +40,19 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------+
 ; Design Assistant Summary                                                ;
 +-----------------------------------+-------------------------------------+
-; Design Assistant Status           ; Analyzed - Sat Sep 25 12:43:33 2021 ;
+; Design Assistant Status           ; Analyzed - Sun Sep 26 10:33:48 2021 ;
 ; Revision Name                     ; basicfunctions                      ;
 ; Top-level Entity Name             ; basicfunctions                      ;
 ; Family                            ; MAX V                               ;
-; Total Critical Violations         ; 2                                   ;
-; - Rule A101                       ; 2                                   ;
-; Total High Violations             ; 24                                  ;
-; - Rule A108                       ; 20                                  ;
-; - Rule S104                       ; 4                                   ;
-; Total Medium Violations           ; 1                                   ;
-; - Rule C104                       ; 1                                   ;
-; Total Information only Violations ; 50                                  ;
+; Total Critical Violations         ; 1                                   ;
+; - Rule A101                       ; 1                                   ;
+; Total High Violations             ; 11                                  ;
+; - Rule A108                       ; 11                                  ;
+; Total Medium Violations           ; 5                                   ;
+; - Rule A104                       ; 1                                   ;
+; - Rule C104                       ; 4                                   ;
+; Total Information only Violations ; 51                                  ;
+; - Rule T101                       ; 1                                   ;
 ; - Rule T102                       ; 50                                  ;
 +-----------------------------------+-------------------------------------+
 
@@ -97,161 +98,147 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+----+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------+
-; Critical Violations                                                                                                           ;
-+---------------------------------------------------------------------------------+---------------------------------------------+
-; Rule name                                                                       ; Name                                        ;
-+---------------------------------------------------------------------------------+---------------------------------------------+
-; Rule A101: Design should not contain combinational loops - Combinational loop 1 ;                                             ;
-;  Combinational loop 1                                                           ; Parallel2Serial4OneAD7265:inst18|Equal0~2   ;
-;  Combinational loop 1                                                           ; Parallel2Serial4OneAD7265:inst18|cnter[0]~1 ;
-;  Combinational loop 1                                                           ; Parallel2Serial4OneAD7265:inst18|Equal0~0   ;
-;  Combinational loop 1                                                           ; Parallel2Serial4OneAD7265:inst18|en~1       ;
-;  Combinational loop 1                                                           ; Parallel2Serial4OneAD7265:inst18|Equal0~1   ;
-; Rule A101: Design should not contain combinational loops - Combinational loop 2 ;                                             ;
-;  Combinational loop 2                                                           ; ad7864Drv:inst13|adcen~2                    ;
-;  Combinational loop 2                                                           ; ad7864Drv:inst13|adcen~3                    ;
-+---------------------------------------------------------------------------------+---------------------------------------------+
++------------------------------------------------------------------------------------------------------------+
+; Critical Violations                                                                                        ;
++---------------------------------------------------------------------------------+--------------------------+
+; Rule name                                                                       ; Name                     ;
++---------------------------------------------------------------------------------+--------------------------+
+; Rule A101: Design should not contain combinational loops - Combinational loop 1 ;                          ;
+;  Combinational loop 1                                                           ; ad7864Drv:inst13|adcen~2 ;
+;  Combinational loop 1                                                           ; ad7864Drv:inst13|adcen~3 ;
++---------------------------------------------------------------------------------+--------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------+
-; High Violations                                                                                                                                   ;
-+-------------------------------------------------------------------------------------------------------+-------------------------------------------+
-; Rule name                                                                                             ; Name                                      ;
-+-------------------------------------------------------------------------------------------------------+-------------------------------------------+
-; Rule A108: Design should not contain latches - Latch 1                                                ;                                           ;
-;  Latch 1                                                                                              ; ad7864Drv:inst13|adcen                    ;
-; Rule A108: Design should not contain latches - Latch 2                                                ;                                           ;
-;  Latch 2                                                                                              ; Parallel2Serial4OneAD7265:inst18|en       ;
-; Rule A108: Design should not contain latches - Latch 3                                                ;                                           ;
-;  Latch 3                                                                                              ; ad7864Drv:inst13|cnter[0]                 ;
-; Rule A108: Design should not contain latches - Latch 4                                                ;                                           ;
-;  Latch 4                                                                                              ; ad7864Drv:inst13|cnter[1]                 ;
-; Rule A108: Design should not contain latches - Latch 5                                                ;                                           ;
-;  Latch 5                                                                                              ; ad7864Drv:inst13|db_rdy                   ;
-; Rule A108: Design should not contain latches - Latch 6                                                ;                                           ;
-;  Latch 6                                                                                              ; Parallel2Serial4OneAD7265:inst18|cnter[1] ;
-; Rule A108: Design should not contain latches - Latch 7                                                ;                                           ;
-;  Latch 7                                                                                              ; Parallel2Serial4OneAD7265:inst18|cnter[3] ;
-; Rule A108: Design should not contain latches - Latch 8                                                ;                                           ;
-;  Latch 8                                                                                              ; Parallel2Serial4OneAD7265:inst18|cnter[0] ;
-; Rule A108: Design should not contain latches - Latch 9                                                ;                                           ;
-;  Latch 9                                                                                              ; Parallel2Serial4OneAD7265:inst18|cnter[2] ;
-; Rule A108: Design should not contain latches - Latch 10                                               ;                                           ;
-;  Latch 10                                                                                             ; Parallel2Serial4OneAD7265:inst18|cnter[6] ;
-; Rule A108: Design should not contain latches - Latch 11                                               ;                                           ;
-;  Latch 11                                                                                             ; Parallel2Serial4OneAD7265:inst18|enspi    ;
-; Rule A108: Design should not contain latches - Latch 12                                               ;                                           ;
-;  Latch 12                                                                                             ; ad7864Drv:inst13|cnter[3]                 ;
-; Rule A108: Design should not contain latches - Latch 13                                               ;                                           ;
-;  Latch 13                                                                                             ; Parallel2Serial4OneAD7265:inst18|cnter[5] ;
-; Rule A108: Design should not contain latches - Latch 14                                               ;                                           ;
-;  Latch 14                                                                                             ; ad7864Drv:inst13|cnter[5]                 ;
-; Rule A108: Design should not contain latches - Latch 15                                               ;                                           ;
-;  Latch 15                                                                                             ; Parallel2Serial4OneAD7265:inst18|cnter[4] ;
-; Rule A108: Design should not contain latches - Latch 16                                               ;                                           ;
-;  Latch 16                                                                                             ; ad7864Drv:inst13|cnter[4]                 ;
-; Rule A108: Design should not contain latches - Latch 17                                               ;                                           ;
-;  Latch 17                                                                                             ; ad7864Drv:inst13|cnter[2]                 ;
-; Rule A108: Design should not contain latches - Latch 18                                               ;                                           ;
-;  Latch 18                                                                                             ; ad7864Drv:inst13|cnter[6]                 ;
-; Rule A108: Design should not contain latches - Latch 19                                               ;                                           ;
-;  Latch 19                                                                                             ; Parallel2Serial4OneAD7265:inst18|dbrdy    ;
-; Rule A108: Design should not contain latches - Latch 20                                               ;                                           ;
-;  Latch 20                                                                                             ; Parallel2Serial4OneAD7265:inst18|cs_bar   ;
-; Rule S104: Clock port and any other port of a register should not be driven by the same signal source ; Parallel2Serial4OneAD7265:inst18|sclk     ;
-;  Violated clock and other port source node(s) list                                                    ; CLOCKPIN                                  ;
-; Rule S104: Clock port and any other port of a register should not be driven by the same signal source ; Parallel2Serial4OneAD7265:inst18|mosi     ;
-;  Violated clock and other port source node(s) list                                                    ; CLOCKPIN                                  ;
-; Rule S104: Clock port and any other port of a register should not be driven by the same signal source ; Parallel2Serial4OneAD7265:inst18|sel[0]   ;
-;  Violated clock and other port source node(s) list                                                    ; CLOCKPIN                                  ;
-; Rule S104: Clock port and any other port of a register should not be driven by the same signal source ; Parallel2Serial4OneAD7265:inst18|sel[1]   ;
-;  Violated clock and other port source node(s) list                                                    ; CLOCKPIN                                  ;
-+-------------------------------------------------------------------------------------------------------+-------------------------------------------+
++-------------------------------------------------------------------------------------------------------------+
+; High Violations                                                                                             ;
++---------------------------------------------------------+---------------------------------------------------+
+; Rule name                                               ; Name                                              ;
++---------------------------------------------------------+---------------------------------------------------+
+; Rule A108: Design should not contain latches - Latch 1  ;                                                   ;
+;  Latch 1                                                ; Parallel2Serial4OneAD7265New:inst17|reg_cs_bar[2] ;
+; Rule A108: Design should not contain latches - Latch 2  ;                                                   ;
+;  Latch 2                                                ; Parallel2Serial4OneAD7265New:inst17|reg_cs_bar[1] ;
+; Rule A108: Design should not contain latches - Latch 3  ;                                                   ;
+;  Latch 3                                                ; Parallel2Serial4OneAD7265New:inst17|reg_cs_bar[0] ;
+; Rule A108: Design should not contain latches - Latch 4  ;                                                   ;
+;  Latch 4                                                ; ad7864Drv:inst13|cnter[2]                         ;
+; Rule A108: Design should not contain latches - Latch 5  ;                                                   ;
+;  Latch 5                                                ; ad7864Drv:inst13|cnter[1]                         ;
+; Rule A108: Design should not contain latches - Latch 6  ;                                                   ;
+;  Latch 6                                                ; ad7864Drv:inst13|cnter[6]                         ;
+; Rule A108: Design should not contain latches - Latch 7  ;                                                   ;
+;  Latch 7                                                ; ad7864Drv:inst13|cnter[3]                         ;
+; Rule A108: Design should not contain latches - Latch 8  ;                                                   ;
+;  Latch 8                                                ; ad7864Drv:inst13|cnter[4]                         ;
+; Rule A108: Design should not contain latches - Latch 9  ;                                                   ;
+;  Latch 9                                                ; ad7864Drv:inst13|cnter[5]                         ;
+; Rule A108: Design should not contain latches - Latch 10 ;                                                   ;
+;  Latch 10                                               ; ad7864Drv:inst13|cnter[0]                         ;
+; Rule A108: Design should not contain latches - Latch 11 ;                                                   ;
+;  Latch 11                                               ; ad7864Drv:inst13|adcen                            ;
++---------------------------------------------------------+---------------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Medium Violations                                                                                                                                        ;
-+--------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-; Rule name                                                          ; Name                                                                                ;
-+--------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-; Rule C104: Clock signal source should drive only clock input ports ; CLOCKPIN                                                                            ;
-;  Clock ports destination node(s) list                              ; Parallel2Serial4OneAD7265:inst18|sclk                                               ;
-;  Clock ports destination node(s) list                              ; Parallel2Serial4OneAD7265:inst18|mosi                                               ;
-;  Clock ports destination node(s) list                              ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ;
-;  Clock ports destination node(s) list                              ; Parallel2Serial4OneAD7265:inst18|dbreg[4]                                           ;
-;  Clock ports destination node(s) list                              ; Parallel2Serial4OneAD7265:inst18|sel[0]                                             ;
-;  Clock ports destination node(s) list                              ; Parallel2Serial4OneAD7265:inst18|sel[1]                                             ;
-;  Clock ports destination node(s) list                              ; Parallel2Serial4OneAD7265:inst18|dbreg[6]                                           ;
-;  Clock ports destination node(s) list                              ; Parallel2Serial4OneAD7265:inst18|dbreg[7]                                           ;
-;  Clock ports destination node(s) list                              ; Parallel2Serial4OneAD7265:inst18|dbreg[5]                                           ;
-;  Clock ports destination node(s) list                              ; Parallel2Serial4OneAD7265:inst18|dbreg[8]                                           ;
-;  Non-clock ports destination node(s) list                          ; Parallel2Serial4OneAD7265:inst18|rd_bar~5                                           ;
-;  Non-clock ports destination node(s) list                          ; Parallel2Serial4OneAD7265:inst18|enspi                                              ;
-;  Non-clock ports destination node(s) list                          ; Parallel2Serial4OneAD7265:inst18|cnter[0]~1                                         ;
-;  Non-clock ports destination node(s) list                          ; Parallel2Serial4OneAD7265:inst18|en~1                                               ;
-;  Non-clock ports destination node(s) list                          ; Parallel2Serial4OneAD7265:inst18|dbrdy                                              ;
-;  Non-clock ports destination node(s) list                          ; Parallel2Serial4OneAD7265:inst18|enspi~3                                            ;
-;  Non-clock ports destination node(s) list                          ; Parallel2Serial4OneAD7265:inst18|enspi~7                                            ;
-+--------------------------------------------------------------------+-------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Medium Violations                                                                                                                                                                  ;
++----------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+
+; Rule name                                                                  ; Name                                                                                                  ;
++----------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+
+; Rule A104: Design should not contain ripple clock structures - Structure 1 ;                                                                                                       ;
+;  Structure 1                                                               ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[7]                   ;
+;  Structure 1                                                               ; DelayDrv:inst18|pwron                                                                                 ;
+;  Structure 1                                                               ; DelayDrv:inst18|rst                                                                                   ;
+;  Structure 1                                                               ; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[1]                  ;
+;  Structure 1                                                               ; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[6]                  ;
+;  Structure 1                                                               ; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[7]                  ;
+;  Structure 1                                                               ; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[0]                  ;
+;  Structure 1                                                               ; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[5]                  ;
+;  Structure 1                                                               ; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[3]                  ;
+;  Structure 1                                                               ; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[4]                  ;
+;  Structure 1                                                               ; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]                  ;
+; Rule C104: Clock signal source should drive only clock input ports         ; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[1]                  ;
+;  Clock ports destination node(s) list                                      ; DelayDrv:inst18|pwron                                                                                 ;
+;  Non-clock ports destination node(s) list                                  ; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|counter_cella1~COUT        ;
+;  Non-clock ports destination node(s) list                                  ; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|counter_cella1~COUTCOUT1_1 ;
+; Rule C104: Clock signal source should drive only clock input ports         ; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[6]                  ;
+;  Clock ports destination node(s) list                                      ; DelayDrv:inst18|rst                                                                                   ;
+; Rule C104: Clock signal source should drive only clock input ports         ; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[7]                  ;
+;  Clock ports destination node(s) list                                      ; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[1]                  ;
+;  Clock ports destination node(s) list                                      ; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[6]                  ;
+;  Clock ports destination node(s) list                                      ; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[0]                  ;
+;  Clock ports destination node(s) list                                      ; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[5]                  ;
+;  Clock ports destination node(s) list                                      ; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[3]                  ;
+;  Clock ports destination node(s) list                                      ; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[4]                  ;
+;  Clock ports destination node(s) list                                      ; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]                  ;
+; Rule C104: Clock signal source should drive only clock input ports         ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[7]                   ;
+;  Clock ports destination node(s) list                                      ; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[7]                  ;
+;  Clock ports destination node(s) list                                      ; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[6]                  ;
+;  Clock ports destination node(s) list                                      ; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[4]                  ;
+;  Clock ports destination node(s) list                                      ; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[5]                  ;
+;  Clock ports destination node(s) list                                      ; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[3]                  ;
+;  Clock ports destination node(s) list                                      ; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]                  ;
+;  Clock ports destination node(s) list                                      ; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[1]                  ;
+;  Clock ports destination node(s) list                                      ; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[0]                  ;
++----------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Information only Violations                                                                                                                              ;
-+----------------------------------------------------------+-------------------------------------------------------------------------------------+---------+
-; Rule name                                                ; Name                                                                                ; Fan-Out ;
-+----------------------------------------------------------+-------------------------------------------------------------------------------------+---------+
-; Rule T102: Top nodes with the highest number of fan-outs ; CLOCKPIN                                                                            ; 29      ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|en~0                                               ; 15      ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|always2~0                                          ; 12      ;
-; Rule T102: Top nodes with the highest number of fan-outs ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2] ; 10      ;
-; Rule T102: Top nodes with the highest number of fan-outs ; DSP_CONV_PIN                                                                        ; 9       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|Equal0~2                                           ; 9       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|cnter[3]                                           ; 8       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|cnter[4]                                           ; 7       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|cnter[6]                                           ; 7       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|enspi                                              ; 7       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|cnter[5]                                           ; 7       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|Add0~10                                            ; 7       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|cnter[0]~1                                         ; 7       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|sel[1]                                             ; 6       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|cnter[1]                                           ; 6       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|Add0~25                                            ; 6       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|Add0~20                                            ; 6       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|Add0~5                                             ; 6       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|cnter[0]                                           ; 6       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|cs_bar                                             ; 6       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|Add0~15                                            ; 6       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|cnter[2]                                           ; 6       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; ad7864Drv:inst13|cnter[1]                                                           ; 5       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|Add0~30                                            ; 5       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; ad7864Drv:inst13|cnter[0]                                                           ; 5       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|sel[0]                                             ; 5       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; ad7864Drv:inst13|cnter[5]                                                           ; 4       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|en                                                 ; 4       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|sel[3]                                             ; 4       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; ad7864Drv:inst13|db_rdy                                                             ; 4       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|sel[2]                                             ; 4       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; ad7864Drv:inst13|cnter[3]                                                           ; 4       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|sclk                                               ; 4       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|Add0~0                                             ; 4       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|Add0~27                                            ; 3       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; ad7864Drv:inst13|cnter[4]                                                           ; 3       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; ad7864Drv:inst13|cnter[6]                                                           ; 3       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; ad7864Drv:inst13|adcen                                                              ; 3       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; ad7864Drv:inst13|Add0~14                                                            ; 3       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; ad7864Drv:inst13|cnter[2]                                                           ; 3       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|Equal0~0                                           ; 3       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; ad7864Drv:inst13|adcen~2                                                            ; 2       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|enspi~7                                            ; 2       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|Add1~5                                             ; 2       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|cnter~9                                            ; 2       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|mosi                                               ; 2       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|Add1~17                                            ; 2       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|Equal0~1                                           ; 2       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; Parallel2Serial4OneAD7265:inst18|Add1~23                                            ; 2       ;
-; Rule T102: Top nodes with the highest number of fan-outs ; ad7864Drv:inst13|adcen~1                                                            ; 2       ;
-+----------------------------------------------------------+-------------------------------------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Information only Violations                                                                                                                                                       ;
++------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+---------+
+; Rule name                                                        ; Name                                                                                                 ; Fan-Out ;
++------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+---------+
+; Rule T101: Nodes with more than the specified number of fan-outs ; CLOCKPIN                                                                                             ; 33      ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; CLOCKPIN                                                                                             ; 33      ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; Parallel2Serial4OneAD7265New:inst17|dbreg[11]~0                                                      ; 12      ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]                  ; 10      ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; Parallel2Serial4OneAD7265New:inst17|rd_bar                                                           ; 9       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; DSP_CONV_PIN                                                                                         ; 9       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[7]                  ; 9       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; Parallel2Serial4OneAD7265New:inst17|enspi                                                            ; 8       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[7]                 ; 8       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; Parallel2Serial4OneAD7265New:inst17|cnter~5                                                          ; 7       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; Parallel2Serial4OneAD7265New:inst17|cnter[2]                                                         ; 6       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; Parallel2Serial4OneAD7265New:inst17|cnter[1]                                                         ; 6       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; Parallel2Serial4OneAD7265New:inst17|sel~3                                                            ; 6       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; Parallel2Serial4OneAD7265New:inst17|cnter[0]                                                         ; 6       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; Parallel2Serial4OneAD7265New:inst17|sel~2                                                            ; 6       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; Parallel2Serial4OneAD7265New:inst17|reg_cs_bar[1]                                                    ; 5       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; Parallel2Serial4OneAD7265New:inst17|enspiPrev                                                        ; 5       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; Parallel2Serial4OneAD7265New:inst17|reg_cs_bar[0]                                                    ; 5       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; Parallel2Serial4OneAD7265New:inst17|sel~0                                                            ; 4       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; Parallel2Serial4OneAD7265New:inst17|reg_cs_bar[2]                                                    ; 4       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; Parallel2Serial4OneAD7265New:inst17|sel[2]                                                           ; 4       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; Parallel2Serial4OneAD7265New:inst17|sel[3]                                                           ; 4       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; Parallel2Serial4OneAD7265New:inst17|sclk                                                             ; 4       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; ad7864Drv:inst13|cnter[1]                                                                            ; 3       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; ad7864Drv:inst13|adcen                                                                               ; 3       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; ad7864Drv:inst13|Add0~20                                                                             ; 3       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; ad7864Drv:inst13|cnter[0]                                                                            ; 3       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; Parallel2Serial4OneAD7265New:inst17|always6~0                                                        ; 3       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; ad7864Drv:inst13|cnter[6]                                                                            ; 3       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; ad7864Drv:inst13|cnter[2]                                                                            ; 3       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; Parallel2Serial4OneAD7265New:inst17|sel~1                                                            ; 3       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|counter_cella4~COUT       ; 3       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; ad7864Drv:inst13|cnter[5]                                                                            ; 3       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; ad7864Drv:inst13|cnter[4]                                                                            ; 3       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; ad7864Drv:inst13|cnter[3]                                                                            ; 3       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|counter_cella3~COUT       ; 3       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; Parallel2Serial4OneAD7265New:inst17|sel~4                                                            ; 3       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|counter_cella4~COUT        ; 3       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[1]                 ; 2       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[6]                 ; 2       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; Parallel2Serial4OneAD7265New:inst17|sel[1]                                                           ; 2       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; Parallel2Serial4OneAD7265New:inst17|mosi                                                             ; 2       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; ad7864Drv:inst13|adcen~2                                                                             ; 2       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; Parallel2Serial4OneAD7265New:inst17|spi_cs~0                                                         ; 2       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|counter_cella5~COUTCOUT1_1 ; 1       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; Parallel2Serial4OneAD7265New:inst17|dbreg[11]                                                        ; 1       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[5]                 ; 1       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[5]                  ; 1       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; DelayDrv:inst18|pwron                                                                                ; 1       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]                 ; 1       ;
+; Rule T102: Top nodes with the highest number of fan-outs         ; Parallel2Serial4OneAD7265New:inst17|Mux0~4                                                           ; 1       ;
++------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------+
@@ -260,78 +247,76 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Design Assistant
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Sat Sep 25 12:43:32 2021
+    Info: Processing started: Sun Sep 26 10:33:47 2021
 Info: Command: quartus_drc basicfunctions -c basicfunctions
-Warning (335093): The Timing Analyzer is analyzing 20 combinational loops as latches. For more details, run the Check Timing command in the Timing Analyzer or view the "User-Specified and Inferred Latches" table in the Analysis & Synthesis report.
+Warning (335093): The Timing Analyzer is analyzing 11 combinational loops as latches. For more details, run the Check Timing command in the Timing Analyzer or view the "User-Specified and Inferred Latches" table in the Analysis & Synthesis report.
 Critical Warning (332012): Synopsys Design Constraints File file not found: 'basicfunctions.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
 Info (332144): No user constrained base clocks found in the design
-Critical Warning (308037): (Critical) Rule A101: Design should not contain combinational loops. Found 2 combinational loop(s) related to this rule.
-    Critical Warning (308012): Node  "Parallel2Serial4OneAD7265:inst18|Equal0~2" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 60
+Warning (332125): Found combinational loop of 2 nodes File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v Line: 25
+    Warning (332126): Node "inst17|spi_cs~0|combout"
+    Warning (332126): Node "inst17|spi_cs~0|datad"
+Warning (332125): Found combinational loop of 2 nodes File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v Line: 28
+    Warning (332126): Node "inst17|cnter~5|combout"
+    Warning (332126): Node "inst17|cnter~5|datad"
+Critical Warning (308037): (Critical) Rule A101: Design should not contain combinational loops. Found 1 combinational loop(s) related to this rule.
     Critical Warning (308012): Node  "ad7864Drv:inst13|adcen~2" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 27
-Critical Warning (308055): (High) Rule A108: Design should not contain latches. Found 20 latch(es) related to this rule.
-    Critical Warning (308012): Node  "ad7864Drv:inst13|adcen" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 27
-    Critical Warning (308012): Node  "Parallel2Serial4OneAD7265:inst18|en" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 32
-    Critical Warning (308012): Node  "ad7864Drv:inst13|cnter[0]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
-    Critical Warning (308012): Node  "ad7864Drv:inst13|cnter[1]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
-    Critical Warning (308012): Node  "ad7864Drv:inst13|db_rdy" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 24
-    Critical Warning (308012): Node  "Parallel2Serial4OneAD7265:inst18|cnter[1]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
-    Critical Warning (308012): Node  "Parallel2Serial4OneAD7265:inst18|cnter[3]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
-    Critical Warning (308012): Node  "Parallel2Serial4OneAD7265:inst18|cnter[0]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
-    Critical Warning (308012): Node  "Parallel2Serial4OneAD7265:inst18|cnter[2]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
-    Critical Warning (308012): Node  "Parallel2Serial4OneAD7265:inst18|cnter[6]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
-    Critical Warning (308012): Node  "Parallel2Serial4OneAD7265:inst18|enspi" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 33
-    Critical Warning (308012): Node  "ad7864Drv:inst13|cnter[3]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
-    Critical Warning (308012): Node  "Parallel2Serial4OneAD7265:inst18|cnter[5]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
-    Critical Warning (308012): Node  "ad7864Drv:inst13|cnter[5]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
-    Critical Warning (308012): Node  "Parallel2Serial4OneAD7265:inst18|cnter[4]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
-    Critical Warning (308012): Node  "ad7864Drv:inst13|cnter[4]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
+Critical Warning (308055): (High) Rule A108: Design should not contain latches. Found 11 latch(es) related to this rule.
+    Critical Warning (308012): Node  "Parallel2Serial4OneAD7265New:inst17|reg_cs_bar[2]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v Line: 123
+    Critical Warning (308012): Node  "Parallel2Serial4OneAD7265New:inst17|reg_cs_bar[1]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v Line: 123
+    Critical Warning (308012): Node  "Parallel2Serial4OneAD7265New:inst17|reg_cs_bar[0]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v Line: 123
     Critical Warning (308012): Node  "ad7864Drv:inst13|cnter[2]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
+    Critical Warning (308012): Node  "ad7864Drv:inst13|cnter[1]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
     Critical Warning (308012): Node  "ad7864Drv:inst13|cnter[6]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
-    Critical Warning (308012): Node  "Parallel2Serial4OneAD7265:inst18|dbrdy" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 36
-    Critical Warning (308012): Node  "Parallel2Serial4OneAD7265:inst18|cs_bar" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 19
-Critical Warning (308018): (High) Rule S104: Clock port and any other port of a register should not be driven by the same signal source. Found 4 node(s) related to this rule.
-    Critical Warning (308012): Node  "Parallel2Serial4OneAD7265:inst18|sclk" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 24
-    Critical Warning (308012): Node  "Parallel2Serial4OneAD7265:inst18|mosi" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 27
-    Critical Warning (308012): Node  "Parallel2Serial4OneAD7265:inst18|sel[0]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 145
-    Critical Warning (308012): Node  "Parallel2Serial4OneAD7265:inst18|sel[1]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 145
-Warning (308040): (Medium) Rule C104: Clock signal source should drive only clock input ports. Found 1 nodes related to this rule.
-    Warning (308010): Node  "CLOCKPIN"
+    Critical Warning (308012): Node  "ad7864Drv:inst13|cnter[3]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
+    Critical Warning (308012): Node  "ad7864Drv:inst13|cnter[4]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
+    Critical Warning (308012): Node  "ad7864Drv:inst13|cnter[5]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
+    Critical Warning (308012): Node  "ad7864Drv:inst13|cnter[0]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
+    Critical Warning (308012): Node  "ad7864Drv:inst13|adcen" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 27
+Warning (308020): (Medium) Rule A104: Design should not contain ripple clock structures. Found 1 ripple clock structure(s) related to this rule.
+    Warning (308010): Node  "cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[7]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/db/cntr_p4h.tdf Line: 99
+Warning (308040): (Medium) Rule C104: Clock signal source should drive only clock input ports. Found 4 nodes related to this rule.
+    Warning (308010): Node  "cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[1]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/db/cntr_p4h.tdf Line: 99
+    Warning (308010): Node  "cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[6]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/db/cntr_p4h.tdf Line: 99
+    Warning (308010): Node  "cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[7]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/db/cntr_p4h.tdf Line: 99
+    Warning (308010): Node  "cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[7]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/db/cntr_p4h.tdf Line: 99
+Info (308046): (Information) Rule T101: Nodes with more than the specified number of fan-outs. (Value defined:30). Found 1 node(s) with highest fan-out.
+    Info (308011): Node  "CLOCKPIN"
 Info (308044): (Information) Rule T102: Top nodes with the highest number of fan-outs. (Value defined:50). Found 50 node(s) with highest fan-out.
     Info (308011): Node  "CLOCKPIN"
-    Info (308011): Node  "Parallel2Serial4OneAD7265:inst18|en~0" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 32
-    Info (308011): Node  "Parallel2Serial4OneAD7265:inst18|always2~0"
+    Info (308011): Node  "Parallel2Serial4OneAD7265New:inst17|dbreg[11]~0" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v Line: 92
     Info (308011): Node  "cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[2]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/db/cntr_p4h.tdf Line: 99
+    Info (308011): Node  "Parallel2Serial4OneAD7265New:inst17|rd_bar" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v Line: 22
     Info (308011): Node  "DSP_CONV_PIN"
-    Info (308011): Node  "Parallel2Serial4OneAD7265:inst18|Equal0~2" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 60
-    Info (308011): Node  "Parallel2Serial4OneAD7265:inst18|cnter[3]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
-    Info (308011): Node  "Parallel2Serial4OneAD7265:inst18|cnter[4]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
-    Info (308011): Node  "Parallel2Serial4OneAD7265:inst18|cnter[6]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
-    Info (308011): Node  "Parallel2Serial4OneAD7265:inst18|enspi" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 33
-    Info (308011): Node  "Parallel2Serial4OneAD7265:inst18|cnter[5]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
-    Info (308011): Node  "Parallel2Serial4OneAD7265:inst18|Add0~10" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 69
-    Info (308011): Node  "Parallel2Serial4OneAD7265:inst18|cnter[0]~1" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
-    Info (308011): Node  "Parallel2Serial4OneAD7265:inst18|sel[1]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 145
-    Info (308011): Node  "Parallel2Serial4OneAD7265:inst18|cnter[1]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
-    Info (308011): Node  "Parallel2Serial4OneAD7265:inst18|Add0~25" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 69
-    Info (308011): Node  "Parallel2Serial4OneAD7265:inst18|Add0~20" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 69
-    Info (308011): Node  "Parallel2Serial4OneAD7265:inst18|Add0~5" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 69
-    Info (308011): Node  "Parallel2Serial4OneAD7265:inst18|cnter[0]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
-    Info (308011): Node  "Parallel2Serial4OneAD7265:inst18|cs_bar" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 19
-    Info (308011): Node  "Parallel2Serial4OneAD7265:inst18|Add0~15" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 69
-    Info (308011): Node  "Parallel2Serial4OneAD7265:inst18|cnter[2]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 100
+    Info (308011): Node  "cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[7]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/db/cntr_p4h.tdf Line: 99
+    Info (308011): Node  "Parallel2Serial4OneAD7265New:inst17|enspi" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v Line: 33
+    Info (308011): Node  "cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_p4h:auto_generated|safe_q[7]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/db/cntr_p4h.tdf Line: 99
+    Info (308011): Node  "Parallel2Serial4OneAD7265New:inst17|cnter~5" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v Line: 28
+    Info (308011): Node  "Parallel2Serial4OneAD7265New:inst17|cnter[2]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v Line: 92
+    Info (308011): Node  "Parallel2Serial4OneAD7265New:inst17|cnter[1]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v Line: 92
+    Info (308011): Node  "Parallel2Serial4OneAD7265New:inst17|sel~3" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v Line: 29
+    Info (308011): Node  "Parallel2Serial4OneAD7265New:inst17|cnter[0]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v Line: 92
+    Info (308011): Node  "Parallel2Serial4OneAD7265New:inst17|sel~2" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v Line: 29
+    Info (308011): Node  "Parallel2Serial4OneAD7265New:inst17|reg_cs_bar[1]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v Line: 123
+    Info (308011): Node  "Parallel2Serial4OneAD7265New:inst17|enspiPrev" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v Line: 35
+    Info (308011): Node  "Parallel2Serial4OneAD7265New:inst17|reg_cs_bar[0]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v Line: 123
+    Info (308011): Node  "Parallel2Serial4OneAD7265New:inst17|sel~0" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v Line: 29
+    Info (308011): Node  "Parallel2Serial4OneAD7265New:inst17|reg_cs_bar[2]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v Line: 123
+    Info (308011): Node  "Parallel2Serial4OneAD7265New:inst17|sel[2]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v Line: 137
+    Info (308011): Node  "Parallel2Serial4OneAD7265New:inst17|sel[3]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v Line: 137
+    Info (308011): Node  "Parallel2Serial4OneAD7265New:inst17|sclk" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v Line: 23
     Info (308011): Node  "ad7864Drv:inst13|cnter[1]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
-    Info (308011): Node  "Parallel2Serial4OneAD7265:inst18|Add0~30" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 69
+    Info (308011): Node  "ad7864Drv:inst13|adcen" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 27
+    Info (308011): Node  "ad7864Drv:inst13|Add0~20" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 53
     Info (308011): Node  "ad7864Drv:inst13|cnter[0]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
-    Info (308011): Node  "Parallel2Serial4OneAD7265:inst18|sel[0]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 145
-    Info (308011): Node  "ad7864Drv:inst13|cnter[5]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
-    Info (308011): Node  "Parallel2Serial4OneAD7265:inst18|en" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 32
-    Info (308011): Node  "Parallel2Serial4OneAD7265:inst18|sel[3]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parallel2serial4onead7265.v Line: 145
-    Info (308011): Node  "ad7864Drv:inst13|db_rdy" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 24
+    Info (308011): Node  "Parallel2Serial4OneAD7265New:inst17|always6~0"
+    Info (308011): Node  "ad7864Drv:inst13|cnter[6]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
+    Info (308011): Node  "ad7864Drv:inst13|cnter[2]" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v Line: 44
+    Info (308011): Node  "Parallel2Serial4OneAD7265New:inst17|sel~1" File: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v Line: 29
     Info (308002): Truncated list of Design Assistant messages to 30 messages. Go to sections under Design Assistant section of Compilation Report for complete lists of Design Assistant messages generated.
-Info (308007): Design Assistant information: finished post-fitting analysis of current design -- generated 50 information messages and 27 warning messages
-Info: Quartus Prime Design Assistant was successful. 0 errors, 33 warnings
+Info (308007): Design Assistant information: finished post-fitting analysis of current design -- generated 51 information messages and 17 warning messages
+Info: Quartus Prime Design Assistant was successful. 0 errors, 29 warnings
     Info: Peak virtual memory: 4612 megabytes
-    Info: Processing ended: Sat Sep 25 12:43:33 2021
+    Info: Processing ended: Sun Sep 26 10:33:48 2021
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

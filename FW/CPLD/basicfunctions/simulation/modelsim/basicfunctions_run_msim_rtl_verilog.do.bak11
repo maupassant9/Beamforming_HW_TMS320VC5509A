@@ -9,9 +9,5 @@ vlog -vlog01compat -work work +incdir+D:/otherProjects/Beamforming/Beamforming_H
 vlog -vlog01compat -work work +incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions {D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/osc.v}
 vlog -vlog01compat -work work +incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions {D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/mux2.v}
 vlog -vlog01compat -work work +incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions {D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/ad7864Drv.v}
-vlog -vlog01compat -work work +incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions {D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial.v}
-vlog -vlog01compat -work work +incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions {D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/RdBarTruthTable.v}
-vlog -vlog01compat -work work +incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions {D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/EnspiTruthTable.v}
-vlog -vlog01compat -work work +incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions {D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/DbSample.v}
-vlog -vlog01compat -work work +incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions {D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/parrallel2serialnew.v}
+vlog -vlog01compat -work work +incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions {D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/basicfunctions/Parallel2Serial4OneAD7265New.v}
 
