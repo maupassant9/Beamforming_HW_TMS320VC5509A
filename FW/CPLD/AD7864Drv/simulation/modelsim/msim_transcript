@@ -1,0 +1,177 @@
+# Reading D:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do AD7864Drv_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv {D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/Parallel2Serial4OneAD7265New.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Parallel2Serial4OneAD7265New
+# ** Warning: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/Parallel2Serial4OneAD7265New.v(42): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	Parallel2Serial4OneAD7265New
+# vlog -vlog01compat -work work +incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv {D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/DelayDrv.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DelayDrv
+# 
+# Top level modules:
+# 	DelayDrv
+# vlog -vlog01compat -work work +incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv {D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/ad7864Drv.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ad7864Drv
+# 
+# Top level modules:
+# 	ad7864Drv
+# vlog -vlog01compat -work work +incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv {D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/pll.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pll
+# 
+# Top level modules:
+# 	pll
+# vlog -vlog01compat -work work +incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv {D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/cnter8bits.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module cnter8Bits
+# 
+# Top level modules:
+# 	cnter8Bits
+# 
+# vlog -vlog01compat -work work +incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv {D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/testbench.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclone_ver -L rtl_work -L work -voptargs="+acc"  mytestbench
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclone_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps mytestbench 
+# ** Error: (vsim-3170) Could not find 'D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/simulation/modelsim/rtl_work.mytestbench'.
+# 
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./AD7864Drv_run_msim_rtl_verilog.do PAUSED at line 16
+vlog -reportprogress 300 -work work D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/basicfunctions.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module basicfunctions
+# 
+# Top level modules:
+# 	basicfunctions
+vsim work.basicfunctions
+# vsim work.basicfunctions 
+# Loading work.basicfunctions
+# Loading work.cnter8Bits
+# ** Error: (vsim-3033) D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/cnter8bits.v(64): Instantiation of 'lpm_counter' failed. The design unit was not found.
+# 
+#         Region: /basicfunctions/b2v_inst
+#         Searched libraries:
+#             D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/simulation/modelsim/rtl_work
+# ** Error: (vsim-3033) D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/cnter8bits.v(64): Instantiation of 'lpm_counter' failed. The design unit was not found.
+# 
+#         Region: /basicfunctions/b2v_inst1
+#         Searched libraries:
+#             D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/simulation/modelsim/rtl_work
+# Loading work.ad7864Drv
+# Loading work.Parallel2Serial4OneAD7265New
+# Loading work.DelayDrv
+# ** Error: (vsim-3033) D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/cnter8bits.v(64): Instantiation of 'lpm_counter' failed. The design unit was not found.
+# 
+#         Region: /basicfunctions/b2v_inst3
+#         Searched libraries:
+#             D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/simulation/modelsim/rtl_work
+# Loading work.pll
+# ** Error: (vsim-3033) D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/pll.v(90): Instantiation of 'altpll' failed. The design unit was not found.
+# 
+#         Region: /basicfunctions/b2v_inst4
+#         Searched libraries:
+#             D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./AD7864Drv_run_msim_rtl_verilog.do PAUSED at line 16
+vsim work.ad7864Drv
+# vsim work.ad7864Drv 
+# Loading work.ad7864Drv
+vsim work.ad7864Drv
+# vsim work.ad7864Drv 
+# Loading work.ad7864Drv
+add wave -position end  sim:/ad7864Drv/ad_conv_bar
+add wave -position end  sim:/ad7864Drv/adcen
+add wave -position end  sim:/ad7864Drv/clken
+add wave -position end  sim:/ad7864Drv/clkin
+add wave -position end  sim:/ad7864Drv/clkinhi
+add wave -position end  sim:/ad7864Drv/clkout
+add wave -position end  sim:/ad7864Drv/cnter
+add wave -position end  sim:/ad7864Drv/db_rdy
+add wave -position end  sim:/ad7864Drv/dsp_conv_bar
+force -freeze sim:/ad7864Drv/clkinhi 1 0, 0 {5 ps} -r 10
+force -freeze sim:/ad7864Drv/clkin 1 0, 0 {500 ps} -r 1000
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/ad7864Drv/ad_conv_bar 1 0
+force -freeze sim:/ad7864Drv/ad_conv_bar St1 0
+run
+run
+run
+run
+run
+force -freeze sim:/ad7864Drv/ad_conv_bar 0 0
+run
+run
+force -freeze sim:/ad7864Drv/ad_conv_bar 1 0
+run
+force -freeze sim:/ad7864Drv/dsp_conv_bar 1 0
+run
+force -freeze sim:/ad7864Drv/dsp_conv_bar 0 0
+run
+force -freeze sim:/ad7864Drv/dsp_conv_bar 1 0
+run
+run
+restart
+restart
+force -freeze sim:/ad7864Drv/clkinhi 1 0, 0 {5 ps} -r 10
+force -freeze sim:/ad7864Drv/clkin 1 0, 0 {500 ps} -r 1000
+force -freeze sim:/ad7864Drv/dsp_conv_bar HiZ 1
+run
+run
+run
+run
+restart
+force -freeze sim:/ad7864Drv/clkinhi 1 0, 0 {5 ps} -r 10
+force -freeze sim:/ad7864Drv/clkin 1 0, 0 {250 ps} -r 500
+force -freeze sim:/ad7864Drv/dsp_conv_bar 1 0
+run
+run
+force -freeze sim:/ad7864Drv/dsp_conv_bar 0 0
+run
+run
+run
+run
+force -freeze sim:/ad7864Drv/dsp_conv_bar 1 0
+run
+run
+run

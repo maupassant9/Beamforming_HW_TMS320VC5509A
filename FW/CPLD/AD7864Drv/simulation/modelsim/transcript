@@ -1,0 +1,10 @@
+vsim work.basicfunctions
+# vsim work.basicfunctions 
+# ** Error: (vsim-3170) Could not find 'D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/simulation/modelsim/work.basicfunctions'.
+# 
+# Error loading design
+vsim work.basicfunctions
+# vsim work.basicfunctions 
+# ** Error: (vsim-3170) Could not find 'D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/simulation/modelsim/work.basicfunctions'.
+# 
+# Error loading design

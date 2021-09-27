@@ -1,0 +1,436 @@
+|basicfunctions
+DSPCLKOUT <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+CLOCKPIN => pll:inst4.inclk0
+DSP_PWR_EN <= DelayDrv:inst18.pwron
+DSP_RST <= DelayDrv:inst18.rst
+CPLD_EEPROM_CS <= DSP_EEPROM_CS.DB_MAX_OUTPUT_PORT_TYPE
+DSP_EEPROM_CS => CPLD_EEPROM_CS.DATAIN
+CPLD_EEPROM_SCK <= DSP_EEPROM_SCK.DB_MAX_OUTPUT_PORT_TYPE
+DSP_EEPROM_SCK => CPLD_EEPROM_SCK.DATAIN
+CPLD_EEPROM_MOSI <= DSP_EEPROM_MOSI.DB_MAX_OUTPUT_PORT_TYPE
+DSP_EEPROM_MOSI => CPLD_EEPROM_MOSI.DATAIN
+DSP_EEPROM_MISO <= CPLD_EEPROM_MISO.DB_MAX_OUTPUT_PORT_TYPE
+CPLD_EEPROM_MISO => DSP_EEPROM_MISO.DATAIN
+ADC_CONV <= ad7864Drv:inst13.ad_conv_bar
+DSP_CONV_PIN => ad7864Drv:inst13.dsp_conv_bar
+ADC_RD <= Parallel2Serial4OneAD7265New:inst17.rd_bar
+ADC_DB_PIN[0] => Parallel2Serial4OneAD7265New:inst17.db[0]
+ADC_DB_PIN[1] => Parallel2Serial4OneAD7265New:inst17.db[1]
+ADC_DB_PIN[2] => Parallel2Serial4OneAD7265New:inst17.db[2]
+ADC_DB_PIN[3] => Parallel2Serial4OneAD7265New:inst17.db[3]
+ADC_DB_PIN[4] => Parallel2Serial4OneAD7265New:inst17.db[4]
+ADC_DB_PIN[5] => Parallel2Serial4OneAD7265New:inst17.db[5]
+ADC_DB_PIN[6] => Parallel2Serial4OneAD7265New:inst17.db[6]
+ADC_DB_PIN[7] => Parallel2Serial4OneAD7265New:inst17.db[7]
+ADC_DB_PIN[8] => Parallel2Serial4OneAD7265New:inst17.db[8]
+ADC_DB_PIN[9] => Parallel2Serial4OneAD7265New:inst17.db[9]
+ADC_DB_PIN[10] => Parallel2Serial4OneAD7265New:inst17.db[10]
+ADC_DB_PIN[11] => Parallel2Serial4OneAD7265New:inst17.db[11]
+CPLD_SPI_CLK <= Parallel2Serial4OneAD7265New:inst17.sclk
+CPLD_SPI_MO <= Parallel2Serial4OneAD7265New:inst17.mosi
+ADC_CLK <= ad7864Drv:inst13.clkout
+GPIO0 <= <VCC>
+GPIO1 <= <VCC>
+GPIO2 <= <GND>
+GPIO3 <= <GND>
+CPLD_SPI_CS <= Parallel2Serial4OneAD7265New:inst17.spi_cs
+LED_PIN <= cnter3out[7].DB_MAX_OUTPUT_PORT_TYPE
+AD_CS[0] <= Parallel2Serial4OneAD7265New:inst17.cs_bar[0]
+AD_CS[1] <= Parallel2Serial4OneAD7265New:inst17.cs_bar[1]
+AD_CS[2] <= Parallel2Serial4OneAD7265New:inst17.cs_bar[2]
+AD_CS[3] <= Parallel2Serial4OneAD7265New:inst17.cs_bar[3]
+
+
+|basicfunctions|pll:inst4
+inclk0 => sub_wire3[0].IN1
+c0 <= altpll:altpll_component.clk
+
+
+|basicfunctions|pll:inst4|altpll:altpll_component
+inclk[0] => pll.CLK
+inclk[1] => ~NO_FANOUT~
+fbin => ~NO_FANOUT~
+pllena => ~NO_FANOUT~
+clkswitch => ~NO_FANOUT~
+areset => ~NO_FANOUT~
+pfdena => ~NO_FANOUT~
+clkena[0] => ~NO_FANOUT~
+clkena[1] => ~NO_FANOUT~
+clkena[2] => ~NO_FANOUT~
+clkena[3] => ~NO_FANOUT~
+clkena[4] => ~NO_FANOUT~
+clkena[5] => ~NO_FANOUT~
+extclkena[0] => ~NO_FANOUT~
+extclkena[1] => ~NO_FANOUT~
+extclkena[2] => ~NO_FANOUT~
+extclkena[3] => ~NO_FANOUT~
+scanclk => ~NO_FANOUT~
+scanclkena => ~NO_FANOUT~
+scanaclr => ~NO_FANOUT~
+scanread => ~NO_FANOUT~
+scanwrite => ~NO_FANOUT~
+scandata => ~NO_FANOUT~
+phasecounterselect[0] => ~NO_FANOUT~
+phasecounterselect[1] => ~NO_FANOUT~
+phasecounterselect[2] => ~NO_FANOUT~
+phasecounterselect[3] => ~NO_FANOUT~
+phaseupdown => ~NO_FANOUT~
+phasestep => ~NO_FANOUT~
+configupdate => ~NO_FANOUT~
+fbmimicbidir <> <GND>
+clk[0] <= clk[0].DB_MAX_OUTPUT_PORT_TYPE
+clk[1] <= <GND>
+clk[2] <= clk[2].DB_MAX_OUTPUT_PORT_TYPE
+clk[3] <= <GND>
+clk[4] <= <GND>
+clk[5] <= <GND>
+extclk[0] <= <GND>
+extclk[1] <= <GND>
+extclk[2] <= <GND>
+extclk[3] <= <GND>
+clkbad[0] <= <GND>
+clkbad[1] <= <GND>
+enable1 <= <GND>
+enable0 <= <GND>
+activeclock <= <GND>
+clkloss <= <GND>
+locked <= <GND>
+scandataout <= <GND>
+scandone <= <GND>
+sclkout0 <= <GND>
+sclkout1 <= sclkout1.DB_MAX_OUTPUT_PORT_TYPE
+phasedone <= <GND>
+vcooverrange <= <GND>
+vcounderrange <= <GND>
+fbout <= <GND>
+fref <= <GND>
+icdrclk <= <GND>
+
+
+|basicfunctions|DelayDrv:inst18
+in1 => pwron~reg0.CLK
+in2 => rst~reg0.CLK
+pwron <= pwron~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rst <= rst~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|basicfunctions|cnter8Bits:inst3
+clock => clock.IN1
+q[0] <= lpm_counter:LPM_COUNTER_component.q
+q[1] <= lpm_counter:LPM_COUNTER_component.q
+q[2] <= lpm_counter:LPM_COUNTER_component.q
+q[3] <= lpm_counter:LPM_COUNTER_component.q
+q[4] <= lpm_counter:LPM_COUNTER_component.q
+q[5] <= lpm_counter:LPM_COUNTER_component.q
+q[6] <= lpm_counter:LPM_COUNTER_component.q
+q[7] <= lpm_counter:LPM_COUNTER_component.q
+
+
+|basicfunctions|cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component
+clock => cntr_adh:auto_generated.clock
+clk_en => ~NO_FANOUT~
+cnt_en => ~NO_FANOUT~
+updown => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+data[2] => ~NO_FANOUT~
+data[3] => ~NO_FANOUT~
+data[4] => ~NO_FANOUT~
+data[5] => ~NO_FANOUT~
+data[6] => ~NO_FANOUT~
+data[7] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+q[0] <= cntr_adh:auto_generated.q[0]
+q[1] <= cntr_adh:auto_generated.q[1]
+q[2] <= cntr_adh:auto_generated.q[2]
+q[3] <= cntr_adh:auto_generated.q[3]
+q[4] <= cntr_adh:auto_generated.q[4]
+q[5] <= cntr_adh:auto_generated.q[5]
+q[6] <= cntr_adh:auto_generated.q[6]
+q[7] <= cntr_adh:auto_generated.q[7]
+cout <= <GND>
+eq[0] <= <GND>
+eq[1] <= <GND>
+eq[2] <= <GND>
+eq[3] <= <GND>
+eq[4] <= <GND>
+eq[5] <= <GND>
+eq[6] <= <GND>
+eq[7] <= <GND>
+eq[8] <= <GND>
+eq[9] <= <GND>
+eq[10] <= <GND>
+eq[11] <= <GND>
+eq[12] <= <GND>
+eq[13] <= <GND>
+eq[14] <= <GND>
+eq[15] <= <GND>
+
+
+|basicfunctions|cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated
+clock => counter_cella0.CLK
+clock => counter_cella1.CLK
+clock => counter_cella2.CLK
+clock => counter_cella3.CLK
+clock => counter_cella4.CLK
+clock => counter_cella5.CLK
+clock => counter_cella6.CLK
+clock => counter_cella7.CLK
+q[0] <= counter_cella0.REGOUT
+q[1] <= counter_cella1.REGOUT
+q[2] <= counter_cella2.REGOUT
+q[3] <= counter_cella3.REGOUT
+q[4] <= counter_cella4.REGOUT
+q[5] <= counter_cella5.REGOUT
+q[6] <= counter_cella6.REGOUT
+q[7] <= counter_cella7.REGOUT
+
+
+|basicfunctions|cnter8Bits:inst1
+clock => clock.IN1
+q[0] <= lpm_counter:LPM_COUNTER_component.q
+q[1] <= lpm_counter:LPM_COUNTER_component.q
+q[2] <= lpm_counter:LPM_COUNTER_component.q
+q[3] <= lpm_counter:LPM_COUNTER_component.q
+q[4] <= lpm_counter:LPM_COUNTER_component.q
+q[5] <= lpm_counter:LPM_COUNTER_component.q
+q[6] <= lpm_counter:LPM_COUNTER_component.q
+q[7] <= lpm_counter:LPM_COUNTER_component.q
+
+
+|basicfunctions|cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component
+clock => cntr_adh:auto_generated.clock
+clk_en => ~NO_FANOUT~
+cnt_en => ~NO_FANOUT~
+updown => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+data[2] => ~NO_FANOUT~
+data[3] => ~NO_FANOUT~
+data[4] => ~NO_FANOUT~
+data[5] => ~NO_FANOUT~
+data[6] => ~NO_FANOUT~
+data[7] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+q[0] <= cntr_adh:auto_generated.q[0]
+q[1] <= cntr_adh:auto_generated.q[1]
+q[2] <= cntr_adh:auto_generated.q[2]
+q[3] <= cntr_adh:auto_generated.q[3]
+q[4] <= cntr_adh:auto_generated.q[4]
+q[5] <= cntr_adh:auto_generated.q[5]
+q[6] <= cntr_adh:auto_generated.q[6]
+q[7] <= cntr_adh:auto_generated.q[7]
+cout <= <GND>
+eq[0] <= <GND>
+eq[1] <= <GND>
+eq[2] <= <GND>
+eq[3] <= <GND>
+eq[4] <= <GND>
+eq[5] <= <GND>
+eq[6] <= <GND>
+eq[7] <= <GND>
+eq[8] <= <GND>
+eq[9] <= <GND>
+eq[10] <= <GND>
+eq[11] <= <GND>
+eq[12] <= <GND>
+eq[13] <= <GND>
+eq[14] <= <GND>
+eq[15] <= <GND>
+
+
+|basicfunctions|cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated
+clock => counter_cella0.CLK
+clock => counter_cella1.CLK
+clock => counter_cella2.CLK
+clock => counter_cella3.CLK
+clock => counter_cella4.CLK
+clock => counter_cella5.CLK
+clock => counter_cella6.CLK
+clock => counter_cella7.CLK
+q[0] <= counter_cella0.REGOUT
+q[1] <= counter_cella1.REGOUT
+q[2] <= counter_cella2.REGOUT
+q[3] <= counter_cella3.REGOUT
+q[4] <= counter_cella4.REGOUT
+q[5] <= counter_cella5.REGOUT
+q[6] <= counter_cella6.REGOUT
+q[7] <= counter_cella7.REGOUT
+
+
+|basicfunctions|cnter8Bits:inst
+clock => clock.IN1
+q[0] <= lpm_counter:LPM_COUNTER_component.q
+q[1] <= lpm_counter:LPM_COUNTER_component.q
+q[2] <= lpm_counter:LPM_COUNTER_component.q
+q[3] <= lpm_counter:LPM_COUNTER_component.q
+q[4] <= lpm_counter:LPM_COUNTER_component.q
+q[5] <= lpm_counter:LPM_COUNTER_component.q
+q[6] <= lpm_counter:LPM_COUNTER_component.q
+q[7] <= lpm_counter:LPM_COUNTER_component.q
+
+
+|basicfunctions|cnter8Bits:inst|lpm_counter:LPM_COUNTER_component
+clock => cntr_adh:auto_generated.clock
+clk_en => ~NO_FANOUT~
+cnt_en => ~NO_FANOUT~
+updown => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+data[2] => ~NO_FANOUT~
+data[3] => ~NO_FANOUT~
+data[4] => ~NO_FANOUT~
+data[5] => ~NO_FANOUT~
+data[6] => ~NO_FANOUT~
+data[7] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+q[0] <= cntr_adh:auto_generated.q[0]
+q[1] <= cntr_adh:auto_generated.q[1]
+q[2] <= cntr_adh:auto_generated.q[2]
+q[3] <= cntr_adh:auto_generated.q[3]
+q[4] <= cntr_adh:auto_generated.q[4]
+q[5] <= cntr_adh:auto_generated.q[5]
+q[6] <= cntr_adh:auto_generated.q[6]
+q[7] <= cntr_adh:auto_generated.q[7]
+cout <= <GND>
+eq[0] <= <GND>
+eq[1] <= <GND>
+eq[2] <= <GND>
+eq[3] <= <GND>
+eq[4] <= <GND>
+eq[5] <= <GND>
+eq[6] <= <GND>
+eq[7] <= <GND>
+eq[8] <= <GND>
+eq[9] <= <GND>
+eq[10] <= <GND>
+eq[11] <= <GND>
+eq[12] <= <GND>
+eq[13] <= <GND>
+eq[14] <= <GND>
+eq[15] <= <GND>
+
+
+|basicfunctions|cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated
+clock => counter_cella0.CLK
+clock => counter_cella1.CLK
+clock => counter_cella2.CLK
+clock => counter_cella3.CLK
+clock => counter_cella4.CLK
+clock => counter_cella5.CLK
+clock => counter_cella6.CLK
+clock => counter_cella7.CLK
+q[0] <= counter_cella0.REGOUT
+q[1] <= counter_cella1.REGOUT
+q[2] <= counter_cella2.REGOUT
+q[3] <= counter_cella3.REGOUT
+q[4] <= counter_cella4.REGOUT
+q[5] <= counter_cella5.REGOUT
+q[6] <= counter_cella6.REGOUT
+q[7] <= counter_cella7.REGOUT
+
+
+|basicfunctions|ad7864Drv:inst13
+clkin => cnterPos[0].CLK
+clkin => cnterPos[1].CLK
+clkin => cnterPos[2].CLK
+clkin => cnterPos[3].CLK
+clkin => cnterPos[4].CLK
+clkin => cnterPos[5].CLK
+clkin => cnterNeg[0].CLK
+clkin => cnterNeg[1].CLK
+clkin => cnterNeg[2].CLK
+clkin => cnterNeg[3].CLK
+clkin => cnterNeg[4].CLK
+clkin => cnterNeg[5].CLK
+clkinhi => ~NO_FANOUT~
+dsp_conv_bar => ad_conv_bar.DATAIN
+dsp_conv_bar => cnterPos.OUTPUTSELECT
+dsp_conv_bar => cnterPos.OUTPUTSELECT
+dsp_conv_bar => cnterPos.OUTPUTSELECT
+dsp_conv_bar => cnterPos.OUTPUTSELECT
+dsp_conv_bar => cnterPos.OUTPUTSELECT
+dsp_conv_bar => cnterPos.OUTPUTSELECT
+dsp_conv_bar => cnterNeg.OUTPUTSELECT
+dsp_conv_bar => cnterNeg.OUTPUTSELECT
+dsp_conv_bar => cnterNeg.OUTPUTSELECT
+dsp_conv_bar => cnterNeg.OUTPUTSELECT
+dsp_conv_bar => cnterNeg.OUTPUTSELECT
+dsp_conv_bar => cnterNeg.OUTPUTSELECT
+clkout <= <GND>
+ad_conv_bar <= dsp_conv_bar.DB_MAX_OUTPUT_PORT_TYPE
+db_rdy <= <GND>
+
+
+|basicfunctions|Parallel2Serial4OneAD7265New:inst17
+clkin => mosi~reg0.CLK
+clkin => sclk~reg0.CLK
+clkin => enspiPrev.CLK
+clkin => sel[0].CLK
+clkin => sel[1].CLK
+clkin => sel[2].CLK
+clkin => sel[3].CLK
+clkin => enspi.CLK
+clkin => dbreg[0].CLK
+clkin => dbreg[1].CLK
+clkin => dbreg[2].CLK
+clkin => dbreg[3].CLK
+clkin => dbreg[4].CLK
+clkin => dbreg[5].CLK
+clkin => dbreg[6].CLK
+clkin => dbreg[7].CLK
+clkin => dbreg[8].CLK
+clkin => dbreg[9].CLK
+clkin => dbreg[10].CLK
+clkin => dbreg[11].CLK
+clkin => rd_bar~reg0.CLK
+clkin => cnter[0].CLK
+clkin => cnter[1].CLK
+clkin => cnter[2].CLK
+enable => ~NO_FANOUT~
+db[0] => dbreg.DATAB
+db[1] => dbreg.DATAB
+db[2] => dbreg.DATAB
+db[3] => dbreg.DATAB
+db[4] => dbreg.DATAB
+db[5] => dbreg.DATAB
+db[6] => dbreg.DATAB
+db[7] => dbreg.DATAB
+db[8] => dbreg.DATAB
+db[9] => dbreg.DATAB
+db[10] => dbreg.DATAB
+db[11] => dbreg.DATAB
+cs_bar[0] <= cs_bar.DB_MAX_OUTPUT_PORT_TYPE
+cs_bar[1] <= cs_bar.DB_MAX_OUTPUT_PORT_TYPE
+cs_bar[2] <= cs_bar.DB_MAX_OUTPUT_PORT_TYPE
+cs_bar[3] <= cs_bar.DB_MAX_OUTPUT_PORT_TYPE
+rd_bar <= rd_bar~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sclk <= sclk~reg0.DB_MAX_OUTPUT_PORT_TYPE
+spi_cs <= spi_cs.DB_MAX_OUTPUT_PORT_TYPE
+mosi <= mosi~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

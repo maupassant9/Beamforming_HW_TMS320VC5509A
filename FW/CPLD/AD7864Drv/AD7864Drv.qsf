@@ -1,0 +1,116 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+# Date created = 13:09:13  September 26, 2021
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		AD7864Drv_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY Cyclone
+set_global_assignment -name DEVICE EP1C3T100C8
+set_global_assignment -name TOP_LEVEL_ENTITY basicfunctions
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:09:13  SEPTEMBER 26, 2021"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_10 -to CLOCKPIN
+set_location_assignment PIN_57 -to ADC_DB_PIN[11]
+set_location_assignment PIN_56 -to ADC_DB_PIN[10]
+set_location_assignment PIN_55 -to ADC_DB_PIN[9]
+set_location_assignment PIN_54 -to ADC_DB_PIN[8]
+set_location_assignment PIN_53 -to ADC_DB_PIN[7]
+set_location_assignment PIN_52 -to ADC_DB_PIN[6]
+set_location_assignment PIN_51 -to ADC_DB_PIN[5]
+set_location_assignment PIN_50 -to ADC_DB_PIN[4]
+set_location_assignment PIN_49 -to ADC_DB_PIN[3]
+set_location_assignment PIN_48 -to ADC_DB_PIN[2]
+set_location_assignment PIN_47 -to ADC_DB_PIN[1]
+set_location_assignment PIN_41 -to ADC_DB_PIN[0]
+set_location_assignment PIN_40 -to AD_CS[3]
+set_location_assignment PIN_39 -to AD_CS[2]
+set_location_assignment PIN_38 -to AD_CS[1]
+set_location_assignment PIN_79 -to AD_CS[0]
+set_location_assignment PIN_36 -to ADC_CLK
+set_location_assignment PIN_25 -to ADC_CONV
+set_location_assignment PIN_35 -to ADC_RD
+set_location_assignment PIN_29 -to CPLD_EEPROM_CS
+set_location_assignment PIN_28 -to CPLD_EEPROM_MISO
+set_location_assignment PIN_27 -to CPLD_EEPROM_MOSI
+set_location_assignment PIN_26 -to CPLD_EEPROM_SCK
+set_location_assignment PIN_21 -to CPLD_SPI_CLK
+set_location_assignment PIN_22 -to CPLD_SPI_CS
+set_location_assignment PIN_23 -to CPLD_SPI_MO
+set_location_assignment PIN_24 -to DSP_CONV_PIN
+set_location_assignment PIN_72 -to DSP_EEPROM_CS
+set_location_assignment PIN_71 -to DSP_EEPROM_MISO
+set_location_assignment PIN_5 -to DSP_EEPROM_MOSI
+set_location_assignment PIN_4 -to DSP_EEPROM_SCK
+set_location_assignment PIN_3 -to DSP_PWR_EN
+set_location_assignment PIN_2 -to DSP_RST
+set_location_assignment PIN_1 -to DSPCLKOUT
+set_location_assignment PIN_100 -to GPIO0
+set_location_assignment PIN_99 -to GPIO1
+set_location_assignment PIN_98 -to GPIO2
+set_location_assignment PIN_97 -to GPIO3
+set_instance_assignment -name GLOBAL_SIGNAL "GLOBAL CLOCK" -to CLOCKPIN
+set_location_assignment PIN_91 -to LED_PIN
+set_location_assignment PIN_37 -to test
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "10 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_ENTRY_SYNTHESIS_TOOL "Design Compiler"
+set_global_assignment -name EDA_INPUT_VCC_NAME VDD -section_id eda_design_synthesis
+set_global_assignment -name EDA_LMF_FILE altsyn.lmf -section_id eda_design_synthesis
+set_global_assignment -name EDA_INPUT_DATA_FORMAT EDIF -section_id eda_design_synthesis
+set_global_assignment -name EDA_RUN_TOOL_AUTOMATICALLY OFF -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH mytestbench -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME mytestbench -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id mytestbench
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME mytestbench -section_id mytestbench
+set_global_assignment -name EDA_TEST_BENCH_FILE testbench.v -section_id mytestbench
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_RTL_SIMULATION_COMMAND_SCRIPT ON -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_GATE_LEVEL_SIMULATION_COMMAND_SCRIPT ON -section_id eda_simulation
+set_global_assignment -name BDF_FILE basicfunctions.bdf
+set_global_assignment -name VERILOG_FILE Parallel2Serial4OneAD7265New.v
+set_global_assignment -name VERILOG_FILE DelayDrv.v
+set_global_assignment -name VERILOG_FILE ad7864Drv.v
+set_global_assignment -name QIP_FILE pll.qip
+set_global_assignment -name VERILOG_FILE testbench.v
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
