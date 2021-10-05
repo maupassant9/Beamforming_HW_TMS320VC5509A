@@ -1,5 +1,5 @@
 Fitter report for AD7864Drv
-Mon Sep 27 00:13:09 2021
+Mon Oct 04 22:14:32 2021
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -10,35 +10,34 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Ver
   2. Fitter Summary
   3. Fitter Settings
   4. Parallel Compilation
-  5. Ignored Assignments
-  6. Incremental Compilation Preservation Summary
-  7. Incremental Compilation Partition Settings
-  8. Incremental Compilation Placement Preservation
-  9. Pin-Out File
- 10. Fitter Resource Usage Summary
- 11. Fitter Partition Statistics
- 12. Input Pins
- 13. Output Pins
- 14. I/O Bank Usage
- 15. All Package Pins
- 16. PLL Summary
- 17. PLL Usage
- 18. Output Pin Default Load For Reported TCO
- 19. Fitter Resource Utilization by Entity
- 20. Delay Chain Summary
- 21. Pad To Core Delay Chain Fanout
- 22. Control Signals
- 23. Global & Other Fast Signals
- 24. Non-Global High Fan-Out Signals
- 25. Other Routing Usage Summary
- 26. LAB Logic Elements
- 27. LAB-wide Signals
- 28. LAB Signals Sourced
- 29. LAB Signals Sourced Out
- 30. LAB Distinct Inputs
- 31. Fitter Device Options
- 32. Fitter Messages
- 33. Fitter Suppressed Messages
+  5. Incremental Compilation Preservation Summary
+  6. Incremental Compilation Partition Settings
+  7. Incremental Compilation Placement Preservation
+  8. Pin-Out File
+  9. Fitter Resource Usage Summary
+ 10. Fitter Partition Statistics
+ 11. Input Pins
+ 12. Output Pins
+ 13. I/O Bank Usage
+ 14. All Package Pins
+ 15. PLL Summary
+ 16. PLL Usage
+ 17. Output Pin Default Load For Reported TCO
+ 18. Fitter Resource Utilization by Entity
+ 19. Delay Chain Summary
+ 20. Pad To Core Delay Chain Fanout
+ 21. Control Signals
+ 22. Global & Other Fast Signals
+ 23. Non-Global High Fan-Out Signals
+ 24. Other Routing Usage Summary
+ 25. LAB Logic Elements
+ 26. LAB-wide Signals
+ 27. LAB Signals Sourced
+ 28. LAB Signals Sourced Out
+ 29. LAB Distinct Inputs
+ 30. Fitter Device Options
+ 31. Fitter Messages
+ 32. Fitter Suppressed Messages
 
 
 
@@ -64,15 +63,15 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------+
 ; Fitter Summary                                                               ;
 +---------------------------+--------------------------------------------------+
-; Fitter Status             ; Successful - Mon Sep 27 00:13:09 2021            ;
+; Fitter Status             ; Successful - Mon Oct 04 22:14:32 2021            ;
 ; Quartus II 64-Bit Version ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name             ; AD7864Drv                                        ;
 ; Top-level Entity Name     ; basicfunctions                                   ;
 ; Family                    ; Cyclone                                          ;
 ; Device                    ; EP1C3T100C8                                      ;
 ; Timing Models             ; Final                                            ;
-; Total logic elements      ; 73 / 2,910 ( 3 % )                               ;
-; Total pins                ; 40 / 65 ( 62 % )                                 ;
+; Total logic elements      ; 119 / 2,910 ( 4 % )                              ;
+; Total pins                ; 41 / 65 ( 63 % )                                 ;
 ; Total virtual pins        ; 0                                                ;
 ; Total memory bits         ; 0 / 59,904 ( 0 % )                               ;
 ; Total PLLs                ; 1 / 1 ( 100 % )                                  ;
@@ -131,25 +130,16 @@ applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 4           ;
-; Maximum allowed            ; 4           ;
+; Number detected on machine ; 2           ;
+; Maximum allowed            ; 2           ;
 ;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 4           ;
+; Average used               ; 1.14        ;
+; Maximum used               ; 2           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ; < 0.1%      ;
+;     Processor 2            ;  14.3%      ;
 +----------------------------+-------------+
-
-
-+----------------------------------------------------------------------------------------+
-; Ignored Assignments                                                                    ;
-+----------+----------------+--------------+------------+---------------+----------------+
-; Name     ; Ignored Entity ; Ignored From ; Ignored To ; Ignored Value ; Ignored Source ;
-+----------+----------------+--------------+------------+---------------+----------------+
-; Location ;                ;              ; test       ; PIN_37        ; QSF Assignment ;
-+----------+----------------+--------------+------------+---------------+----------------+
 
 
 +----------------------------------------------+
@@ -158,8 +148,8 @@ applicable agreement for further details.
 ; Type                ; Value                  ;
 +---------------------+------------------------+
 ; Placement (by node) ;                        ;
-;     -- Requested    ; 0 / 117 ( 0.00 % )     ;
-;     -- Achieved     ; 0 / 117 ( 0.00 % )     ;
+;     -- Requested    ; 0 / 164 ( 0.00 % )     ;
+;     -- Achieved     ; 0 / 164 ( 0.00 % )     ;
 ;                     ;                        ;
 ; Routing (by net)    ;                        ;
 ;     -- Requested    ; 0 / 0 ( 0.00 % )       ;
@@ -182,7 +172,7 @@ applicable agreement for further details.
 +--------------------------------+---------+-------------------+-------------------------+-------------------+
 ; Partition Name                 ; # Nodes ; # Preserved Nodes ; Preservation Level Used ; Netlist Type Used ;
 +--------------------------------+---------+-------------------+-------------------------+-------------------+
-; Top                            ; 114     ; 0                 ; N/A                     ; Source File       ;
+; Top                            ; 161     ; 0                 ; N/A                     ; Source File       ;
 ; hard_block:auto_generated_inst ; 3       ; 0                 ; N/A                     ; Source File       ;
 +--------------------------------+---------+-------------------+-------------------------+-------------------+
 
@@ -190,57 +180,57 @@ applicable agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/output_files/AD7864Drv.pin.
+The pin-out file can be found in D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/output_files/AD7864Drv.pin.
 
 
-+------------------------------------------------------------------+
-; Fitter Resource Usage Summary                                    ;
-+---------------------------------------------+--------------------+
-; Resource                                    ; Usage              ;
-+---------------------------------------------+--------------------+
-; Total logic elements                        ; 73 / 2,910 ( 3 % ) ;
-;     -- Combinational with no register       ; 23                 ;
-;     -- Register only                        ; 6                  ;
-;     -- Combinational with a register        ; 44                 ;
-;                                             ;                    ;
-; Logic element usage by number of LUT inputs ;                    ;
-;     -- 4 input functions                    ; 16                 ;
-;     -- 3 input functions                    ; 16                 ;
-;     -- 2 input functions                    ; 28                 ;
-;     -- 1 input functions                    ; 4                  ;
-;     -- 0 input functions                    ; 2                  ;
-;                                             ;                    ;
-; Logic elements by mode                      ;                    ;
-;     -- normal mode                          ; 49                 ;
-;     -- arithmetic mode                      ; 24                 ;
-;     -- qfbk mode                            ; 7                  ;
-;     -- register cascade mode                ; 0                  ;
-;     -- synchronous clear/load mode          ; 10                 ;
-;     -- asynchronous clear/load mode         ; 0                  ;
-;                                             ;                    ;
-; Total registers                             ; 50 / 3,099 ( 2 % ) ;
-; Total LABs                                  ; 11 / 291 ( 4 % )   ;
-; Logic elements in carry chains              ; 28                 ;
-; Virtual pins                                ; 0                  ;
-; I/O pins                                    ; 40 / 65 ( 62 % )   ;
-;     -- Clock pins                           ; 1 / 2 ( 50 % )     ;
-;                                             ;                    ;
-; Global signals                              ; 4                  ;
-; M4Ks                                        ; 0 / 13 ( 0 % )     ;
-; Total memory bits                           ; 0 / 59,904 ( 0 % ) ;
-; Total RAM block bits                        ; 0 / 59,904 ( 0 % ) ;
-; PLLs                                        ; 1 / 1 ( 100 % )    ;
-; Global clocks                               ; 4 / 8 ( 50 % )     ;
-; JTAGs                                       ; 0 / 1 ( 0 % )      ;
-; ASMI Blocks                                 ; 0 / 1 ( 0 % )      ;
-; CRC blocks                                  ; 0 / 1 ( 0 % )      ;
-; Average interconnect usage (total/H/V)      ; 0% / 0% / 0%       ;
-; Peak interconnect usage (total/H/V)         ; 0% / 0% / 0%       ;
-; Maximum fan-out                             ; 33                 ;
-; Highest non-global fan-out                  ; 12                 ;
-; Total fan-out                               ; 266                ;
-; Average fan-out                             ; 2.29               ;
-+---------------------------------------------+--------------------+
++-------------------------------------------------------------------+
+; Fitter Resource Usage Summary                                     ;
++---------------------------------------------+---------------------+
+; Resource                                    ; Usage               ;
++---------------------------------------------+---------------------+
+; Total logic elements                        ; 119 / 2,910 ( 4 % ) ;
+;     -- Combinational with no register       ; 40                  ;
+;     -- Register only                        ; 10                  ;
+;     -- Combinational with a register        ; 69                  ;
+;                                             ;                     ;
+; Logic element usage by number of LUT inputs ;                     ;
+;     -- 4 input functions                    ; 36                  ;
+;     -- 3 input functions                    ; 22                  ;
+;     -- 2 input functions                    ; 43                  ;
+;     -- 1 input functions                    ; 6                   ;
+;     -- 0 input functions                    ; 2                   ;
+;                                             ;                     ;
+; Logic elements by mode                      ;                     ;
+;     -- normal mode                          ; 87                  ;
+;     -- arithmetic mode                      ; 32                  ;
+;     -- qfbk mode                            ; 12                  ;
+;     -- register cascade mode                ; 0                   ;
+;     -- synchronous clear/load mode          ; 17                  ;
+;     -- asynchronous clear/load mode         ; 0                   ;
+;                                             ;                     ;
+; Total registers                             ; 79 / 3,099 ( 3 % )  ;
+; Total LABs                                  ; 16 / 291 ( 5 % )    ;
+; Logic elements in carry chains              ; 35                  ;
+; Virtual pins                                ; 0                   ;
+; I/O pins                                    ; 41 / 65 ( 63 % )    ;
+;     -- Clock pins                           ; 1 / 2 ( 50 % )      ;
+;                                             ;                     ;
+; Global signals                              ; 3                   ;
+; M4Ks                                        ; 0 / 13 ( 0 % )      ;
+; Total memory bits                           ; 0 / 59,904 ( 0 % )  ;
+; Total RAM block bits                        ; 0 / 59,904 ( 0 % )  ;
+; PLLs                                        ; 1 / 1 ( 100 % )     ;
+; Global clocks                               ; 3 / 8 ( 38 % )      ;
+; JTAGs                                       ; 0 / 1 ( 0 % )       ;
+; ASMI Blocks                                 ; 0 / 1 ( 0 % )       ;
+; CRC blocks                                  ; 0 / 1 ( 0 % )       ;
+; Average interconnect usage (total/H/V)      ; 1% / 1% / 1%        ;
+; Peak interconnect usage (total/H/V)         ; 1% / 1% / 1%        ;
+; Maximum fan-out                             ; 53                  ;
+; Highest non-global fan-out                  ; 12                  ;
+; Total fan-out                               ; 437                 ;
+; Average fan-out                             ; 2.68                ;
++---------------------------------------------+---------------------+
 
 
 +--------------------------------------------------------------------------------------------------+
@@ -250,10 +240,10 @@ The pin-out file can be found in D:/otherProjects/Beamforming/Beamforming_HW_TMS
 +---------------------------------------------+-------------------+--------------------------------+
 ; Difficulty Clustering Region                ; Low               ; Low                            ;
 ;                                             ;                   ;                                ;
-; Total logic elements                        ; 73                ; 0                              ;
-;     -- Combinational with no register       ; 23                ; 0                              ;
-;     -- Register only                        ; 6                 ; 0                              ;
-;     -- Combinational with a register        ; 44                ; 0                              ;
+; Total logic elements                        ; 119               ; 0                              ;
+;     -- Combinational with no register       ; 40                ; 0                              ;
+;     -- Register only                        ; 10                ; 0                              ;
+;     -- Combinational with a register        ; 69                ; 0                              ;
 ;                                             ;                   ;                                ;
 ; Logic element usage by number of LUT inputs ;                   ;                                ;
 ;     -- 4 input functions                    ; 0                 ; 0                              ;
@@ -270,31 +260,31 @@ The pin-out file can be found in D:/otherProjects/Beamforming/Beamforming_HW_TMS
 ;     -- synchronous clear/load mode          ; 0                 ; 0                              ;
 ;     -- asynchronous clear/load mode         ; 0                 ; 0                              ;
 ;                                             ;                   ;                                ;
-; Total registers                             ; 50 / 1455 ( 3 % ) ; 0 / 1455 ( 0 % )               ;
+; Total registers                             ; 79 / 1455 ( 5 % ) ; 0 / 1455 ( 0 % )               ;
 ; Virtual pins                                ; 0                 ; 0                              ;
-; I/O pins                                    ; 40                ; 0                              ;
+; I/O pins                                    ; 41                ; 0                              ;
 ; DSP block 9-bit elements                    ; 0                 ; 0                              ;
 ; Total memory bits                           ; 0                 ; 0                              ;
 ; Total RAM block bits                        ; 0                 ; 0                              ;
 ; PLL                                         ; 0 / 1 ( 0 % )     ; 1 / 1 ( 100 % )                ;
 ;                                             ;                   ;                                ;
 ; Connections                                 ;                   ;                                ;
-;     -- Input Connections                    ; 33                ; 1                              ;
-;     -- Registered Input Connections         ; 26                ; 0                              ;
-;     -- Output Connections                   ; 1                 ; 33                             ;
+;     -- Input Connections                    ; 53                ; 1                              ;
+;     -- Registered Input Connections         ; 46                ; 0                              ;
+;     -- Output Connections                   ; 1                 ; 53                             ;
 ;     -- Registered Output Connections        ; 0                 ; 0                              ;
 ;                                             ;                   ;                                ;
 ; Internal Connections                        ;                   ;                                ;
-;     -- Total Connections                    ; 288               ; 34                             ;
-;     -- Registered Connections               ; 134               ; 0                              ;
+;     -- Total Connections                    ; 468               ; 54                             ;
+;     -- Registered Connections               ; 257               ; 0                              ;
 ;                                             ;                   ;                                ;
 ; External Connections                        ;                   ;                                ;
-;     -- Top                                  ; 0                 ; 34                             ;
-;     -- hard_block:auto_generated_inst       ; 34                ; 0                              ;
+;     -- Top                                  ; 0                 ; 54                             ;
+;     -- hard_block:auto_generated_inst       ; 54                ; 0                              ;
 ;                                             ;                   ;                                ;
 ; Partition Interface                         ;                   ;                                ;
 ;     -- Input Ports                          ; 18                ; 1                              ;
-;     -- Output Ports                         ; 22                ; 1                              ;
+;     -- Output Ports                         ; 23                ; 1                              ;
 ;     -- Bidir Ports                          ; 0                 ; 0                              ;
 ;                                             ;                   ;                                ;
 ; Registered Ports                            ;                   ;                                ;
@@ -332,7 +322,7 @@ The pin-out file can be found in D:/otherProjects/Beamforming/Beamforming_HW_TMS
 ; ADC_DB_PIN[9]    ; 55    ; 3        ; 27           ; 3            ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
 ; CLOCKPIN         ; 10    ; 1        ; 0            ; 8            ; 2           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
 ; CPLD_EEPROM_MISO ; 28    ; 4        ; 6            ; 0            ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
-; DSP_CONV_PIN     ; 24    ; 1        ; 0            ; 1            ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
+; DSP_CONV_PIN     ; 24    ; 1        ; 0            ; 1            ; 0           ; 10                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
 ; DSP_EEPROM_CS    ; 72    ; 3        ; 27           ; 10           ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
 ; DSP_EEPROM_MOSI  ; 5     ; 1        ; 0            ; 9            ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
 ; DSP_EEPROM_SCK   ; 4     ; 1        ; 0            ; 11           ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
@@ -344,9 +334,9 @@ The pin-out file can be found in D:/otherProjects/Beamforming/Beamforming_HW_TMS
 +------------------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+----------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+-------+----------------------+---------------------+
 ; Name             ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Cell number ; Output Register ; Output Enable Register ; Power Up High ; Slow Slew Rate ; PCI I/O Enabled ; Open Drain ; TRI Primitive ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Termination ; Location assigned by ; Load  ; Output Enable Source ; Output Enable Group ;
 +------------------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+----------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+-------+----------------------+---------------------+
-; ADC_CLK          ; 36    ; 4        ; 10           ; 0            ; 0           ; no              ; no                     ; no            ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; User                 ; 10 pF ; -                    ; -                   ;
+; ADC_CLK          ; 87    ; 2        ; 16           ; 14           ; 0           ; no              ; no                     ; no            ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; User                 ; 10 pF ; -                    ; -                   ;
 ; ADC_CONV         ; 25    ; 1        ; 0            ; 1            ; 1           ; no              ; no                     ; no            ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; User                 ; 10 pF ; -                    ; -                   ;
-; ADC_RD           ; 35    ; 4        ; 8            ; 0            ; 1           ; no              ; no                     ; no            ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; User                 ; 10 pF ; -                    ; -                   ;
+; ADC_RD           ; 90    ; 2        ; 10           ; 14           ; 0           ; no              ; no                     ; no            ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; User                 ; 10 pF ; -                    ; -                   ;
 ; AD_CS[0]         ; 79    ; 2        ; 22           ; 14           ; 1           ; no              ; no                     ; no            ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; User                 ; 10 pF ; -                    ; -                   ;
 ; AD_CS[1]         ; 38    ; 4        ; 16           ; 0            ; 1           ; no              ; no                     ; no            ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; User                 ; 10 pF ; -                    ; -                   ;
 ; AD_CS[2]         ; 39    ; 4        ; 16           ; 0            ; 0           ; no              ; no                     ; no            ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; User                 ; 10 pF ; -                    ; -                   ;
@@ -366,6 +356,7 @@ The pin-out file can be found in D:/otherProjects/Beamforming/Beamforming_HW_TMS
 ; GPIO2            ; 98    ; 2        ; 6            ; 14           ; 1           ; no              ; no                     ; no            ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; User                 ; 10 pF ; -                    ; -                   ;
 ; GPIO3            ; 97    ; 2        ; 6            ; 14           ; 0           ; no              ; no                     ; no            ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; User                 ; 10 pF ; -                    ; -                   ;
 ; LED_PIN          ; 91    ; 2        ; 8            ; 14           ; 1           ; no              ; no                     ; no            ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; User                 ; 10 pF ; -                    ; -                   ;
+; test             ; 85    ; 2        ; 20           ; 14           ; 1           ; no              ; no                     ; no            ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; User                 ; 10 pF ; -                    ; -                   ;
 +------------------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+----------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+-------+----------------------+---------------------+
 
 
@@ -375,9 +366,9 @@ The pin-out file can be found in D:/otherProjects/Beamforming/Beamforming_HW_TMS
 ; I/O Bank ; Usage            ; VCCIO Voltage ; VREF Voltage ;
 +----------+------------------+---------------+--------------+
 ; 1        ; 13 / 14 ( 93 % ) ; 3.3V          ; --           ;
-; 2        ; 6 / 17 ( 35 % )  ; 3.3V          ; --           ;
+; 2        ; 9 / 17 ( 53 % )  ; 3.3V          ; --           ;
 ; 3        ; 9 / 17 ( 53 % )  ; 3.3V          ; --           ;
-; 4        ; 14 / 17 ( 82 % ) ; 3.3V          ; --           ;
+; 4        ; 12 / 17 ( 71 % ) ; 3.3V          ; --           ;
 +----------+------------------+---------------+--------------+
 
 
@@ -405,7 +396,7 @@ The pin-out file can be found in D:/otherProjects/Beamforming/Beamforming_HW_TMS
 ; 17       ; 19         ; 1        ; ~ASDO~ / RESERVED_INPUT_WITH_WEAK_PULLUP ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; On           ;
 ; 18       ;            ; 1        ; VCCIO1                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; 19       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; 20       ; 23         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
+; 20       ; 23         ; 1        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; 21       ; 24         ; 1        ; CPLD_SPI_CLK                             ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; 22       ; 25         ; 1        ; CPLD_SPI_CS                              ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; 23       ; 26         ; 1        ; CPLD_SPI_MO                              ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
@@ -419,15 +410,15 @@ The pin-out file can be found in D:/otherProjects/Beamforming/Beamforming_HW_TMS
 ; 31       ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; 32       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; 33       ;            ;          ; VCCINT                                   ; power  ;              ; 1.5V    ; --         ;                 ; --       ; --           ;
-; 34       ; 35         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; 35       ; 36         ; 4        ; ADC_RD                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
-; 36       ; 39         ; 4        ; ADC_CLK                                  ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
-; 37       ; 40         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; 34       ; 35         ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; 35       ; 36         ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
+; 36       ; 39         ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; 37       ; 40         ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 38       ; 44         ; 4        ; AD_CS[1]                                 ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; 39       ; 45         ; 4        ; AD_CS[2]                                 ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; 40       ; 46         ; 4        ; AD_CS[3]                                 ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; 41       ; 49         ; 4        ; ADC_DB_PIN[0]                            ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
-; 42       ; 50         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; 42       ; 50         ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 43       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; 44       ;            ;          ; VCCINT                                   ; power  ;              ; 1.5V    ; --         ;                 ; --       ; --           ;
 ; 45       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -450,34 +441,34 @@ The pin-out file can be found in D:/otherProjects/Beamforming/Beamforming_HW_TMS
 ; 62       ; 70         ; 3        ; #TCK                                     ; input  ;              ;         ; --         ;                 ; --       ; --           ;
 ; 63       ; 71         ; 3        ; #TMS                                     ; input  ;              ;         ; --         ;                 ; --       ; --           ;
 ; 64       ; 72         ; 3        ; #TDO                                     ; output ;              ;         ; --         ;                 ; --       ; --           ;
-; 65       ; 73         ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; 65       ; 73         ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; 66       ; 75         ; 3        ; GND+                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; 67       ; 77         ; 3        ; #TDI                                     ; input  ;              ;         ; --         ;                 ; --       ; --           ;
-; 68       ; 78         ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
-; 69       ; 79         ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; 70       ; 80         ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; 68       ; 78         ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
+; 69       ; 79         ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; 70       ; 80         ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; 71       ; 81         ; 3        ; DSP_EEPROM_MISO                          ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; 72       ; 82         ; 3        ; DSP_EEPROM_CS                            ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
-; 73       ; 84         ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
-; 74       ; 87         ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; 75       ; 88         ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; 76       ; 89         ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; 77       ; 90         ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; 78       ; 93         ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; 73       ; 84         ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
+; 74       ; 87         ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; 75       ; 88         ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; 76       ; 89         ; 2        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; 77       ; 90         ; 2        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; 78       ; 93         ; 2        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 79       ; 94         ; 2        ; AD_CS[0]                                 ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; 80       ;            ; 2        ; VCCIO2                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; 81       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; 82       ;            ;          ; VCCINT                                   ; power  ;              ; 1.5V    ; --         ;                 ; --       ; --           ;
 ; 83       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; 84       ; 95         ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; 85       ; 96         ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
-; 86       ; 99         ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; 87       ; 100        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; 88       ; 101        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
-; 89       ; 105        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; 90       ; 106        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; 84       ; 95         ; 2        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; 85       ; 96         ; 2        ; test                                     ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
+; 86       ; 99         ; 2        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; 87       ; 100        ; 2        ; ADC_CLK                                  ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
+; 88       ; 101        ; 2        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
+; 89       ; 105        ; 2        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; 90       ; 106        ; 2        ; ADC_RD                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; 91       ; 109        ; 2        ; LED_PIN                                  ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
-; 92       ; 110        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; 92       ; 110        ; 2        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 93       ;            ;          ; VCCINT                                   ; power  ;              ; 1.5V    ; --         ;                 ; --       ; --           ;
 ; 94       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; 95       ;            ; 2        ; VCCIO2                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
@@ -566,26 +557,21 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 Note: User assignments will override these defaults. The user specified values are listed in the Output Pins and Bidir Pins tables.
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                                                              ;
-+-------------------------------------------+-------------+--------------+-------------+------+------+--------------+--------------+-------------------+------------------+-----------------+------------+--------------------------------------------------------------------------------------------+--------------+
-; Compilation Hierarchy Node                ; Logic Cells ; LC Registers ; Memory Bits ; M4Ks ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name                                                                        ; Library Name ;
-+-------------------------------------------+-------------+--------------+-------------+------+------+--------------+--------------+-------------------+------------------+-----------------+------------+--------------------------------------------------------------------------------------------+--------------+
-; |basicfunctions                           ; 73 (0)      ; 50           ; 0           ; 0    ; 40   ; 0            ; 23 (0)       ; 6 (0)             ; 44 (0)           ; 28 (0)          ; 7 (0)      ; |basicfunctions                                                                            ; work         ;
-;    |DelayDrv:inst18|                      ; 2 (2)       ; 2            ; 0           ; 0    ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 2 (2)            ; 0 (0)           ; 0 (0)      ; |basicfunctions|DelayDrv:inst18                                                            ; work         ;
-;    |Parallel2Serial4OneAD7265New:inst17|  ; 47 (47)     ; 24           ; 0           ; 0    ; 0    ; 0            ; 23 (23)      ; 6 (6)             ; 18 (18)          ; 4 (4)           ; 7 (7)      ; |basicfunctions|Parallel2Serial4OneAD7265New:inst17                                        ; work         ;
-;    |cnter8Bits:inst1|                     ; 8 (0)       ; 8            ; 0           ; 0    ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 8 (0)            ; 8 (0)           ; 0 (0)      ; |basicfunctions|cnter8Bits:inst1                                                           ; work         ;
-;       |lpm_counter:LPM_COUNTER_component| ; 8 (0)       ; 8            ; 0           ; 0    ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 8 (0)            ; 8 (0)           ; 0 (0)      ; |basicfunctions|cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component                         ; work         ;
-;          |cntr_adh:auto_generated|        ; 8 (8)       ; 8            ; 0           ; 0    ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 8 (8)            ; 8 (8)           ; 0 (0)      ; |basicfunctions|cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated ; work         ;
-;    |cnter8Bits:inst3|                     ; 8 (0)       ; 8            ; 0           ; 0    ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 8 (0)            ; 8 (0)           ; 0 (0)      ; |basicfunctions|cnter8Bits:inst3                                                           ; work         ;
-;       |lpm_counter:LPM_COUNTER_component| ; 8 (0)       ; 8            ; 0           ; 0    ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 8 (0)            ; 8 (0)           ; 0 (0)      ; |basicfunctions|cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component                         ; work         ;
-;          |cntr_adh:auto_generated|        ; 8 (8)       ; 8            ; 0           ; 0    ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 8 (8)            ; 8 (8)           ; 0 (0)      ; |basicfunctions|cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated ; work         ;
-;    |cnter8Bits:inst|                      ; 8 (0)       ; 8            ; 0           ; 0    ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 8 (0)            ; 8 (0)           ; 0 (0)      ; |basicfunctions|cnter8Bits:inst                                                            ; work         ;
-;       |lpm_counter:LPM_COUNTER_component| ; 8 (0)       ; 8            ; 0           ; 0    ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 8 (0)            ; 8 (0)           ; 0 (0)      ; |basicfunctions|cnter8Bits:inst|lpm_counter:LPM_COUNTER_component                          ; work         ;
-;          |cntr_adh:auto_generated|        ; 8 (8)       ; 8            ; 0           ; 0    ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 8 (8)            ; 8 (8)           ; 0 (0)      ; |basicfunctions|cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated  ; work         ;
-;    |pll:inst4|                            ; 0 (0)       ; 0            ; 0           ; 0    ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |basicfunctions|pll:inst4                                                                  ; work         ;
-;       |altpll:altpll_component|           ; 0 (0)       ; 0            ; 0           ; 0    ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |basicfunctions|pll:inst4|altpll:altpll_component                                          ; work         ;
-+-------------------------------------------+-------------+--------------+-------------+------+------+--------------+--------------+-------------------+------------------+-----------------+------------+--------------------------------------------------------------------------------------------+--------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                                                                ;
++-------------------------------------------+-------------+--------------+-------------+------+------+--------------+--------------+-------------------+------------------+-----------------+------------+----------------------------------------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node                ; Logic Cells ; LC Registers ; Memory Bits ; M4Ks ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name                                                                          ; Library Name ;
++-------------------------------------------+-------------+--------------+-------------+------+------+--------------+--------------+-------------------+------------------+-----------------+------------+----------------------------------------------------------------------------------------------+--------------+
+; |basicfunctions                           ; 119 (0)     ; 79           ; 0           ; 0    ; 41   ; 0            ; 40 (0)       ; 10 (0)            ; 69 (0)           ; 35 (0)          ; 11 (0)     ; |basicfunctions                                                                              ; work         ;
+;    |DelayDrv:inst18|                      ; 2 (2)       ; 2            ; 0           ; 0    ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 2 (2)            ; 0 (0)           ; 0 (0)      ; |basicfunctions|DelayDrv:inst18                                                              ; work         ;
+;    |Parallel2Serial4OneAD7265New:inst17|  ; 56 (56)     ; 36           ; 0           ; 0    ; 0    ; 0            ; 20 (20)      ; 6 (6)             ; 30 (30)          ; 4 (4)           ; 7 (7)      ; |basicfunctions|Parallel2Serial4OneAD7265New:inst17                                          ; work         ;
+;    |ad7864Drv:inst13|                     ; 38 (38)     ; 18           ; 0           ; 0    ; 0    ; 0            ; 20 (20)      ; 4 (4)             ; 14 (14)          ; 8 (8)           ; 4 (4)      ; |basicfunctions|ad7864Drv:inst13                                                             ; work         ;
+;    |lpm_counter0:inst5|                   ; 23 (0)      ; 23           ; 0           ; 0    ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 23 (0)           ; 23 (0)          ; 0 (0)      ; |basicfunctions|lpm_counter0:inst5                                                           ; work         ;
+;       |lpm_counter:LPM_COUNTER_component| ; 23 (0)      ; 23           ; 0           ; 0    ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 23 (0)           ; 23 (0)          ; 0 (0)      ; |basicfunctions|lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component                         ; work         ;
+;          |cntr_oeh:auto_generated|        ; 23 (23)     ; 23           ; 0           ; 0    ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 23 (23)          ; 23 (23)         ; 0 (0)      ; |basicfunctions|lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated ; work         ;
+;    |pll:inst4|                            ; 0 (0)       ; 0            ; 0           ; 0    ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |basicfunctions|pll:inst4                                                                    ; work         ;
+;       |altpll:altpll_component|           ; 0 (0)       ; 0            ; 0           ; 0    ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |basicfunctions|pll:inst4|altpll:altpll_component                                            ; work         ;
++-------------------------------------------+-------------+--------------+-------------+------+------+--------------+--------------+-------------------+------------------+-----------------+------------+----------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -612,6 +598,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; GPIO3            ; Output   ; --            ; --            ; --                    ; --  ;
 ; CPLD_SPI_CS      ; Output   ; --            ; --            ; --                    ; --  ;
 ; LED_PIN          ; Output   ; --            ; --            ; --                    ; --  ;
+; test             ; Output   ; --            ; --            ; --                    ; --  ;
 ; AD_CS[3]         ; Output   ; --            ; --            ; --                    ; --  ;
 ; AD_CS[2]         ; Output   ; --            ; --            ; --                    ; --  ;
 ; AD_CS[1]         ; Output   ; --            ; --            ; --                    ; --  ;
@@ -651,18 +638,27 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; CPLD_EEPROM_MISO                                     ;                   ;         ;
 ;      - DSP_EEPROM_MISO                               ; 0                 ; ON      ;
 ; DSP_CONV_PIN                                         ;                   ;         ;
+;      - ad7864Drv:inst13|cnter[7]                     ; 0                 ; ON      ;
+;      - ad7864Drv:inst13|cnter[6]                     ; 0                 ; ON      ;
+;      - ad7864Drv:inst13|cnter[4]                     ; 0                 ; ON      ;
+;      - ad7864Drv:inst13|cnter[5]                     ; 0                 ; ON      ;
+;      - ad7864Drv:inst13|cnter[2]                     ; 0                 ; ON      ;
+;      - ad7864Drv:inst13|cnter[3]                     ; 0                 ; ON      ;
+;      - ad7864Drv:inst13|cnter[0]                     ; 0                 ; ON      ;
+;      - ad7864Drv:inst13|cnter[1]                     ; 0                 ; ON      ;
+;      - ad7864Drv:inst13|cnter~6                      ; 0                 ; ON      ;
 ;      - ADC_CONV                                      ; 0                 ; ON      ;
 ; CLOCKPIN                                             ;                   ;         ;
 ; ADC_DB_PIN[10]                                       ;                   ;         ;
 ;      - Parallel2Serial4OneAD7265New:inst17|dbreg[10] ; 0                 ; ON      ;
 ; ADC_DB_PIN[9]                                        ;                   ;         ;
-;      - Parallel2Serial4OneAD7265New:inst17|dbreg[9]  ; 0                 ; ON      ;
+;      - Parallel2Serial4OneAD7265New:inst17|dbreg[9]  ; 1                 ; ON      ;
 ; ADC_DB_PIN[8]                                        ;                   ;         ;
 ;      - Parallel2Serial4OneAD7265New:inst17|dbreg[8]  ; 0                 ; ON      ;
 ; ADC_DB_PIN[11]                                       ;                   ;         ;
 ;      - Parallel2Serial4OneAD7265New:inst17|dbreg[11] ; 1                 ; ON      ;
 ; ADC_DB_PIN[5]                                        ;                   ;         ;
-;      - Parallel2Serial4OneAD7265New:inst17|dbreg[5]  ; 0                 ; ON      ;
+;      - Parallel2Serial4OneAD7265New:inst17|dbreg[5]  ; 1                 ; ON      ;
 ; ADC_DB_PIN[6]                                        ;                   ;         ;
 ;      - Parallel2Serial4OneAD7265New:inst17|dbreg[6]  ; 0                 ; ON      ;
 ; ADC_DB_PIN[4]                                        ;                   ;         ;
@@ -670,185 +666,247 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; ADC_DB_PIN[7]                                        ;                   ;         ;
 ;      - Parallel2Serial4OneAD7265New:inst17|dbreg[7]  ; 1                 ; ON      ;
 ; ADC_DB_PIN[2]                                        ;                   ;         ;
-;      - Parallel2Serial4OneAD7265New:inst17|dbreg[2]  ; 0                 ; ON      ;
+;      - Parallel2Serial4OneAD7265New:inst17|dbreg[2]  ; 1                 ; ON      ;
 ; ADC_DB_PIN[1]                                        ;                   ;         ;
-;      - Parallel2Serial4OneAD7265New:inst17|dbreg[1]  ; 1                 ; ON      ;
+;      - Parallel2Serial4OneAD7265New:inst17|dbreg[1]  ; 0                 ; ON      ;
 ; ADC_DB_PIN[0]                                        ;                   ;         ;
-;      - Parallel2Serial4OneAD7265New:inst17|dbreg[0]  ; 1                 ; ON      ;
+;      - Parallel2Serial4OneAD7265New:inst17|dbreg[0]  ; 0                 ; ON      ;
 ; ADC_DB_PIN[3]                                        ;                   ;         ;
 ;      - Parallel2Serial4OneAD7265New:inst17|dbreg[3]  ; 1                 ; ON      ;
 +------------------------------------------------------+-------------------+---------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Control Signals                                                                                                                                                                 ;
-+--------------------------------------------------------------------------------------+--------------+---------+--------------+--------+----------------------+------------------+
-; Name                                                                                 ; Location     ; Fan-Out ; Usage        ; Global ; Global Resource Used ; Global Line Name ;
-+--------------------------------------------------------------------------------------+--------------+---------+--------------+--------+----------------------+------------------+
-; CLOCKPIN                                                                             ; PIN_10       ; 1       ; Clock        ; no     ; --                   ; --               ;
-; Parallel2Serial4OneAD7265New:inst17|cnter~5                                          ; LC_X26_Y6_N8 ; 7       ; Clock enable ; no     ; --                   ; --               ;
-; Parallel2Serial4OneAD7265New:inst17|dbreg[11]~0                                      ; LC_X26_Y6_N7 ; 12      ; Clock enable ; no     ; --                   ; --               ;
-; Parallel2Serial4OneAD7265New:inst17|rd_bar                                           ; LC_X26_Y6_N3 ; 9       ; Latch enable ; yes    ; Global Clock         ; GCLK7            ;
-; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[7] ; LC_X9_Y6_N7  ; 9       ; Clock        ; yes    ; Global Clock         ; GCLK3            ;
-; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[1] ; LC_X2_Y12_N1 ; 2       ; Clock        ; no     ; --                   ; --               ;
-; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[6] ; LC_X2_Y12_N6 ; 2       ; Clock        ; no     ; --                   ; --               ;
-; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[7]  ; LC_X8_Y6_N7  ; 9       ; Clock        ; yes    ; Global Clock         ; GCLK2            ;
-; pll:inst4|altpll:altpll_component|_clk0                                              ; PLL_1        ; 33      ; Clock        ; yes    ; Global Clock         ; GCLK0            ;
-+--------------------------------------------------------------------------------------+--------------+---------+--------------+--------+----------------------+------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Control Signals                                                                                                                                                                    ;
++-----------------------------------------------------------------------------------------+--------------+---------+--------------+--------+----------------------+------------------+
+; Name                                                                                    ; Location     ; Fan-Out ; Usage        ; Global ; Global Resource Used ; Global Line Name ;
++-----------------------------------------------------------------------------------------+--------------+---------+--------------+--------+----------------------+------------------+
+; CLOCKPIN                                                                                ; PIN_10       ; 1       ; Clock        ; no     ; --                   ; --               ;
+; Parallel2Serial4OneAD7265New:inst17|Equal0~0                                            ; LC_X17_Y7_N8 ; 4       ; Clock enable ; no     ; --                   ; --               ;
+; Parallel2Serial4OneAD7265New:inst17|dbreg[11]~2                                         ; LC_X18_Y7_N8 ; 12      ; Clock enable ; no     ; --                   ; --               ;
+; Parallel2Serial4OneAD7265New:inst17|enable_channel                                      ; LC_X11_Y7_N5 ; 3       ; Clock        ; no     ; --                   ; --               ;
+; Parallel2Serial4OneAD7265New:inst17|rd_bar                                              ; LC_X18_Y7_N1 ; 3       ; Clock        ; no     ; --                   ; --               ;
+; Parallel2Serial4OneAD7265New:inst17|spi_rdy                                             ; LC_X10_Y7_N0 ; 10      ; Clock        ; yes    ; Global Clock         ; GCLK1            ;
+; ad7864Drv:inst13|clkout~7                                                               ; LC_X11_Y7_N1 ; 2       ; Clock enable ; no     ; --                   ; --               ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[17] ; LC_X8_Y4_N1  ; 2       ; Clock        ; no     ; --                   ; --               ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[1]  ; LC_X8_Y6_N5  ; 19      ; Clock        ; yes    ; Global Clock         ; GCLK2            ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[22] ; LC_X8_Y4_N6  ; 3       ; Clock        ; no     ; --                   ; --               ;
+; pll:inst4|altpll:altpll_component|_clk0                                                 ; PLL_1        ; 53      ; Clock        ; yes    ; Global Clock         ; GCLK3            ;
++-----------------------------------------------------------------------------------------+--------------+---------+--------------+--------+----------------------+------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Global & Other Fast Signals                                                                                                                             ;
-+--------------------------------------------------------------------------------------+--------------+---------+----------------------+------------------+
-; Name                                                                                 ; Location     ; Fan-Out ; Global Resource Used ; Global Line Name ;
-+--------------------------------------------------------------------------------------+--------------+---------+----------------------+------------------+
-; Parallel2Serial4OneAD7265New:inst17|rd_bar                                           ; LC_X26_Y6_N3 ; 9       ; Global Clock         ; GCLK7            ;
-; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[7] ; LC_X9_Y6_N7  ; 9       ; Global Clock         ; GCLK3            ;
-; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[7]  ; LC_X8_Y6_N7  ; 9       ; Global Clock         ; GCLK2            ;
-; pll:inst4|altpll:altpll_component|_clk0                                              ; PLL_1        ; 33      ; Global Clock         ; GCLK0            ;
-+--------------------------------------------------------------------------------------+--------------+---------+----------------------+------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Global & Other Fast Signals                                                                                                                               ;
++----------------------------------------------------------------------------------------+--------------+---------+----------------------+------------------+
+; Name                                                                                   ; Location     ; Fan-Out ; Global Resource Used ; Global Line Name ;
++----------------------------------------------------------------------------------------+--------------+---------+----------------------+------------------+
+; Parallel2Serial4OneAD7265New:inst17|spi_rdy                                            ; LC_X10_Y7_N0 ; 10      ; Global Clock         ; GCLK1            ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[1] ; LC_X8_Y6_N5  ; 19      ; Global Clock         ; GCLK2            ;
+; pll:inst4|altpll:altpll_component|_clk0                                                ; PLL_1        ; 53      ; Global Clock         ; GCLK3            ;
++----------------------------------------------------------------------------------------+--------------+---------+----------------------+------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------+
-; Non-Global High Fan-Out Signals                                                                                 ;
-+-------------------------------------------------------------------------------------------------------+---------+
-; Name                                                                                                  ; Fan-Out ;
-+-------------------------------------------------------------------------------------------------------+---------+
-; Parallel2Serial4OneAD7265New:inst17|dbreg[11]~0                                                       ; 12      ;
-; Parallel2Serial4OneAD7265New:inst17|enspi                                                             ; 8       ;
-; Parallel2Serial4OneAD7265New:inst17|cnter~5                                                           ; 7       ;
-; Parallel2Serial4OneAD7265New:inst17|sel~3                                                             ; 6       ;
-; Parallel2Serial4OneAD7265New:inst17|sel~2                                                             ; 6       ;
-; Parallel2Serial4OneAD7265New:inst17|cnter[2]                                                          ; 6       ;
-; Parallel2Serial4OneAD7265New:inst17|cnter[0]                                                          ; 6       ;
-; Parallel2Serial4OneAD7265New:inst17|cnter[1]                                                          ; 6       ;
-; Parallel2Serial4OneAD7265New:inst17|reg_cs_bar[0]                                                     ; 5       ;
-; Parallel2Serial4OneAD7265New:inst17|reg_cs_bar[1]                                                     ; 5       ;
-; Parallel2Serial4OneAD7265New:inst17|enspiPrev                                                         ; 5       ;
-; Parallel2Serial4OneAD7265New:inst17|reg_cs_bar[2]                                                     ; 4       ;
-; Parallel2Serial4OneAD7265New:inst17|sel~0                                                             ; 4       ;
-; Parallel2Serial4OneAD7265New:inst17|sel[3]                                                            ; 4       ;
-; Parallel2Serial4OneAD7265New:inst17|sel[2]                                                            ; 4       ;
-; Parallel2Serial4OneAD7265New:inst17|sclk                                                              ; 4       ;
-; Parallel2Serial4OneAD7265New:inst17|always6~0                                                         ; 3       ;
-; Parallel2Serial4OneAD7265New:inst17|sel~4                                                             ; 3       ;
-; Parallel2Serial4OneAD7265New:inst17|sel~1                                                             ; 3       ;
-; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella4~COUT         ; 3       ;
-; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella4~COUT        ; 3       ;
-; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella4~COUT        ; 3       ;
-; Parallel2Serial4OneAD7265New:inst17|spi_cs~0                                                          ; 2       ;
-; Parallel2Serial4OneAD7265New:inst17|sel[1]                                                            ; 2       ;
-; Parallel2Serial4OneAD7265New:inst17|mosi                                                              ; 2       ;
-; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[6]                  ; 2       ;
-; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[1]                  ; 2       ;
-; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[7]                  ; 2       ;
-; ADC_DB_PIN[3]                                                                                         ; 1       ;
-; ADC_DB_PIN[0]                                                                                         ; 1       ;
-; ADC_DB_PIN[1]                                                                                         ; 1       ;
-; ADC_DB_PIN[2]                                                                                         ; 1       ;
-; ADC_DB_PIN[7]                                                                                         ; 1       ;
-; ADC_DB_PIN[4]                                                                                         ; 1       ;
-; ADC_DB_PIN[6]                                                                                         ; 1       ;
-; ADC_DB_PIN[5]                                                                                         ; 1       ;
-; ADC_DB_PIN[11]                                                                                        ; 1       ;
-; ADC_DB_PIN[8]                                                                                         ; 1       ;
-; ADC_DB_PIN[9]                                                                                         ; 1       ;
-; ADC_DB_PIN[10]                                                                                        ; 1       ;
-; CLOCKPIN                                                                                              ; 1       ;
-; DSP_CONV_PIN                                                                                          ; 1       ;
-; CPLD_EEPROM_MISO                                                                                      ; 1       ;
-; DSP_EEPROM_MOSI                                                                                       ; 1       ;
-; DSP_EEPROM_SCK                                                                                        ; 1       ;
-; DSP_EEPROM_CS                                                                                         ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|Equal5~0                                                          ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|mosi~2                                                            ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|Mux0~5                                                            ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|dbreg[3]                                                          ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|Mux0~4                                                            ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|dbreg[0]                                                          ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|Mux0~3                                                            ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|dbreg[7]                                                          ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|Mux0~2                                                            ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|dbreg[4]                                                          ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|mosi~1                                                            ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|Mux0~1                                                            ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|dbreg[11]                                                         ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|Mux0~0                                                            ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|dbreg[8]                                                          ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|sel[0]                                                            ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|mosi~0                                                            ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|cs_bar[0]~3                                                       ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|cs_bar[1]~2                                                       ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|cs_bar[2]~1                                                       ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|cs_bar[3]~0                                                       ; 1       ;
-; DelayDrv:inst18|rst                                                                                   ; 1       ;
-; DelayDrv:inst18|pwron                                                                                 ; 1       ;
-; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella0~COUTCOUT1_3  ; 1       ;
-; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella0~COUT         ; 1       ;
-; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[0]                   ; 1       ;
-; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella0~COUTCOUT1_3 ; 1       ;
-; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella0~COUT        ; 1       ;
-; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[0]                  ; 1       ;
-; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella1~COUTCOUT1_3  ; 1       ;
-; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella1~COUT         ; 1       ;
-; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[1]                   ; 1       ;
-; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella1~COUTCOUT1_3 ; 1       ;
-; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella1~COUT        ; 1       ;
-; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[1]                  ; 1       ;
-; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella2~COUTCOUT1_3  ; 1       ;
-; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella2~COUT         ; 1       ;
-; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[2]                   ; 1       ;
-; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella2~COUTCOUT1_3 ; 1       ;
-; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella2~COUT        ; 1       ;
-; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[2]                  ; 1       ;
-; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella3~COUTCOUT1_3  ; 1       ;
-; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella3~COUT         ; 1       ;
-; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[3]                   ; 1       ;
-; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella3~COUTCOUT1_3 ; 1       ;
-; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella3~COUT        ; 1       ;
-; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[3]                  ; 1       ;
-; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[4]                   ; 1       ;
-; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella2~COUTCOUT1_3 ; 1       ;
-; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella2~COUT        ; 1       ;
-; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[2]                  ; 1       ;
-; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[4]                  ; 1       ;
-; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella5~COUTCOUT1_3  ; 1       ;
-; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella5~COUT         ; 1       ;
-; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[5]                   ; 1       ;
-; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella3~COUTCOUT1_3 ; 1       ;
-; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella3~COUT        ; 1       ;
-; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[3]                  ; 1       ;
-; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella5~COUTCOUT1_3 ; 1       ;
-; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella5~COUT        ; 1       ;
-; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[5]                  ; 1       ;
-; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella6~COUTCOUT1_3  ; 1       ;
-; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella6~COUT         ; 1       ;
-; cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[6]                   ; 1       ;
-; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[4]                  ; 1       ;
-; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella6~COUTCOUT1_3 ; 1       ;
-; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella6~COUT        ; 1       ;
-; cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[6]                  ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|Add1~17COUT1_25                                                   ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|Add1~17                                                           ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|Add1~15                                                           ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|Add1~12COUT1_27                                                   ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|Add1~12                                                           ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|Add1~10                                                           ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|Add1~5                                                            ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|Add1~2COUT1_29                                                    ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|Add1~2                                                            ; 1       ;
-; Parallel2Serial4OneAD7265New:inst17|Add1~0                                                            ; 1       ;
-; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella5~COUTCOUT1_3 ; 1       ;
-; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella5~COUT        ; 1       ;
-; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[5]                  ; 1       ;
-; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella0~COUTCOUT1_3 ; 1       ;
-; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella0~COUT        ; 1       ;
-; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[0]                  ; 1       ;
-; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella6~COUTCOUT1_3 ; 1       ;
-; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella6~COUT        ; 1       ;
-; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella1~COUTCOUT1_3 ; 1       ;
-; cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella1~COUT        ; 1       ;
-+-------------------------------------------------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------+
+; Non-Global High Fan-Out Signals                                                                                    ;
++----------------------------------------------------------------------------------------------------------+---------+
+; Name                                                                                                     ; Fan-Out ;
++----------------------------------------------------------------------------------------------------------+---------+
+; Parallel2Serial4OneAD7265New:inst17|dbreg[11]~2                                                          ; 12      ;
+; DSP_CONV_PIN                                                                                             ; 10      ;
+; Parallel2Serial4OneAD7265New:inst17|enp2                                                                 ; 9       ;
+; Parallel2Serial4OneAD7265New:inst17|sel[3]                                                               ; 8       ;
+; ad7864Drv:inst13|cnter[3]                                                                                ; 7       ;
+; ad7864Drv:inst13|cnter[2]                                                                                ; 7       ;
+; ad7864Drv:inst13|cnter[5]                                                                                ; 7       ;
+; ad7864Drv:inst13|cnter[4]                                                                                ; 7       ;
+; ad7864Drv:inst13|cnter[6]                                                                                ; 7       ;
+; Parallel2Serial4OneAD7265New:inst17|sel~0                                                                ; 7       ;
+; Parallel2Serial4OneAD7265New:inst17|enspi                                                                ; 7       ;
+; ad7864Drv:inst13|cnter[1]                                                                                ; 6       ;
+; ad7864Drv:inst13|cnter[7]                                                                                ; 6       ;
+; Parallel2Serial4OneAD7265New:inst17|sel~2                                                                ; 6       ;
+; Parallel2Serial4OneAD7265New:inst17|sel~1                                                                ; 6       ;
+; ad7864Drv:inst13|cnter[0]                                                                                ; 5       ;
+; Parallel2Serial4OneAD7265New:inst17|enp1                                                                 ; 5       ;
+; Parallel2Serial4OneAD7265New:inst17|sclk                                                                 ; 5       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella5~COUT         ; 5       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella10~COUT        ; 5       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella15~COUT        ; 5       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella0~COUT         ; 5       ;
+; Parallel2Serial4OneAD7265New:inst17|tmpcnter[2]                                                          ; 4       ;
+; Parallel2Serial4OneAD7265New:inst17|tmpcnter[1]                                                          ; 4       ;
+; Parallel2Serial4OneAD7265New:inst17|tmpcnter[0]                                                          ; 4       ;
+; Parallel2Serial4OneAD7265New:inst17|Equal0~0                                                             ; 4       ;
+; Parallel2Serial4OneAD7265New:inst17|cnter_ch[1]                                                          ; 4       ;
+; Parallel2Serial4OneAD7265New:inst17|always8~0                                                            ; 4       ;
+; Parallel2Serial4OneAD7265New:inst17|enspiPrev                                                            ; 4       ;
+; Parallel2Serial4OneAD7265New:inst17|sel[2]                                                               ; 4       ;
+; Parallel2Serial4OneAD7265New:inst17|cnter[2]                                                             ; 4       ;
+; Parallel2Serial4OneAD7265New:inst17|cnter[0]                                                             ; 4       ;
+; Parallel2Serial4OneAD7265New:inst17|cnter_ch[2]                                                          ; 3       ;
+; Parallel2Serial4OneAD7265New:inst17|cnter~10                                                             ; 3       ;
+; Parallel2Serial4OneAD7265New:inst17|cnter~9                                                              ; 3       ;
+; Parallel2Serial4OneAD7265New:inst17|enable_channel                                                       ; 3       ;
+; Parallel2Serial4OneAD7265New:inst17|cnter[1]                                                             ; 3       ;
+; Parallel2Serial4OneAD7265New:inst17|sel~3                                                                ; 3       ;
+; Parallel2Serial4OneAD7265New:inst17|rd_bar                                                               ; 3       ;
+; ad7864Drv:inst13|Add0~12                                                                                 ; 3       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[22]                  ; 3       ;
+; Parallel2Serial4OneAD7265New:inst17|cnter_ch[3]                                                          ; 2       ;
+; ad7864Drv:inst13|db_rdy                                                                                  ; 2       ;
+; ad7864Drv:inst13|clkout~7                                                                                ; 2       ;
+; Parallel2Serial4OneAD7265New:inst17|sel[1]                                                               ; 2       ;
+; Parallel2Serial4OneAD7265New:inst17|enp                                                                  ; 2       ;
+; Parallel2Serial4OneAD7265New:inst17|spi_cs2                                                              ; 2       ;
+; Parallel2Serial4OneAD7265New:inst17|spi_cs1                                                              ; 2       ;
+; ad7864Drv:inst13|clkout                                                                                  ; 2       ;
+; Parallel2Serial4OneAD7265New:inst17|mosi                                                                 ; 2       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella20~COUT        ; 2       ;
+; ad7864Drv:inst13|Add0~35                                                                                 ; 2       ;
+; ad7864Drv:inst13|Add0~25                                                                                 ; 2       ;
+; ad7864Drv:inst13|Add0~20                                                                                 ; 2       ;
+; ad7864Drv:inst13|Add0~15                                                                                 ; 2       ;
+; ad7864Drv:inst13|Add0~10                                                                                 ; 2       ;
+; ad7864Drv:inst13|Add0~5                                                                                  ; 2       ;
+; ad7864Drv:inst13|Add0~0                                                                                  ; 2       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[17]                  ; 2       ;
+; ADC_DB_PIN[3]                                                                                            ; 1       ;
+; ADC_DB_PIN[0]                                                                                            ; 1       ;
+; ADC_DB_PIN[1]                                                                                            ; 1       ;
+; ADC_DB_PIN[2]                                                                                            ; 1       ;
+; ADC_DB_PIN[7]                                                                                            ; 1       ;
+; ADC_DB_PIN[4]                                                                                            ; 1       ;
+; ADC_DB_PIN[6]                                                                                            ; 1       ;
+; ADC_DB_PIN[5]                                                                                            ; 1       ;
+; ADC_DB_PIN[11]                                                                                           ; 1       ;
+; ADC_DB_PIN[8]                                                                                            ; 1       ;
+; ADC_DB_PIN[9]                                                                                            ; 1       ;
+; ADC_DB_PIN[10]                                                                                           ; 1       ;
+; CLOCKPIN                                                                                                 ; 1       ;
+; CPLD_EEPROM_MISO                                                                                         ; 1       ;
+; DSP_EEPROM_MOSI                                                                                          ; 1       ;
+; DSP_EEPROM_SCK                                                                                           ; 1       ;
+; DSP_EEPROM_CS                                                                                            ; 1       ;
+; ad7864Drv:inst13|db_rdy~1                                                                                ; 1       ;
+; ad7864Drv:inst13|db_rdy~0                                                                                ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|enable_channel~1                                                     ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|enable_channel~0                                                     ; 1       ;
+; ad7864Drv:inst13|cnter~7                                                                                 ; 1       ;
+; ad7864Drv:inst13|cnter~6                                                                                 ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|cnter~8                                                              ; 1       ;
+; ad7864Drv:inst13|Equal0~4                                                                                ; 1       ;
+; ad7864Drv:inst13|Equal0~3                                                                                ; 1       ;
+; ad7864Drv:inst13|cnterprev[6]                                                                            ; 1       ;
+; ad7864Drv:inst13|Equal0~2                                                                                ; 1       ;
+; ad7864Drv:inst13|cnterprev[4]                                                                            ; 1       ;
+; ad7864Drv:inst13|Equal0~1                                                                                ; 1       ;
+; ad7864Drv:inst13|cnterprev[2]                                                                            ; 1       ;
+; ad7864Drv:inst13|Equal0~0                                                                                ; 1       ;
+; ad7864Drv:inst13|cnterprev[0]                                                                            ; 1       ;
+; ad7864Drv:inst13|clkout~6                                                                                ; 1       ;
+; ad7864Drv:inst13|clkout~5                                                                                ; 1       ;
+; ad7864Drv:inst13|clkout~4                                                                                ; 1       ;
+; ad7864Drv:inst13|clkout~3                                                                                ; 1       ;
+; ad7864Drv:inst13|clkout~1                                                                                ; 1       ;
+; ad7864Drv:inst13|clkout~0                                                                                ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|mosi~2                                                               ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|Mux0~5                                                               ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|dbreg[3]                                                             ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|Mux0~4                                                               ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|dbreg[0]                                                             ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|Mux0~3                                                               ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|dbreg[7]                                                             ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|Mux0~2                                                               ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|dbreg[4]                                                             ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|mosi~1                                                               ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|Mux0~1                                                               ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|dbreg[11]                                                            ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|Mux0~0                                                               ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|dbreg[8]                                                             ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|sel[0]                                                               ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|mosi~0                                                               ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|rd_bar~0                                                             ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|spi_cs~0                                                             ; 1       ;
+; DelayDrv:inst18|rst                                                                                      ; 1       ;
+; DelayDrv:inst18|pwron                                                                                    ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella2~COUTCOUT1_3  ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella2~COUT         ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[2]                   ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella3~COUTCOUT1_3  ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella3~COUT         ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[3]                   ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella4~COUTCOUT1_3  ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella4~COUT         ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[4]                   ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[5]                   ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella6~COUTCOUT1_3  ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella6~COUT         ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[6]                   ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella7~COUTCOUT1_3  ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella7~COUT         ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[7]                   ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella8~COUTCOUT1_3  ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella8~COUT         ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[8]                   ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella9~COUTCOUT1_3  ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella9~COUT         ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[9]                   ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[10]                  ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella11~COUTCOUT1_3 ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella11~COUT        ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[11]                  ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella12~COUTCOUT1_3 ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella12~COUT        ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[12]                  ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella13~COUTCOUT1_3 ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella13~COUT        ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[13]                  ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella18~COUTCOUT1_3 ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella18~COUT        ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[18]                  ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella14~COUTCOUT1_3 ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella14~COUT        ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[14]                  ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella19~COUTCOUT1_3 ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella19~COUT        ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[19]                  ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[15]                  ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[20]                  ; 1       ;
+; ad7864Drv:inst13|Add0~37COUT1_50                                                                         ; 1       ;
+; ad7864Drv:inst13|Add0~37                                                                                 ; 1       ;
+; ad7864Drv:inst13|Add0~32COUT1_48                                                                         ; 1       ;
+; ad7864Drv:inst13|Add0~32                                                                                 ; 1       ;
+; ad7864Drv:inst13|Add0~30                                                                                 ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[0]                   ; 1       ;
+; ad7864Drv:inst13|Add0~27COUT1_54                                                                         ; 1       ;
+; ad7864Drv:inst13|Add0~27                                                                                 ; 1       ;
+; ad7864Drv:inst13|Add0~22COUT1_52                                                                         ; 1       ;
+; ad7864Drv:inst13|Add0~22                                                                                 ; 1       ;
+; ad7864Drv:inst13|Add0~17COUT1_56                                                                         ; 1       ;
+; ad7864Drv:inst13|Add0~17                                                                                 ; 1       ;
+; ad7864Drv:inst13|Add0~7COUT1_58                                                                          ; 1       ;
+; ad7864Drv:inst13|Add0~7                                                                                  ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|Add3~17COUT1_25                                                      ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|Add3~17                                                              ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|Add3~15                                                              ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|Add3~12COUT1_27                                                      ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|Add3~12                                                              ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|Add3~10                                                              ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|Add3~7COUT1_29                                                       ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|Add3~7                                                               ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|Add3~5                                                               ; 1       ;
+; Parallel2Serial4OneAD7265New:inst17|Add3~0                                                               ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella16~COUTCOUT1_3 ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella16~COUT        ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[16]                  ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella21~COUTCOUT1_3 ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella21~COUT        ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[21]                  ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella1~COUTCOUT1_3  ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella1~COUT         ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella17~COUTCOUT1_3 ; 1       ;
+; lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella17~COUT        ; 1       ;
++----------------------------------------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------+
@@ -856,121 +914,136 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------------+-----------------------+
 ; Other Routing Resource Type ; Usage                 ;
 +-----------------------------+-----------------------+
-; C4s                         ; 44 / 8,840 ( < 1 % )  ;
-; Direct links                ; 10 / 11,506 ( < 1 % ) ;
-; Global clocks               ; 4 / 8 ( 50 % )        ;
+; C4s                         ; 75 / 8,840 ( < 1 % )  ;
+; Direct links                ; 47 / 11,506 ( < 1 % ) ;
+; Global clocks               ; 3 / 8 ( 38 % )        ;
 ; LAB clocks                  ; 9 / 156 ( 6 % )       ;
 ; LUT chains                  ; 6 / 2,619 ( < 1 % )   ;
-; Local interconnects         ; 57 / 11,506 ( < 1 % ) ;
+; Local interconnects         ; 125 / 11,506 ( 1 % )  ;
 ; M4K buffers                 ; 0 / 468 ( 0 % )       ;
-; R4s                         ; 46 / 7,520 ( < 1 % )  ;
+; R4s                         ; 101 / 7,520 ( 1 % )   ;
 +-----------------------------+-----------------------+
 
 
 +---------------------------------------------------------------------------+
 ; LAB Logic Elements                                                        ;
 +--------------------------------------------+------------------------------+
-; Number of Logic Elements  (Average = 6.64) ; Number of LABs  (Total = 11) ;
+; Number of Logic Elements  (Average = 7.44) ; Number of LABs  (Total = 16) ;
 +--------------------------------------------+------------------------------+
-; 1                                          ; 2                            ;
-; 2                                          ; 0                            ;
-; 3                                          ; 0                            ;
-; 4                                          ; 1                            ;
-; 5                                          ; 0                            ;
-; 6                                          ; 0                            ;
+; 1                                          ; 1                            ;
+; 2                                          ; 1                            ;
+; 3                                          ; 1                            ;
+; 4                                          ; 0                            ;
+; 5                                          ; 1                            ;
+; 6                                          ; 1                            ;
 ; 7                                          ; 1                            ;
-; 8                                          ; 4                            ;
-; 9                                          ; 2                            ;
-; 10                                         ; 1                            ;
+; 8                                          ; 1                            ;
+; 9                                          ; 3                            ;
+; 10                                         ; 6                            ;
 +--------------------------------------------+------------------------------+
 
 
 +-------------------------------------------------------------------+
 ; LAB-wide Signals                                                  ;
 +------------------------------------+------------------------------+
-; LAB-wide Signals  (Average = 1.00) ; Number of LABs  (Total = 11) ;
+; LAB-wide Signals  (Average = 1.13) ; Number of LABs  (Total = 16) ;
 +------------------------------------+------------------------------+
-; 1 Clock                            ; 9                            ;
+; 1 Clock                            ; 12                           ;
 ; 1 Clock enable                     ; 2                            ;
+; 2 Clocks                           ; 4                            ;
 +------------------------------------+------------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Signals Sourced                                                        ;
 +---------------------------------------------+------------------------------+
-; Number of Signals Sourced  (Average = 6.73) ; Number of LABs  (Total = 11) ;
+; Number of Signals Sourced  (Average = 7.56) ; Number of LABs  (Total = 16) ;
 +---------------------------------------------+------------------------------+
 ; 0                                           ; 0                            ;
-; 1                                           ; 2                            ;
-; 2                                           ; 0                            ;
-; 3                                           ; 0                            ;
-; 4                                           ; 1                            ;
-; 5                                           ; 0                            ;
-; 6                                           ; 0                            ;
+; 1                                           ; 1                            ;
+; 2                                           ; 1                            ;
+; 3                                           ; 1                            ;
+; 4                                           ; 0                            ;
+; 5                                           ; 1                            ;
+; 6                                           ; 1                            ;
 ; 7                                           ; 1                            ;
-; 8                                           ; 4                            ;
-; 9                                           ; 2                            ;
-; 10                                          ; 0                            ;
-; 11                                          ; 1                            ;
+; 8                                           ; 1                            ;
+; 9                                           ; 3                            ;
+; 10                                          ; 4                            ;
+; 11                                          ; 2                            ;
 +---------------------------------------------+------------------------------+
 
 
 +--------------------------------------------------------------------------------+
 ; LAB Signals Sourced Out                                                        ;
 +-------------------------------------------------+------------------------------+
-; Number of Signals Sourced Out  (Average = 2.36) ; Number of LABs  (Total = 11) ;
+; Number of Signals Sourced Out  (Average = 3.50) ; Number of LABs  (Total = 16) ;
 +-------------------------------------------------+------------------------------+
-; 0                                               ; 0                            ;
-; 1                                               ; 5                            ;
-; 2                                               ; 1                            ;
+; 0                                               ; 1                            ;
+; 1                                               ; 4                            ;
+; 2                                               ; 2                            ;
 ; 3                                               ; 2                            ;
-; 4                                               ; 2                            ;
-; 5                                               ; 1                            ;
+; 4                                               ; 0                            ;
+; 5                                               ; 4                            ;
+; 6                                               ; 2                            ;
+; 7                                               ; 0                            ;
+; 8                                               ; 0                            ;
+; 9                                               ; 0                            ;
+; 10                                              ; 1                            ;
 +-------------------------------------------------+------------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Distinct Inputs                                                        ;
 +---------------------------------------------+------------------------------+
-; Number of Distinct Inputs  (Average = 3.55) ; Number of LABs  (Total = 11) ;
+; Number of Distinct Inputs  (Average = 6.63) ; Number of LABs  (Total = 16) ;
 +---------------------------------------------+------------------------------+
 ; 0                                           ; 0                            ;
-; 1                                           ; 6                            ;
-; 2                                           ; 0                            ;
+; 1                                           ; 2                            ;
+; 2                                           ; 3                            ;
 ; 3                                           ; 0                            ;
-; 4                                           ; 0                            ;
-; 5                                           ; 1                            ;
-; 6                                           ; 0                            ;
-; 7                                           ; 0                            ;
+; 4                                           ; 2                            ;
+; 5                                           ; 0                            ;
+; 6                                           ; 2                            ;
+; 7                                           ; 1                            ;
 ; 8                                           ; 2                            ;
-; 9                                           ; 0                            ;
+; 9                                           ; 1                            ;
 ; 10                                          ; 0                            ;
-; 11                                          ; 0                            ;
-; 12                                          ; 1                            ;
+; 11                                          ; 1                            ;
+; 12                                          ; 0                            ;
+; 13                                          ; 0                            ;
+; 14                                          ; 1                            ;
+; 15                                          ; 0                            ;
+; 16                                          ; 0                            ;
+; 17                                          ; 0                            ;
+; 18                                          ; 0                            ;
+; 19                                          ; 0                            ;
+; 20                                          ; 0                            ;
+; 21                                          ; 1                            ;
 +---------------------------------------------+------------------------------+
 
 
-+-------------------------------------------------------------------------+
-; Fitter Device Options                                                   ;
-+----------------------------------------------+--------------------------+
-; Option                                       ; Setting                  ;
-+----------------------------------------------+--------------------------+
-; Enable user-supplied start-up clock (CLKUSR) ; Off                      ;
-; Enable device-wide reset (DEV_CLRn)          ; Off                      ;
-; Enable device-wide output enable (DEV_OE)    ; Off                      ;
-; Enable INIT_DONE output                      ; Off                      ;
-; Configuration scheme                         ; Active Serial            ;
-; Error detection CRC                          ; Off                      ;
-; ASDO,nCSO                                    ; As input tri-stated      ;
-; Reserve all unused pins                      ; As output driving ground ;
-; Base pin-out file on sameframe device        ; Off                      ;
-+----------------------------------------------+--------------------------+
++--------------------------------------------------------------------+
+; Fitter Device Options                                              ;
++----------------------------------------------+---------------------+
+; Option                                       ; Setting             ;
++----------------------------------------------+---------------------+
+; Enable user-supplied start-up clock (CLKUSR) ; Off                 ;
+; Enable device-wide reset (DEV_CLRn)          ; Off                 ;
+; Enable device-wide output enable (DEV_OE)    ; Off                 ;
+; Enable INIT_DONE output                      ; Off                 ;
+; Configuration scheme                         ; Active Serial       ;
+; Error detection CRC                          ; Off                 ;
+; ASDO,nCSO                                    ; As input tri-stated ;
+; Reserve all unused pins                      ; As input tri-stated ;
+; Base pin-out file on sameframe device        ; Off                 ;
++----------------------------------------------+---------------------+
 
 
 +-----------------+
 ; Fitter Messages ;
 +-----------------+
-Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (119006): Selected device EP1C3T100C8 for design "AD7864Drv"
 Info (15081): Implementing parameter values for PLL "pll:inst4|altpll:altpll_component|pll"
     Info (15099): Implementing clock multiplication of 12, clock division of 25, and phase shift of 0 degrees (0 ps) for pll:inst4|altpll:altpll_component|_clk0 port
@@ -981,16 +1054,9 @@ Info (176444): Device migration not selected. If you intend to use device migrat
 Info (169124): Fitter converted 2 user pins into dedicated programming pins
     Info (169125): Pin ~nCSO~ is reserved at location 6
     Info (169125): Pin ~ASDO~ is reserved at location 17
-Warning (335093): TimeQuest Timing Analyzer is analyzing 3 combinational loops as latches.
 Critical Warning (332012): Synopsys Design Constraints File file not found: 'AD7864Drv.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
 Info (332144): No user constrained generated clocks found in the design
 Info (332144): No user constrained base clocks found in the design
-Warning (332125): Found combinational loop of 2 nodes
-    Warning (332126): Node "inst17|spi_cs~0|dataa"
-    Warning (332126): Node "inst17|spi_cs~0|combout"
-Warning (332125): Found combinational loop of 2 nodes
-    Warning (332126): Node "inst17|cnter~5|combout"
-    Warning (332126): Node "inst17|cnter~5|dataa"
 Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
 Info (186079): Completed User Assigned Global Signals Promotion Operation
 Info (186363): DQS I/O pins require 0 global routing resources
@@ -998,55 +1064,48 @@ Info (186365): Promoted PLL clock signals
     Info (186369): Promoted signal "CLOCKPIN" to use global clock (user assigned)
     Info (186369): Promoted signal "pll:inst4|altpll:altpll_component|_clk0" to use global clock (user assigned)
 Info (186079): Completed PLL Placement Operation
-Info (186216): Automatically promoted some destinations of signal "cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[7]" to use Global clock
-    Info (186217): Destination "cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella7" may be non-global or may not use global clock
-Info (186216): Automatically promoted some destinations of signal "cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[7]" to use Global clock
-    Info (186217): Destination "cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|counter_cella7" may be non-global or may not use global clock
-Info (186216): Automatically promoted some destinations of signal "Parallel2Serial4OneAD7265New:inst17|rd_bar" to use Global clock
-    Info (186217): Destination "Parallel2Serial4OneAD7265New:inst17|rd_bar" may be non-global or may not use global clock
-    Info (186217): Destination "Parallel2Serial4OneAD7265New:inst17|cs_bar[3]~0" may be non-global or may not use global clock
-    Info (186217): Destination "Parallel2Serial4OneAD7265New:inst17|cs_bar[2]~1" may be non-global or may not use global clock
-    Info (186217): Destination "Parallel2Serial4OneAD7265New:inst17|cs_bar[1]~2" may be non-global or may not use global clock
-    Info (186217): Destination "Parallel2Serial4OneAD7265New:inst17|cs_bar[0]~3" may be non-global or may not use global clock
-    Info (186217): Destination "ADC_RD" may be non-global or may not use global clock
+Info (186216): Automatically promoted some destinations of signal "lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[1]" to use Global clock
+    Info (186217): Destination "lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|counter_cella1" may be non-global or may not use global clock
+Info (186216): Automatically promoted some destinations of signal "Parallel2Serial4OneAD7265New:inst17|spi_rdy" to use Global clock
+    Info (186217): Destination "Parallel2Serial4OneAD7265New:inst17|spi_rdy" may be non-global or may not use global clock
+    Info (186217): Destination "Parallel2Serial4OneAD7265New:inst17|tmpcnter[0]" may be non-global or may not use global clock
+    Info (186217): Destination "Parallel2Serial4OneAD7265New:inst17|tmpcnter[1]" may be non-global or may not use global clock
+    Info (186217): Destination "Parallel2Serial4OneAD7265New:inst17|tmpcnter[2]" may be non-global or may not use global clock
+    Info (186217): Destination "Parallel2Serial4OneAD7265New:inst17|enable_channel~0" may be non-global or may not use global clock
 Info (186079): Completed Auto Global Promotion Operation
 Info (176234): Starting register packing
 Info (186391): Fitter is using Normal packing mode for logic elements with Auto setting for Auto Packed Registers logic option
 Info (176243): Finished moving registers into I/O cells, LUTs, and RAM blocks
 Info (176235): Finished register packing
-Warning (15705): Ignored locations or region assignments to the following nodes
-    Warning (15706): Node "test" is assigned to location or region, but does not exist in design
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:00
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
-Info (170192): Fitter placement operations ending: elapsed time is 00:00:00
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:01
 Info (170193): Fitter routing operations beginning
-Info (170195): Router estimated average interconnect usage is 0% of the available device resources
-    Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X14_Y0 to location X27_Y14
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
+Info (170195): Router estimated average interconnect usage is 1% of the available device resources
+    Info (170196): Router estimated peak interconnect usage is 1% of the available device resources in the region that extends from location X0_Y0 to location X13_Y14
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 0.36 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.63 seconds.
 Info (186079): Completed Fixed Delay Chain Operation
 Info (306004): Started post-fitting delay annotation
 Info (306005): Delay annotation completed successfully
 Info (186079): Completed Auto Delay Chain Operation
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:00
-Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
-Warning (169174): The Reserve All Unused Pins setting has not been specified, and will default to 'As output driving ground'.
-Info (144001): Generated suppressed messages file D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/output_files/AD7864Drv.fit.smsg
-Info: Quartus II 64-Bit Fitter was successful. 0 errors, 13 warnings
-    Info: Peak virtual memory: 5213 megabytes
-    Info: Processing ended: Mon Sep 27 00:13:10 2021
-    Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:02
+Info (144001): Generated suppressed messages file D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/output_files/AD7864Drv.fit.smsg
+Info: Quartus II 64-Bit Fitter was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4972 megabytes
+    Info: Processing ended: Mon Oct 04 22:14:32 2021
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:05
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/output_files/AD7864Drv.fit.smsg.
+The suppressed messages can be found in D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/output_files/AD7864Drv.fit.smsg.
 
 

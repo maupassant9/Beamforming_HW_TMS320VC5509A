@@ -7,7 +7,7 @@ vmap work gate_work
 
 vlog -vlog01compat -work work +incdir+. {AD7864Drv.vo}
 
-vlog -vlog01compat -work work +incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv {D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/testbench.v}
+vlog -vlog01compat -work work +incdir+D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv {D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/testbench.v}
 
 vsim -t 1ps -L cyclone_ver -L gate_work -L work -voptargs="+acc"  mytestbench
 

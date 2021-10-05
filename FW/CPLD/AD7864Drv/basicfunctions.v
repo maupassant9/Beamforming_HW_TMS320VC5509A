@@ -14,7 +14,7 @@
 
 // PROGRAM		"Quartus II 64-Bit"
 // VERSION		"Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version"
-// CREATED		"Sun Sep 26 19:55:16 2021"
+// CREATED		"Fri Oct 01 22:37:03 2021"
 
 module basicfunctions(
 	CLOCKPIN,
@@ -74,9 +74,7 @@ output wire	LED_PIN;
 output wire	[3:0] AD_CS;
 
 wire	CLKIN;
-wire	[7:0] cnter1out;
-wire	[7:0] cnter2out;
-wire	[7:0] cnter3out;
+wire	[23:0] cnterout;
 wire	SYNTHESIZED_WIRE_0;
 
 assign	CPLD_EEPROM_CS = DSP_EEPROM_CS;
@@ -91,18 +89,8 @@ assign	GPIO3 = 0;
 
 
 
-cnter8Bits	b2v_inst(
-	.clock(CLKIN),
-	.q(cnter1out));
-
-
-cnter8Bits	b2v_inst1(
-	.clock(cnter1out[7]),
-	.q(cnter2out));
-
-
 ad7864Drv	b2v_inst13(
-	.clkin(cnter1out[2]),
+	.clkin(cnterout[2]),
 	.dsp_conv_bar(DSP_CONV_PIN),
 	.clkout(ADC_CLK),
 	.ad_conv_bar(ADC_CONV),
@@ -123,23 +111,23 @@ Parallel2Serial4OneAD7265New	b2v_inst17(
 
 
 DelayDrv	b2v_inst18(
-	.in1(cnter3out[1]),
-	.in2(cnter3out[6]),
+	.in1(cnterout[17]),
+	.in2(cnterout[22]),
 	.pwron(DSP_PWR_EN),
 	.rst(DSP_RST));
 
 assign	DSPCLKOUT =  ~CLKIN;
 
 
-cnter8Bits	b2v_inst3(
-	.clock(cnter2out[7]),
-	.q(cnter3out));
-
-
 pll	b2v_inst4(
 	.inclk0(CLOCKPIN),
 	.c0(CLKIN));
 
-assign	LED_PIN = cnter3out[7];
+
+lpm_counter0	b2v_inst5(
+	.clock(CLKIN),
+	.q(cnterout));
+
+assign	LED_PIN = cnterout[23];
 
 endmodule

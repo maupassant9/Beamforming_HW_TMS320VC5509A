@@ -10,7 +10,6 @@ module ad7864Drv
 
     //clock in
     input clkin,
-	 input clkinhi,
 	 //input pin from dsp
     //convert signal from dsp, this signal start everything
     input dsp_conv_bar, //dsp-->
@@ -22,53 +21,44 @@ module ad7864Drv
 	 output reg db_rdy
 );
 
-    reg [5:0] cnterPos; //counter for clkin
-	 reg [5:0] cnterNeg;
-	 wire [6:0] cnter;
-	 reg adcen;
-	 reg clken;
-	 wire clkinInv;
+
+	 reg [7:0] cnter;
+	 reg [7:0] cnterprev;
 	 
 	 //initialize the regs
 	 initial begin
-		adcen <= 1'b0;
-		clken <= 1'b0;
 		db_rdy <= 1'b0;
-		clkout <= 1'b1;
-		cnterNeg <= 6'b0;
-		cnterPos <= 6'b0;
+		clkout <= 1'b0;
+		cnterprev <= 8'b11111110;
+		cnter <= 8'b11111110;
 	 end
 		
     assign ad_conv_bar = dsp_conv_bar;
-	 assign clkinInv = ~clkin;
 	 
 	 always @(posedge clkin) begin
-		if(dsp_conv_bar == 1'b0) cnterPos = 6'b00000;
-		else	cnterPos = cnterPos + 1'b1;
-		if(cnterPos > 6'b111110) cnterPos = 6'b111110;
+		if(dsp_conv_bar == 1'b0) cnter = 8'b00000;
+		else	cnter = cnter + 6'b1;
+		if(cnter > 8'b11111110) cnter = 8'b11111110;
 	 end
 	 
-	 always @(posedge clkinInv) begin
-		if(dsp_conv_bar == 1'b0) cnterNeg = 6'b000000;
-		else cnterNeg = cnterNeg +1'b1;
-		
-		if(cnterNeg > 6'b111110) cnterNeg = 6'b111110;
-	 end
-	 
-	 // adder
-	 assign cnter = cnterPos + cnterNeg;
-	 
+	 	 
 	 //set adc enable signal
-	 always @(cnter) begin
+	 always @(posedge clkin) begin
 			//begin the adc clock
-			if(adcen == 1'b1) begin 
-				if((cnter == 7'h03)) clken <= 1'b1;				
+			//if(adcen == 1'b1) begin 		
+			if((cnterprev != cnter) && (cnter > 7'h4)) begin
 				//here should read the data
-				if(cnter == 7'h11) db_rdy <= 1'b1;
-				if(cnter == 7'h12) db_rdy <= 1'b0;				
-				if((cnter <= 7'h3b)&(cnter >= 7'h14)) clkout <= ~clkout;
+				if(cnter < 8'b11111110) begin
+					if(cnter == 8'h25) db_rdy = 1'b1;
+					if(cnter == 8'h27) db_rdy = 1'b0;				
+					if((cnter <= 8'h7b)&&(cnter >= 8'hc)) clkout = ~clkout;
+					else clkout = 1'b0;
+				end
 			end
+			cnterprev = cnter;
 	end
-	
 
 endmodule
+
+
+

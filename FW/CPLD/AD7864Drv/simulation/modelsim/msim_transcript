@@ -1,49 +1,49 @@
-# Reading D:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
 # do AD7864Drv_run_msim_rtl_verilog.do 
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
 # }
 # vlib rtl_work
 # vmap work rtl_work
-# Copying D:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
-# ** Warning: Copied D:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vlog -vlog01compat -work work +incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv {D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/Parallel2Serial4OneAD7265New.v}
+# vlog -vlog01compat -work work +incdir+D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv {D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/Parallel2Serial4OneAD7265New.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module Parallel2Serial4OneAD7265New
-# ** Warning: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/Parallel2Serial4OneAD7265New.v(42): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/Parallel2Serial4OneAD7265New.v(42): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
 # 
 # 
 # Top level modules:
 # 	Parallel2Serial4OneAD7265New
-# vlog -vlog01compat -work work +incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv {D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/DelayDrv.v}
+# vlog -vlog01compat -work work +incdir+D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv {D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/DelayDrv.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module DelayDrv
 # 
 # Top level modules:
 # 	DelayDrv
-# vlog -vlog01compat -work work +incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv {D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/ad7864Drv.v}
+# vlog -vlog01compat -work work +incdir+D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv {D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/ad7864Drv.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module ad7864Drv
 # 
 # Top level modules:
 # 	ad7864Drv
-# vlog -vlog01compat -work work +incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv {D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/pll.v}
+# vlog -vlog01compat -work work +incdir+D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv {D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/pll.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module pll
 # 
 # Top level modules:
 # 	pll
-# vlog -vlog01compat -work work +incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv {D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/cnter8bits.v}
+# vlog -vlog01compat -work work +incdir+D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv {D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/lpm_counter0.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module cnter8Bits
+# -- Compiling module lpm_counter0
 # 
 # Top level modules:
-# 	cnter8Bits
+# 	lpm_counter0
 # 
-# vlog -vlog01compat -work work +incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv {D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/testbench.v}
+# vlog -vlog01compat -work work +incdir+D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv {D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/testbench.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module testbench
 # 
@@ -52,126 +52,461 @@
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclone_ver -L rtl_work -L work -voptargs="+acc"  mytestbench
 # vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclone_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps mytestbench 
-# ** Error: (vsim-3170) Could not find 'D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/simulation/modelsim/rtl_work.mytestbench'.
+# ** Error: (vsim-3170) Could not find 'D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/simulation/modelsim/rtl_work.mytestbench'.
 # 
 # Error loading design
 # Error: Error loading design 
 #        Pausing macro execution 
 # MACRO ./AD7864Drv_run_msim_rtl_verilog.do PAUSED at line 16
-vlog -reportprogress 300 -work work D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/basicfunctions.v
+vlog -reportprogress 300 -work work D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/basicfunctions.v
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module basicfunctions
 # 
 # Top level modules:
 # 	basicfunctions
-vsim work.basicfunctions
-# vsim work.basicfunctions 
-# Loading work.basicfunctions
-# Loading work.cnter8Bits
-# ** Error: (vsim-3033) D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/cnter8bits.v(64): Instantiation of 'lpm_counter' failed. The design unit was not found.
+vlog -reportprogress 300 -work work D:/altera/13.0sp1/quartus/eda/sim_lib/220model.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module LPM_MEMORY_INITIALIZATION
+# -- Compiling module LPM_HINT_EVALUATION
+# -- Compiling module LPM_DEVICE_FAMILIES
+# -- Compiling module lpm_constant
+# -- Compiling module lpm_inv
+# -- Compiling module lpm_and
+# -- Compiling module lpm_or
+# -- Compiling module lpm_xor
+# -- Compiling module lpm_bustri
+# -- Compiling module lpm_mux
+# -- Compiling module lpm_decode
+# -- Compiling module lpm_clshift
+# -- Compiling module lpm_add_sub
+# -- Compiling module lpm_compare
+# -- Compiling module lpm_mult
+# -- Compiling module lpm_divide
+# -- Compiling module lpm_abs
+# -- Compiling module lpm_counter
+# -- Compiling module lpm_latch
+vlog -reportprogress 30 -work work D:/altera/13.0sp1/quartus/eda/sim_lib/cyclone_atoms.v
+# -- Compiling module lpm_ff
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# ** Warning: (vlog-6) -- Waiting for lock by "xiado@DESKTOP-MRJ3IVS, pid = 220
+# ". Lockfile is "D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/simulation/modelsim/rtl_work/_lock".
 # 
-#         Region: /basicfunctions/b2v_inst
-#         Searched libraries:
-#             D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/simulation/modelsim/rtl_work
-# ** Error: (vsim-3033) D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/cnter8bits.v(64): Instantiation of 'lpm_counter' failed. The design unit was not found.
+# -- Compiling module lpm_shiftreg
+# -- Compiling module lpm_ram_dq
+# -- Compiling module lpm_ram_dp
+# -- Compiling module lpm_ram_io
+# -- Compiling module lpm_rom
+# -- Compiling module lpm_fifo
+# -- Compiling module lpm_fifo_dc_dffpipe
+# -- Compiling module lpm_fifo_dc_fefifo
+# -- Compiling module lpm_fifo_dc_async
+# -- Compiling module lpm_fifo_dc
+# -- Compiling module lpm_inpad
+# -- Compiling module lpm_outpad
+# -- Compiling module lpm_bipad
 # 
-#         Region: /basicfunctions/b2v_inst1
-#         Searched libraries:
-#             D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/simulation/modelsim/rtl_work
-# Loading work.ad7864Drv
-# Loading work.Parallel2Serial4OneAD7265New
-# Loading work.DelayDrv
-# ** Error: (vsim-3033) D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/cnter8bits.v(64): Instantiation of 'lpm_counter' failed. The design unit was not found.
+# Top level modules:
+# 	lpm_constant
+# 	lpm_inv
+# 	lpm_and
+# 	lpm_or
+# 	lpm_xor
+# 	lpm_bustri
+# 	lpm_mux
+# 	lpm_decode
+# 	lpm_clshift
+# 	lpm_add_sub
+# 	lpm_compare
+# 	lpm_mult
+# 	lpm_divide
+# 	lpm_abs
+# 	lpm_counter
+# 	lpm_latch
+# 	lpm_ff
+# 	lpm_shiftreg
+# 	lpm_ram_dq
+# 	lpm_ram_dp
+# 	lpm_ram_io
+# 	lpm_rom
+# 	lpm_fifo
+# 	lpm_fifo_dc
+# 	lpm_inpad
+# 	lpm_outpad
+# 	lpm_bipad
+# -- Compiling UDP CYCLONE_PRIM_DFFE
+# -- Compiling UDP CYCLONE_PRIM_DFFEAS
+# -- Compiling UDP CYCLONE_PRIM_DFFEAS_HIGH
+# -- Compiling module cyclone_dffe
+# -- Compiling module cyclone_mux21
+# -- Compiling module cyclone_mux41
+# -- Compiling module cyclone_and1
+# -- Compiling module cyclone_and16
+# -- Compiling module cyclone_bmux21
+# -- Compiling module cyclone_b17mux21
+# -- Compiling module cyclone_nmux21
+# -- Compiling module cyclone_b5mux21
+# -- Compiling module cyclone_asynch_lcell
+# -- Compiling module cyclone_lcell_register
+# -- Compiling module cyclone_lcell
+# -- Compiling module cyclone_ram_pulse_generator
+# -- Compiling module cyclone_ram_register
+# -- Compiling module cyclone_ram_block
+# -- Compiling module cyclone_m_cntr
+# -- Compiling module cyclone_n_cntr
+# -- Compiling module cyclone_scale_cntr
+# -- Compiling module cyclone_pll_reg
+# -- Compiling module cyclone_pll
+# -- Compiling module cyclone_dll
+# -- Compiling module cyclone_jtag
+# -- Compiling module cyclone_crcblock
+# -- Compiling module cyclone_routing_wire
+# -- Compiling module cyclone_asynch_io
+# -- Compiling module cyclone_io
+# -- Compiling module cyclone_asmiblock
 # 
-#         Region: /basicfunctions/b2v_inst3
-#         Searched libraries:
-#             D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/simulation/modelsim/rtl_work
-# Loading work.pll
-# ** Error: (vsim-3033) D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/pll.v(90): Instantiation of 'altpll' failed. The design unit was not found.
+# Top level modules:
+# 	cyclone_mux41
+# 	cyclone_and1
+# 	cyclone_and16
+# 	cyclone_bmux21
+# 	cyclone_b17mux21
+# 	cyclone_nmux21
+# 	cyclone_b5mux21
+# 	cyclone_lcell
+# 	cyclone_ram_block
+# 	cyclone_pll
+# 	cyclone_dll
+# 	cyclone_jtag
+# 	cyclone_crcblock
+# 	cyclone_routing_wire
+# 	cyclone_io
+# 	cyclone_asmiblock
+vlog -reportprogress 30 -work work D:/altera/13.0sp1/quartus/eda/sim_lib/altera_mf.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
 # 
-#         Region: /basicfunctions/b2v_inst4
-#         Searched libraries:
-#             D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/simulation/modelsim/rtl_work
-# Error loading design
-# Error: Error loading design 
-#        Pausing macro execution 
-# MACRO ./AD7864Drv_run_msim_rtl_verilog.do PAUSED at line 16
-vsim work.ad7864Drv
-# vsim work.ad7864Drv 
-# Loading work.ad7864Drv
-vsim work.ad7864Drv
-# vsim work.ad7864Drv 
-# Loading work.ad7864Drv
-add wave -position end  sim:/ad7864Drv/ad_conv_bar
-add wave -position end  sim:/ad7864Drv/adcen
-add wave -position end  sim:/ad7864Drv/clken
-add wave -position end  sim:/ad7864Drv/clkin
-add wave -position end  sim:/ad7864Drv/clkinhi
-add wave -position end  sim:/ad7864Drv/clkout
-add wave -position end  sim:/ad7864Drv/cnter
-add wave -position end  sim:/ad7864Drv/db_rdy
-add wave -position end  sim:/ad7864Drv/dsp_conv_bar
-force -freeze sim:/ad7864Drv/clkinhi 1 0, 0 {5 ps} -r 10
-force -freeze sim:/ad7864Drv/clkin 1 0, 0 {500 ps} -r 1000
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-force -freeze sim:/ad7864Drv/ad_conv_bar 1 0
-force -freeze sim:/ad7864Drv/ad_conv_bar St1 0
-run
-run
-run
-run
-run
-force -freeze sim:/ad7864Drv/ad_conv_bar 0 0
-run
-run
-force -freeze sim:/ad7864Drv/ad_conv_bar 1 0
-run
-force -freeze sim:/ad7864Drv/dsp_conv_bar 1 0
-run
-force -freeze sim:/ad7864Drv/dsp_conv_bar 0 0
-run
-force -freeze sim:/ad7864Drv/dsp_conv_bar 1 0
-run
-run
-restart
-restart
-force -freeze sim:/ad7864Drv/clkinhi 1 0, 0 {5 ps} -r 10
-force -freeze sim:/ad7864Drv/clkin 1 0, 0 {500 ps} -r 1000
-force -freeze sim:/ad7864Drv/dsp_conv_bar HiZ 1
-run
-run
-run
-run
-restart
-force -freeze sim:/ad7864Drv/clkinhi 1 0, 0 {5 ps} -r 10
-force -freeze sim:/ad7864Drv/clkin 1 0, 0 {250 ps} -r 500
-force -freeze sim:/ad7864Drv/dsp_conv_bar 1 0
-run
-run
-force -freeze sim:/ad7864Drv/dsp_conv_bar 0 0
-run
-run
-run
-run
-force -freeze sim:/ad7864Drv/dsp_conv_bar 1 0
-run
-run
-run
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+vlog -reportprogress 30 -work work D:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module global
+# -- Compiling module carry
+# -- Compiling module cascade
+# -- Compiling module carry_sum
+# -- Compiling module exp
+# -- Compiling module soft
+# -- Compiling module opndrn
+# -- Compiling module row_global
+# -- Compiling module TRI
+# -- Compiling module lut_input
+# -- Compiling module lut_output
+# -- Compiling module latch
+# -- Compiling module dlatch
+# -- Compiling module prim_gdff
+# -- Compiling module dff
+# -- Compiling module dffe
+# -- Compiling module dffea
+# -- Compiling module dffeas
+# -- Compiling module prim_gtff
+# -- Compiling module tff
+# -- Compiling module tffe
+# -- Compiling module prim_gjkff
+# -- Compiling module jkff
+# -- Compiling module jkffe
+# -- Compiling module prim_gsrff
+# -- Compiling module srff
+# -- Compiling module srffe
+# -- Compiling module clklock
+# -- Compiling module alt_inbuf
+# -- Compiling module alt_outbuf
+# -- Compiling module alt_outbuf_tri
+# -- Compiling module alt_iobuf
+# -- Compiling module alt_inbuf_diff
+# -- Compiling module alt_outbuf_diff
+# -- Compiling module alt_outbuf_tri_diff
+# -- Compiling module alt_iobuf_diff
+# -- Compiling module alt_bidir_diff
+# -- Compiling module alt_bidir_buf
+# -- Compiling UDP PRIM_GDFF_LOW
+# -- Compiling UDP PRIM_GDFF_HIGH
+# 
+# Top level modules:
+# 	global
+# 	carry
+# 	cascade
+# 	carry_sum
+# 	exp
+# 	soft
+# 	opndrn
+# 	row_global
+# 	TRI
+# 	lut_input
+# 	lut_output
+# 	latch
+# 	dlatch
+# 	dff
+# 	dffe
+# 	dffea
+# 	dffeas
+# 	tff
+# 	tffe
+# 	jkff
+# 	jkffe
+# 	srff
+# 	srffe
+# 	clklock
+# 	alt_inbuf
+# 	alt_outbuf
+# 	alt_outbuf_tri
+# 	alt_iobuf
+# 	alt_inbuf_diff
+# 	alt_outbuf_diff
+# 	alt_outbuf_tri_diff
+# 	alt_iobuf_diff
+# 	alt_bidir_diff
+# 	alt_bidir_buf
+vlog -reportprogress 30 -work work D:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives_quasar.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module global
+# -- Compiling module carry
+# -- Compiling module cascade
+# -- Compiling module carry_sum
+# -- Compiling module exp
+# -- Compiling module soft
+# -- Compiling module opndrn
+# -- Compiling module row_global
+# -- Compiling module TRI
+# -- Compiling module lut_input
+# -- Compiling module lut_output
+# -- Compiling module latch
+# -- Compiling module dlatch
+# -- Compiling module prim_gdff
+# -- Compiling module dff
+# -- Compiling module dffe
+# -- Compiling module dffea
+# -- Compiling module dffeas
+# -- Compiling module prim_gtff
+# -- Compiling module tff
+# -- Compiling module tffe
+# -- Compiling module prim_gjkff
+# -- Compiling module jkff
+# -- Compiling module jkffe
+# -- Compiling module prim_gsrff
+# -- Compiling module srff
+# -- Compiling module srffe
+# -- Compiling module clklock
+# -- Compiling module alt_inbuf
+# -- Compiling module alt_outbuf
+# -- Compiling module alt_outbuf_tri
+# -- Compiling module alt_iobuf
+# -- Compiling module alt_inbuf_diff
+# -- Compiling module alt_outbuf_diff
+# -- Compiling module alt_outbuf_tri_diff
+# -- Compiling module alt_iobuf_diff
+# -- Compiling module alt_bidir_diff
+# -- Compiling module alt_bidir_buf
+# 
+# Top level modules:
+# 	global
+# 	carry
+# 	cascade
+# 	carry_sum
+# 	exp
+# 	soft
+# 	opndrn
+# 	row_global
+# 	TRI
+# 	lut_input
+# 	lut_output
+# 	latch
+# 	dlatch
+# 	dff
+# 	dffe
+# 	dffea
+# 	dffeas
+# 	tff
+# 	tffe
+# 	jkff
+# 	jkffe
+# 	srff
+# 	srffe
+# 	clklock
+# 	alt_inbuf
+# 	alt_outbuf
+# 	alt_outbuf_tri
+# 	alt_iobuf
+# 	alt_inbuf_diff
+# 	alt_outbuf_diff
+# 	alt_outbuf_tri_diff
+# 	alt_iobuf_diff
+# 	alt_bidir_diff
+# 	alt_bidir_buf
+vlog -reportprogress 300 -work work D:/altera/13.0sp1/quartus/eda/sim_lib/cyclone_atoms.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling UDP CYCLONE_PRIM_DFFE
+# -- Compiling UDP CYCLONE_PRIM_DFFEAS
+# -- Compiling UDP CYCLONE_PRIM_DFFEAS_HIGH
+# -- Compiling module cyclone_dffe
+# -- Compiling module cyclone_mux21
+# -- Compiling module cyclone_mux41
+# -- Compiling module cyclone_and1
+# -- Compiling module cyclone_and16
+# -- Compiling module cyclone_bmux21
+# -- Compiling module cyclone_b17mux21
+# -- Compiling module cyclone_nmux21
+# -- Compiling module cyclone_b5mux21
+# -- Compiling module cyclone_asynch_lcell
+# -- Compiling module cyclone_lcell_register
+# -- Compiling module cyclone_lcell
+# -- Compiling module cyclone_ram_pulse_generator
+# -- Compiling module cyclone_ram_register
+# -- Compiling module cyclone_ram_block
+# -- Compiling module cyclone_m_cntr
+# -- Compiling module cyclone_n_cntr
+# -- Compiling module cyclone_scale_cntr
+# -- Compiling module cyclone_pll_reg
+# -- Compiling module cyclone_pll
+# -- Compiling module cyclone_dll
+# -- Compiling module cyclone_jtag
+# -- Compiling module cyclone_crcblock
+# -- Compiling module cyclone_routing_wire
+# -- Compiling module cyclone_asynch_io
+# -- Compiling module cyclone_io
+# -- Compiling module cyclone_asmiblock
+# 
+# Top level modules:
+# 	cyclone_mux41
+# 	cyclone_and1
+# 	cyclone_and16
+# 	cyclone_bmux21
+# 	cyclone_b17mux21
+# 	cyclone_nmux21
+# 	cyclone_b5mux21
+# 	cyclone_lcell
+# 	cyclone_ram_block
+# 	cyclone_pll
+# 	cyclone_dll
+# 	cyclone_jtag
+# 	cyclone_crcblock
+# 	cyclone_routing_wire
+# 	cyclone_io
+# 	cyclone_asmiblock

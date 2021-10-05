@@ -2,57 +2,69 @@
 TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
-Type  : Setup 'cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[7]'
-Slack : -1.527
-TNS   : -9.645
+Type  : Setup 'inst4|altpll_component|pll|clk[0]'
+Slack : -8.130
+TNS   : -196.708
+
+Type  : Setup 'lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[1]'
+Slack : -4.036
+TNS   : -33.537
+
+Type  : Setup 'Parallel2Serial4OneAD7265New:inst17|spi_rdy'
+Slack : -0.548
+TNS   : -1.687
+
+Type  : Setup 'Parallel2Serial4OneAD7265New:inst17|enable_channel'
+Slack : -0.156
+TNS   : -0.156
 
 Type  : Setup 'Parallel2Serial4OneAD7265New:inst17|rd_bar'
-Slack : -1.493
-TNS   : -2.710
-
-Type  : Setup 'cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[7]'
-Slack : -1.449
-TNS   : -9.169
-
-Type  : Setup 'inst4|altpll_component|pll|clk[0]'
-Slack : -0.858
-TNS   : -1.237
-
-Type  : Hold 'cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[7]'
-Slack : -3.289
-TNS   : -19.345
-
-Type  : Hold 'cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[7]'
-Slack : -2.916
-TNS   : -2.916
-
-Type  : Hold 'Parallel2Serial4OneAD7265New:inst17|rd_bar'
-Slack : 0.297
-TNS   : 0.000
+Slack : -0.089
+TNS   : -0.089
 
 Type  : Hold 'inst4|altpll_component|pll|clk[0]'
-Slack : 0.329
+Slack : 0.323
 TNS   : 0.000
 
-Type  : Minimum Pulse Width 'cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[7]'
-Slack : -1.318
-TNS   : -21.088
+Type  : Hold 'lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[1]'
+Slack : 0.880
+TNS   : 0.000
 
-Type  : Minimum Pulse Width 'cnter8Bits:inst|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[7]'
-Slack : -1.318
-TNS   : -21.088
+Type  : Hold 'Parallel2Serial4OneAD7265New:inst17|rd_bar'
+Slack : 1.037
+TNS   : 0.000
 
-Type  : Minimum Pulse Width 'cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[1]'
-Slack : -1.318
-TNS   : -2.636
+Type  : Hold 'Parallel2Serial4OneAD7265New:inst17|spi_rdy'
+Slack : 1.038
+TNS   : 0.000
 
-Type  : Minimum Pulse Width 'cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component|cntr_adh:auto_generated|safe_q[6]'
+Type  : Hold 'Parallel2Serial4OneAD7265New:inst17|enable_channel'
+Slack : 1.104
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[1]'
+Slack : -1.318
+TNS   : -47.448
+
+Type  : Minimum Pulse Width 'Parallel2Serial4OneAD7265New:inst17|spi_rdy'
+Slack : -1.318
+TNS   : -13.180
+
+Type  : Minimum Pulse Width 'Parallel2Serial4OneAD7265New:inst17|enable_channel'
 Slack : -1.318
 TNS   : -2.636
 
 Type  : Minimum Pulse Width 'Parallel2Serial4OneAD7265New:inst17|rd_bar'
-Slack : 0.500
-TNS   : 0.000
+Slack : -1.318
+TNS   : -2.636
+
+Type  : Minimum Pulse Width 'lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[17]'
+Slack : -1.318
+TNS   : -2.636
+
+Type  : Minimum Pulse Width 'lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[22]'
+Slack : -1.318
+TNS   : -2.636
 
 Type  : Minimum Pulse Width 'CLOCKPIN'
 Slack : 10.000

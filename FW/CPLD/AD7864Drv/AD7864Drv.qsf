@@ -65,9 +65,9 @@ set_location_assignment PIN_40 -to AD_CS[3]
 set_location_assignment PIN_39 -to AD_CS[2]
 set_location_assignment PIN_38 -to AD_CS[1]
 set_location_assignment PIN_79 -to AD_CS[0]
-set_location_assignment PIN_36 -to ADC_CLK
+set_location_assignment PIN_87 -to ADC_CLK
 set_location_assignment PIN_25 -to ADC_CONV
-set_location_assignment PIN_35 -to ADC_RD
+set_location_assignment PIN_90 -to ADC_RD
 set_location_assignment PIN_29 -to CPLD_EEPROM_CS
 set_location_assignment PIN_28 -to CPLD_EEPROM_MISO
 set_location_assignment PIN_27 -to CPLD_EEPROM_MOSI
@@ -89,14 +89,14 @@ set_location_assignment PIN_98 -to GPIO2
 set_location_assignment PIN_97 -to GPIO3
 set_instance_assignment -name GLOBAL_SIGNAL "GLOBAL CLOCK" -to CLOCKPIN
 set_location_assignment PIN_91 -to LED_PIN
-set_location_assignment PIN_37 -to test
+set_location_assignment PIN_85 -to test
 set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
 set_global_assignment -name EDA_TIME_SCALE "10 ps" -section_id eda_simulation
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_ENTRY_SYNTHESIS_TOOL "Design Compiler"
 set_global_assignment -name EDA_INPUT_VCC_NAME VDD -section_id eda_design_synthesis
 set_global_assignment -name EDA_LMF_FILE altsyn.lmf -section_id eda_design_synthesis
-set_global_assignment -name EDA_INPUT_DATA_FORMAT EDIF -section_id eda_design_synthesis
+set_global_assignment -name EDA_INPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_design_synthesis
 set_global_assignment -name EDA_RUN_TOOL_AUTOMATICALLY OFF -section_id eda_simulation
 set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
 set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH mytestbench -section_id eda_simulation
@@ -113,4 +113,14 @@ set_global_assignment -name VERILOG_FILE DelayDrv.v
 set_global_assignment -name VERILOG_FILE ad7864Drv.v
 set_global_assignment -name QIP_FILE pll.qip
 set_global_assignment -name VERILOG_FILE testbench.v
+set_global_assignment -name CYCLONE_OPTIMIZATION_TECHNIQUE SPEED
+set_global_assignment -name SYNTH_TIMING_DRIVEN_SYNTHESIS OFF
+set_global_assignment -name QIP_FILE lpm_counter0.qip
+set_global_assignment -name CDF_FILE output_files/output_files/Chain1.cdf
+set_global_assignment -name CDF_FILE output_files/Chain2.cdf
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED"
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
+set_global_assignment -name CDF_FILE output_files/Chain1.cdf
+set_global_assignment -name SOURCE_FILE ad7864Drv.bkup
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

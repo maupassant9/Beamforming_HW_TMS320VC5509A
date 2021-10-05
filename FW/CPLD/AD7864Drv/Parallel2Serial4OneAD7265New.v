@@ -5,25 +5,23 @@
 //Date: 19/Set/2021
 
 `define ADC_CHIP_NO 4
-`define SPI_CLK_NO 5
-`define MAX_CHANNEL_NO 3  //should be the number of channel -1 
+`define MAX_CHANNEL_NO f  //should be the number of channel -1 (HEX)
 module Parallel2Serial4OneAD7265New (
 
 	//clock in: 24Mhz clk
     input clkin,
-	 
 	 //enable the logic, pulse signal
 	 input enable,
-	 
-	
 	 //parallel data and control signal
 	 input [11:0] db, //data[11:0]
+	 
+	 
     output reg [3:0] cs_bar, //chip select to ad
 	 output reg rd_bar,
 	 output reg sclk,
-//    input miso,
-	 output reg spi_cs,
-    output reg mosi);
+	 output spi_cs,
+    output reg mosi,
+	 output test);
 	 
 	 reg [2:0] cnter;
 	 reg [3:0] sel; 
@@ -31,25 +29,33 @@ module Parallel2Serial4OneAD7265New (
 	 reg [11:0] dbreg;
 	 reg spi_rdy;
 	 reg enspi;
-	 reg enp;
+	 wire enp;
+	 reg enp1;
+	 reg enp2;
 	 reg enspiPrev;
 	 reg [3:0] cnter_ch;
 	 reg enable_channel;
 	 reg [2:0] tmpcnter;
+	 reg spi_cs1;
+	 reg spi_cs2;
+	 reg rdbar_prev;
 	 		
 	 initial begin
 			sel <= 4'b1100;
 			cnter <= 3'h00;
-			enp <= 1'b0;
+			enp1 <= 1'b0;
+			enp2 <= 1'b0;
 			sclk <= 1'b1;
 			rd_bar <= 1'b1;
+			rdbar_prev <= 1'b1;
 			reg_cs_bar <= `ADC_CHIP_NO'b0;
 			cs_bar <= 4'b1111;
 			mosi <= 1'b0;
 			enspi <= 1'b0;
 			enspiPrev <= 1'b0;
 			spi_rdy <= 1'b1;
-			spi_cs <= 1'b1;
+			spi_cs1 <= 1'b1;
+			spi_cs2 <= 1'b1;
 			cnter_ch <= 4'b0000;
 			enable_channel <= 1'b0;
 			tmpcnter <= 3'b0;
@@ -57,11 +63,19 @@ module Parallel2Serial4OneAD7265New (
 	 
 	 
 	 //generate the module enable signal
-	 always @(posedge enable_channel, posedge spi_rdy) begin
+	 always @(posedge enable_channel) begin
 		//if enable turns to ready, then start to read the data
-		enp = ~enp;
+		enp1 = ~enp1;
 	 end 
 	 
+	 always @(posedge spi_rdy) begin
+		//if enable turns to ready, then start to read the data
+		enp2 = ~enp2;
+	 end 
+	 
+	 assign enp = (enp1 ^ enp2);
+	 
+	 assign test = sclk;
 	 //auto generate the enable signal to activate the 
 	 //read of all the other channels besides the 0 channel.
 	 always @(posedge clkin) begin
@@ -90,8 +104,6 @@ module Parallel2Serial4OneAD7265New (
 	 
 	 
 	 always @(posedge clkin) begin
-		 
-		 if(clkin == 1'b1) begin
 			 //During en signal:
 			 // counter add up
 			 // generate the rd cs signal
@@ -101,36 +113,45 @@ module Parallel2Serial4OneAD7265New (
 				 //generate the rd signal
 				 if(cnter == 3'h1) rd_bar = 1'b0;
 				 if(cnter == 3'h2) dbreg = db;
-				 if(cnter == 3'h3) rd_bar = 1'b1;
-				 if(cnter == 3'h5) enspi = 1'b1;
+				 if(cnter == 3'h3) begin 
+						rd_bar = 1'b1;
+						enspi = 1'b1;
+				 end
 				 if(cnter == 3'h6) enspi = 1'b0;
 			end
 			else cnter = 3'b000;
-		end
 	 end
 	 
 	 
 	 //generate the cs signal 
 	 always @(rd_bar) begin
-		 if(rd_bar == 1'b0) begin
+		if((rdbar_prev == 1'b1)&&(rd_bar == 1'b0)) begin 
 			reg_cs_bar = reg_cs_bar << 1;
 			if(reg_cs_bar == `ADC_CHIP_NO'b0) begin
 				reg_cs_bar = `ADC_CHIP_NO'b1;
 			end 
 			cs_bar = ~reg_cs_bar;
-		 end
-		 else begin
-			cs_bar = ~`ADC_CHIP_NO'b0;
-		 end
+		end
+		else begin
+			if((rdbar_prev == 1'b0)&&(rd_bar == 1'b1))begin
+				cs_bar = ~`ADC_CHIP_NO'b0;
+			end
+		end
+		 
+		 rdbar_prev = rd_bar;
 	 end
 	 
 	 
 	 //generate the spi cs signal
-	 always @(posedge rd_bar, posedge spi_rdy) begin
-	 	spi_cs = ~spi_cs;	
+	 always @(posedge rd_bar) begin
+	 	spi_cs1 = ~spi_cs1;	
 	 end
 	 
-
+	 always @(posedge spi_rdy) begin
+		spi_cs2 = ~spi_cs2;
+	 end
+	 
+	 assign spi_cs = ~(spi_cs1^spi_cs2);
 
     //convert parallel data into serial
 	 //dbrdy negedge work as a enable signal to spi 
@@ -139,8 +160,9 @@ module Parallel2Serial4OneAD7265New (
 			if(enspiPrev != enspi) begin
 				sel = 4'b0000;
 				spi_rdy = 1'b0;
+				enspiPrev = enspi;
 			end 
-			enspiPrev = enspi;
+			
 	  
 			if(sel < 4'b1100) begin
 				sclk = ~sclk;

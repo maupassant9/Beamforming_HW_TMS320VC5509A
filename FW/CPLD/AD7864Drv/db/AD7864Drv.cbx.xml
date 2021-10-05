@@ -1,8 +1,6 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="AD7864Drv">
-		<CBX_INST_ENTRY INSTANCE_NAME="|basicfunctions|cnter8Bits:inst1|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_adh.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|basicfunctions|cnter8Bits:inst3|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_adh.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|basicfunctions|cnter8Bits:inst|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_adh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|basicfunctions|lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_oeh.tdf"/>
 	</PROJECT>
 </LOG_ROOT>

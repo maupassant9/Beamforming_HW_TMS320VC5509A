@@ -2,11 +2,11 @@ m255
 K3
 13
 cModel Technology
-Z0 dD:\otherProjects\Beamforming\Beamforming_HW_TMS320VC5509A\FW\CPLD\AD7864Drv\simulation\modelsim
+Z0 dD:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\FW\CPLD\AD7864Drv\simulation\modelsim
 va_graycounter
 IfM`17XO87BI118Tnng9e<2
 VDf]LUSeG959GAjb>XD]GQ3
-Z1 dD:\otherProjects\Beamforming\Beamforming_HW_TMS320VC5509A\FW\CPLD\AD7864Drv\simulation\modelsim
+Z1 dD:\xiado\Project\someProject\beamforming\Beamforming_HW_TMS320VC5509A\FW\CPLD\AD7864Drv\simulation\modelsim
 Z2 w1371091824
 Z3 8D:/altera/13.0sp1/quartus/eda/sim_lib/altera_mf.v
 Z4 FD:/altera/13.0sp1/quartus/eda/sim_lib/altera_mf.v
@@ -14,13 +14,33 @@ L0 49128
 Z5 OV;L;10.1d;51
 r1
 31
-Z6 !s108 1632701674.550000
+Z6 !s108 1633138070.174000
 Z7 !s107 D:/altera/13.0sp1/quartus/eda/sim_lib/altera_mf.v|
 Z8 !s90 -reportprogress|30|-work|work|D:/altera/13.0sp1/quartus/eda/sim_lib/altera_mf.v|
 Z9 o-work work -O0
 !i10b 1
 !s100 VKJCe458CIbIIA:VHeRUY1
 !s85 0
+!s101 -O0
+vad7864Drv
+I7O6iGW2aHYj`S_oQUj2l30
+V9W2bN3RYfKMQ0]Lg;LgUM1
+R1
+w1633136350
+8D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/ad7864Drv.v
+FD:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/ad7864Drv.v
+L0 7
+R5
+r1
+31
+R9
+nad7864@drv
+!i10b 1
+!s100 kG81QaC]AP7IIgV8i38Vc0
+!s85 0
+!s108 1633138422.423000
+!s107 D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/ad7864Drv.v|
+!s90 -reportprogress|300|-work|work|D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/ad7864Drv.v|
 !s101 -O0
 valt3pram
 ITRfMfAfUHCHVYchh>:=Fe1
@@ -71,7 +91,7 @@ L0 1148
 R5
 r1
 31
-Z13 !s108 1632701683.864000
+Z13 !s108 1633138093.972000
 Z14 !s107 D:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives_quasar.v|
 Z15 !s90 -reportprogress|30|-work|work|D:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives_quasar.v|
 R9
@@ -919,25 +939,24 @@ R9
 !s85 0
 !s101 -O0
 vbasicfunctions
-IH>6[9@Kg154GehbIcOU3R1
-Vj;9<6jJPhJmd]KBLa@zI63
+!i10b 1
+!s100 g>CAcfoMhMi_EH;Ehz^^81
+I9nQ9i5_^UOSal`T<CR9i?2
+V:CQWbnaI5V7=lZKYAQIl`1
 R1
-w1632701624
-8AD7864Drv.vo
-FAD7864Drv.vo
-L0 31
+w1633138623
+8D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/basicfunctions.v
+FD:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/basicfunctions.v
+L0 19
 R5
 r1
-31
-Z16 o-vlog01compat -work work -O0
-!i10b 1
-!s100 :K9FSZieLTU?jP17ON9J11
 !s85 0
-!s108 1632701645.102000
-!s107 AD7864Drv.vo|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|AD7864Drv.vo|
+31
+!s108 1633138634.292000
+!s107 D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/basicfunctions.v|
+!s90 -reportprogress|300|-work|work|D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/basicfunctions.v|
 !s101 -O0
-!s92 -vlog01compat -work work +incdir+. -O0
+R9
 vcarry
 I[c=JAWca?9Lzmz`^PAh9;1
 VI2hZ[c0BXLj;RMfz_`dDM3
@@ -1072,578 +1091,578 @@ R9
 !s85 0
 !s101 -O0
 vcyclone_and1
-!i10b 1
-!s100 k=`UXlNjHS?7z2cRES]Tz1
 ImNaV[eAlj3Hn_C4G<b_J71
 VI5Qd:ff0KCB<CNFbW:zi61
 R1
-Z17 w1371121260
-Z18 8D:/altera/13.0sp1/quartus/eda/sim_lib/cyclone_atoms.v
-Z19 FD:/altera/13.0sp1/quartus/eda/sim_lib/cyclone_atoms.v
+Z16 w1371121260
+Z17 8D:/altera/13.0sp1/quartus/eda/sim_lib/cyclone_atoms.v
+Z18 FD:/altera/13.0sp1/quartus/eda/sim_lib/cyclone_atoms.v
 L0 289
 R5
 r1
-!s85 0
 31
-Z20 !s108 1632701686.379000
-Z21 !s107 D:/altera/13.0sp1/quartus/eda/sim_lib/cyclone_atoms.v|
-Z22 !s90 -reportprogress|30|-work|work|D:/altera/13.0sp1/quartus/eda/sim_lib/cyclone_atoms.v|
-!s101 -O0
+Z19 !s108 1633138099.812000
+Z20 !s107 D:/altera/13.0sp1/quartus/eda/sim_lib/cyclone_atoms.v|
+Z21 !s90 -reportprogress|30|-work|work|D:/altera/13.0sp1/quartus/eda/sim_lib/cyclone_atoms.v|
 R9
-vcyclone_and16
 !i10b 1
-!s100 NPP0_foA1Io@f4=]cNT[C2
+!s100 k=`UXlNjHS?7z2cRES]Tz1
+!s85 0
+!s101 -O0
+vcyclone_and16
 I:<kzm3kRIBPT8:jg6F?U^0
 VRV7=616Y<mU=]CX637U3E0
 R1
+R16
 R17
 R18
-R19
 L0 302
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
-vcyclone_asmiblock
 !i10b 1
-!s100 GJUAXjzJU1=<3P>DQ?JH^3
+!s100 NPP0_foA1Io@f4=]cNT[C2
+!s85 0
+!s101 -O0
+vcyclone_asmiblock
 I=`UH9^fh[jPm^1Y^m;gMB0
 Va59b2eNlhoozP8_l^NX8c2
 R1
+R16
 R17
 R18
-R19
 L0 7078
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
-vcyclone_asynch_io
 !i10b 1
-!s100 TROcnjke^>3<;0ji`4<Wf0
+!s100 GJUAXjzJU1=<3P>DQ?JH^3
+!s85 0
+!s101 -O0
+vcyclone_asynch_io
 Ieghna=]a5bMcAI2ZD0c>L0
 Vg1_B<69YNl0WYdTGPIQC43
 R1
+R16
 R17
 R18
-R19
 L0 6685
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
-vcyclone_asynch_lcell
 !i10b 1
-!s100 Rb:=M8REk0bhh`OI=Pg7Y3
+!s100 TROcnjke^>3<;0ji`4<Wf0
+!s85 0
+!s101 -O0
+vcyclone_asynch_lcell
 IAVDE<1jYTWaOCzWY@?OJY2
 VdO?STB:feDESA7I<kQe0c0
 R1
+R16
 R17
 R18
-R19
 L0 387
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
-vcyclone_b17mux21
 !i10b 1
-!s100 5M`4I;=M?ANUjMKkWi][c1
+!s100 Rb:=M8REk0bhh`OI=Pg7Y3
+!s85 0
+!s101 -O0
+vcyclone_b17mux21
 IKl]cNZJ`k`k>Szl0YQPo00
 V=_iIWYNY`T1Hbgldm2@f[1
 R1
+R16
 R17
 R18
-R19
 L0 342
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
-vcyclone_b5mux21
 !i10b 1
-!s100 [PD[kWfHBnazomI7V[KT>1
+!s100 5M`4I;=M?ANUjMKkWi][c1
+!s85 0
+!s101 -O0
+vcyclone_b5mux21
 I_YYBzae?ea_S]nZXEAn[A0
 VEI[?[>:FWj`S5UK<fC<1N3
 R1
+R16
 R17
 R18
-R19
 L0 363
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
-vcyclone_bmux21
 !i10b 1
-!s100 2UFX`7nV_=I@:mFGX^fzH2
+!s100 [PD[kWfHBnazomI7V[KT>1
+!s85 0
+!s101 -O0
+vcyclone_bmux21
 IKenO80cNdZ=GLXF4YjcLD2
 Vh^XMXjmNBQW8Kj@eT6oMK0
 R1
+R16
 R17
 R18
-R19
 L0 331
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
-vcyclone_crcblock
 !i10b 1
-!s100 kZY]KPmS2Tcd0[OW=h8zn0
+!s100 2UFX`7nV_=I@:mFGX^fzH2
+!s85 0
+!s101 -O0
+vcyclone_crcblock
 ILKiAWj26V<nb?HIX?;<Ti2
 V0Y>I:`LVM[EcU?bjnAJ:F0
 R1
+R16
 R17
 R18
-R19
 L0 6616
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
-vcyclone_dffe
 !i10b 1
-!s100 05h91Vo?P^iEkK^8UUAR90
+!s100 kZY]KPmS2Tcd0[OW=h8zn0
+!s85 0
+!s101 -O0
+vcyclone_dffe
 I_b6kgeYTVQDm0XB1CSj>j3
 V6o_h9>@KR?FWgPX[aif^20
 R1
+R16
 R17
 R18
-R19
 L0 171
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
-vcyclone_dll
 !i10b 1
-!s100 j7lYjV=Z<HLhae7:=dJEi1
+!s100 05h91Vo?P^iEkK^8UUAR90
+!s85 0
+!s101 -O0
+vcyclone_dll
 I2<PgQBF1FC4I_YcPLA16G2
 VHP`G`Yb=3S?W=`IW786_22
 R1
+R16
 R17
 R18
-R19
 L0 6235
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
-vcyclone_io
 !i10b 1
-!s100 Tef1oPQ[9FCViMCC?NURN2
+!s100 j7lYjV=Z<HLhae7:=dJEi1
+!s85 0
+!s101 -O0
+vcyclone_io
 IPR`cEhSdPQmmfWOW^BA6C2
 V><PF2_M]Gg@<Bce=QUk@J0
 R1
+R16
 R17
 R18
-R19
 L0 6863
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
-vcyclone_jtag
 !i10b 1
-!s100 1<iF9:8@KNjV^z3`>7FJT0
+!s100 Tef1oPQ[9FCViMCC?NURN2
+!s85 0
+!s101 -O0
+vcyclone_jtag
 I<WYIKi]HhUA1glBRFYW2[1
 V9JDWU<NLkk<z:]3^7L1O03
 R1
+R16
 R17
 R18
-R19
 L0 6569
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
-vcyclone_lcell
 !i10b 1
-!s100 hdoXAZTmczYl]TI9fUGMk1
+!s100 1<iF9:8@KNjV^z3`>7FJT0
+!s85 0
+!s101 -O0
+vcyclone_lcell
 I6_ZKbbF]MJfMz0I`FiOjX2
 VHjk464MJ:TiNS609DYIFC1
 R1
+R16
 R17
 R18
-R19
 L0 948
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
-vcyclone_lcell_register
 !i10b 1
-!s100 TnEJz>e8gQX[9mEiG_h1<1
+!s100 hdoXAZTmczYl]TI9fUGMk1
+!s85 0
+!s101 -O0
+vcyclone_lcell_register
 IM9@M3DLm^9U`SoWUZnbRh0
 V:i_2KHonhAZ^B;<SM<lm40
 R1
+R16
 R17
 R18
-R19
 L0 747
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
-vcyclone_m_cntr
 !i10b 1
-!s100 HTNN3]f<nkdd8K>6]DVNR2
+!s100 TnEJz>e8gQX[9mEiG_h1<1
+!s85 0
+!s101 -O0
+vcyclone_m_cntr
 I_8[7hVGfS><bOOjEg][nc0
 VH>@RacOGNmV1e1:S7fGmf0
 R1
+R16
 R17
 R18
-R19
 L0 2068
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
-vcyclone_mux21
 !i10b 1
-!s100 G]X8AQ22IKUQz_b<MonUW2
+!s100 HTNN3]f<nkdd8K>6]DVNR2
+!s85 0
+!s101 -O0
+vcyclone_mux21
 I5Q5XGPkazX^Zg28YHHzd51
 VBMQT7V0VA0T:>FA2Xg]Jd3
 R1
+R16
 R17
 R18
-R19
 L0 221
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
-vcyclone_mux41
 !i10b 1
-!s100 GFLQHgQgH:mmMJ6TfKAI63
+!s100 G]X8AQ22IKUQz_b<MonUW2
+!s85 0
+!s101 -O0
+vcyclone_mux41
 I47m1c]?8o`QXhFn[85YS=1
 VXSa2TYlCAlPCmRgR2ceIL2
 R1
+R16
 R17
 R18
-R19
 L0 248
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
-vcyclone_n_cntr
 !i10b 1
-!s100 OmA<LK]K@k?9mo>g8^1bU0
+!s100 GFLQHgQgH:mmMJ6TfKAI63
+!s85 0
+!s101 -O0
+vcyclone_n_cntr
 I<zMa5ajecIJQ3FcW3TXIK2
 VQ9[A>Nh_f@E3D;5DJok3D2
 R1
+R16
 R17
 R18
-R19
 L0 2146
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
-vcyclone_nmux21
 !i10b 1
-!s100 UB5iO[]oigPUz<0`E40[70
+!s100 OmA<LK]K@k?9mo>g8^1bU0
+!s85 0
+!s101 -O0
+vcyclone_nmux21
 I?=5QA0RLOc<V[9Hi^?>VV1
 V:Q:IT^T[C9`R2nbkYd64T2
 R1
+R16
 R17
 R18
-R19
 L0 353
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
-vcyclone_pll
 !i10b 1
-!s100 CLIdU9P0]LG>`Q8PXkEI43
+!s100 UB5iO[]oigPUz<0`E40[70
+!s85 0
+!s101 -O0
+vcyclone_pll
 IGoHj>R1:PReH5bK2bG3<i2
 VS0<o9G?WT:dND_S=g^Y4d2
 R1
+R16
 R17
 R18
-R19
 L0 2426
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
-vcyclone_pll_reg
 !i10b 1
-!s100 bm8:;SWB3dcY4Wf1MMg8<2
+!s100 CLIdU9P0]LG>`Q8PXkEI43
+!s85 0
+!s101 -O0
+vcyclone_pll_reg
 In_1YOVGJa@PeZEP_5ZHGB0
 V<K0F2PDg^WcC;WS1mFkWX0
 R1
+R16
 R17
 R18
-R19
 L0 2366
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
-UCYCLONE_PRIM_DFFE
 !i10b 1
-!s100 <E=Ug00RicDTAe=R;3hFW2
+!s100 bm8:;SWB3dcY4Wf1MMg8<2
+!s85 0
+!s101 -O0
+UCYCLONE_PRIM_DFFE
 IV3>jWGC381?J_gaPEc25?3
 VkZOlF8clnV4_3mY2VOfDm1
 R1
+R16
 R17
 R18
-R19
 L0 22
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
 n@c@y@c@l@o@n@e_@p@r@i@m_@d@f@f@e
-UCYCLONE_PRIM_DFFEAS
 !i10b 1
-!s100 jBHa=V0zF?IXCeA^baWaa3
+!s100 <E=Ug00RicDTAe=R;3hFW2
+!s85 0
+!s101 -O0
+UCYCLONE_PRIM_DFFEAS
 I?^^@XCYND:Bk[1]i6I89U2
 V?[1kGKWj5IVjVKj5KakOU3
 R1
+R16
 R17
 R18
-R19
 L0 95
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
 n@c@y@c@l@o@n@e_@p@r@i@m_@d@f@f@e@a@s
-UCYCLONE_PRIM_DFFEAS_HIGH
 !i10b 1
-!s100 Te9`?R[_T9cT2nYi0IXeM3
+!s100 jBHa=V0zF?IXCeA^baWaa3
+!s85 0
+!s101 -O0
+UCYCLONE_PRIM_DFFEAS_HIGH
 Id3C_FCo`Mm83@U;6SF33D2
 V43NY;6;i2KzO7g7KCSFFl0
 R1
+R16
 R17
 R18
-R19
 L0 133
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
 n@c@y@c@l@o@n@e_@p@r@i@m_@d@f@f@e@a@s_@h@i@g@h
-vcyclone_ram_block
 !i10b 1
-!s100 E`KNL^QF4K9J3[cZM>03[2
+!s100 Te9`?R[_T9cT2nYi0IXeM3
+!s85 0
+!s101 -O0
+vcyclone_ram_block
 I]38ZUcD>;e;NZ?TCmSCi93
 VfXGiOfc>[3FgfdbW2V[1_0
 R1
+R16
 R17
 R18
-R19
 L0 1197
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
-vcyclone_ram_pulse_generator
 !i10b 1
-!s100 U_f4OlzgD6lIgE@;[XG_>2
+!s100 E`KNL^QF4K9J3[cZM>03[2
+!s85 0
+!s101 -O0
+vcyclone_ram_pulse_generator
 I3PEh:29TZd2hmm6m^dEBK0
 VjKdL4<fgD6HbbVjV^UbFP1
 R1
+R16
 R17
 R18
-R19
 L0 1073
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
-vcyclone_ram_register
 !i10b 1
-!s100 <NJ0OTJT23411glIMYRYP3
+!s100 U_f4OlzgD6lIgE@;[XG_>2
+!s85 0
+!s101 -O0
+vcyclone_ram_register
 I52^Ye>4:;HPFKCcz3N9T?2
 V<?8Q7o=[K0gHV:6zbChiZ0
 R1
+R16
 R17
 R18
-R19
 L0 1120
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
-vcyclone_routing_wire
 !i10b 1
-!s100 fLF^62`GT@HIQW:J[iDNz2
+!s100 <NJ0OTJT23411glIMYRYP3
+!s85 0
+!s101 -O0
+vcyclone_routing_wire
 II8nN?fb9;2k3TEJ@IUjPa2
 V0AG2J?7c^Ih2]U[:WUl[j1
 R1
+R16
 R17
 R18
-R19
 L0 6648
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
-vcyclone_scale_cntr
 !i10b 1
-!s100 jGJ`k995OITG8CaR:I5E_2
+!s100 fLF^62`GT@HIQW:J[iDNz2
+!s85 0
+!s101 -O0
+vcyclone_scale_cntr
 IY`1=e`0fA^C;4ZJEAB2=M3
 VH3f8mR5KKe^Kgl2bS2Oan3
 R1
+R16
 R17
 R18
-R19
 L0 2231
 R5
 r1
-!s85 0
 31
+R19
 R20
 R21
-R22
-!s101 -O0
 R9
+!i10b 1
+!s100 jGJ`k995OITG8CaR:I5E_2
+!s85 0
+!s101 -O0
 vcycloneiiigl_post_divider
 I^n;e<]P[UG_9iJ0BELi1]0
 VE[DCIBKzdZ_5J1e=a>ciB3
@@ -1795,6 +1814,26 @@ R9
 !i10b 1
 !s100 6V[AD7n_l0UYoNM5LmnL:3
 !s85 0
+!s101 -O0
+vDelayDrv
+I?iWjkNZ5;LnlDIcZ<S@670
+VVhQznmLWW<?jPG5bYo3H42
+R1
+Z22 w1632793063
+8D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/DelayDrv.v
+FD:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/DelayDrv.v
+L0 5
+R5
+r1
+31
+R9
+n@delay@drv
+!i10b 1
+!s100 I=5bS7hhAQcfOPH]WPC]70
+!s85 0
+!s108 1633138422.983000
+!s107 D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/DelayDrv.v|
+!s90 -reportprogress|300|-work|work|D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/DelayDrv.v|
 !s101 -O0
 vdff
 I9e9<YI8=mlP4UClQ8mfUO1
@@ -2111,7 +2150,7 @@ L0 3448
 R5
 r1
 31
-Z26 !s108 1632701672.360000
+Z26 !s108 1633138065.494000
 Z27 !s107 D:/altera/13.0sp1/quartus/eda/sim_lib/220model.v|
 Z28 !s90 -reportprogress|300|-work|work|D:/altera/13.0sp1/quartus/eda/sim_lib/220model.v|
 R9
@@ -2270,6 +2309,25 @@ R9
 !i10b 1
 !s100 ]mK^jJb<]c=Z0DaQo?_CQ3
 !s85 0
+!s101 -O0
+vlpm_counter0
+ISfBkZFR?[^D[3ILlX5M6]0
+VYBBN?FO;ZL`@KbZNL_=0L1
+R1
+w1633136975
+8D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/lpm_counter0_bb.v
+FD:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/lpm_counter0_bb.v
+L0 34
+R5
+r1
+31
+R9
+!i10b 1
+!s100 Sz`8<F0RkW1YS7LTIA6F:3
+!s85 0
+!s108 1633138423.423000
+!s107 D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/lpm_counter0_bb.v|
+!s90 -reportprogress|300|-work|work|D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/lpm_counter0_bb.v|
 !s101 -O0
 vlpm_decode
 I?8_NYI]V8nQ879=bf5C0N1
@@ -2967,6 +3025,26 @@ R9
 !s100 @LIWfOKE;?Kg4>eWGCInW3
 !s85 0
 !s101 -O0
+vParallel2Serial4OneAD7265New
+IXNWV6QT694z<>F@]U=k?41
+V0ORi39RPJH7Ma2_7>C_Wd0
+R1
+R22
+8D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/Parallel2Serial4OneAD7265New.v
+FD:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/Parallel2Serial4OneAD7265New.v
+L0 10
+R5
+r1
+31
+R9
+n@parallel2@serial4@one@a@d7265@new
+!i10b 1
+!s100 5[Pdknn?KG9LPHez;iQ9B1
+!s85 0
+!s108 1633138423.752000
+!s107 D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/Parallel2Serial4OneAD7265New.v|
+!s90 -reportprogress|300|-work|work|D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/Parallel2Serial4OneAD7265New.v|
+!s101 -O0
 vparallel_add
 Icez6cB>D>e4kYBE4J4=:D0
 VbbDK2gmh@AWdUES[Zi3TN0
@@ -2984,6 +3062,44 @@ R8
 R9
 !i10b 1
 !s100 ?OY@0`e_[9zPUI3gJ9PY13
+!s85 0
+!s101 -O0
+vpll
+IUOWaoLh_1e[B=m]dDlIZW3
+VzfkfP6a`93>j;B^ZKD1j91
+R1
+R22
+Z29 8D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/pll_syn.v
+Z30 FD:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/pll_syn.v
+L0 27
+R5
+r1
+31
+Z31 !s108 1633138424.502000
+Z32 !s107 D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/pll_syn.v|
+Z33 !s90 -reportprogress|300|-work|work|D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/pll_syn.v|
+R9
+!i10b 1
+!s100 ?C`ZSJSTz_5Cknal_2Ugn2
+!s85 0
+!s101 -O0
+vpll_altpll_1
+IMBNWSXFKF9R07iS;3Zbfi3
+V^EWAjAjO=ef^NHQ<RFV7z1
+R1
+R22
+R29
+R30
+L0 53
+R5
+r1
+31
+R31
+R32
+R33
+R9
+!i10b 1
+!s100 :bzECX7i2a?J^@S0GR:7X3
 !s85 0
 !s101 -O0
 vpll_iobuf
@@ -3028,16 +3144,16 @@ UPRIM_GDFF_HIGH
 IK7R4WzF^gSQJI;c7Bk1OA3
 VTQ?O0lLcVJo>GL@5VzeQ`1
 R1
-Z29 w1371091751
-Z30 8D:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.v
-Z31 FD:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.v
+Z34 w1371091751
+Z35 8D:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.v
+Z36 FD:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.v
 L0 1189
 R5
 r1
 31
-Z32 !s108 1632701680.421000
-Z33 !s107 D:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.v|
-Z34 !s90 -reportprogress|30|-work|work|D:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.v|
+Z37 !s108 1633138085.013000
+Z38 !s107 D:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.v|
+Z39 !s90 -reportprogress|30|-work|work|D:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.v|
 R9
 n@p@r@i@m_@g@d@f@f_@h@i@g@h
 !i10b 1
@@ -3048,16 +3164,16 @@ UPRIM_GDFF_LOW
 I<XU9=Vih7gfGVQlB`6bn01
 V0>WFflPVBz?Qnm[PM20Ao2
 R1
-R29
-R30
-R31
+R34
+R35
+R36
 L0 1146
 R5
 r1
 31
-R32
-R33
-R34
+R37
+R38
+R39
 R9
 n@p@r@i@m_@g@d@f@f_@l@o@w
 !i10b 1
@@ -3521,25 +3637,24 @@ R9
 !s85 0
 !s101 -O0
 vtestbench
-IB`@YJIkZ6Xg>a5D<OPkKn1
+IJk6i4XzI_K`NUUVDl]`kP0
 VhGfW:390DM[oDMzegDH9`2
 R1
-w1632701609
-8D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/testbench.v
-FD:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/testbench.v
+w1632880196
+8D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/testbench.v
+FD:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/testbench.v
 L0 4
 R5
 r1
 31
-R16
+R9
 !i10b 1
-!s100 ?SbN:73Om9Dhc:aLh^?=Z3
+!s100 hiCA@ZRlnMM`R5a[5WT8;0
 !s85 0
-!s108 1632701645.286000
-!s107 D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/testbench.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv|D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/testbench.v|
+!s108 1633138424.832000
+!s107 D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/testbench.v|
+!s90 -reportprogress|300|-work|work|D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/testbench.v|
 !s101 -O0
-!s92 -vlog01compat -work work +incdir+D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv -O0
 vtff
 In`=ieY73@YbMG]o`UG0Mk0
 V01je]lcIX>c6Dce2YK^S60

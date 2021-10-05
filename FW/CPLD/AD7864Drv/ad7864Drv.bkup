@@ -1,0 +1,103 @@
+//AD7864 CPLD Driver 
+//CPLD code read the AD7864 all four channel adc data
+//The driver in this version generate the necessary signals
+//to communicate with AD7864 in internal clk mode.
+// The driver is based on timing-diagram in ad7864 datasheet REV.D page 16
+
+module ad7864Drv 
+//#( parameter ADC_CHIP_NO = 4 )
+(
+
+    //clock in
+    input clkin,
+	 //input pin from dsp
+    //convert signal from dsp, this signal start everything
+    input dsp_conv_bar, //dsp-->
+   
+    
+    //convert signal to ad7865
+	 output clkout, //clk to adc
+    output ad_conv_bar, //-->ad
+	 output reg db_rdy
+);
+
+    reg [5:0] cnterPos; //counter for clkin
+	 reg [5:0] cnterNeg;
+	 wire [6:0] cnter;
+	 reg [6:0] cnterprev1;
+	 reg [6:0] cnterprev2;
+	 wire clkinInv;
+	 reg clkout1;
+	 reg clkout2;
+	 
+	 //initialize the regs
+	 initial begin
+		db_rdy <= 1'b0;
+		clkout1 <= 1'b0;
+		clkout2 <= 1'b0;
+		cnterNeg <= 6'b111110;
+		cnterPos <= 6'b111110;
+		cnterprev1 <= 7'b1111100;
+		cnterprev2 <= 7'b1111100;
+	 end
+		
+    assign ad_conv_bar = dsp_conv_bar;
+	 assign clkinInv = ~clkin;
+	 
+	 always @(posedge clkin) begin
+		if(dsp_conv_bar == 1'b0) cnterPos = 6'b00000;
+		else	cnterPos = cnterPos + 6'b1;
+		if(cnterPos > 6'b111110) cnterPos = 6'b111110;
+	 end
+	 
+	 always @(posedge clkinInv) begin
+		if(dsp_conv_bar == 1'b0) cnterNeg = 6'b000000;
+		else cnterNeg = cnterNeg +6'b1;
+		
+		if(cnterNeg > 6'b111110) cnterNeg = 6'b111110;
+	 end
+	 
+	 // adder
+//	 always @(cnterPos, cnterNeg) begin
+//		cnter <= cnterPos + cnterNeg;
+//	 end 
+	 assign cnter = cnterPos + cnterNeg;
+	 
+	 //set adc enable signal
+	 always @(posedge clkin) begin
+			//begin the adc clock
+			//if(adcen == 1'b1) begin 		
+			if((cnterprev1 != cnter) && (cnterPos > 7'h2)) begin
+				//here should read the data
+				if(cnterPos < 6'b111110) begin
+					//if(cnter == 7'h1d) db_rdy = 1'b1;
+					//if(cnter == 7'h1f) db_rdy = 1'b0;				
+					if((cnter <= 7'h73)&&(cnter >= 7'h4)) clkout1 = ~clkout1;
+					else clkout1 = 1'b0;
+				end
+			end
+			cnterprev1 = cnter;
+	end
+	
+	 always @(posedge clkinInv) begin
+			//begin the adc clock
+			//if(adcen == 1'b1) begin 		
+			if((cnterprev2 != cnter) && (cnterNeg > 7'h2)) begin
+				//here should read the data
+				if(cnterNeg < 6'b111110) begin
+					//if(cnter == 7'h1d) db_rdy = 1'b1;
+					//if(cnter == 7'h1f) db_rdy = 1'b0;				
+					if(cnterNeg == 7'hf) db_rdy = 1'b1;
+					if(cnterNeg == 7'h10) db_rdy = 1'b0;
+					if((cnter <= 7'h73)&&(cnter >= 7'h4)) clkout2 = ~clkout2;
+					else clkout2 = 1'b0;
+				end
+			end
+			cnterprev2 = cnter;
+	end
+	
+	assign clkout = clkout1^clkout2;
+endmodule
+
+
+

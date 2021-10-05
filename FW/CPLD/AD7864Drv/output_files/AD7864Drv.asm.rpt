@@ -1,5 +1,5 @@
 Assembler report for AD7864Drv
-Mon Sep 27 00:13:11 2021
+Mon Oct 04 22:14:36 2021
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -10,8 +10,8 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Ver
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/output_files/AD7864Drv.sof
-  6. Assembler Device Options: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/output_files/AD7864Drv.pof
+  5. Assembler Device Options: D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/output_files/AD7864Drv.sof
+  6. Assembler Device Options: D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/output_files/AD7864Drv.pof
   7. Assembler Messages
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Mon Sep 27 00:13:11 2021 ;
+; Assembler Status      ; Successful - Mon Oct 04 22:14:36 2021 ;
 ; Revision Name         ; AD7864Drv                             ;
 ; Top-level Entity Name ; basicfunctions                        ;
 ; Family                ; Cyclone                               ;
@@ -78,37 +78,37 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+--------------------------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                                              ;
-+--------------------------------------------------------------------------------------------------------+
-; File Name                                                                                              ;
-+--------------------------------------------------------------------------------------------------------+
-; D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/output_files/AD7864Drv.sof ;
-; D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/output_files/AD7864Drv.pof ;
-+--------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                                                          ;
++--------------------------------------------------------------------------------------------------------------------+
+; File Name                                                                                                          ;
++--------------------------------------------------------------------------------------------------------------------+
+; D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/output_files/AD7864Drv.sof ;
+; D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/output_files/AD7864Drv.pof ;
++--------------------------------------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/output_files/AD7864Drv.sof ;
-+----------------+-----------------------------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                                         ;
-+----------------+-----------------------------------------------------------------------------------------------------------------+
-; Device         ; EP1C3T100C8                                                                                                     ;
-; JTAG usercode  ; 0x000533BF                                                                                                      ;
-; Checksum       ; 0x000533BF                                                                                                      ;
-+----------------+-----------------------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/output_files/AD7864Drv.sof ;
++----------------+-----------------------------------------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                                                     ;
++----------------+-----------------------------------------------------------------------------------------------------------------------------+
+; Device         ; EP1C3T100C8                                                                                                                 ;
+; JTAG usercode  ; 0x0005BFAD                                                                                                                  ;
+; Checksum       ; 0x0005BFAD                                                                                                                  ;
++----------------+-----------------------------------------------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: D:/otherProjects/Beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/output_files/AD7864Drv.pof ;
-+--------------------+-------------------------------------------------------------------------------------------------------------+
-; Option             ; Setting                                                                                                     ;
-+--------------------+-------------------------------------------------------------------------------------------------------------+
-; Device             ; EPCS1                                                                                                       ;
-; JTAG usercode      ; 0x00000000                                                                                                  ;
-; Checksum           ; 0x01A92CD3                                                                                                  ;
-; Compression Ratio  ; 2                                                                                                           ;
-+--------------------+-------------------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: D:/xiado/Project/someProject/beamforming/Beamforming_HW_TMS320VC5509A/FW/CPLD/AD7864Drv/output_files/AD7864Drv.pof ;
++--------------------+-------------------------------------------------------------------------------------------------------------------------+
+; Option             ; Setting                                                                                                                 ;
++--------------------+-------------------------------------------------------------------------------------------------------------------------+
+; Device             ; EPCS1                                                                                                                   ;
+; JTAG usercode      ; 0x00000000                                                                                                              ;
+; Checksum           ; 0x01A80643                                                                                                              ;
+; Compression Ratio  ; 2                                                                                                                       ;
++--------------------+-------------------------------------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -117,13 +117,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-    Info: Processing started: Mon Sep 27 00:13:10 2021
+    Info: Processing started: Mon Oct 04 22:14:34 2021
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off AD7864Drv -c AD7864Drv
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4524 megabytes
-    Info: Processing ended: Mon Sep 27 00:13:11 2021
-    Info: Elapsed time: 00:00:01
+    Info: Peak virtual memory: 4523 megabytes
+    Info: Processing ended: Mon Oct 04 22:14:36 2021
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 
 

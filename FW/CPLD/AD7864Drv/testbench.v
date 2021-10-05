@@ -72,7 +72,7 @@ module testbench;
         conv = 1'b1;
         datas = 11'b10111010010;
 		 #800 conv = 1'b0; 
-		 #8000 conv = 1'b1;
+		 #1600 conv = 1'b1;
     end
 
 	 always begin
