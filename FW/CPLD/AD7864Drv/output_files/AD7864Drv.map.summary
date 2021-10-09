@@ -1,9 +1,9 @@
-Analysis & Synthesis Status : Successful - Mon Oct 04 22:14:21 2021
+Analysis & Synthesis Status : Successful - Mon Oct 04 23:35:54 2021
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
 Revision Name : AD7864Drv
 Top-level Entity Name : basicfunctions
 Family : Cyclone
-Total logic elements : 131
+Total logic elements : 140
 Total pins : 41
 Total virtual pins : 0
 Total memory bits : 0

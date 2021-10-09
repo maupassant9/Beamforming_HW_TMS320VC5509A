@@ -38,7 +38,6 @@ module Parallel2Serial4OneAD7265New (
 	 reg [2:0] tmpcnter;
 	 reg spi_cs1;
 	 reg spi_cs2;
-	 reg rdbar_prev;
 	 		
 	 initial begin
 			sel <= 4'b1100;
@@ -47,7 +46,6 @@ module Parallel2Serial4OneAD7265New (
 			enp2 <= 1'b0;
 			sclk <= 1'b1;
 			rd_bar <= 1'b1;
-			rdbar_prev <= 1'b1;
 			reg_cs_bar <= `ADC_CHIP_NO'b0;
 			cs_bar <= 4'b1111;
 			mosi <= 1'b0;
@@ -122,24 +120,18 @@ module Parallel2Serial4OneAD7265New (
 			else cnter = 3'b000;
 	 end
 	 
-	 
 	 //generate the cs signal 
-	 always @(rd_bar) begin
-		if((rdbar_prev == 1'b1)&&(rd_bar == 1'b0)) begin 
+	 always @(negedge rd_bar) begin
 			reg_cs_bar = reg_cs_bar << 1;
 			if(reg_cs_bar == `ADC_CHIP_NO'b0) begin
 				reg_cs_bar = `ADC_CHIP_NO'b1;
 			end 
-			cs_bar = ~reg_cs_bar;
-		end
-		else begin
-			if((rdbar_prev == 1'b0)&&(rd_bar == 1'b1))begin
-				cs_bar = ~`ADC_CHIP_NO'b0;
-			end
-		end
-		 
-		 rdbar_prev = rd_bar;
 	 end
+	  
+	 always @(rd_bar) begin
+		if(rd_bar == 0) cs_bar = ~reg_cs_bar;
+		else cs_bar = ~`ADC_CHIP_NO'b0;
+    end
 	 
 	 
 	 //generate the spi cs signal

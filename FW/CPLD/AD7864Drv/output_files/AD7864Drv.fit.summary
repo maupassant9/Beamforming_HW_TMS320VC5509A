@@ -1,11 +1,11 @@
-Fitter Status : Successful - Mon Oct 04 22:14:32 2021
+Fitter Status : Successful - Mon Oct 04 23:36:01 2021
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
 Revision Name : AD7864Drv
 Top-level Entity Name : basicfunctions
 Family : Cyclone
 Device : EP1C3T100C8
 Timing Models : Final
-Total logic elements : 119 / 2,910 ( 4 % )
+Total logic elements : 125 / 2,910 ( 4 % )
 Total pins : 41 / 65 ( 63 % )
 Total virtual pins : 0
 Total memory bits : 0 / 59,904 ( 0 % )

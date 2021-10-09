@@ -3,58 +3,58 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Setup 'inst4|altpll_component|pll|clk[0]'
-Slack : -8.130
-TNS   : -196.708
+Slack : -7.819
+TNS   : -191.384
 
 Type  : Setup 'lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[1]'
-Slack : -4.036
-TNS   : -33.537
+Slack : -3.867
+TNS   : -30.006
 
 Type  : Setup 'Parallel2Serial4OneAD7265New:inst17|spi_rdy'
-Slack : -0.548
-TNS   : -1.687
-
-Type  : Setup 'Parallel2Serial4OneAD7265New:inst17|enable_channel'
-Slack : -0.156
-TNS   : -0.156
+Slack : -0.554
+TNS   : -1.573
 
 Type  : Setup 'Parallel2Serial4OneAD7265New:inst17|rd_bar'
-Slack : -0.089
-TNS   : -0.089
+Slack : -0.367
+TNS   : -0.754
+
+Type  : Setup 'Parallel2Serial4OneAD7265New:inst17|enable_channel'
+Slack : -0.288
+TNS   : -0.288
 
 Type  : Hold 'inst4|altpll_component|pll|clk[0]'
-Slack : 0.323
-TNS   : 0.000
-
-Type  : Hold 'lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[1]'
-Slack : 0.880
+Slack : 0.348
 TNS   : 0.000
 
 Type  : Hold 'Parallel2Serial4OneAD7265New:inst17|rd_bar'
-Slack : 1.037
+Slack : 0.873
+TNS   : 0.000
+
+Type  : Hold 'lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[1]'
+Slack : 0.882
 TNS   : 0.000
 
 Type  : Hold 'Parallel2Serial4OneAD7265New:inst17|spi_rdy'
-Slack : 1.038
+Slack : 1.037
 TNS   : 0.000
 
 Type  : Hold 'Parallel2Serial4OneAD7265New:inst17|enable_channel'
-Slack : 1.104
+Slack : 1.236
 TNS   : 0.000
 
 Type  : Minimum Pulse Width 'lpm_counter0:inst5|lpm_counter:LPM_COUNTER_component|cntr_oeh:auto_generated|safe_q[1]'
 Slack : -1.318
 TNS   : -47.448
 
+Type  : Minimum Pulse Width 'Parallel2Serial4OneAD7265New:inst17|rd_bar'
+Slack : -1.318
+TNS   : -13.180
+
 Type  : Minimum Pulse Width 'Parallel2Serial4OneAD7265New:inst17|spi_rdy'
 Slack : -1.318
 TNS   : -13.180
 
 Type  : Minimum Pulse Width 'Parallel2Serial4OneAD7265New:inst17|enable_channel'
-Slack : -1.318
-TNS   : -2.636
-
-Type  : Minimum Pulse Width 'Parallel2Serial4OneAD7265New:inst17|rd_bar'
 Slack : -1.318
 TNS   : -2.636
 

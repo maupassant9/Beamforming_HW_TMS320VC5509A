@@ -1,5 +1,5 @@
 Flow report for AD7864Drv
-Mon Oct 04 22:14:51 2021
+Mon Oct 04 23:36:20 2021
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -22,7 +22,7 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Ver
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Mon Oct 04 22:14:51 2021 ;
+; EDA Netlist Writer Status ; Successful - Mon Oct 04 23:36:20 2021 ;
 ; Revision Name             ; AD7864Drv                             ;
 ; Top-level Entity Name     ; basicfunctions                        ;
 ; Family                    ; Cyclone                               ;
@@ -52,14 +52,14 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +---------------------------+--------------------------------------------------+
-; Flow Status               ; Successful - Mon Oct 04 22:14:51 2021            ;
+; Flow Status               ; Successful - Mon Oct 04 23:36:20 2021            ;
 ; Quartus II 64-Bit Version ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name             ; AD7864Drv                                        ;
 ; Top-level Entity Name     ; basicfunctions                                   ;
 ; Family                    ; Cyclone                                          ;
 ; Device                    ; EP1C3T100C8                                      ;
 ; Timing Models             ; Final                                            ;
-; Total logic elements      ; 119 / 2,910 ( 4 % )                              ;
+; Total logic elements      ; 125 / 2,910 ( 4 % )                              ;
 ; Total pins                ; 41 / 65 ( 63 % )                                 ;
 ; Total virtual pins        ; 0                                                ;
 ; Total memory bits         ; 0 / 59,904 ( 0 % )                               ;
@@ -72,7 +72,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/04/2021 22:14:12 ;
+; Start date & time ; 10/04/2021 23:35:50 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; AD7864Drv           ;
 +-------------------+---------------------+
@@ -83,7 +83,7 @@ applicable agreement for further details.
 +---------------------------------------------------+---------------------------------+---------------+----------------+----------------------+
 ; Assignment Name                                   ; Value                           ; Default Value ; Entity Name    ; Section Id           ;
 +---------------------------------------------------+---------------------------------+---------------+----------------+----------------------+
-; COMPILER_SIGNATURE_ID                             ; 145851865909192.163339645202296 ; --            ; --             ; --                   ;
+; COMPILER_SIGNATURE_ID                             ; 145851865909192.163340135014308 ; --            ; --             ; --                   ;
 ; CYCLONE_OPTIMIZATION_TECHNIQUE                    ; Speed                           ; Balanced      ; --             ; --                   ;
 ; EDA_DESIGN_ENTRY_SYNTHESIS_TOOL                   ; Design Compiler                 ; <None>        ; --             ; --                   ;
 ; EDA_DESIGN_INSTANCE_NAME                          ; NA                              ; --            ; --             ; mytestbench          ;
@@ -129,12 +129,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:09     ; 1.0                     ; 4571 MB             ; 00:00:03                           ;
-; Fitter                    ; 00:00:10     ; 1.1                     ; 4972 MB             ; 00:00:04                           ;
-; Assembler                 ; 00:00:02     ; 1.0                     ; 4523 MB             ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 4548 MB             ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:08     ; 1.0                     ; 4515 MB             ; 00:00:05                           ;
-; Total                     ; 00:00:32     ; --                      ; --                  ; 00:00:15                           ;
+; Analysis & Synthesis      ; 00:00:04     ; 1.0                     ; 4565 MB             ; 00:00:03                           ;
+; Fitter                    ; 00:00:06     ; 1.0                     ; 4941 MB             ; 00:00:05                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 4520 MB             ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 4537 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:09     ; 1.0                     ; 4511 MB             ; 00:00:05                           ;
+; Total                     ; 00:00:23     ; --                      ; --                  ; 00:00:16                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
